@@ -1,0 +1,44 @@
+.conteiner-carousel {
+    height: 500px;
+}
+
+.imdc {
+    width: 367px;
+    height: 188.3px;
+    align-items: center;
+    margin-left: 506px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("../images/seta-esquerda.png") !important;
+    margin-left: 171px;
+
+}
+
+.carousel-control-next-icon {
+    background-image: url("../images/seta-direita.png") !important;
+    margin-right: 171px;
+
+}
+
+.carousel-indicators {
+    margin-bottom: -1rem !important;
+
+
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: black !important;
+}
+
+.carousel-caption {
+    color: black;
+}
+
+.carousel {
+    margin-top: 70px;
+}
+
+.text {
+    text-align: center;
+}
