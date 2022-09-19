@@ -17,7 +17,6 @@ const Footer = () => {
             <h5 className="text-uppercase border-bottom border-dark text-center">SOBRE</h5>
 
             <p className="text-center">
-            Nosso consultório fica em um moderno espaço em uma das principais avenidas de Tangará da Serra, dentro da Clínica Instituto da Visão, em frente ao Fórum Municipal e possuímos os mais modernos equipamentos de diagnóstico e cirúrgicos. Além do consultório oftalmológico, contamos com salas de exames, sala de adaptação de lentes de contato e um centro cirúrgico moderno. 
             </p>
           </div>
 
@@ -33,7 +32,7 @@ const Footer = () => {
               </li>
               <li className="m-1">
                 <address className="text-center">
-                  Email : <a href="mailto:lucas.carazza@yahoo.com.br">lucas.carazza@yahoo.com.br</a>
+                  Email : <a href="mailto:drlucascarazza@gmail.com">drlucascarazza@gmail.com</a>
                 </address>
 
               </li>
@@ -59,24 +58,24 @@ const Footer = () => {
         <div className="d-flex justify-content-around">
           <ul className="d-flex justify-content-around">
             <li className="m-1">
-              <a target="_blank" href="mailto:lucas.carazza@yahoo.com.br">
+              <a target="_blank" href="mailto:drlucascarazza@gmail.com">
                 <img src={icon4} alt="icone do do email" />
               </a>
             </li>
             <li className="m-1">
-              <a target="_blank" href="https://www.instagram.com/">
+              <a target="_blank" href="https://instagram.com/drlucascarazza?igshid=YmMyMTA2M2Y=">
                 <img src={icon1} alt="icone do istagram" />
               </a>
             </li>
             <li className="m-1" >
-              <a target="_blank" href="https://www.facebook.com/">
+              <a target="_blank" href="https://www.facebook.com/drlucascarazza?igshid=YmMyMTA2M2Y=">
                 <img src={icon2} alt="icone do facebook" />
               </a>
             </li>
             <li className="m-1" >
-            <a target="_blank" href="https://web.whatsapp.com/send?phone=556596276197">
+              <a target="_blank" href="https://web.whatsapp.com/send?phone=556596276197">
                 <img src={icon3} alt="icone do whatssap" />
-                </a>
+              </a>
             </li>
           </ul>
         </div>
