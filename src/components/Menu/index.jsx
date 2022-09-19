@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 // import { useStaticQuery, graphql } from 'gatsby'
 import logo from "../images/logotipo03.jpeg"
 import Banner from '../Banner'
+import Footer from '../Footer'
 // import { cardStyles } from './Menu.module.scss'
 const Menu = () => {
   // const { logo } = useStaticQuery(graphql`
@@ -17,31 +18,34 @@ const Menu = () => {
   //   }
   // `)
 
-  
-  return(
-    <> 
-    <nav className="navbar navbar-light bg-light d-flex justify-content-around fixed-top">
+
+  return (
+    <>
+      <nav className="navbar navbar-light bg-light d-flex justify-content-around fixed-top">
         <a className="navbar-brand" href="#">
-          <img src={logo}  width="100" height="50" class="d-inline-block align-top" alt=""></img>
+          <img src={logo} width="100" height="50" class="d-inline-block align-top" alt=""></img>
         </a>
-        <ul className="nav navbar-brand navbar-right " style={{fontSize:"14px" , color:"#9963B9"}}>
+        <ul className="nav navbar-brand navbar-right " style={{ fontSize: "14px", color: "#9963B9" }}>
           <li className="nav-item" >
           </li>
           <li className="nav-item">
-            <Link to="/about/" activeStyle={{ color: "#9963B9" }} className="nav-link" activeClassName="active">ESPECIALIDADES</Link>
+            <a href={Footer} activeStyle={{ color: "#9963B9" }} className="nav-link" activeClassName="active">CONSULTAS</a>
           </li>
           <li className="nav-item">
-            <Link to="/gallery/" activeStyle={{ color: "#9963BA" }} className="nav-link" activeClassName="active">SOBRE A CLÍNICA</Link>
+            <Link to="/gallery/" activeStyle={{ color: "#9963BA" }} className="nav-link" activeClassName="active">EXAMES</Link>
           </li>
           <li className="nav-item">
-            <Link to="/contact/" activeStyle={{ color: "#9963BA" }} className="nav-link" activeClassName="active">SOBRE 0 DR.LUCAS</Link>
+            <Link to="/contact/" activeStyle={{ color: "#9963BA" }} className="nav-link" activeClassName="active">CIRURGIAS</Link>
           </li>
           <li className="nav-item">
-            <Link to="/contact/" activeStyle={{ color: "#9963BA" }} className="nav-link" activeClassName="active">CONTATOS</Link>
+            <Link to="/contact/" activeStyle={{ color: "#9963BA" }} className="nav-link" activeClassName="active">DICAS</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="./components/Footer/" activeStyle={{ color: "#9963BA" }} className="nav-link" activeClassName="active">CONTATOS</Link>
           </li>
         </ul>
-    </nav>
-    {/* <nav className="navbar navbar-expand-sm navbar-light bg-light ">
+      </nav>
+      {/* <nav className="navbar navbar-expand-sm navbar-light bg-light ">
       <div class="p-2 bd-highlight">
       <Link className="navbar-brand" to="/">
        <img src={logo}  width="30" height="30" class="d-inline-block align-top" alt=""></img>
@@ -69,8 +73,8 @@ const Menu = () => {
       </div>
     </nav> */}
       <Banner />
-     
-      </>
+
+    </>
   )
 }
 

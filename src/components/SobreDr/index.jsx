@@ -1,5 +1,5 @@
 import React from "react"
-import imgdr from "../images/dr-lucas.jpeg"
+import imgdr from "../images/drlucas.jpg"
 import"./style.scss"
 const SobreOdr = () => {
   return (
