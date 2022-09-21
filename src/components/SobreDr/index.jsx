@@ -1,5 +1,5 @@
 import React from "react"
-import imgdr from "../images/dr-lucas.jpeg"
+import imgdr from "../images/drlucas.jpg"
 import"./style.scss"
 const SobreOdr = () => {
   return (
@@ -7,16 +7,23 @@ const SobreOdr = () => {
       <div className="conteiner-dr">
         <div className="d-flex justify-content-center">
         <img src={imgdr} alt="..."  className="img-dr img-thumbnail"></img>
-            <div className="d-block text-justify col-3 p-3" >
+            <div className="d-block text-justify col-4 p-2" >
               <h1>SOBRE MIM</h1>
-              <br />
-              <h4>Dr Lucas Caraza</h4>
-              <p className="text-dr">Ambitioni dedisse scripsisse iudicaretur. Cras mattis
-                iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus.
-                Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros.
-                Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium
-                purus sit amet fermentum.
+              <h4>Dr. Lucas Carazza</h4>
+              <p className="text-dr">Médico Oftalmologista pela Universidade
+                Federal de Minas Gerais (UFMG)
+                <br />
+                Residência Médica em Oftamologia pelo Hospital das Clínicas da  Universidade Federal de Minas Gerais
+                <br />
+                <br />
+                Especialista em Córnea, catarata e Cirurgia Refrativa 
+                pelo Hospital das Clínicas da Univesidade Federal de Minas Gerais (UFMG)
+                <br />
+                <br />
+                 Especialista em Glaucoma pelo
+                 Hospital das Clínicas da Univesidade Federal de Minas Gerais (UFMG)
               </p>
+
             </div>
         
           </div>
