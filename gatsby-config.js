@@ -3,7 +3,7 @@ module.exports = {
     title: `Dr-lucasPage`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-sitemap", {
+  plugins: ["gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-sitemap", "gatsby-transformer-remark", {
     resolve: 'gatsby-plugin-manifest',
     options: {
       "icon": "src/images/icon.png"
@@ -23,4 +23,6 @@ module.exports = {
     },
     __key: "pages"
   }]
+  
 };
+
