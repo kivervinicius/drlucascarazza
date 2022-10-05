@@ -5,6 +5,7 @@ import img2 from '../images/dicas2.jpeg'
 import img3 from '../images/dicas3.png'
 import img4 from '../images/dicas4.jpg'
 
+
 import { Link } from 'gatsby'
 
 
@@ -56,3 +57,4 @@ const Card = () => {
 }
 
 export default Card
+
