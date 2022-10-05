@@ -1,12 +1,12 @@
 import React from "react"
-import imgdr from "../images/drlucas.jpg"
+import imgdr from "../images/dr-lucasca.png"
 import"./style.scss"
 const SobreOdr = () => {
   return (
     <>
       <div className="conteiner-dr">
         <div className="d-flex justify-content-center">
-        <img src={imgdr} alt="..."  className="img-dr rounded"></img>
+        <img src={imgdr} alt="..."  className="img-dr rounded-circle"></img>
             <div className="d-block text-justify col-4 p-2" >
               <h1>SOBRE MIM</h1>
               <h4>Dr. Lucas Carazza</h4>
