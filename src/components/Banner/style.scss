@@ -3,21 +3,21 @@
     align-items: center;
     justify-content: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.829)), url("../images/oftalmologia.jpeg");
-    height: 639px;
+    height: 80vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     opacity: 0.9;
-
+    flex-direction: column;
 }
 
 .logo img {
-    margin-left: 490px;
-    margin-top: 200px;
+    // margin-left: 490px;
+    // margin-top: 200px;
 
 }
 
 .button {
-    margin-left: 489px;
+    // margin-left: 489px;
 }
