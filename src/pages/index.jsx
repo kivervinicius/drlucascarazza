@@ -1,8 +1,7 @@
 import * as React from "react"
-// import Card from "../components/Card"
 import Layout from "../components/Layout"
 import SobreOdr from "../components/SobreDr"
-import Dicas from "../components/Card"
+import Dicas from "../components/Dicas"
 
 import SobreAcl from "../components/Sobre-clinica"
 

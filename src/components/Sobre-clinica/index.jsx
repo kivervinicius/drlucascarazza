@@ -1,8 +1,8 @@
 import React from "react"
-import img1 from "../images/clinica.jpg"
-import img2 from "../images/clinica2.jpg"
-import img3 from "../images/clinica3.jpeg"
-import img4 from "../images/clinica4.jpeg"
+import img1 from "../images/clinica.png"
+import img2 from "../images/clinica2.png"
+import img3 from "../images/clinica3.png"
+import img4 from "../images/clinica4.png"
 
 import "./style.scss"
 const SobreAcl = () => {
