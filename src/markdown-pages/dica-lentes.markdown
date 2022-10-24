@@ -3,19 +3,24 @@ slug: "/dica-lentes"
 title: "Como escolher a lente "
 image: 
 ---
-#### Como escolher a lente intraocular para cirurgia de catarata mais adequada para o meu olho?    
-A catarata é uma doença em que a lente natural do nosso olho perde sua transparência.
+#### Como escolher a lente intraocular para cirurgia de catarata mais adequada para o meu olho?      
+A catarata é uma doença em que a lente natural do nosso olho perde sua transparência (teremos outro post no site somente sobre catarata e o link será disponibilizado aqui).
 A cirurgia de catarata consiste em substituir a lente natural do olho doente, cujo nome é cristalino, por uma lente artificial.  
- ![Imagem ilustrando o olho à esquerda com cristalino e visão normais; à direita, com catarata e piora da visão.](../../src/images/olho-catarata.png)    
+ ![Imagem ilustrando o olho à esquerda com cristalino e visão normais; à direita, com catarata e piora da visão.](../../src/images/image1.png)    
 
-![Imagem ilustrando o implante de uma lente intraocular durante a cirurgia de catarata.](../../src/images/implate-lente.png)
+Imagem ilustrando o olho à esquerda com cristalino e visão normais; à direita, com catarata e piora da visão.
 
+![Imagem ilustrando o implante de uma lente intraocular durante a cirurgia de catarata.](../../src/images/implate-lente.png)  
+Imagem ilustrando o implante de uma lente intraocular durante a cirurgia de catarata.
 
 A escolha da lente intraocular é uma oportunidade muito interessante para poder diminuir a dependência dos óculos. É importante ressaltar que essa escolha deverá ser feita apenas uma vez na vida, haja visto que apenas em raríssimas ocasiões iremos trocar a lente intraocular. Ainda não existe uma lente intraocular ideal, aquela que tenha a mesma função da nossa lente natural jovem e que sirva para todos os olhos, por isso existem vários modelos de lentes que tentam oferecer a melhor qualidade de vida para o paciente. A indústria oftalmológica continua em busca da lente perfeita e esse post vai ser atualizado, à medida que novas tecnologias forem sendo lançadas.
 Este post tem como objetivo te ajudar a entender melhor a tecnologia das lentes, para facilitar sua escolha, junto ao seu oftalmologista. São muitas informações e, às vezes, de difícil compreensão para quem não está familiarizado, no entanto, elas são fundamentais para fazer uma escolha que é para o resto da vida. Portanto, se você vai ser operado de catarata em breve (especialmente se for operar comigo), sugiro ler esse post com calma, em um momento em que tenha bastante tempo para reler e tentar entender todos os pontos que vão ser descritos. Sugiro ainda ler com um ou com vários familiares para que eles possam te ajudar nessa decisão e venham junto na consulta de cálculo da lente para que possamos fazer, juntos, a melhor escolha. 
 A escolha da lente leva em consideração as características dos olhos (por isso são realizados diversos exames oftalmológicos), os hábitos do paciente (por isso gostamos que o paciente preencha um questionário para entendermos melhor seu dia a dia e suas expectativas) bem como as características e limitações de cada modelo de lente intraocular. 
 
-![Imagem demonstrando o tamanho de uma lente intraocular e alguns modelos de lentes intraoculares existentes. ](../../src/images/modelo-lentes.png)  
+
+![Imagem demonstrando o tamanho de uma lente intraocular e alguns modelos de lentes intraoculares existentes. ](../../src/images/inter.png)  
+![Imagem demonstrando o tamanho de uma lente intraocular e alguns modelos de lentes intraoculares existentes. ](../../src/images/inter1.png)  
+
 
 Antes de falar especificamente sobre os modelos de lentes intraoculares, temos que compreender um pouco mais sobre a visão e os 3 focos que utilizamos no dia a dia.  
 Para termos uma visão funcional, temos que ter: 
@@ -33,7 +38,7 @@ Simulação da visão de um olho sem grau jovem que consegue focar todos objetos
 
 Após os 40 anos, nossa lente vai perdendo essa capacidade de mudar a focalização, por isso a pessoa fica com a “vista cansada”(presbiopia) e precisa de óculos para ver de perto. 
 
-
+![Simulação da visão de um paciente sem grau para longe, mas com vista cansada e dificuldade na visão intermediária e de perto.](../../src/images/embacado.png)
 Simulação da visão de um paciente sem grau para longe, mas com vista cansada e dificuldade na visão intermediária e de perto.
 
 Como a lente artificial vai substituir a lente natural, ela dever ter características que, de alguma forma, exerçam a função que nossa lente natural tem.
@@ -45,7 +50,7 @@ Com o aumento da precisão dos equipamentos (embora eles ainda não sejam perfei
 
 Outro ponto importante que precisamos entender antes de falar especificamente sobre cada tipo de lente: o astigmatismo. O astigmatismo é um tipo de grau que faz com que enxerguemos desfocado. Nem todas as pessoas possuem astigmatismo, mas uma boa parte delas tem esse tipo de grau.
 
-
+![Simulação de uma visão com astigmatismo moderado](../../src/images/astigmatismo.png)
 Simulação de uma visão com astigmatismo moderado.
 
 Dependendo da forma do seu olho (isso vai ser avaliado pelos exames pré-operatórios), ele vai precisar de lentes que corrijam o astigmatismo para que você possa ter o melhor foco possível. A lente que corrige o astigmatismo é chamada de LENTE TÓRICA. Quase todos os modelos de lentes intraoculares possuem o modelo não tórico (quando calculamos que o astigmatismo residual vai ser de 0,50 ou inferior) e modelo tórico (quando calculamos que o astigmatismo residual será de 0,75 ou superior). Essa informação é importante, pois as lentes tóricas são mais caras, seu implante é mais complexo e isso pode influenciar nos valores da sua cirurgia. 
@@ -67,11 +72,14 @@ Alguns autores gostam de comparar a visão das lentes asfericas às TVs digitais
 As lentes esféricas foram as primeiras lentes especiais (também conhecidas como “lentes premium”) para cirurgia de catarata e eram todas importadas, por isso até hoje algumas pessoas as conhecem como “lentes importadas”.
 
 Algumas figuras tentam mostrar a diferença entre lentes esféricas e lentes esféricas:   
+![Algumas figuras tentam mostrar a diferença entre lentes esféricas e lentes esféricas: ](../../src/images/esferica.png)
 Aqui demonstramos visualização com lentes oftalmológicas esféricas (acima) e asféricas (abaixo). Observar que as aberrações nas lentes asféricas são bem menores.
 
+![Imagem mostrando raios desfocados nas lentes esféricas e mais focados nas asféricas](../../src/images/aesferi.png)
 Imagem mostrando raios desfocados nas lentes esféricas e mais focados nas asféricas
 
-À esquerda, imagem simulando a visão com uma lente intraocular esférica enquanto à direita, com uma lente esférica. 
+
+À da direita, imagem simulando a visão com uma lente intraocular esférica enquanto à da esquerda, com uma lente esférica. 
 Alguns autores gostam de comparar a visão das lentes esféricas às TVs analógicas, enquanto a visão das lentes esféricas seria das TVs digitais.
 
 **Detalhes sobre as lentes monofocais:**  
@@ -82,6 +90,8 @@ Da sessão 2 em diante, todas as lentes possuem alguma tecnologia para tentar mi
 **2. Lentes intraoculares Difrativas:**  
 Essas lentes têm por característica principal pequenas ranhuras em sua superfície (parecidas com um disco de vinil antigo) que são capazes de dividir a energia luminosa que chega no olho. 
 
+![](../../src/images/diretivas1.png)  
+![](../../src/images/diectivas2.png)
 Imagem mostrando uma lente difrativa com as ranhuras que lhe são características.
 
 A maior parte da energia luminosa continua sendo direcionada para o foco de longe, no entanto, a depender do modelo de lente (descritos a seguir), a lente divide a energia luminosa também para o foco intermediário e/ou de perto. 
@@ -91,6 +101,8 @@ A maior parte da energia luminosa continua sendo direcionada para o foco de long
 -diminuição do contraste em todos os focos já que não chega 100% da energia luminosa em um só foco. Para entender melhor a diminuição do contraste, gosto de comparar com uma impressora: quando você imprime no modo normal ou ótimo, você tem 100% de contraste; quando imprime no modo econômico, você ainda vê, mas com menor contraste.   
 
 -surgimento de fenômenos ópticos conhecidos como halos, glare e starburst, onde há um espalhamento das luzes fazendo com que o paciente tenha um pouco de dificuldade com objetos iluminados, especialmente à noite, tais como faróis de carros, lâmpadas, etc. 
+
+![Na imagem vemos um ponto de luz visto por um olho normal à esquerda e os possíveis fenômenos ópticos causados pelas lentes difrativas.  ](../../src/images/ima5.png)
 
 Na imagem vemos um ponto de luz visto por um olho normal à esquerda e os possíveis fenômenos ópticos causados pelas lentes difrativas.   
 
@@ -103,12 +115,16 @@ Outra desvantagem das lentes difrativas é que elas costumam ser bem sensíveis 
 **2.1 Lentes difrativas bifocais:**   
 Foram as primeiras lentes com mais de um foco desenvolvidas. Elas possuem geralmente um foco principal para longe e o segundo foco pode variar entre intermediário ou de perto, de acordo com o desejo do paciente e intenção do cirurgião. Essas lentes têm sido menos usadas atualmente após o lançamento das lentes trifocais descritas a seguir. 
 
+![Imagem simulando lentes difrativas à noite, com fenômenos ópticos de halos e glare. Essa imagem simula o resultado para lentes bifocais.](../../src/images/ima6.png)
 Imagem simulando lentes difrativas à noite, com fenômenos ópticos de halos e glare. Essa imagem simula o resultado para lentes bifocais.  
 
 **2.2 Lentes difrativas trifocais:**    
 São as lentes difrativas mais modernas da atualidade. Elas possuem 3 focos de visão: longe, médio e intermediário. São as lentes da atualidade que mais fornecem independência dos óculos nos 3 focos principais. Apesar de não serem isentas dos fenômenos ópticos descritos anteriormente para lentes difrativas, as lentes trifocais mais modernas atuais prometem menos halos e glare em relação às difrativas mais antigas.
-três pontos focais nas lentes difrativas trifocais.  
-Foto ilustrativa mostrando simulação de lente trifocal moderna, com menores fenômenos ópticos em relação às lentes bifocais.  
+![](../../src/images/trif1.png) 
+três pontos focais nas lentes difrativas trifocais.
+![](../../src/images/trif4.png)
+Foto ilustrativa mostrando simulação de lente trifocal moderna, com menores fenômenos ópticos em relação às lentes bifocais.    
+![Imagem simulando visão durante o dia de uma lente trifocal moderna mostrando uma visão bastante próxima de uma visão natural](../../src/images/trif3.png)
 Imagem simulando visão durante o dia de uma lente trifocal moderna mostrando uma visão bastante próxima de uma visão natural
 
 **2.3 Lentes difrativas EDOF:**    
@@ -117,6 +133,7 @@ Esse nome vem do inglês extended depht of focus, que quer dizer lentes de foco 
 ![](https://theophthalmologist.com/fileadmin/_processed_/f/1/csm_0622-901-TTE-SAV-IOL-In-Article2_d7a780308f.webp) 
 
 Imagem mostrando o foco alongado das lentes de foco estendido ao invés dos focos pontuais das lentes bi e trifocais
+![Imagem mostrando o foco alongado das lentes de foco estendido ao invés dos focos pontuais das lentes bi e trifocais](../../src/images/trif5.png)
 Nessa simulação, conseguimos observar na lente EDOF menores fenômenos ópticos nos pontos luminosos em relação às outras lentes difrativas.   
 Nessa simulação, vemos que a visão de perto fica um pouco mais embaçada em relação à visão com as lentes trifocais  
 **2.4 Lentes que misturam tecnologias EDOF/Trifocais:**
@@ -129,6 +146,7 @@ A intenção da indústria nessas lentes é trazer soluções que tenham uma qua
 A tecnologia utilizada muda conforme o fabricante (não é nosso objetivo nesse texto descrever cada uma delas), mas basicamente funcionam tentando modular aberrações ópticas, ou seja, tentam utilizar algumas partes da energia luminosa que não seriam utilizadas normalmente para gerar esse alongamento do foco, sem perder a qualidade para visão de longe. 
 
 
+![Imagem mostrando alongamento de foco gerado por uma das lentes com essa tecnologia disponível no mercado.](../../src/images/trif7.png) 
 Imagem mostrando alongamento de foco gerado por uma das lentes com essa tecnologia disponível no mercado. 
 
 Como vantagem em relação às lentes difrativas, objetivam reduzir ou eliminar os fenômenos ópticos indesejáveis dessas, gerando uma visão mais próxima do natural. Portanto, muitos pacientes que tenham contraindicação para lentes difrativas, podem se beneficiar dessa tecnologia e aumentar sua independência dos óculos. Por serem não difrativas, possuem maior tolerância a possíveis graus residuais.
@@ -138,6 +156,7 @@ Assim, em alguns casos, os pacientes precisam de óculos para leitura de perto. 
 
 Outra questão bastante importante desse grupo de lentes é que existem tecnologias bastante diferentes umas das outras e com resultados diversos. Apesar de todas apresentarem ótimo desempenho para longe, o desempenho para as visões de perto/intermediário são diferentes entre as lentes. Assim sendo, lentes que entregam uma visão intermediária e de perto superiores nos trabalhos científicos custam mais caro do que aquelas que apresentaram resultados menos expressivos.
 
+![Comparativo de uma lente monofocal tradicional com uma lente vivity mostrando melhora da visão intermediária do painel do carro. ](../../src/images/trif8.png)
 
 Comparativo de uma lente monofocal tradicional com uma lente vivity mostrando melhora da visão intermediária do painel do carro. 
 

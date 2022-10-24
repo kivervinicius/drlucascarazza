@@ -1,30 +1,45 @@
 ---
 slug: "/dica-ocolos"
-date: "2017-11-07"
-title: "Como escolher seus óculos? "
+title: "Como escolher seus óculos?"
 ---
+![](../../src/images/titulo1.png)
 ####  Armação
- A principal dica para escolher uma armação é escolher a que
+A principal dica para escolher uma armação é escolher a que
 melhor combine com você. Não é incomum um paciente não se adaptar
 aos óculos por não ter gostado da estética da armação escolhida. Por isso,
 escolha sua armação com calma e procure levar alguém de confiança junto
 com você, que conheça seu gosto e estilo para te ajudar a fazer a melhor
-escolha.   
-Obs: nem todas as armações combinam com todas as lentes. Por isso, peça
-o auxílio do óptico para te orientar nessa tarefa.
-Como escolher seus óculos?
-#### Materiais de Armações  
-**• Acetato:** são as mais utilizadas por possuírem material leve e resistente.  
-**• Metálicas**: geralmente mais estreitas e precisam de lentes mais finas.
+escolha.
+**Obs:** nem todas as armações combinam com todas as lentes. Por isso, peça
+o auxílio do óptico para te orientar nessa tarefa.  
+#### Materiais de Armações         
+**•Acetato:** são as mais utilizadas por possuírem material leve e resistente.  
+**•Metálicas:** geralmente mais estreitas e precisam de lentes mais finas.
 Para alérgicos a níquel, perguntar se não há presença desse material na liga
 metálica.  
-**• Emborrachadas:** mais maleáveis, sendo ideais para crianças.  
- **Design das Armações:**  
-**• Rosto redondo:** prefira armações com linhas retas e formato retangular  
-**• Rosto quadrado:** prefira armações redondas ou ovaladas e menores.  
-**• Rosto triangular:** comportase bem com armação tipo aviador ou ovalada.    
-**• Rosto oval:** comporta-sebem com qualquer tipo de armação. 
- 
+**• Emborrachadas**: mais maleáveis, sendo ideais para crianças.  
+**Obs:** algumas armações possuem plaquetas de apoio para o nariz. Observe
+se vai ficar confortável para o seu formato de nariz. Em geral, asiáticos e
+negros têm a base do nariz menos proeminente, o que dificulta o uso desse
+tipo de armação.
+#### Design das Armações  
+![](../../src/images/ocolos1.png)
+![](../../src/images/ocolo2.png)
+![](../../src/images/ocolos3.png)
+![](../../src/images/ocolos4.png)  
+• Rosto redondo: prefira arma-
+ções com linhas retas e forma-
+to retangular.  
+• Rosto quadrado: pref ira
+armações redondas ou ovala-
+das e menores.   
+• Rosto triangular: comporta-
+se bem com armação tipo
+aviador ou ovalada.    
+• Rosto oval: comporta-se
+bem com qualquer tipo de
+armação.
+
 # Escolha de Lentes 
 #### Material das lentes:  
 **Vidro:** em desuso pelo seu maior peso e espessura, além de quebrar com
@@ -37,7 +52,8 @@ em 3 peças presas com parafusos).
 **Trivex:** é um material também de grande resistência, porém com qualidade
 ópticamelhorqueopolicarbonato.Por isso,éindicadoparacriançasqueprecisam da associação de resistência com uma boa qualidade de visão, já que
 estão em fase dedesenvolvimento visual.
-
+![](../../src/images/ocolos5.jpg) 
+sem antirreflexo   |    c/antirreflexo
 #### Tratamento das lentes:  
 **Antirreflexo:** é um tratamento que visa minimizar os reflexos indesejáveis
 nas lentes, causando uma melhora estética e também da visão.  
@@ -54,7 +70,7 @@ não estiverem sendo utilizados.
 **Tratamentos Fotossensíveis:** é o tipo de tratamento que torna as lentes
 adaptáveis, ou seja, aquelas que se tornam mais escuras em ambientes
 muito iluminados e mais claras em ambientes menos iluminados.      
-**Obs:** muito importante salientar para quem pretende usar esse tratamento pela primeira vez que a ativação do tratamento é feita por raios UV,
+****Obs:**** muito importante salientar para quem pretende usar esse tratamento pela primeira vez que a ativação do tratamento é feita por raios UV,
 porém essa lente não escurece tanto quanto os óculos escuros. Outra
 observação é que, dentro dos carros, como existe proteção UV obrigatória
 nos vidros dos mesmos, a lente com esse tipo de tratamento tende a escurecer menos do que quando exposta diretamente ao sol. Importante também informar que, em alguns ambientes internos muito iluminados, as
@@ -66,6 +82,7 @@ lente bem prática para uso no dia a dia, mas alguns pacientes preferem ter   2 
 minimiza os efeitos de reflexos do sol sob superfícies como estradas de
 asfalto, água, areia e neve. Com isso, aumenta a sensibilidade ao contraste,
 resultando em melhora tanto do conforto quanto da qualidade visual.
+![](../../src/images/ocolos6.jpg) 
 
 # Modelo/Desenho das lentes
 #### Óculos de Visão Simples para longe: 
@@ -82,6 +99,7 @@ Tem como vantagens seu preço mais acessível e um bom campo de visão,
 já que a lente é exclusiva para perto. Como desvantagem, apresenta piora
 da visão intermediária e para longe, sendo necessário tirar e colocar os
 óculos constantemente (ou mesmo olhar por cima dos óculos).
+![](../../src/images/ocolos7.jpg) 
 
 **Óculos multifocais**  
 Para os pacientes que apresentam dificuldade tanto para perto
@@ -103,12 +121,19 @@ adequada.
 -uma vez escolhida uma boa óptica e boa marca de lente, discuta
 com seu óptico de confiança o custo x benefício entre as lentes disponíveis.
 Existem diversos tipos de lentes com diferentes qualidade, campo visual,
-preços e qualidade de adaptação (definitivamente as lentes multifocais nãosãotodas iguais!).   
+preços e qualidade de adaptação (definitivamente as lentes multifocais nãosãotodas iguais!). 
+![](../../src/images/ocolos9.png)   
+![](../../src/images/ocolos10.png) 
+Lente com campo de visão mais restrito | com campo de visão amplo.  
 **Óculos ocupacionais**  
 Para os pacientes que trabalham em ambientes de escritório e
 que precisam de boa visão para perto e intermediária, essa é uma boa alternativa. Por não possuirem campo de visão de longe, têm um maior campo
 de visão intermediário, facilitando principalmente o uso no computador.
 Como desvantagem, não tem visão para longa distância.  
+![](../../src/images/ocolos11.jpg)   
+![](../../src/images/ocolos12.jpg)  
+
+
  
  **Veja também**  
  [Como escolher a lente intraocular](/dica-lentes)
