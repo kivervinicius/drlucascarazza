@@ -1,7 +1,7 @@
- .card {
-     width: 216px;
-     height: 361px;
- }
+//  .card {
+//      width: 216px;
+//      height: 361px;
+//  }
 
  .text-card {
      text-align: center;
@@ -10,8 +10,6 @@
  .container-dicas {
      background-color:#113155;
      width: 100%;
-     height: 480px;
-    
  }
 
  // .h1 {
@@ -23,16 +21,16 @@
      width: 174;
      height: 130px;
  }
- @media screen and (max-width: 700px) {
-    .card-container{
-        display: block !important;
-    }
-    .card {
-        width: 70%;
-        height: 361px;
-    }
+//  @media screen and (max-width: 700px) {
+//     .card-container{
+//         display: block !important;
+//     }
+//     .card {
+//         width: 70%;
+//         height: 361px;
+//     }
            
     
-  }
+//   }
 
   
