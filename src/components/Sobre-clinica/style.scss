@@ -1,11 +1,13 @@
-.container {
+.container-clinica {
     background-color:  #021933;
+}
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 560px;
-   
 }
+
 .text-clinica{
     text-align: center;
 }

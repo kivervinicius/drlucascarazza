@@ -7,7 +7,7 @@ import img4 from "../images/clinica4.png"
 import "./style.scss"
 const SobreAcl = () => {
   return (
-    <>
+    <div class="container-clinica">
       <div className="container d-flex justify-content-around">
         <div className="d-flex justfy-content-between">
           <div className="flex p-3">
@@ -38,7 +38,7 @@ const SobreAcl = () => {
         </div>
       </div>
 
-    </>
+    </div>
   );
 
 }

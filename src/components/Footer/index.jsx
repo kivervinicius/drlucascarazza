@@ -76,7 +76,7 @@ const Footer = () => {
               </a>
             </li>
             <li className="m-1" >
-              <a target="_blank" href="https://web.whatsapp.com/send?phone=556596276197">
+              <a target="_blank" href="https://wa.me/556596276197?text=ol%C3%A1%21+gostaria+de+agendar+uma+consulta">
                 <img src={icon3} alt="icone do whatssap" />
               </a>
             </li>

@@ -6,8 +6,8 @@ const SobreOdr = () => {
     <>
       <div className="container-dr">
         <div className="d-flex justify-content-center">
-          <img src={imgdr} alt="Dr Lucas Carazza" className="img-dr rounded-circle img-fluid"></img>
-          <div className="d-block text-justify col-12 p-2 col-sm-4" >
+          <img src={imgdr} alt="Dr Lucas Carazza" className="img-dr rounded-circle"></img>
+          <div className="d-block text-justify col-12 p-2 col-md-4" >
             <h1>SOBRE MIM</h1>
             <h4>Dr. Lucas Carazza</h4>
             <p className="text-dr">Médico Oftalmologista pela Universidade
