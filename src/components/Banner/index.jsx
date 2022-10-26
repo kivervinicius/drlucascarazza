@@ -12,7 +12,7 @@ const Banner = () => {
   return (
     <div className="banner">
       <div className='logo'>
-        <img src={logo} width="369" height="200" alt=""></img>
+        <img src={logo} width="369" height="200" alt="Dr Lucas Carazza" className='img-fluid'></img>
       </div>
       <div className="button pt-3">
         <button onClick={() => { onDirection() }} type="button" class="btn btn-primary btn-lg rounded-5">Agende sua consulta</button >

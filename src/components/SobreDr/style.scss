@@ -1,5 +1,6 @@
 @import "bootstrap/scss/functions";
 @import "bootstrap/scss/variables";
+@import "bootstrap/scss/maps";
 @import "bootstrap/scss/mixins";
 
 .container-dr{
@@ -18,12 +19,16 @@
 }
 
 .img-dr{
-    width: 370px;
-    height: 370px;
-    border-radius: 50%;
+    max-width: 350px;
+    max-height: 350px;
+
+    @include media-breakpoint-down(sm) {  
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 .text-dr{
-    font-size: 14px;
+    font-size: 1rem;
     color: white;
 }
 
