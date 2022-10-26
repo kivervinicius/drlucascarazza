@@ -6,7 +6,7 @@ module.exports = {
   plugins: ["gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-sitemap",{
     resolve: 'gatsby-plugin-manifest',
     options: {
-      "icon": "src/images/icon.png"
+      "icon": "./src/images/icon.png"
     }
   }, "gatsby-plugin-mdx", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',
