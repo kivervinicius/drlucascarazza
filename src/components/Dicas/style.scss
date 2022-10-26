@@ -7,7 +7,7 @@
      text-align: center;
  }
 
- .conteiner-dicas {
+ .container-dicas {
      background-color:#113155;
      width: 100%;
      height: 480px;
@@ -24,7 +24,7 @@
      height: 130px;
  }
  @media screen and (max-width: 700px) {
-    .card-conteiner{
+    .card-container{
         display: block !important;
     }
     .card {

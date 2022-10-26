@@ -14,7 +14,7 @@ const Menu = () => {
   return (
     <>
       <Navbar bg="light" expand="lg" className="fixed-top">
-        <Container fluid className="conteiner-menu justify-content-between">
+        <Container fluid className="container-menu justify-content-between">
           <Navbar.Brand href="/">
             <img
               src={logo}

@@ -12,11 +12,11 @@ import { Link } from 'gatsby'
 const Card = () => {
   return (
     <>
-      <div className='conteiner-dicas d-block'>
+      <div className='container-dicas d-block'>
         <div>
           <h1 className='text-card'>DICAS</h1>
         </div>
-        <div className="card-conteiner d-flex justify-content-center">
+        <div className="card-container d-flex justify-content-center">
           <div className="card m-2">
             <img src={img1} className="img-dicas rounded img-thumbnail" alt=""></img>
             <div className="card-body">

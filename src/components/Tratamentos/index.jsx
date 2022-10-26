@@ -16,7 +16,7 @@ const SlideShow = () => {
   };
   return (
     <>
-      <div className='conteiner-carousel'>
+      <div className='container-carousel'>
         <h3 className='text text-align-center'>Exames</h3>
         <Carousel activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item>

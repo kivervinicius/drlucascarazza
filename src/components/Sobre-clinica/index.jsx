@@ -8,10 +8,10 @@ import "./style.scss"
 const SobreAcl = () => {
   return (
     <>
-      <div className="conteiner d-flex justify-content-around">
+      <div className="container d-flex justify-content-around">
         <div className="d-flex justfy-content-between">
           <div className="flex p-3">
-            <div className="conteiner-img">
+            <div className="container-img">
               <img src={img1} alt="..." className="img-clinica img-thumbnail"></img>
               <img src={img2} alt="..." className="img-clinica img-thumbnail"></img>
             </div>

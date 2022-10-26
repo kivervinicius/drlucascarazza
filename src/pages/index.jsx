@@ -13,7 +13,7 @@ import Banner from '../components/Banner'
 const IndexPage = () => {
   return (
     <>
-      <div className="conteiner-pages">
+      <div className="container-pages">
         <Menu />
         <Banner />
         <SobreOdr />

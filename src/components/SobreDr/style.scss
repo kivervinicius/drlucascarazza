@@ -1,9 +1,20 @@
-.conteiner-dr{
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+
+.container-dr{
     background-color: #113155;
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 540px;
+
+    .d-flex {
+        @include media-breakpoint-down(sm) {  
+            flex-direction: column;
+        }
+    }
+    
 }
 
 .img-dr{
