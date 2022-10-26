@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from "../images/logotipo03.jpeg"
-import Banner from '../Banner'
+
 
 import './style.scss'
 
@@ -31,8 +31,8 @@ const Menu = () => {
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
-              <Nav.Link href="#action1">CONSULTAS</Nav.Link>
-              <Nav.Link href="./footer">EXAMES</Nav.Link>
+              <Nav.Link href="./tratamentos">TRATAMENTOS</Nav.Link>
+              <Nav.Link href="./exames">EXAMES</Nav.Link>
               <Nav.Link href="#">CIRURGIAS</Nav.Link>
               <Nav.Link href="#">DICAS</Nav.Link>
               <Nav.Link href="#">CONTATOS</Nav.Link>
@@ -41,7 +41,7 @@ const Menu = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <Banner />
+   
     </>
   );
 }

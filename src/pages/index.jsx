@@ -8,13 +8,14 @@ import Footer from "../components/Footer"
 
 
 import SobreAcl from "../components/Sobre-clinica"
-
+import Banner from '../components/Banner'
 
 const IndexPage = () => {
   return (
     <>
       <div className="conteiner-pages">
         <Menu />
+        <Banner />
         <SobreOdr />
         <SobreAcl />
         <Dicas />
