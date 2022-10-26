@@ -1,5 +1,17 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+
 .container-clinica {
     background-color:  #021933;
+
+    .d-flex {
+        @include media-breakpoint-down(lg) {  
+            // flex-direction: column;
+            padding-top: 1rem;
+        }
+    }
 }
 .container {
     display: flex;
@@ -13,6 +25,7 @@
 }
 .img-clinica {
     width: 350px;
+    margin: .2rem;
 
 }
 .text-dr{
