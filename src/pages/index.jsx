@@ -3,6 +3,8 @@ import SobreOdr from "../components/SobreDr"
 import Dicas from "../components/Dicas"
 import Menu from "../components/Menu"
 import Footer from "../components/Footer"
+import BotaoFlutuante from "../components/Btn-flutuante"
+
 
 
 
@@ -16,6 +18,7 @@ const IndexPage = () => {
       <div className="container-pages">
         <Menu />
         <Banner />
+        <BotaoFlutuante />
         <SobreOdr />
         <SobreAcl />
         <Dicas />
