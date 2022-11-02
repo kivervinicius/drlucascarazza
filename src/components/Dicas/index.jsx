@@ -41,7 +41,7 @@ const Card = () => {
                 src={img2}
               />
               <div className="card-body">
-                <h5 className="card-title">Como escolher a lente intraocular?</h5>
+                <h5 className="card-title">Como escolher a lente?</h5>
                 <p className="card-text">
                   A catarata é uma doença em que a lente natural do nosso olho
                   per...

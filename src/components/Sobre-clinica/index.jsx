@@ -30,18 +30,10 @@ const SobreAcl = () => {
 
           <Col md={7}>
             <div className="text-center" >
+
               <h1 className="text-clinica text-center">SOBRE A CLINICA</h1>
-              <h4 className="text-clinica text-align-center">Missão</h4>
-              <p class="text-justify-center text-dr">Oferecer tratamento Oftalmológico com que existe de mais moderno e atualizado na oftalmologia mundial</p>
-              <h4 className="text-clinica text-align-center">Visão</h4>
-              <p class="text-justify-center text-dr">Ser o seu oftalmologista de confiança assim como da sua familia,oferecendo o que existe de mais moderno para sua saúde visual. </p>
-              <h4 className="text-clinica text-align-center">Valores</h4>
-              <p class="text-justify-center text-dr">Cuidar do nosso paciente como gostaríamos que cuidasse dos nossos pais e filho;
-                estarm sempre atualizado;
-                <br />
-                Transparência com o paciente;
-                <br />
-                ética
+              <p  className="text-clinica text-center" >
+                Nosso consultório fica em um moderno espaço em uma das principais avenidas de Tangará da Serra, dentro da Clínica Instituto da Visão, em frente ao Fórum Municipal e possuímos os mais modernos equipamentos de diagnóstico e cirúrgicos. Além do consultório oftalmológico, contamos com salas de exames, sala de adaptação de lentes de contato e um centro cirúrgico moderno.
               </p>
             </div>
           </Col>

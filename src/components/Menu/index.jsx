@@ -5,6 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from "../images/logotipo03.jpeg"
+import { FaNotesMedical, FaUserMd } from "react-icons/fa";
 
 
 import './style.scss'
@@ -31,9 +32,10 @@ const Menu = () => {
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
-              <Nav.Link href="./tratamentos">TRATAMENTOS</Nav.Link>
-              <Nav.Link href="./exames">EXAMES</Nav.Link>
-              <Nav.Link href="#">CIRURGIAS</Nav.Link>
+              <Nav.Link href="./#"> SOBRE MIM</Nav.Link>
+              <Nav.Link href="./exames">  EXAMES </Nav.Link>
+              <Nav.Link href="./#">DOENÇAS OCULARES</Nav.Link>
+              <Nav.Link href="./tratamento">TRATAMENTOS E CIRURGIAS</Nav.Link>
               <Nav.Link href="#">DICAS</Nav.Link>
               <Nav.Link href="#">CONTATOS</Nav.Link>
 

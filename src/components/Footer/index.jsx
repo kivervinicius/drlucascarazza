@@ -15,12 +15,19 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-4 col-md-12 mb-3 mb-md-0 ">
             <h5 className="text-uppercase border-bottom border-dark text-center">SOBRE</h5>
-
-            <p className="text-center">
-              Nosso consultório fica em um moderno espaço em uma das principais avenidas de Tangará da Serra, dentro da Clínica Instituto da Visão, em frente ao Fórum Municipal e possuímos os mais modernos equipamentos de diagnóstico e cirúrgicos. Além do consultório oftalmológico, contamos com salas de exames, sala de adaptação de lentes de contato e um centro cirúrgico moderno.
-
-
-            </p>
+            <h4 className="text-clinica text-align-center">Missão</h4>
+              <p class="text-justify-center text-dr">Oferecer tratamento Oftalmológico com que existe de mais moderno e atualizado na oftalmologia mundial</p>
+              <h4 className="text-clinica text-align-center">Visão</h4>
+              <p class="text-justify-center text-dr">Ser o seu oftalmologista de confiança assim como da sua familia,oferecendo o que existe de mais moderno para sua saúde visual. </p>
+              <h4 className="text-clinica text-align-center">Valores</h4>
+              <p class="text-justify-center text-dr">Cuidar do nosso paciente como gostaríamos que cuidasse dos nossos pais e filho;
+                estarm sempre atualizado;
+                <br />
+                Transparência com o paciente;
+                <br />
+                ética
+              </p>
+          
           </div>
 
           <div className="col-lg-4 col-md-6 mb-4 mb-md-0 ">
@@ -28,14 +35,16 @@ const Footer = () => {
 
             <ul className="list-unstyled mb-0">
               <li className="m-1">
-                <p className="text-center">Enderço : Av. Presidente Tancredo de Almeida Neves, 1187-W (em frente ao fórum), 78300-000 Tangará da Serra, MT</p>
+                <p className="text-center">Enderço : Av. Presidente Tancredo de Almeida Neves, 1187-W (em frente ao fórum), Jardim do Lago - Tangará da Serra - MT - CEP  78300-000 </p>
               </li>
               <p className="text-center">Celular : +55 (65) 9627-6197</p>
               <li className="m-1">
+              <p className="text-center">Telefone : +55 (65) 3326-5201</p>
+
               </li>
               <li className="m-1">
                 <address className="text-center">
-                  Email : <a href="mailto:drlucascarazza@gmail.com">drlucascarazza@gmail.com</a>
+                  Email : <a href="mailto:DRLUCASCARAZZA@GMAIL.COM">DRLUCASCARAZZA@GMAIL.COM</a>
                 </address>
 
               </li>
