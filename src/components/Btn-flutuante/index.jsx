@@ -1,13 +1,10 @@
-import React from "react";
+import React,{useEffect} from "react";
 import icon3 from '../images/iconw2.png'
 
 import './style.scss'
 
 
-const
-    BotaoFlutuante = () => {
-
-        window.onscroll = () => { scrollFunction() };
+const  BotaoFlutuante = () => {
 
 
         const scrollFunction = () => {
@@ -17,6 +14,15 @@ const
                 document.getElementById("icon").style.display = "none";
             }
         }
+
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+        window.onscroll = () => { scrollFunction() };
+      }
+   
+    
+  }, []);
         return (
             <div>
                 <a target="_blank" id="icon" href="https://wa.me/556596276197?text=ol%C3%A1%21+gostaria+de+agendar+uma+consulta">

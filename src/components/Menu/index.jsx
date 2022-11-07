@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from "../images/logotipo03.jpeg"
-import { FaNotesMedical, FaUserMd } from "react-icons/fa";
+
 
 
 import './style.scss'
@@ -48,4 +48,4 @@ const Menu = () => {
   );
 }
 
-export default Menu;
+export default Menu; 
