@@ -20,6 +20,7 @@ const Card = () => {
           <Col xs={6} sm={4}>
             <div className="card m-2">
               <img
+              alt="imagem de ocolos"
                 src={img1}
                 className="img-dicas rounded img-thumbnail"
               />
@@ -28,7 +29,8 @@ const Card = () => {
                 <p className="card-text">
                   A principal dica para escolher uma armação é escolher a que...
                 </p>
-                <Link to="/dica-oculos" className="btn btn-primary">
+                <Link to="/dica-ocolos/
+                " className="btn btn-primary">
                   Saiba mais
                 </Link>
               </div>
@@ -37,6 +39,7 @@ const Card = () => {
           <Col xs={6} sm={4}>
             <div className="card m-2">
               <img
+              alt="imagem de lente"
                 className="img-dicas rounded img-thumbnail"
                 src={img2}
               />
@@ -46,7 +49,7 @@ const Card = () => {
                   A catarata é uma doença em que a lente natural do nosso olho
                   per...
                 </p>
-                <Link to="/dica-lentes" className="btn btn-primary">
+                <Link to="/dica-lentes/" className="btn btn-primary">
                   Saiba mais
                 </Link>
               </div>

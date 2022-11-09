@@ -1,5 +1,5 @@
 ---
-slug: "/dica-oculos"
+slug: "/dica-ocolos"
 title: "Como escolher seus óculos?"
 ---
 ![](../../src/images/titulo1.png)
@@ -23,10 +23,10 @@ se vai ficar confortável para o seu formato de nariz. Em geral, asiáticos e
 negros têm a base do nariz menos proeminente, o que dificulta o uso desse
 tipo de armação.
 #### Design das Armações  
-![](../../src/images/oculos1.png)
+![](../../src/images/ocolos1.png)
 ![](../../src/images/ocolo2.png)
-![](../../src/images/oculos3.png)
-![](../../src/images/oculos4.png)  
+![](../../src/images/ocolos3.png)
+![](../../src/images/ocolos4.png)  
 • Rosto redondo: prefira arma-
 ções com linhas retas e forma-
 to retangular.  
@@ -52,7 +52,7 @@ em 3 peças presas com parafusos).
 **Trivex:** é um material também de grande resistência, porém com qualidade
 ópticamelhorqueopolicarbonato.Por isso,éindicadoparacriançasqueprecisam da associação de resistência com uma boa qualidade de visão, já que
 estão em fase dedesenvolvimento visual.
-![](../../src/images/oculos5.jpg) 
+![](../../src/images/ocoloss5.jpg) 
 sem antirreflexo   |    c/antirreflexo
 #### Tratamento das lentes:  
 **Antirreflexo:** é um tratamento que visa minimizar os reflexos indesejáveis
@@ -82,7 +82,7 @@ lente bem prática para uso no dia a dia, mas alguns pacientes preferem ter   2 
 minimiza os efeitos de reflexos do sol sob superfícies como estradas de
 asfalto, água, areia e neve. Com isso, aumenta a sensibilidade ao contraste,
 resultando em melhora tanto do conforto quanto da qualidade visual.
-![](../../src/images/oculos6.jpg) 
+![](../../src/images/ocolos6.jpg) 
 
 # Modelo/Desenho das lentes
 #### Óculos de Visão Simples para longe: 
@@ -99,7 +99,7 @@ Tem como vantagens seu preço mais acessível e um bom campo de visão,
 já que a lente é exclusiva para perto. Como desvantagem, apresenta piora
 da visão intermediária e para longe, sendo necessário tirar e colocar os
 óculos constantemente (ou mesmo olhar por cima dos óculos).
-![](../../src/images/oculos7.jpg) 
+![](../../src/images/ocolos7.jpg) 
 
 **Óculos multifocais**  
 Para os pacientes que apresentam dificuldade tanto para perto
@@ -122,16 +122,16 @@ adequada.
 com seu óptico de confiança o custo x benefício entre as lentes disponíveis.
 Existem diversos tipos de lentes com diferentes qualidade, campo visual,
 preços e qualidade de adaptação (definitivamente as lentes multifocais nãosãotodas iguais!). 
-![](../../src/images/oculos9.png)   
-![](../../src/images/oculos10.png) 
+![](../../src/images/ocolos9.png)   
+![](../../src/images/ocolos10.png) 
 Lente com campo de visão mais restrito | com campo de visão amplo.  
 **Óculos ocupacionais**  
 Para os pacientes que trabalham em ambientes de escritório e
 que precisam de boa visão para perto e intermediária, essa é uma boa alternativa. Por não possuirem campo de visão de longe, têm um maior campo
 de visão intermediário, facilitando principalmente o uso no computador.
 Como desvantagem, não tem visão para longa distância.  
-![](../../src/images/oculos11.jpg)   
-![](../../src/images/oculos12.jpg)  
+![](../../src/images/ocolos11.jpg)   
+![](../../src/images/ocolos12.jpg)  
 
 
  
