@@ -5,6 +5,9 @@ import BotaoFlutuante from "../components/Btn-flutuante"
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Menu from "../components/Menu";
+import Footer from "../components/Footer";
+
 
 export default function Template({
   data,
@@ -13,7 +16,8 @@ export default function Template({
   const { frontmatter, html } = markdownRemark
   return (
     <>
-      <div className="blog-post-container">
+      <div className="blog-post-container d-block">
+        <Menu />
         <Container className='d-block'>
          <h1 className="text-center">{frontmatter.title}</h1>
      <br />
@@ -29,6 +33,7 @@ export default function Template({
           </Row>
         </Container>
         <BotaoFlutuante />
+        <Footer />
       </div>
     </>
   )
