@@ -17,11 +17,15 @@ export default function Template({
   return (
     <>
       <div className="blog-post-container d-block">
-        <Menu />
         <Container className='d-block'>
-         <h1 className="text-center">{frontmatter.title}</h1>
-     <br />
-     <br />    
+          <Menu />
+          <br />
+          <br />
+          <br />
+          <br />
+          <h1 className="text-center">{frontmatter.title}</h1>
+          <br />
+          <br />
           <Row>
             <Col className="blog-post ">
               <div
