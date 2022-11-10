@@ -2,26 +2,34 @@ import React from "react"
 import { graphql } from "gatsby";
 
 import BotaoFlutuante from "../components/Btn-flutuante"
-
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 export default function Template({
-  data, 
+  data,
 }) {
-  const { markdownRemark } = data 
+  const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
   return (
     <>
-    <BotaoFlutuante />
-    <div className="blog-post-container">
-      <div className="blog-post col-4 text-left" >
-        <h1>{frontmatter.title}</h1>
-        <h2>{frontmatter.date}</h2>
-        <div
-          className="blog-post-content"
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
+      <div className="blog-post-container">
+        <Container className='d-block'>
+         <h1 className="text-center">{frontmatter.title}</h1>
+     <br />
+     <br />    
+          <Row>
+            <Col className="blog-post ">
+              <div
+                className="blog-post-content text-right"
+                dangerouslySetInnerHTML={{ __html: html }}
+              />
+
+            </Col>
+          </Row>
+        </Container>
+        <BotaoFlutuante />
       </div>
-    </div>
     </>
   )
 }

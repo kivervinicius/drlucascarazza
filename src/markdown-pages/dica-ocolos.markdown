@@ -1,5 +1,5 @@
 ---
-slug: "/dica-ocolos"
+slug: "/dica-oculos"
 title: "Como escolher seus óculos?"
 ---
 ![](../../src/images/titulo1.png)
