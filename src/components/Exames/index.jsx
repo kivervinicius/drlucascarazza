@@ -147,8 +147,8 @@ const Exames = () => {
   ];
   return (
     <>
-      <div className='container-exame "d-flex justify-content-center'>
-        <Container >
+      <div className='container-exame d-flex justify-content-center'>
+        <Container classeName="d-block" >
           <h1 className="text-tratamento text-center">EXAMES</h1>
           <Row xs={12} md={12} lg={12}>
             ({consultas.map((item) => {

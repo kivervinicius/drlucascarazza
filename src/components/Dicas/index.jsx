@@ -17,10 +17,10 @@ const Card = () => {
         </div>
         {/* <div className="card-container d-flex justify-content-center"> */}
         <Row>
-          <Col xs={6} sm={4}>
+          <Col xs={12} sm={4}>
             <div className="card m-2">
               <img
-              alt="imagem de ocolos"
+              alt="imagem de óculos"
                 src={img1}
                 className="img-dicas rounded img-thumbnail"
               />
@@ -29,14 +29,14 @@ const Card = () => {
                 <p className="card-text">
                   A principal dica para escolher uma armação é escolher a que...
                 </p>
-                <Link to="/dica-ocolos/
-                " className="btn btn-primary">
+                <Link to="/dica-oculos/"
+                  className="btn btn-primary">
                   Saiba mais
                 </Link>
               </div>
             </div>
           </Col>
-          <Col xs={6} sm={4}>
+          <Col xs={12} sm={4}>
             <div className="card m-2">
               <img
               alt="imagem de lente"
