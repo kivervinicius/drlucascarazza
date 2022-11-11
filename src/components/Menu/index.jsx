@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React,{useEffect} from 'react';
 
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -12,9 +12,26 @@ import './style.scss'
 
 const Menu = () => {
 
+  const scrollFunction = () => {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20 && document.documentElement.scrollTop < 2700) {
+        document.getElementById("icon").style.display = "block";
+    } else {
+        document.getElementById("icon").style.display = "none";
+    }
+}
+
+
+useEffect(() => {
+if (typeof window !== 'undefined') {
+window.onscroll = () => { scrollFunction() };
+}
+
+
+}, []);
+
   return (
     <>
-      <Navbar bg="light" expand="lg" className="fixed-top">
+      <Navbar collapseOnSelect expand="lg" bg="light"  className="fixed-top">
         <Container fluid className="container-menu justify-content-between">
           <Navbar.Brand href="/">
             <img
@@ -25,12 +42,11 @@ const Menu = () => {
               alt="React Bootstrap logo"
             />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbarScroll" />
-          <Navbar.Collapse id="navbarScroll">
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
             <Nav
               className="me-auto my-2 my-lg-0"
-              style={{ maxHeight: '100px' }}
-              navbarScroll
+            
             >
               <Nav.Link href="./#"> SOBRE MIM</Nav.Link>
               <Nav.Link href="./exames">  EXAMES </Nav.Link>
