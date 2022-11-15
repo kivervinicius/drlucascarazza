@@ -4,7 +4,7 @@ import "./style.scss"
 const SobreOdr = () => {
   return (
     <>
-      <div className="container-dr">
+      <div id="sobre-mim" className="container-dr">
         <div className="d-flex justify-content-center">
           <img src={imgdr} alt="Dr Lucas Carazza" className="img-dr rounded-circle"></img>
           <div className="d-block text-justify p-2 col-12 col-md-6">

@@ -10,7 +10,7 @@ import { Link } from "gatsby";
 
 const Card = () => {
   return (
-    <div className="container-dicas">
+    <div id="dicas" className="container-dicas">
       <div className="container d-block">
         <div>
           <h1 className="text-card">DICAS</h1>

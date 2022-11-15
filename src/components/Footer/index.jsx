@@ -10,7 +10,7 @@ import icon4 from '../images/gmail.png'
 const Footer = () => {
   return (
 
-    <footer className="footer-container  text-white text-center text-lg-start ">
+    <footer id="footer" className="footer-container  text-white text-center text-lg-start ">
       <div className="container d-flex justify-content-between p-4">
         <div className="row">
           <div className="col-lg-4 col-md-12 mb-3 mb-md-0 ">

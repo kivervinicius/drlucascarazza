@@ -8,7 +8,7 @@ import { Row, Col } from "react-bootstrap";
 import "./style.scss"
 const SobreAcl = () => {
   return (
-    <div class="container-clinica">
+    <div id="clinica" class="container-clinica">
       <div className="container container-md d-flex justify-content-around">
         <Row>
           <Col xs={12} md={5}>

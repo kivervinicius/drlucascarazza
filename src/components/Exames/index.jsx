@@ -147,22 +147,22 @@ const Exames = () => {
   ];
   return (
     <>
-      <div className='container-exame d-flex justify-content-center'>
-        <Container classeName="d-block" >
+      <div className='container-exame  justify-content-center'>
+      <Container className='d-block'>
           <h1 className="text-tratamento text-center">EXAMES</h1>
           <Row xs={12} md={12} lg={12}>
             ({consultas.map((item) => {
               return (
                 <>
-                  <Col key={item.id}>
+                  <Col key={item.id} xs={12} md={2} lg={3}>
                     <img
-                      className="d-flex justify-content-center"
-                      width="190"
+                      className="d-flex img-exame justify-content-center"
+                      width="180"
                       height="100"
                       src={img}
-                      alt="React Bootstrap logo"
+                      alt="lucas carazza logo"
                     />
-                    <p className="text text-center col-11">
+                    <p className="text text-center">
                       {item.name}
                     </p>
                   </Col>

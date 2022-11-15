@@ -5,7 +5,7 @@ import "./style.scss";
 
 const Banner = () => {
   return (
-    <div className="banner">
+    <div id="banner" className="banner">
       <div className="logo">
         <img
           src={logo}
