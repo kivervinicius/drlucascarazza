@@ -31,20 +31,20 @@ const Footer = () => {
           </div>
 
           <div className="col-lg-4 col-md-6 mb-4 mb-md-0 ">
-            <h5 className="text-uppercase border-bottom border-dark text-center">CONTATOS</h5>
+            <h5 className="text-uppercase border-bottom border-dark text-center">CONTATO</h5>
 
             <ul className="list-unstyled mb-0">
               <li className="m-1">
-                <p className="text-center">Enderço : Av. Presidente Tancredo de Almeida Neves, 1187-W (em frente ao fórum), Jardim do Lago - Tangará da Serra - MT - CEP  78300-000 </p>
+                <p className="text-center">Endereço: Av. Presidente Tancredo de Almeida Neves, 1187-W (em frente ao fórum), Jardim do Lago - Tangará da Serra - MT - CEP  78300-000 </p>
               </li>
-              <p className="text-center">Celular : +55 (65) 9627-6197</p>
+              <p className="text-center">Celular: (65) 9627-6197</p>
               <li className="m-1">
-              <p className="text-center">Telefone : +55 (65) 3326-5201</p>
+              <p className="text-center">Telefone: (65) 3326-5201</p>
 
               </li>
               <li className="m-1">
                 <address className="text-center">
-                  Email : <a href="mailto:DRLUCASCARAZZA@GMAIL.COM">DRLUCASCARAZZA@GMAIL.COM</a>
+                  Email : <a href="mailto:drlucascarazza@gmail.com">drlucascarazza@gmail.com</a>
                 </address>
 
               </li>
@@ -63,15 +63,15 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="icons-footer  p-3 d-flex justify-content-between" >
-        <div>
-          © 2022 Copyright
+      <div className="icons-footer  p-3" >
+        <div className="text-center">
+          © Copyright {new Date().getFullYear()}. Dr Lucas Carazza - Todos Direitos Reservados
         </div>
         <div className="d-flex justify-content-around">
           <ul className="d-flex justify-content-around">
             <li className="m-1">
               <a target="_blank" href="mailto:drlucascarazza@gmail.com">
-                <img src={icon4} alt="icone do do email" />
+                <img src={icon4} alt="icone do email" />
               </a>
             </li>
             <li className="m-1">

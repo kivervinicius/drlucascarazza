@@ -4,15 +4,16 @@
 @import "bootstrap/scss/mixins";
 
 .container-clinica {
-    background-color:  #021933;
+    background-color: #021933;
 
     .d-flex {
-        @include media-breakpoint-down(lg) {  
+        @include media-breakpoint-down(lg) {
             // flex-direction: column;
             padding-top: 1rem;
         }
     }
 }
+
 .container {
     display: flex;
     align-items: center;
@@ -20,54 +21,63 @@
     min-height: 560px;
 }
 
-.text-clinica{
+.text-clinica {
     text-align: center;
     color: white;
 }
+
 .img-clinica {
     width: 350px;
     margin: .2rem;
 
 }
-.text-dr{
+
+.text-dr {
     font-size: 1rem;
     color: white;
 }
 
-.blog-post-container{
+.blog-post-container {
     background-color: #113155;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-   
+
 }
-.blog-post-content{
-color: white;
+
+.blog-post-content {
+    // color: white;
 }
-.text-clinica{
+
+.text-clinica {
     text-align: center;
+
+
+    // &h1 {
+        // color: #73ff00 !important;
+    // }
 }
+
 .img-clinica {
     width: 350px;
 
 }
-.text-dr{
+
+.text-dr {
     font-size: 1rem;
-    color: white;
+    // color: white;
 }
 
-h1{
-    color: #73ff00
+h4 {
+    // color: greenyellow;
 }
-h4{
-    color: greenyellow;
+
+strong {
+    // color: green;
+
 }
-strong{
-    color: green;
-    
-}
+
 a {
     text-decoration: none;
 }
-

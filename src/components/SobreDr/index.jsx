@@ -9,7 +9,7 @@ const SobreOdr = () => {
           <img src={imgdr} alt="Dr Lucas Carazza" className="img-dr rounded-circle"></img>
           <div className="d-block text-justify p-2 col-12 col-md-6">
             <h1 className="">SOBRE MIM</h1>
-            <h4 className="">DR. LUCAS CARAZZA <br /> MÉDICO OFTAMOLOGISTA </h4>
+            <h4 className="">DR. LUCAS CARAZZA <br /> MÉDICO OFTALMOLOGISTA </h4>
 
             <p className="text-dr "> Graduado em Medicina na Universidade
               Federal de Minas Gerais UFMG

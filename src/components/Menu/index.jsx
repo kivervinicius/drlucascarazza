@@ -37,14 +37,14 @@ useEffect(() => {
               className="me-auto my-2 my-lg-0"
             
             >
-              <Nav.Link href="#banner"> INICIO</Nav.Link>
+              <Nav.Link href="./"> INICIO</Nav.Link>
               <Nav.Link href="#sobre-mim"> SOBRE MIM</Nav.Link>
-              <Nav.Link href="./exames" disabled>  EXAMES </Nav.Link>
-              <Nav.Link href="./#" disabled>DOENÇAS OCULARES</Nav.Link>
-              <Nav.Link href="./tratamento" disabled>TRATAMENTOS E CIRURGIAS</Nav.Link>
+              <Nav.Link href="./exames">  EXAMES </Nav.Link>
+              <Nav.Link href="./#">DOENÇAS OCULARES</Nav.Link>
+              <Nav.Link href="./tratamento">TRATAMENTOS E CIRURGIAS</Nav.Link>
               <Nav.Link href="#dicas">DICAS</Nav.Link>
-              <Nav.Link href="#footer">CONTATOS</Nav.Link>
-
+              <Nav.Link href="#footer">CONTATO</Nav.Link>
+              {/* Sobre mim / Exames / Doenças oculares/ Cirurgias e tratamentos (mesmo tópico)/Dicas/ Contato  */}
             </Nav>
           </Navbar.Collapse>
         </Container>

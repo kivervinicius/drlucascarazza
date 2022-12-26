@@ -5,12 +5,9 @@ import Menu from "../components/Menu"
 import Footer from "../components/Footer"
 import BotaoFlutuante from "../components/Btn-flutuante"
 
-
-
-
-
 import SobreAcl from "../components/Sobre-clinica"
 import Banner from '../components/Banner'
+import "./index.scss";
 
 const IndexPage = () => {
   return (
@@ -32,4 +29,4 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>DR.LUCAS CARAZZA | MEDICO OFTAMOLOGISTA </title>
+export const Head = () => <title>DR.LUCAS CARAZZA | MEDICO OFTALMOLOGISTA </title>
