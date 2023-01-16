@@ -11,7 +11,7 @@ const Banner = () => {
           src={logo}
           width="369"
           height="200"
-          alt="Dr Lucas Carazza"
+          alt="Dr. Lucas Carazza"
           className="img-fluid"
         ></img>
       </div>

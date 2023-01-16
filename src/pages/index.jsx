@@ -29,4 +29,4 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>DR.LUCAS CARAZZA | MEDICO OFTALMOLOGISTA </title>
+export const Head = () => <title>Dr. Lucas Carazza | Médico Oftalmologista </title>

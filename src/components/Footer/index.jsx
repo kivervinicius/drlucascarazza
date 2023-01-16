@@ -10,11 +10,10 @@ import icon4 from '../images/gmail.png'
 const Footer = () => {
   return (
 
-    <footer id="footer" className="footer-container  text-white text-center text-lg-start ">
+    <footer id="footer" className="footer-container text-center text-lg-start ">
       <div className="container d-flex justify-content-between p-4">
         <div className="row">
           <div className="col-lg-4 col-md-12 mb-3 mb-md-0 ">
-            <h5 className="text-uppercase border-bottom border-dark text-center">SOBRE</h5>
             <h4 className="text-clinica text-align-center">Missão</h4>
               <p class="text-justify-center text-dr">Oferecer tratamento Oftalmológico com que existe de mais moderno e atualizado na oftalmologia mundial</p>
               <h4 className="text-clinica text-align-center">Visão</h4>
@@ -31,13 +30,14 @@ const Footer = () => {
           </div>
 
           <div className="col-lg-4 col-md-6 mb-4 mb-md-0 ">
-            <h5 className="text-uppercase border-bottom border-dark text-center">CONTATO</h5>
+            <h4 className="text-center">Contato</h4>
 
             <ul className="list-unstyled mb-0">
               <li className="m-1">
-                <p className="text-center">Endereço: Av. Presidente Tancredo de Almeida Neves, 1187-W (em frente ao fórum), Jardim do Lago - Tangará da Serra - MT - CEP  78300-000 </p>
+                <p className="text-center">Endereço: Av. Presidente Tancredo de Almeida Neves, 1187-W (em frente ao fórum)</p>
+                <p className="text-center">Jardim do Lago - Tangará da Serra - MT - CEP  78302-028 </p>
               </li>
-              <p className="text-center">Celular: (65) 9627-6197</p>
+              <p className="text-center">Celular: (65) 9.9627-6197</p>
               <li className="m-1">
               <p className="text-center">Telefone: (65) 3326-5201</p>
 
