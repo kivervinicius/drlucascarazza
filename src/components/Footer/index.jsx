@@ -38,7 +38,7 @@ const Footer = () => {
               </li>;
               <p className="text-center">Celular: <a href="tel:+5565996276197">(65) 9.9627-6197</a></p>
               <li className="m-1">
-              <p className="text-center">Telefone: (65) 3326-5201</p>
+              <p className="text-center">Telefone: <a href="tel:+556533265201">(65) 3326-5201</a></p>
 
               </li>
               <li className="m-1">
