@@ -34,8 +34,7 @@ const Footer = () => {
 
             <ul className="list-unstyled mb-0">
               <li className="m-1">
-                <p className="text-center">Endereço: Av. Presidente Tancredo de Almeida Neves, 1187-W (em frente ao fórum)</p>
-                <p className="text-center">Jardim do Lago - Tangará da Serra - MT - CEP  78302-028 </p>
+                <p className="text-center">Endereço: Av. Presidente Tancredo de Almeida Neves, 1187-W (em frente ao fórum) <br/>Jardim do Lago - Tangará da Serra - MT - CEP  78302-028 </p>
               </li>
               <p className="text-center">Celular: (65) 9.9627-6197</p>
               <li className="m-1">
