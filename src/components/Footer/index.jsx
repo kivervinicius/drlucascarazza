@@ -43,7 +43,7 @@ const Footer = () => {
               </li>
               <li className="m-1">
                 <address className="text-center">
-                  Email : <a href="mailto:drlucascarazza@gmail.com">drlucascarazza@gmail.com</a>
+                  Email : <a href="mailto:drlucas@drlucascarazza.com.br">drlucas@drlucascarazza.com.br</a>
                 </address>
 
               </li>
@@ -69,7 +69,7 @@ const Footer = () => {
         <div className="d-flex justify-content-around">
           <ul className="d-flex justify-content-around">
             <li className="m-1">
-              <a target="_blank" href="mailto:drlucascarazza@gmail.com">
+              <a target="_blank" href="mailto:drlucas@drlucascarazza.com.br">
                 <img src={icon4} alt="icone do email" />
               </a>
             </li>
