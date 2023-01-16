@@ -8,29 +8,26 @@ const SobreOdr = () => {
         <div className="d-flex justify-content-center">
           <img src={imgdr} alt="Dr Lucas Carazza" className="img-dr rounded-circle"></img>
           <div className="d-block text-justify p-2 col-12 col-md-6">
-            <h1 className="">SOBRE MIM</h1>
-            <h4 className="">DR. LUCAS CARAZZA <br /> MÉDICO OFTALMOLOGISTA </h4>
+            <h1 className="">Dr. Lucas Carazza</h1>
+            <h4 className="">Médico Oftalmologista </h4>
 
-            <p className="text-dr "> Graduado em Medicina na Universidade
-              Federal de Minas Gerais UFMG
-              <br />
-              Residência Médica em Oftalmologia pelo Hospital das Clínicas da  UFMG
-              <br />
-              Título de Especialista em Oftamologia pelo MEC e Conselho Brasileiro de oftmologia (CBO)
-              <br />
-              Título de Especialista em Oftamologia peel Conselho Internacional de oftmologia (ICO)
+            <ul className="text-dr "> 
+              <li>Graduado em Medicina na Universidade
+              Federal de Minas Gerais(UFMG).</li>
+              
+              <li>Residência Médica em Oftalmologia pelo Hospital das Clínicas da UFMG.</li>
+              
+              <li>Título de Especialista em Oftamologia pelo MEC e Conselho Brasileiro de oftmologia (CBO)</li>
+              
+              <li>Título de Especialista em Oftamologia peel Conselho Internacional de oftmologia (ICO)</li>
 
-              <br />
-              Fellowship  em Glaucoma pelo
-              Hospital das Clínicas da  UFMG
-              <br />
-              Fellow
-              ship  em Retina pelo
-              Hospital das Clínicas da  UFMG
-              <br />
-              Fellowship em Córnea, catarata e Cirurgia Refrativa
-              pelo Hospital das Clínicas da  UFMG
-            </p>
+              <li>Fellowship  em Glaucoma pelo
+              Hospital das Clínicas da UFMG</li>
+              <li>Fellowship  em Retina pelo
+              Hospital das Clínicas da  UFMG</li>
+              <li>Fellowship em Córnea, catarata e Cirurgia Refrativa
+              pelo Hospital das Clínicas da  UFMG</li>
+            </ul>
 
           </div>
 
