@@ -10,11 +10,11 @@ import icon4 from '../images/gmail.png'
 const Footer = () => {
   return (
 
-    <footer id="footer" className="footer-container text-center text-lg-start ">
+    <footer id="footer" className="footer-container text-center text-lg-start  ">
       <div className="container d-flex justify-content-between p-4">
         <div className="row">
           <div className="col-lg-4 col-md-12 mb-3 mb-md-0 ">
-            <h4 className="text-clinica text-align-center">Missão</h4>
+            <h4 className="text-clinica text-align-center text-uppercase border-bottom border-dark mb-0">Missão</h4>
               <p class="text-justify-center text-dr">Oferecer tratamento Oftalmológico com que existe de mais moderno e atualizado na oftalmologia mundial</p>
               <h4 className="text-clinica text-align-center">Visão</h4>
               <p class="text-justify-center text-dr">Ser o seu oftalmologista de confiança assim como da sua familia,oferecendo o que existe de mais moderno para sua saúde visual. </p>
@@ -30,7 +30,7 @@ const Footer = () => {
           </div>
 
           <div className="col-lg-4 col-md-6 mb-4 mb-md-0 ">
-            <h4 className="text-center">Contato</h4>
+            <h4 className="text-uppercase border-bottom border-dark mb-0 text-center">Contato</h4>
 
             <ul className="list-unstyled mb-0">
               <li className="m-1">
