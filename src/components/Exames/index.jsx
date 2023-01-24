@@ -25,7 +25,8 @@ const Exames = () => {
     },
     {
       id: 4,
-      name: 'Biomicroscopia (avaliação com biomicroscópio e lentes especiais da anatomia do segmento anterior e posterior do olho)',
+      name: 'Biomicroscopia',
+      nikName:'(avaliação com biomicroscópio e lentes especiais da anatomia do segmento anterior e posterior do olho)',
       url: "https://usophthalmic.com/products/hs-5000-5x"
     },
     {
@@ -52,7 +53,8 @@ const Exames = () => {
 
     {
       id: 9,
-      name: 'Teste de estereopsia (avaliação da visão tridimensional)',
+      name: 'Teste de estereopsia',
+      nikName:'(avaliação da visão tridimensional)',
       url: "https://descricao.com.br/produto/teste-de-daltonismo-ishihara/?utm_source=Google%20Shopping&utm_campaign=Google%20Shopping&utm_medium=cpc&utm_term=43366&gclid=Cj0KCQiAzfuNBhCGARIsAD1nu-_9Ve8Dlo9_KWVia1NOng89VeWXH79zOVr-EPnyOBSQTBPk2mPtfyYaAszpEALw_wcB"
     },
     {

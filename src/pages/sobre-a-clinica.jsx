@@ -57,7 +57,16 @@ const SobreAclinica = () => {
         <Menu />
         <div id="clinica" class="container-clinica-page p-5 mt-5">
           <Row>
-            <Col xs={12} md={5} onClick={() => setIsOpen(true)}>
+            <Col md={7}>
+              <div className="text-center" >
+
+                <h1 className="text-clinica text-center">Sobre a clínica</h1>
+                <p className="text-clinica text-center" >
+                  Nosso consultório fica em um moderno espaço em uma das principais avenidas de Tangará da Serra, dentro da Clínica Instituto da Visão, em frente ao Fórum Municipal e possuímos os mais modernos equipamentos de diagnóstico e cirúrgicos. Além do consultório oftalmológico, contamos com salas de exames, sala de adaptação de lentes de contato e um centro cirúrgico moderno.
+                </p>
+              </div>
+            </Col>
+            <Col xs={12} md={5} >
               <Row>
                 <Col xs={6} md={12} lg={6}>
                   <img alt="foto da clinica" src={img1} className="img-clinica img-thumbnail img-fluid"></img>
@@ -72,16 +81,6 @@ const SobreAclinica = () => {
                   <img alt="foto da clinica" src={img4} className="img-clinica img-thumbnail img-fluid"></img>
                 </Col >
               </Row>
-            </Col>
-
-            <Col md={6}>
-              <div className="text-center" >
-
-                <h1 className="text-clinica text-center">Sobre a clínica</h1>
-                <p className="text-clinica text-center" >
-                  Nosso consultório fica em um moderno espaço em uma das principais avenidas de Tangará da Serra, dentro da Clínica Instituto da Visão, em frente ao Fórum Municipal e possuímos os mais modernos equipamentos de diagnóstico e cirúrgicos. Além do consultório oftalmológico, contamos com salas de exames, sala de adaptação de lentes de contato e um centro cirúrgico moderno.
-                </p>
-              </div>
             </Col>
           </Row>
           <Row>
@@ -106,7 +105,7 @@ const SobreAclinica = () => {
                   <img alt="foto da clinica" src={img19} className="img-clinica img-thumbnail img-fluid"></img>    
                 </Col >
                 <Stack gap={2} className="col-md-3 mx-auto pt-3">
-                 <Button onClick={() => setIsOpen(true)} variant="outline-primary">Ver todas as fotos</Button>
+                 <Button  onClick={() => setIsOpen(true)} variant="light">Ver todas as fotos</Button>
               </Stack>
               </Row>
             </Col>

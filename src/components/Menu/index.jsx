@@ -1,5 +1,5 @@
 
-import React,{useEffect} from 'react';
+import React,{useEffect, useState} from 'react';
 
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -11,11 +11,15 @@ import  scrolTo   from '../../utils/redirectSection';
 import './style.scss'
 
 const Menu = () => {
+const[pathNameUrl, setPathNameUrl] = useState("");
+// console.log(pathNameUrl,"aqui");
 
 useEffect(() => {
 
   scrolTo();
 
+ const pathName  = document.location.pathname;
+setPathNameUrl(pathName);
 }, []);
 
   return (
@@ -37,12 +41,12 @@ useEffect(() => {
               className="me-auto my-2 my-lg-0"
             
             >
-              <Nav.Link href="./"> INICIO</Nav.Link>
-              <Nav.Link href="#sobre-mim"> SOBRE MIM</Nav.Link>
+              <Nav.Link href="./" > INICIO</Nav.Link>
+              <Nav.Link href="#sobre-mim" className={pathNameUrl === "/exames/" ?  "desative" : ""}> SOBRE MIM</Nav.Link>
               <Nav.Link href="./exames">  EXAMES </Nav.Link>
               <Nav.Link href="./#">DOENÇAS OCULARES</Nav.Link>
               <Nav.Link href="./tratamento">TRATAMENTOS E CIRURGIAS</Nav.Link>
-              <Nav.Link href="#dicas">DICAS</Nav.Link>
+              <Nav.Link href="#dicas" className={pathNameUrl === "/exames/" ?  "desative" : ""} >DICAS</Nav.Link>
               <Nav.Link href="#footer">CONTATO</Nav.Link>
               {/* Sobre mim / Exames / Doenças oculares/ Cirurgias e tratamentos (mesmo tópico)/Dicas/ Contato  */}
             </Nav>

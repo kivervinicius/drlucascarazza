@@ -1,6 +1,6 @@
 
     #icon {
-        display: none;
+        // display: none;
         position: fixed;
         bottom: 60px;
         right: 7px;
@@ -8,9 +8,16 @@
         border: none;
         outline: none;
         cursor: pointer;
-        border-radius: 10px;
+        border-radius: 0px;
         border-radius: 50%;
-      
+        
+      }
+
+      #icon img{
+        height: 68px;
+        width: 68px;
+        border-radius: 50%;
+
       }
       
       #icon:hover {
@@ -34,15 +41,15 @@
       @keyframes glowing {
         0% {
           // background-color: rgba(7, 228, 18, 0.336);;
-          box-shadow: 0 0 5px rgba(7, 228, 18, 0.336);;
+          box-shadow: 0 0 5px rgb(7, 228, 18);;
         }
         50% {
           // background-color: rgba(7, 228, 18, 0.521);;
-          box-shadow: 0 0 20px rgba(7, 228, 18, 0.568);;
+          box-shadow: 0 0 20px rgb(7, 228, 18);;
         }
         100% {
           // background-color: rgba(7, 228, 18, 0.336);;
-          box-shadow: 0 0 5px rgba(7, 228, 18, 0.336);;
+          box-shadow: 0 0 5px rgb(7, 228, 18);;
         }
       }
       #icon {

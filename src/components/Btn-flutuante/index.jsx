@@ -1,5 +1,5 @@
 import React,{useEffect} from "react";
-import icon3 from '../images/iconw2.png'
+import icon3 from "../images/whatsIcon.png"
 
 import './style.scss'
 

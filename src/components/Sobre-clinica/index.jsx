@@ -38,8 +38,8 @@ const SobreAcl = () => {
               <p className="text-clinica text-center" >
                 Nosso consultório fica em um moderno espaço em uma das principais avenidas de Tangará da Serra, dentro da Clínica Instituto da Visão, em frente ao Fórum Municipal e possuímos os mais modernos equipamentos de diagnóstico e cirúrgicos. Além do consultório oftalmológico, contamos com salas de exames, sala de adaptação de lentes de contato e um centro cirúrgico moderno.
               </p>
-              <Stack gap={2} className="col-md-5 mx-auto">
-                 <Button  href="/sobre-a-clinica" variant="outline-primary">Saiba mais</Button>
+              <Stack gap={2} className="col-md-5 mx-auto pb-3">
+                 <Button  href="/sobre-a-clinica" variant="light">Saiba mais</Button>
               </Stack>
             </div>
           </Col>
