@@ -41,12 +41,14 @@ setPathNameUrl(pathName);
               className="me-auto my-2 my-lg-0"
             
             >
-              <Nav.Link href="./" > INICIO</Nav.Link>
-              <Nav.Link href="#sobre-mim" className={pathNameUrl === "/exames/" ?  "desative" : ""}> SOBRE MIM</Nav.Link>
-              <Nav.Link href="./exames">  EXAMES </Nav.Link>
+              <Nav.Link href="./#
+              "   > INICIO</Nav.Link>
+              <Nav.Link href="#sobre-mim"  className={pathNameUrl !== "/" ?  "desative" : ""}> SOBRE MIM</Nav.Link>
+              <Nav.Link href="./sobre-a-clinica"  > SOBRE A CLINICA </Nav.Link>
+              <Nav.Link href="./exames" >  EXAMES </Nav.Link>
               <Nav.Link href="./#">DOENÇAS OCULARES</Nav.Link>
               <Nav.Link href="./tratamento">TRATAMENTOS E CIRURGIAS</Nav.Link>
-              <Nav.Link href="#dicas" className={pathNameUrl === "/exames/" ?  "desative" : ""} >DICAS</Nav.Link>
+              <Nav.Link href="#dicas" className={pathNameUrl !== "/" ?  "desative" : ""} >DICAS</Nav.Link>
               <Nav.Link href="#footer">CONTATO</Nav.Link>
               {/* Sobre mim / Exames / Doenças oculares/ Cirurgias e tratamentos (mesmo tópico)/Dicas/ Contato  */}
             </Nav>
