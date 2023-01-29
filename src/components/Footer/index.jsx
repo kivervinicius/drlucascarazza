@@ -1,9 +1,9 @@
 import React from "react";
 import './style.scss'
-import icon1 from '../images/instagram.png'
-import icon2 from '../images/facebook.png'
-import icon3 from '../images/whatsapp.png'
-import icon4 from '../images/gmail.png'
+import icon1 from '../images/insta-footer.png'
+import icon2 from '../images/face-footer.png'
+import icon3 from '../images/whats-footer.png'
+import icon4 from '../images/gmail-footer.png'
 
 
 
@@ -51,7 +51,7 @@ const Footer = () => {
           </div>
 
           <div className="col-lg-4 col-md-6 mb-4 mb-md-0  ">
-            <h5 className="text-uppercase border-bottom border-dark mb-0 text-center">LOCALIZAÇÃO</h5>
+            <h4 className="text-uppercase border-bottom border-dark mb-0 text-center">LOCALIZAÇÃO</h4>
 
             <ul className="list-unstyled">
               <li className="m-1">
@@ -70,22 +70,22 @@ const Footer = () => {
           <ul className="d-flex justify-content-around">
             <li className="m-1">
               <a target="_blank" href="mailto:drlucas@drlucascarazza.com.br">
-                <img src={icon4} alt="icone do email" />
+                <img className="img-icon-footer" src={icon4} alt="icone do email" />
               </a>
             </li>
             <li className="m-1">
               <a target="_blank" href="https://instagram.com/drlucascarazza?igshid=YmMyMTA2M2Y=">
-                <img src={icon1} alt="icone do istagram" />
+                <img className="img-icon-footer" src={icon1} alt="icone do istagram" />
               </a>
             </li>
             <li className="m-1" >
               <a target="_blank" href="https://www.facebook.com/drlucascarazza?igshid=YmMyMTA2M2Y=">
-                <img src={icon2} alt="icone do facebook" />
+                <img className="img-icon-footer" src={icon2} alt="icone do facebook" />
               </a>
             </li>
             <li className="m-1" >
               <a target="_blank" href="https://wa.me/556596276197?text=ol%C3%A1%21+gostaria+de+agendar+uma+consulta">
-                <img src={icon3} alt="icone do whatssap" />
+                <img  className="img-icon-footer" src={icon3} alt="icone do whatssap" />
               </a>
             </li>
           </ul>

@@ -44,8 +44,8 @@ setPathNameUrl(pathName);
               <Nav.Link href="./#
               "   > INICIO</Nav.Link>
               <Nav.Link href="#sobre-mim"  className={pathNameUrl !== "/" ?  "desative" : ""}> SOBRE MIM</Nav.Link>
-              <Nav.Link href="./sobre-a-clinica"  > SOBRE A CLINICA </Nav.Link>
-              <Nav.Link href="./exames" >  EXAMES </Nav.Link>
+              <Nav.Link href="./sobre-a-clinica/"  > SOBRE A CLINICA </Nav.Link>
+              <Nav.Link href="./exames/" >  EXAMES </Nav.Link>
               <Nav.Link href="./#">DOENÇAS OCULARES</Nav.Link>
               <Nav.Link href="./tratamento">TRATAMENTOS E CIRURGIAS</Nav.Link>
               <Nav.Link href="#dicas" className={pathNameUrl !== "/" ?  "desative" : ""} >DICAS</Nav.Link>
