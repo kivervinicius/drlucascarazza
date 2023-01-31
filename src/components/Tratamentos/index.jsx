@@ -5,50 +5,20 @@ import imgd from "../images/icon.png"
 import logo from "../images/icon.png"
 import Carousel from 'react-bootstrap/Carousel';
 import "./style.scss"
+import Banner from '../Banner-cirurgias';
 
 
 
 
-const SlideShow = () => {
-  const [index, setIndex] = useState(0);
-  const handleSelect = (selectedIndex, e) => {
-    setIndex(selectedIndex);
-  };
+const CirurgiasEtratamento = () => {
+  
   return (
-    <>
-      <div className='container-carousel'>
-        <h3 className='text text-align-center'>Exames</h3>
-        <Carousel activeIndex={index} onSelect={handleSelect}>
-          <Carousel.Item>
-            <img
-              className="imdc d-block"
-              src={imgdr}
-              alt="First slide"
-            />
-
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="imdc d-block "
-              src={logo}
-              alt="Second slide"
-            />
-
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="imdc d-block "
-              src={imgd}
-              alt="Third slide"
-            />
-          </Carousel.Item>
-        </Carousel>
-      </div>
-    </>
+  <>
+  </>
   );
 }
 
-export default SlideShow;
+export default CirurgiasEtratamento;
 
 
 //     return(

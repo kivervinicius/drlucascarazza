@@ -6,6 +6,7 @@ const ConsultaPage = () => {
     return (
         <>
             <Menu />
+            <Banner />
             <Tratamento />
             <Footer />
 

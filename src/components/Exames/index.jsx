@@ -79,11 +79,13 @@ const Exames = () => {
     name: 'Tonometria convencional  (medida da pressão dos olhos)',
     url: "https://www.keelerusa.com/products/tonometry/kat-tonometer-type-r.html"
   },
+
   {
-    id: 12,
-    name: 'Tonometria de sopro com tecnologia Corneal response technology',
-    url: "https://www.medicalexpo.com/pt/prod/topcon-europe-medical/product-77876-471210.html"
+    id: 23,
+    name: '  Oct Retina',
+    url: " https://www.medicalexpo.com/pt/prod/tomey/product-77872-496896.html"
   },
+ 
 ]
   var consultas2 = [
 
@@ -145,20 +147,21 @@ const Exames = () => {
       name: ' Paquimetria',
       url: "https://www.medicalexpo.com/pt/prod/tomey/product-77872-496896.html"
     },
+    
+    
+    {
+      id: 12,
+      name: 'Tonometria de sopro com tecnologia Corneal response technology',
+      url: "https://www.medicalexpo.com/pt/prod/topcon-europe-medical/product-77876-471210.html"
+    },
+    
     {
       //  1.3 Retina:
       id: 22,
       name: ' Angioflueresceinografia',
       url: " https://www.medicalexpo.com/pt/prod/tomey/product-77872-496896.html"
     },
-
-
-    {
-      id: 23,
-      name: '  Oct Retina',
-      url: " https://www.medicalexpo.com/pt/prod/tomey/product-77872-496896.html"
-    },
-
+    
   ];
   return (
     <>

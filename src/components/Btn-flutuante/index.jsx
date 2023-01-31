@@ -1,5 +1,5 @@
 import React,{useEffect} from "react";
-import icon3 from "../images/whatsIcon.png"
+import icon3 from "../images/whatsapp-icon.png"
 
 import './style.scss'
 
