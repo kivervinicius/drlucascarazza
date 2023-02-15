@@ -176,11 +176,11 @@ const Exames = () => {
                 <>
                   <Col key={item.id} xs={6} md={4} lg={2}>
                     <img
-                      className="d-flex  justify-content-center"
+                      className="d-flex m-auto"
                       width="140"
                       height="90"
                       src={img}
-                      alt="lucas carazza logo"
+                      alt={item.name}
                     />
                     <p className="text tex-center ">
                       {item.name}
@@ -207,11 +207,11 @@ const Exames = () => {
                   <>
                     <Col key={item.id} xs={6} md={3} lg={2}>
                       <img
-                        className="d-flex img-exame justify-content-center"
+                        className="d-flex m-auto"
                         width="140"
                         height="90"
                         src={img}
-                        alt="lucas carazza logo"
+                        alt={item.name}
                       />
                       <p className="text text-center">
                         {item.name}

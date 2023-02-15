@@ -6,7 +6,7 @@ import BannerExame from "../components/Banner-exame";
 import BotaoFlutuante from "../components/Btn-flutuante";
 
 
-const ConsultaPage = () => {
+const ExamePage = () => {
     return (
         <>
             <Menu />
@@ -21,4 +21,4 @@ const ConsultaPage = () => {
 
     );
 }
-export default ConsultaPage;
+export default ExamePage;
