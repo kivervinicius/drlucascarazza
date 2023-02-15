@@ -4,8 +4,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import img from "../images/imgcon1.png"
-import img1 from "../images/exame1.jpg"
-import img2 from "../images/exame2.jpg"
+// import img1 from "../images/exame1.jpg"
+// import img2 from "../images/exame2.jpg"
 import { Button, Stack } from 'react-bootstrap';
 
 
