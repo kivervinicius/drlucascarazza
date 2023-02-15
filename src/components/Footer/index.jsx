@@ -14,36 +14,36 @@ const Footer = () => {
       <div className="container d-flex justify-content-between p-4">
         <div className="row">
           <div className="col-lg-4 col-md-12 mb-3 mb-md-0 ">
-            <h4 className="text-clinica text-align-center text-uppercase border-bottom border-dark mb-0">Missão</h4>
-              <p class="text-justify-center text-dr">Oferecer tratamento Oftalmológico com que existe de mais moderno e atualizado na oftalmologia mundial</p>
-              <h4 className="text-clinica text-align-center">Visão</h4>
-              <p class="text-justify-center text-dr">Ser o seu oftalmologista de confiança assim como da sua familia,oferecendo o que existe de mais moderno para sua saúde visual. </p>
-              <h4 className="text-clinica text-align-center">Valores</h4>
-              <p class="text-justify-center text-dr">Cuidar do nosso paciente como gostaríamos que cuidasse dos nossos pais e filho;
-                estarm sempre atualizado;
-                <br />
-                Transparência com o paciente;
-                <br />
-                ética
-              </p>
-          
+            <h4 className="text-clinica text-align-center mb-0">Missão</h4>
+            <p class="text-justify-center text-dr">Oferecer tratamento Oftalmológico com que existe de mais moderno e atualizado na oftalmologia mundial</p>
+            <h4 className="text-clinica text-align-center">Visão</h4>
+            <p class="text-justify-center text-dr">Ser o seu oftalmologista de confiança assim como da sua familia, oferecendo o que existe de mais moderno para sua saúde visual. </p>
+            <h4 className="text-clinica text-align-center">Valores</h4>
+            <p class="text-justify-center text-dr">Cuidar do nosso paciente como gostaríamos que cuidasse dos nossos pais e filhos;
+              Estar sempre atualizado;
+              <br />
+              Transparência com o paciente;
+              <br />
+              Ética
+            </p>
+
           </div>
 
           <div className="col-lg-4 col-md-6 mb-4 mb-md-0 ">
-            <h4 className="text-uppercase border-bottom border-dark mb-0 text-center">Contato</h4>
+            <h4 className="mb-0 text-center">Contato</h4>
 
             <ul className="list-unstyled mb-0">
               <li className="m-1">
-                <p className="text-center">Endereço: Av. Presidente Tancredo de Almeida Neves, 1187-W (em frente ao fórum) <br/>Jardim do Lago - Tangará da Serra - MT - CEP  78302-028 </p>
-              </li>;
+                <p className="text-center">Endereço: Av. Presidente Tancredo de Almeida Neves, 1187-W (em frente ao fórum) <br />Jardim do Lago - Tangará da Serra - MT - CEP  78302-028 </p>
+              </li>
               <p className="text-center">Celular: <a href="tel:+5565996276197">(65) 9.9627-6197</a></p>
               <li className="m-1">
-              <p className="text-center">Telefone: <a href="tel:+556533265201">(65) 3326-5201</a></p>
+                <p className="text-center">Telefone: <a href="tel:+556533265201">(65) 3326-5201</a></p>
 
               </li>
               <li className="m-1">
                 <address className="text-center">
-                  Email : <a href="mailto:drlucas@drlucascarazza.com.br">drlucas@drlucascarazza.com.br</a>
+                  E-mail: <a href="mailto:drlucas@drlucascarazza.com.br">drlucas@drlucascarazza.com.br</a>
                 </address>
 
               </li>
@@ -51,7 +51,7 @@ const Footer = () => {
           </div>
 
           <div className="col-lg-4 col-md-6 mb-4 mb-md-0  ">
-            <h4 className="text-uppercase border-bottom border-dark mb-0 text-center">LOCALIZAÇÃO</h4>
+            <h4 className="text-center">Localização</h4>
 
             <ul className="list-unstyled">
               <li className="m-1">
@@ -85,7 +85,7 @@ const Footer = () => {
             </li>
             <li className="m-1" >
               <a target="_blank" href="https://wa.me/556596276197?text=ol%C3%A1%21+gostaria+de+agendar+uma+consulta">
-                <img  className="img-icon-footer" src={icon3} alt="icone do whatssap" />
+                <img className="img-icon-footer" src={icon3} alt="icone do whatssap" />
               </a>
             </li>
           </ul>
