@@ -1,0 +1,23 @@
+.banner-exame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient((#021933), rgba(0, 0, 0, 0.829)), url("../images/titulo1.png");
+    height:90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 0.9;
+    flex-direction: column;
+}
+
+.logo img {
+    // margin-left: 490px;
+    // margin-top: 200px;
+
+}
+
+.button {
+    // margin-left: 489px;
+}

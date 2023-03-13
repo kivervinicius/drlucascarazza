@@ -16,3 +16,30 @@ body {
 .img-clinica-home{
     width: 100%;
 }
+// .gatsby-resp-image-image{
+//     height: 60vh !important;
+//     width: 90vw !important;
+// }
+.imG{
+    width: 204 !important;
+    height:170  !important;
+}
+
+.borda{
+    
+    background-color: #021933;
+    border-radius: 10% 90% 12% 88% / 18% 85% 15% 82%;
+    border: #021933 1px solid;
+}
+.conteiner-ocolos{
+    background-image: url("../images/ocolos5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 440px;
+    
+}
+.blog-post-content{
+    justify-content: center;
+    align-items: center;
+}

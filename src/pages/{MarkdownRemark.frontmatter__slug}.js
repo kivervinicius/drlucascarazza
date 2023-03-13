@@ -1,12 +1,11 @@
 import React from "react"
 import { graphql } from "gatsby";
-
+import BannerExame from "../components/Banner-exame";
 import BotaoFlutuante from "../components/Btn-flutuante"
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
+
+
 
 
 export default function Template({
@@ -16,29 +15,17 @@ export default function Template({
   const { frontmatter, html } = markdownRemark
   return (
     <>
-      <div className="blog-post-container d-block">
-        <Container className='d-block'>
-          <Menu />
-          <br />
-          <br />
-          <br />
-          <br />
+        <Menu />
+        <BannerExame />
           <h1 className="text-center">{frontmatter.title}</h1>
-          <br />
-          <br />
-          <Row>
-            <Col className="blog-post ">
               <div
-                className="blog-post-content text-right"
+                className="blog-post-content m-5 col-8 "
                 dangerouslySetInnerHTML={{ __html: html }}
               />
-
-            </Col>
-          </Row>
-        </Container>
+        
         <BotaoFlutuante />
         <Footer />
-      </div>
+
     </>
   )
 }

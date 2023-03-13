@@ -2,14 +2,13 @@
 slug: "/dica-oculos"
 title: "Como escolher seus óculos?"
 ---
-![](../../src/images/titulo1.png)
-####  Armação
+ ####  Armação
 A principal dica para escolher uma armação é escolher a que
 melhor combine com você. Não é incomum um paciente não se adaptar
 aos óculos por não ter gostado da estética da armação escolhida. Por isso,
 escolha sua armação com calma e procure levar alguém de confiança junto
 com você, que conheça seu gosto e estilo para te ajudar a fazer a melhor
-escolha.
+escolha.   
 **Obs:** nem todas as armações combinam com todas as lentes. Por isso, peça
 o auxílio do óptico para te orientar nessa tarefa.  
 #### Materiais de Armações         
@@ -23,22 +22,62 @@ se vai ficar confortável para o seu formato de nariz. Em geral, asiáticos e
 negros têm a base do nariz menos proeminente, o que dificulta o uso desse
 tipo de armação.
 #### Design das Armações  
-![](../../src/images/ocolos1.png)
-![](../../src/images/ocolo2.png)
-![](../../src/images/ocolos3.png)
-![](../../src/images/ocolos4.png)  
-• Rosto redondo: prefira arma-
-ções com linhas retas e forma-
-to retangular.  
-• Rosto quadrado: pref ira
+<div class ="row" >
+<div class = "col">
+<div class = "row mt-1">
+<div class = "col-5">
+ <img src="../../src/images/ocolos1.png" alt="" class="img-fluid img-thumbnail" >
+ </div>
+ <div class = "col-5">
+ <p class = ""> • Rosto redondo: prefira arma-
+ções com linhas retas e forma</p>
+ </div>
+ </div>
+ <div class = "row mt-1">
+<div class = "col-5">
+ <img src="../../src/images/ocolo2.png" alt="" class="img-fluid img-thumbnail" >
+ </div>
+ <div class = "col-5">
+ <p class = "">• Rosto quadrado: pref ira
 armações redondas ou ovala-
-das e menores.   
-• Rosto triangular: comporta-
+das e menores.   </p>
+ </div>
+ </div>
+ <div class = "row mt-1">
+<div class = "col-5">
+ <img src="../../src/images/ocolos3.png" alt="" class="img-fluid img-thumbnail" >
+ </div>
+ <div class = "col-5">
+ <p class = "">• Rosto triangular: comporta-
 se bem com armação tipo
-aviador ou ovalada.    
-• Rosto oval: comporta-se
+aviador ou ovalada.  </p>
+ </div>
+ </div>
+  <div class = "row mt-1">
+<div class = "col-5">
+ <img src="../../src/images/ocolos4.png" alt="" class="img-fluid img-thumbnail" >
+ </div>
+ <div class = "col-5">
+ <p class = "">• Rosto oval: comporta-se
 bem com qualquer tipo de
-armação.
+armação. </p>
+</div>
+ </div>
+ <div class="row mt-1">
+ </div>
+
+ </div>
+ 
+
+
+
+
+
+
+
+
+
+</div>
 
 # Escolha de Lentes 
 #### Material das lentes:  
@@ -52,8 +91,13 @@ em 3 peças presas com parafusos).
 **Trivex:** é um material também de grande resistência, porém com qualidade
 ópticamelhorqueopolicarbonato.Por isso,éindicadoparacriançasqueprecisam da associação de resistência com uma boa qualidade de visão, já que
 estão em fase dedesenvolvimento visual.
-![](../../src/images/ocoloss5.jpg) 
-sem antirreflexo   |    c/antirreflexo
+
+<div class= "row conteiner-ocolos">
+</div >
+
+
+<!--
+
 #### Tratamento das lentes:  
 **Antirreflexo:** é um tratamento que visa minimizar os reflexos indesejáveis
 nas lentes, causando uma melhora estética e também da visão.  
@@ -138,4 +182,4 @@ Como desvantagem, não tem visão para longa distância.
  **Veja também**  
  [Como escolher a lente intraocular](/dica-lentes)
 
- [⇦ voltar a pagina principal](/)
+ [⇦ voltar a pagina principal](/) --> 
