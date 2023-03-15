@@ -2,16 +2,20 @@
 slug: "/dica-oculos"
 title: "Como escolher seus óculos?"
 ---
- ####  Armação
+
+#### Armação
+
 A principal dica para escolher uma armação é escolher a que
 melhor combine com você. Não é incomum um paciente não se adaptar
 aos óculos por não ter gostado da estética da armação escolhida. Por isso,
 escolha sua armação com calma e procure levar alguém de confiança junto
 com você, que conheça seu gosto e estilo para te ajudar a fazer a melhor
-escolha.   
+escolha.
 **Obs:** nem todas as armações combinam com todas as lentes. Por isso, peça
 o auxílio do óptico para te orientar nessa tarefa.  
-#### Materiais de Armações         
+
+#### Materiais de Armações
+
 **•Acetato:** são as mais utilizadas por possuírem material leve e resistente.  
 **•Metálicas:** geralmente mais estreitas e precisam de lentes mais finas.
 Para alérgicos a níquel, perguntar se não há presença desse material na liga
@@ -21,7 +25,9 @@ metálica.
 se vai ficar confortável para o seu formato de nariz. Em geral, asiáticos e
 negros têm a base do nariz menos proeminente, o que dificulta o uso desse
 tipo de armação.
+
 #### Design das Armações  
+
 <div class ="row" >
 <div class = "col">
 <div class = "row mt-1">
@@ -29,8 +35,7 @@ tipo de armação.
  <img src="../../src/images/ocolos1.png" alt="" class="img-fluid img-thumbnail" >
  </div>
  <div class = "col-5">
- <p class = ""> • Rosto redondo: prefira arma-
-ções com linhas retas e forma</p>
+ <p class = ""> • Rosto redondo: prefira armações com linhas retas e forma</p>
  </div>
  </div>
  <div class = "row mt-1">
@@ -67,20 +72,13 @@ armação. </p>
  </div>
 
  </div>
- 
-
-
-
-
-
-
-
-
 
 </div>
 
-# Escolha de Lentes 
-#### Material das lentes:  
+# Escolha de Lentes
+
+#### Material das lentes  
+
 **Vidro:** em desuso pelo seu maior peso e espessura, além de quebrar com
 facilidade. Sua vantagem é ter maior resistência aos riscos.  
 **Resina:** é o material mais utilizado pela sua leveza e versatilidade. Existem
@@ -94,7 +92,6 @@ estão em fase dedesenvolvimento visual.
 
 <div class= "row conteiner-ocolos">
 </div >
-
 
 <!--
 
@@ -177,9 +174,8 @@ Como desvantagem, não tem visão para longa distância.
 ![](../../src/images/ocolos11.jpg)   
 ![](../../src/images/ocolos12.jpg)  
 
-
  
  **Veja também**  
  [Como escolher a lente intraocular](/dica-lentes)
 
- [⇦ voltar a pagina principal](/) --> 
+ [⇦ voltar a pagina principal](/) -->
