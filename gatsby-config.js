@@ -54,6 +54,15 @@ module.exports = {
             file: `https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap`,
           },
         ],
+        mode: "async",
+        custom: [
+          {
+            /* Exact name of the font as defied in @font-face CSS rule */
+            name: ["Fontastique"],
+            /* Path to the font CSS file inside the "static" folder with @font-face definition */
+            file: "src/fonts/Fontastique.css",
+          },
+        ],
       },
     },]
 

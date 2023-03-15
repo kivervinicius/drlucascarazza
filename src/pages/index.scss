@@ -1,4 +1,6 @@
-;:root{
+@import url(../fonts/Fontastique.css);
+
+::root{
     --bs-body-font-size: 1.2rem;
 }
 body {
@@ -23,6 +25,10 @@ body {
 .imG{
     width: 204 !important;
     height:170  !important;
+}
+
+.title { 
+    font-family: 'Fontastique', sans-serif;
 }
 
 .borda{

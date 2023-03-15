@@ -17,7 +17,7 @@ export default function Template({
     <>
         <Menu />
         <BannerExame />
-          <h1 className="text-center">{frontmatter.title}</h1>
+          <h1 className="text-center title">{frontmatter.title}</h1>
               <div
                 className="blog-post-content container"
               >

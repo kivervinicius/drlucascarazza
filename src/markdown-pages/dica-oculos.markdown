@@ -90,8 +90,9 @@ em 3 peças presas com parafusos).
 ópticamelhorqueopolicarbonato.Por isso,éindicadoparacriançasqueprecisam da associação de resistência com uma boa qualidade de visão, já que
 estão em fase dedesenvolvimento visual.
 
-<div class= "row conteiner-ocolos">
-</div >
+<!-- <div class= "row conteiner-ocolos">
+</div > -->
+![](../../src/images/ocolos5.png)
 
 <!--
 
