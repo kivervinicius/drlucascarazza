@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby";
-import BannerExame from "../components/Banner-exame";
+import Banner from "../components/Banner";
 import BotaoFlutuante from "../components/Btn-flutuante"
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
@@ -11,12 +11,13 @@ import Footer from "../components/Footer";
 export default function Template({
   data,
 }) {
+  
   const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
   return (
     <>
         <Menu />
-        <BannerExame />
+        <Banner />
           <h1 className="text-center title">{frontmatter.title}</h1>
               <div
                 className="blog-post-content container"

@@ -1,9 +1,50 @@
-import React from "react";
+import React, { useEffect } from "react";
+import img1 from "../images/oftalmologia.jpeg";
+import img2 from "../images/cirurgia1.jpg";
+import img3 from "../images/exame1.jpg";
+import img4 from "../images/dicas1.png";
+import img5 from "../images/armacoes.jpg";
+
 
 import logo from "../images/LOGO2.png";
 import "./style.scss";
 
 const Banner = () => {
+  useEffect(()=>{
+const pageName = window.location.pathname;
+const bannerImage = document.getElementById("banner");
+if(pageName === "/"){
+  bannerImage.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.829)), url(${img1})`;
+  
+}else if(pageName === "/tratamentos/"){
+  bannerImage.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.829)), url(${img2})`;;
+  
+}
+else if(pageName === "/exames/"){
+  bannerImage.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.829)), url(${img3})`;;
+  
+}
+else if(pageName === "/dica-oculos/"){
+  bannerImage.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.829)), url(${img5})`;;
+  
+}
+else if(pageName === "/dica-lentes/"){
+  bannerImage.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.829)), url(${img4})`;;
+  
+}
+
+  
+
+console.log(pageName);
+
+  },[])
+  // /exames/
+  // /
+  // /sobre-a-clinica/
+  // /tratamentos/
+  // /dica-lentes/
+  // /dica-oculos/
+
   return (
     <div id="banner" className="banner">
       <div className="logo">

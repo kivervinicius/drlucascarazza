@@ -179,3 +179,5 @@ Conforme texto da Agência Nacional de Saúde (ANS), “os tratamentos estritos 
  [Comos escolher seus óculos](/dica-oculos)
 
  [⇦ voltar a pagina principal](/)
+
+ ---------------------------------------------------------------------------------------------------

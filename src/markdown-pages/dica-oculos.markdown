@@ -10,7 +10,7 @@ melhor combine com você. Não é incomum um paciente não se adaptar
 aos óculos por não ter gostado da estética da armação escolhida. Por isso,
 escolha sua armação com calma e procure levar alguém de confiança junto
 com você, que conheça seu gosto e estilo para te ajudar a fazer a melhor
-escolha.
+escolha.  
 **Obs:** nem todas as armações combinam com todas as lentes. Por isso, peça
 o auxílio do óptico para te orientar nessa tarefa.  
 
@@ -92,11 +92,10 @@ estão em fase dedesenvolvimento visual.
 
 <!-- <div class= "row conteiner-ocolos">
 </div > -->
-![](../../src/images/ocolos5.png)
 
-<!--
 
 #### Tratamento das lentes:  
+![](../../src/images/ocolos5.png)
 **Antirreflexo:** é um tratamento que visa minimizar os reflexos indesejáveis
 nas lentes, causando uma melhora estética e também da visão.  
 Existem diversos tipos de antirreflexo. Quanto maior número de
@@ -111,7 +110,9 @@ não estiverem sendo utilizados.
 **- camada liporrepelente:** diminui o acúmulo de gordura nas lentes, mantendo as mesmas limpas por mais tempo.   
 **Tratamentos Fotossensíveis:** é o tipo de tratamento que torna as lentes
 adaptáveis, ou seja, aquelas que se tornam mais escuras em ambientes
-muito iluminados e mais claras em ambientes menos iluminados.      
+muito iluminados e mais claras em ambientes menos iluminados.    
+
+
 ****Obs:**** muito importante salientar para quem pretende usar esse tratamento pela primeira vez que a ativação do tratamento é feita por raios UV,
 porém essa lente não escurece tanto quanto os óculos escuros. Outra
 observação é que, dentro dos carros, como existe proteção UV obrigatória
@@ -166,17 +167,41 @@ Existem diversos tipos de lentes com diferentes qualidade, campo visual,
 preços e qualidade de adaptação (definitivamente as lentes multifocais nãosãotodas iguais!). 
 ![](../../src/images/ocolos9.png)   
 ![](../../src/images/ocolos10.png) 
-Lente com campo de visão mais restrito | com campo de visão amplo.  
+
+
 **Óculos ocupacionais**  
 Para os pacientes que trabalham em ambientes de escritório e
 que precisam de boa visão para perto e intermediária, essa é uma boa alternativa. Por não possuirem campo de visão de longe, têm um maior campo
 de visão intermediário, facilitando principalmente o uso no computador.
 Como desvantagem, não tem visão para longa distância.  
-![](../../src/images/ocolos11.jpg)   
-![](../../src/images/ocolos12.jpg)  
 
+
+<div class ="row" >
+<div class = "col">
+<div class = "row mt-1">
+<div class = "col-6">
+ <img src="../../src/images/ocolos11.jpg" alt="" class="img-fluid img-thumbnail" >
+ </div>
+ <div class = "col-6">
+<img src="../../src/images/ocolos12.png" alt="" class="img-fluid img-thumbnail" >
+ </div>
+ </div>
+ </div>
+ </div>
+
+
+
+
+
+
+
+                         
+                         
  
  **Veja também**  
  [Como escolher a lente intraocular](/dica-lentes)
 
- [⇦ voltar a pagina principal](/) -->
+ [⇦ voltar a pagina principal](/) 
+
+ 
+----------------------------------------------------------------------------------------------------
