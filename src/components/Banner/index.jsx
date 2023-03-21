@@ -4,6 +4,8 @@ import img2 from "../images/cirurgia1.jpg";
 import img3 from "../images/exame1.jpg";
 import img4 from "../images/dicas1.png";
 import img5 from "../images/armacoes.jpg";
+import img6 from "../images/folder-lente13.jpg";
+
 
 
 import logo from "../images/LOGO2.png";
@@ -29,7 +31,11 @@ else if(pageName === "/dica-oculos/"){
   
 }
 else if(pageName === "/dica-lentes/"){
-  bannerImage.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.829)), url(${img4})`;;
+  bannerImage.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.829)), url(${img6})`;;
+  
+}
+else{
+  bannerImage.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.829)), url(${img6})`;;
   
 }
 

@@ -176,7 +176,9 @@ O paciente deve estar ciente de que as lentes especiais (ou “premium”) de ca
 Conforme texto da Agência Nacional de Saúde (ANS), “os tratamentos estritos do astigmatismo, miopia, hipermetropia, presbiopia e ceratocone por meio de implante de lentes intraoculares não constam no Rol vigente, portanto, não possuem cobertura obrigatória”. Segundo o Conselho Brasileiro de Oftalmologia, “esta cobertura não se estende para a utilização de LIOs de características especiais que possam corrigir aberrações de alta ordem, astigmatismo e presbiopia. Neste caso, a diferença dos valores entre as LIOs esféricas abonadas pelas operadoras de saúde e aquelas de características especiais, caberá ao paciente, que deverá ter ciência disso e assinar o Termo de Consentimento Livre e Esclarecido.”      
 
 **Veja também**  
- [Comos escolher seus óculos](/dica-oculos)
+ [Comos escolher seus óculos](/dica-oculos)   
+ 
+[Colocar após Tratamento fotossensíveis](/dica-folder-lente)
 
  [⇦ voltar a pagina principal](/)
 

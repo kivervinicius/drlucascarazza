@@ -188,18 +188,14 @@ Como desvantagem, não tem visão para longa distância.
  </div>
  </div>
  </div>
-
-
-
-
-
-
-
-                         
-                         
+ <br />
+ <br />
+ <br />  
  
  **Veja também**  
- [Como escolher a lente intraocular](/dica-lentes)
+ [Como escolher a lente intraocular](/dica-lentes)   
+
+  [Colocar após Tratamento fotossensíveis](/dica-folder-lente)
 
  [⇦ voltar a pagina principal](/) 
 
