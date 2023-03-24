@@ -12,7 +12,7 @@ Uma outra alternativa que tem caído no gosto dos pacientes são as armações d
 Esse modelo especial de lentes possui o grau de longe do paciente na parte superior das lentes proporcionando uma visão de longe adequada e uma adição variável de grau para perto na parte inferior das lentes com intuito de ajudar os músculos oculares a manter o foco para a visão de perto para quem fica muitas horas utilizando a visão de perto.   
 Às vezes também utilizamos essas lentes para os pacientes que estão no início da presbiopia (“vista cansada”), quando ainda é possível utilizar o mesmo grau para intermediário e perto já que nessas lentes, não há essa distinção. 
 
-![](../../src/images/folder-lente3.jpg)  
+![](../../src/images/folder14.png)  
 
 #### Algumas informações importantes   
 - sempre que for possível, traga seus óculos para conferência munido da sua receita e da garantia de sua lentes que foi fornecido pela óptica. 
