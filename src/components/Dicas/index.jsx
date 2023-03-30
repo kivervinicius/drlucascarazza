@@ -27,7 +27,7 @@ const Card = () => {
                 className="img-dicas rounded img-thumbnail"
               />
               <div className="card-body">
-                <h5 className="card-title">Como escolher seus óculos?</h5>
+                <h5 className="card-title">Dicas para te ajudar a escolher o seus óculos</h5>
                 <p className="card-text">
                   A principal dica para escolher uma armação é escolher a que...
                 </p>

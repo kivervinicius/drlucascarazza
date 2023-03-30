@@ -1,9 +1,11 @@
 ---
 slug: "/dica-oculos"
-title: "Como escolher seus óculos?"
+title: "Dicas para te ajudar a escolher o seus óculos"
 ---
+   
 
-#### Armação
+
+# Armação
 
 A principal dica para escolher uma armação é escolher a que
 melhor combine com você. Não é incomum um paciente não se adaptar
@@ -35,7 +37,7 @@ tipo de armação.
  <img src="../../src/images/ocolos1.png" alt="" class="img-fluid img-thumbnail" >
  </div>
  <div class = "col-5">
- <p class = ""> • Rosto redondo: prefira armações com linhas retas e forma</p>
+ <p class = ""> • Rosto redondo: prefira armações com linhas retas e forma retangular</p>
  </div>
  </div>
  <div class = "row mt-1">
@@ -43,7 +45,7 @@ tipo de armação.
  <img src="../../src/images/ocolo2.png" alt="" class="img-fluid img-thumbnail" >
  </div>
  <div class = "col-5">
- <p class = "">• Rosto quadrado: pref ira
+ <p class = "">• Rosto quadrado: prefira
 armações redondas ou ovala-
 das e menores.   </p>
  </div>
@@ -68,12 +70,14 @@ bem com qualquer tipo de
 armação. </p>
 </div>
  </div>
- <div class="row mt-1">
  </div>
+</div>                  
+<br>
+<break>
+<br>
+</br>
 
- </div>
 
-</div>
 
 # Escolha de Lentes
 
@@ -87,11 +91,9 @@ de alto índice de refração que são mais finas.
 **Policarbonato:** é um material de alta resistência, muito indicado para profissões de risco e armações em que a lente precisa ser perfurada (armações
 em 3 peças presas com parafusos).  
 **Trivex:** é um material também de grande resistência, porém com qualidade
-ópticamelhorqueopolicarbonato.Por isso,éindicadoparacriançasqueprecisam da associação de resistência com uma boa qualidade de visão, já que
-estão em fase dedesenvolvimento visual.
-
-<!-- <div class= "row conteiner-ocolos">
-</div > -->
+óptica melhor que o policarbonato. Por isso, é indicado para crianças que preci-
+sam da associação de resistência com uma boa qualidade de visão, já que
+estão em fase de desenvolvimento visual.
 
 
 #### Tratamento das lentes:  
@@ -113,7 +115,7 @@ adaptáveis, ou seja, aquelas que se tornam mais escuras em ambientes
 muito iluminados e mais claras em ambientes menos iluminados.    
 
 
-****Obs:**** muito importante salientar para quem pretende usar esse tratamento pela primeira vez que a ativação do tratamento é feita por raios UV,
+**Obs:** muito importante salientar para quem pretende usar esse tratamento pela primeira vez que a ativação do tratamento é feita por raios UV,
 porém essa lente não escurece tanto quanto os óculos escuros. Outra
 observação é que, dentro dos carros, como existe proteção UV obrigatória
 nos vidros dos mesmos, a lente com esse tipo de tratamento tende a escurecer menos do que quando exposta diretamente ao sol. Importante também informar que, em alguns ambientes internos muito iluminados, as
@@ -126,8 +128,12 @@ minimiza os efeitos de reflexos do sol sob superfícies como estradas de
 asfalto, água, areia e neve. Com isso, aumenta a sensibilidade ao contraste,
 resultando em melhora tanto do conforto quanto da qualidade visual.
 ![](../../src/images/ocolos6.jpg) 
+<br>
+<break>
+<br>
+</br>
 
-# Modelo/Desenho das lentes
+# Modelo/Desenho das lentes      
 #### Óculos de Visão Simples para longe: 
 Para pacientes até por volta de 40 anos e saudáveis que possuem
 hipermetropia ou miopia, associado ou não a astigmatismo, uma lente de
@@ -193,11 +199,13 @@ Como desvantagem, não tem visão para longa distância.
  <br />  
  
  **Veja também**  
- [Como escolher a lente intraocular](/dica-lentes)   
-
   [Colocar após Tratamento fotossensíveis](/dica-folder-lente)
 
- [⇦ voltar a pagina principal](/) 
+  [Como escolher a lente intraocular](/dica-lentes)  
+
+  [Catarata e Cirurgia de Catarata](/dica-catarata-cirurgia) 
+
+  [⇦ voltar a pagina principal](/) 
 
  
 ----------------------------------------------------------------------------------------------------

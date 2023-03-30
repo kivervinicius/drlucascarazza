@@ -22,10 +22,15 @@ O primeiro passo é dar ir até a óptica para reconferir o posicionamento dos �
 No entanto, se isso não der certo, está na hora de voltar ao consultório para que possamos fazer uma revisão de todo o processo e tentar descobrir o motivo pelo qual você não está se adaptando. Nesse caso, é importante entrar em contato com nossa equipe e explicar o motivo, pois daremos total prioridade ao seu agendamento. E não deixe passar muito tempo, pois a maioria das lentes de boa qualidade têm de 30 a 90 dias de garantia de adaptação, ou seja, poderemos pedir alguma adequação de sua lente, sem custo para você (procure se informar sobre essa importante informação na hora da compra de seus óculos).
 
 **Veja também**  
-
- [Como escolher a lente intraocular](/dica-lentes)    
-   
   [Comos escolher seus óculos](/dica-oculos) 
+
+   
+  [Catarata e Cirurgia de Catarata](/dica-catarata-cirurgia) 
+
+ [Como escolher a lente intra ocular](/dica-lentes)    
+   
+
+
    
  [⇦ voltar a pagina principal](/) 
 

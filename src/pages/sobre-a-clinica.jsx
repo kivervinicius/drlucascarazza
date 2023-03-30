@@ -62,7 +62,9 @@ const SobreAclinica = () => {
 
                 <h1 className="text-clinica text-center">Sobre a clínica</h1>
                 <p className="text-clinica text-center" >
-                  Nosso consultório fica em um moderno espaço em uma das principais avenidas de Tangará da Serra, dentro da Clínica Instituto da Visão, em frente ao Fórum Municipal e possuímos os mais modernos equipamentos de diagnóstico e cirúrgicos. Além do consultório oftalmológico, contamos com salas de exames, sala de adaptação de lentes de contato e um centro cirúrgico moderno.
+                Nosso consultório fica em um moderno espaço na Avenida Tancredo Neves 1187 W , uma das principais avenidas de Tangará da Serra, dentro da Clínica Instituto da Visão, em frente ao Fórum Municipal. <br />
+Em nossa clínica contamos com salas de consultas, salas de exames, sala de adaptação de lentes de contato e um centro cirúrgico com  mais modernos equipamentos para seu tratamento. 
+
                 </p>
               </div>
             </Col>

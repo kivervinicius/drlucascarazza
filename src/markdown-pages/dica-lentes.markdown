@@ -1,17 +1,33 @@
 ---
 slug: "/dica-lentes"
-title: "Como escolher a lente "
+title: "Como escolher a lente intraocular para cirurgia de catarata mais adequada para o meu olho? "
 image: 
 ---
-#### Como escolher a lente intraocular para cirurgia de catarata mais adequada para o meu olho?      
-A catarata é uma doença em que a lente natural do nosso olho perde sua transparência (teremos outro post no site somente sobre catarata e o link será disponibilizado aqui).
-A cirurgia de catarata consiste em substituir a lente natural do olho doente, cujo nome é cristalino, por uma lente artificial.  
- ![Imagem ilustrando o olho à esquerda com cristalino e visão normais; à direita, com catarata e piora da visão.](../../src/images/image1.png)    
+     
+A escolha da lente intraocular é uma oportunidade muito interessante para poder diminuir a dependência dos óculos. É importante ressaltar que essa escolha deverá ser feita apenas uma vez na vida, haja visto que apenas em raríssimas ocasiões iremos trocar a lente intraocular. Ainda não existe uma lente intraocular ideal, aquela que tenha a mesma função da nossa lente natural jovem e que sirva para todos os olhos, por isso existem vários modelos de lentes que tentam oferecer a melhor qualidade de vida para o paciente. 
 
-Imagem ilustrando o olho à esquerda com cristalino e visão normais; à direita, com catarata e piora da visão.
+A indústria oftalmológica continua em busca da lente perfeita e esse post vai ser atualizado, à medida que novas tecnologias forem sendo lançadas. Este post tem como objetivo te ajudar a entender melhor a tecnologia das lentes, para facilitar sua escolha, junto ao seu oftalmologista. São muitas informações e, às vezes, de difícil compreensão para quem não está familiarizado, no entanto, elas são fundamentais para fazer uma escolha que é para o resto da vida. Portanto, se você vai ser operado de catarata em breve (especialmente se for operar comigo), sugiro ler esse post com calma, em um momento em que tenha bastante tempo para reler e tentar entender todos os pontos que vão ser descritos. Sugiro ainda ler com um ou com vários familiares para que eles possam te ajudar nessa decisão e venham junto na consulta de cálculo da lente para que possamos fazer, juntos, a melhor escolha. 
 
-![Imagem ilustrando o implante de uma lente intraocular durante a cirurgia de catarata.](../../src/images/implate-lente.png)  
-Imagem ilustrando o implante de uma lente intraocular durante a cirurgia de catarata.
+A escolha da lente leva em consideração as características dos olhos (por isso são realizados diversos exames oftalmológicos), os hábitos do paciente (por isso gostamos que o paciente preencha um questionário para entendermos melhor seu dia a dia e suas expectativas) bem como as características e limitações de cada modelo de lente intraocular. 
+ 
+ <div class ="row" >
+<div class = "col">
+<div class = "row mt-1">
+<div class = "col-6">
+ <img src="../../src/images/olho-catarata.png" alt="" class="img-fluid img-thumbnail" >
+ <p style="font-size: 12px">
+ Essa imagem mostra um olho sem catarata (à esquerda) e um olho com catarata (à direita)  
+ </p>
+ </div>
+ <div class = "col-6">
+ <img src="../../src/images/olho-catarata3.png" style="height: 248px" alt="" class="img-fluid img-thumbnail" >
+ <p style="font-size: 12px">
+Imagem demonstrando a visão normal de um paciente sem catarata (à esquerda) e a visão turva de um paciente com catarata (à direita)  
+ </p>
+ </div>
+ </div>
+ </div>
+ </div>
 
 A escolha da lente intraocular é uma oportunidade muito interessante para poder diminuir a dependência dos óculos. É importante ressaltar que essa escolha deverá ser feita apenas uma vez na vida, haja visto que apenas em raríssimas ocasiões iremos trocar a lente intraocular. Ainda não existe uma lente intraocular ideal, aquela que tenha a mesma função da nossa lente natural jovem e que sirva para todos os olhos, por isso existem vários modelos de lentes que tentam oferecer a melhor qualidade de vida para o paciente. A indústria oftalmológica continua em busca da lente perfeita e esse post vai ser atualizado, à medida que novas tecnologias forem sendo lançadas.
 Este post tem como objetivo te ajudar a entender melhor a tecnologia das lentes, para facilitar sua escolha, junto ao seu oftalmologista. São muitas informações e, às vezes, de difícil compreensão para quem não está familiarizado, no entanto, elas são fundamentais para fazer uma escolha que é para o resto da vida. Portanto, se você vai ser operado de catarata em breve (especialmente se for operar comigo), sugiro ler esse post com calma, em um momento em que tenha bastante tempo para reler e tentar entender todos os pontos que vão ser descritos. Sugiro ainda ler com um ou com vários familiares para que eles possam te ajudar nessa decisão e venham junto na consulta de cálculo da lente para que possamos fazer, juntos, a melhor escolha. 
@@ -176,6 +192,9 @@ O paciente deve estar ciente de que as lentes especiais (ou “premium”) de ca
 Conforme texto da Agência Nacional de Saúde (ANS), “os tratamentos estritos do astigmatismo, miopia, hipermetropia, presbiopia e ceratocone por meio de implante de lentes intraoculares não constam no Rol vigente, portanto, não possuem cobertura obrigatória”. Segundo o Conselho Brasileiro de Oftalmologia, “esta cobertura não se estende para a utilização de LIOs de características especiais que possam corrigir aberrações de alta ordem, astigmatismo e presbiopia. Neste caso, a diferença dos valores entre as LIOs esféricas abonadas pelas operadoras de saúde e aquelas de características especiais, caberá ao paciente, que deverá ter ciência disso e assinar o Termo de Consentimento Livre e Esclarecido.”      
 
 **Veja também**  
+
+[Catarata e Cirurgia de Catarata](/dica-catarata-cirurgia) 
+
  [Comos escolher seus óculos](/dica-oculos)   
  
 [Colocar após Tratamento fotossensíveis](/dica-folder-lente)

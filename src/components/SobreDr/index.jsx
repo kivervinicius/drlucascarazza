@@ -12,20 +12,20 @@ const SobreOdr = () => {
             <h4 className="">Médico Oftalmologista </h4>
 
             <ul className="text-dr "> 
-              <li>Graduado em Medicina na Universidade
+              <li>Graduado em Medicina pela Universidade
               Federal de Minas Gerais(UFMG).</li>
               
               <li>Residência Médica em Oftalmologia pelo Hospital das Clínicas da UFMG.</li>
               
-              <li>Título de Especialista em Oftamologia pelo MEC e Conselho Brasileiro de oftmologia (CBO)</li>
+              <li>Título de Especialista em Oftamologia pelo MEC e Conselho Brasileiro de Oftmologia (CBO)</li>
               
-              <li>Título de Especialista em Oftamologia peel Conselho Internacional de oftmologia (ICO)</li>
+              <li>Título de Especialista em Oftamologia peel Conselho Internacional de Oftmologia (ICO)</li>
 
               <li>Fellowship  em Glaucoma pelo
               Hospital das Clínicas da UFMG</li>
               <li>Fellowship  em Retina pelo
               Hospital das Clínicas da  UFMG</li>
-              <li>Fellowship em Córnea, catarata e Cirurgia Refrativa
+              <li>Fellowship em Córnea, Catarata e Cirurgia Refrativa
               pelo Hospital das Clínicas da  UFMG</li>
             </ul>
 
