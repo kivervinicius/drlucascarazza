@@ -8,12 +8,16 @@ A catarata é um processo de opacificação do cristalino, que é nossa lente n
 A causa mais comum de catarata é o envelhecimento (quanto maior a idade, maior a probabilidade de aparecimento da catarata). Outras causas de catarata são: traumas (acidentes), doenças sistêmicas (como diabetes), uso de medicamentos (especialmente corticoides), catarata congênita (quando uma criança já nasce com catarata), entre outros. 
 
 ![](../../src/images/olho-catarata.png)
-
+<p style="font-size: 12px" class="text-center">
 Essa imagem mostra um olho sem catarata (à esquerda) e um olho com catarata (à direita)  
+</p>
 
 ​![](../../src/images/olho-catarata3.png)
 
+<p style="font-size: 12px" class="text-center">
 Imagem demonstrando a visão normal de um paciente sem catarata (à esquerda) e a visão turva de um paciente com catarata (à direita)
+</p>
+
 
 O tratamento da catarata é cirúrgico. A cirurgia consiste em substituir a lente natural do olho por uma lente intraocular a ser implantada. 
  Importante ressaltar que, até o presente momento, não existem outras formas de tratamento da catarata que não seja cirúrgico. Existem terapias com colírios em pesquisa, mas nada que já esteja aprovado para uso (tenha muito cuidado com terapias não aprovadas que são vendidas na internet). 
@@ -24,12 +28,18 @@ Depois que a catarata é removida, o seu oftalmologista vai implantar uma lente 
 
 ​![](../../src/images/olho-catarata4.jpg)
 
+<p style="font-size: 12px" class="text-center">
 Imagem demonstrando a cirurgia de catarata com implante da lente intraocular.
+</p>
 ​
 #### Quando operar?  
 Com o surgimento da doença, a tendência da catarata é evoluir e a visão tende a ficar cada dia mais turva.
+
 ​![](../../src/images/olho-catarata5.jpg)
+
+<p style="font-size: 12px" class="text-center">
 Visão normal | Visão com catarata inicial | Visão com catarata avançada.
+</p>
 
 Antigamente, era necessário esperar a catarata ficar "madura", ou seja, avançada, para a realização da cirurgia. Atualmente, com o desenvolvimento de modernas técnicas e aparelhos, a recomendação é que a cirurgia seja indicada nas fases iniciais da catarata, pois o procedimento torna-se muito mais rápido e seguro. Além disso, o tempo de recuperação é menor quando a cirurgia da catarata é realizada nos estágios iniciais. 
 
@@ -63,7 +73,9 @@ Agora que você já entendeu sobre a catarata e seu tratamento, está na hora de
 **Veja também**  
  [Comos escolher seus óculos](/dica-oculos)   
  
-[Colocar após Tratamento fotossensíveis](/dica-folder-lente)
+[Colocar após Tratamento fotossensíveis](/dica-folder-lente)  
+
+[Como escolher a lente intraocular](/dica-lente)
 
  [⇦ voltar a pagina principal](/)
 
