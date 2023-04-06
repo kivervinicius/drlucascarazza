@@ -36,7 +36,7 @@ tipo de armação.
 <div class = "col-5">
  <img src="../../src/images/ocolos1.png" alt="" class="img-fluid img-thumbnail" >
  </div>
- <div class = "col-5">
+ <div class = "col-7">
  <p class = ""> • Rosto redondo: prefira armações com linhas retas e forma retangular</p>
  </div>
  </div>
@@ -44,7 +44,7 @@ tipo de armação.
 <div class = "col-5">
  <img src="../../src/images/ocolo2.png" alt="" class="img-fluid img-thumbnail" >
  </div>
- <div class = "col-5">
+ <div class = "col-7">
  <p class = "">• Rosto quadrado: prefira
 armações redondas ou ovala-
 das e menores.   </p>
@@ -54,7 +54,7 @@ das e menores.   </p>
 <div class = "col-5">
  <img src="../../src/images/ocolos3.png" alt="" class="img-fluid img-thumbnail" >
  </div>
- <div class = "col-5">
+ <div class = "col-7">
  <p class = "">• Rosto triangular: comporta-
 se bem com armação tipo
 aviador ou ovalada.  </p>
@@ -64,7 +64,7 @@ aviador ou ovalada.  </p>
 <div class = "col-5">
  <img src="../../src/images/ocolos4.png" alt="" class="img-fluid img-thumbnail" >
  </div>
- <div class = "col-5">
+ <div class = "col-7">
  <p class = "">• Rosto oval: comporta-se
 bem com qualquer tipo de
 armação. </p>
