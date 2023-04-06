@@ -20,9 +20,9 @@ export default function Template({
         <Banner />
           <h1 className="text-center title">{frontmatter.title}</h1>
               <div
-                className="blog-post-content container row"
+                className="blog-post-content container row-12"
               >
-                <div   className="col" dangerouslySetInnerHTML={{ __html: html }}/>
+                <div   className="col-12" dangerouslySetInnerHTML={{ __html: html }}/>
               </div>        
         <BotaoFlutuante />
         <Footer />

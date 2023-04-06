@@ -37,7 +37,7 @@ const SobreAcl = () => {
               <h1 className="text-clinica text-center">Sobre a clínica</h1>
               <p className="text-clinica text-center" >
               Nosso consultório fica em um moderno espaço na Avenida Tancredo Neves 1187 W , uma das principais avenidas de Tangará da Serra, dentro da Clínica Instituto da Visão, em frente ao Fórum Municipal. <br />
-Em nossa clínica contamos com salas de consultas, salas de exames, sala de adaptação de lentes de contato e um centro cirúrgico com  mais modernos equipamentos para seu tratamento. 
+Em nossa clínica contamos com salas de consultas, salas de<a href="/exames/"> exames </a> , sala de adaptação de lentes de contato e um centro cirúrgico com  mais modernos equipamentos para seu tratamento. 
 
               </p>
               <Stack gap={2} className="col-md-5 mx-auto pb-3">
