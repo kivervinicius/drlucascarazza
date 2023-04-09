@@ -93,8 +93,9 @@ Simulação de uma visão com astigmatismo moderado.
 Dependendo da forma do seu olho (isso vai ser avaliado pelos exames pré-operatórios), ele vai precisar de lentes que corrijam o astigmatismo para que você possa ter o melhor foco possível. A lente que corrige o astigmatismo é chamada de **LENTE TÓRICA**. Quase todos os modelos de lentes intraoculares possuem o modelo não tórico (quando calculamos que o astigmatismo residual vai ser de 0,50 ou inferior) e modelo tórico (quando calculamos que o astigmatismo residual será de 0,75 ou superior). Essa informação é importante, pois as **lentes tóricas são mais caras**, seu implante é mais complexo e isso pode influenciar nos valores da sua cirurgia. 
 
 ![](../../src/images/torre1.png)   
-
+<p style="font-size: 12px" class="text-center">
 A primeira imagem simula a visão de um paciente com astigmatismo não corrigido e a segunda imagem corrigido. Essa correção pode ser feita tanto com os óculos como com as lentes intraoculares. Portanto, caso o paciente opte por não corrigir o astigmatismo na cirurgia de catarata, sabemos que vai precisar continuar usando óculos no pós-operatório.
+</p>
 
 Agora que entendemos um pouco como nossa visão funciona, vamos falar especificamente dos tipos de lentes intraoculares: as monofocais, as difrativas (bifocais, trifocais, EDOF) e as lentes de foco estendido não difrativas. 
 
@@ -102,13 +103,16 @@ Agora que entendemos um pouco como nossa visão funciona, vamos falar especifica
 São as lentes que possuem um só ponto de focalização. Tradicionalmente, com as lentes monofocais, buscamos dar o melhor foco para a visão de longe para o paciente.
 
 A grande vantagem desse tipo de lente é que 100% da energia luminosa que entra dentro do olho é direcionada para um só ponto focal. Isso permite entregar o máximo de visão possível para aquele foco (geralmente o foco de longe). Essa vantagem também acaba sendo uma desvantagem, haja visto que ela não permite ao olho focar em outras distâncias, portanto, precisaremos de óculos para visão intermediária e para visão de perto.    
-![](../../src/images/lente-monofocal.png)    
-
+![](../../src/images/lente-monofocal.png)  
+![](../../src/images/lente-monofocal2.png)  
+<p style="font-size: 12px" class="text-center">
 Visão desfocada do paciente com catarata (acima) x visão do paciente operado com lentes monofocais para longe (abaixo) – repare que a visão para longe voltou ao normal, mas a visão intermediária (na mesa) e de perto (livro) estão desfocadas e serão necessários óculos para corrigir esses focos após a cirurgia.
+ </p>  
 
 **1. A – Monofocais esféricas**  
 As lentes monofocais esféricas possuem foco único, como todas as lentes monofocais. A diferença é que elas utilizam uma tecnologia um
-pouco mais simples denominada esférica, que não permite que todos os raios de luz focalizem juntos ao mesmo tempo na retina. Por não se focalizarem juntos, essas lentes esféricas proporcionam menor qualidade de visão e menos contraste em relação às lentes asféricas. Importante ressaltar que essa perda de qualidade óptica não pode ser corrigida com óculos. São lentes mais baratas e são aquelas geralmente oferecidas pelo plano de saúde e pelo SUS.
+pouco mais simples denominada esférica, que não permite que todos os raios de luz focalizem juntos ao mesmo tempo na retina. Por não se focalizarem juntos, essas lentes esféricas proporcionam menor qualidade de visão e menos contraste em relação às lentes asféricas. Importante ressaltar que essa perda de 
+qualidade óptica não pode ser corrigida com óculos. São lentes mais baratas e são aquelas geralmente oferecidas pelo plano de saúde e pelo SUS.
 Outro ponto a ser considerado é que não são fabricadas lentes esféricas tóricas que corrijam astigmatismo, portanto, esse tipo de grau não será corrigido pela lente (ao contrário da perda de contraste, o astigmatismo residual pode ser corrigido, posteriormente, com uso de óculos). 
 
 **1. B- Monofocais asféricas**    
@@ -117,8 +121,10 @@ As lentes monofocais asféricas também possuem foco único, como todas as lente
 As lentes esféricas foram as primeiras lentes especiais (também conhecidas como “lentes premium”) para cirurgia de catarata e eram todas importadas, por isso até hoje algumas pessoas as conhecem como “lentes importadas”.
 
 Algumas figuras tentam mostrar a diferença entre lentes esféricas e lentes esféricas:      
-![Algumas figuras tentam mostrar a diferença entre lentes esféricas e lentes esféricas: ](../../src/images/aesfera.png)  
+![Algumas figuras tentam mostrar a diferença entre lentes esféricas e lentes esféricas: ](../../src/images/aesfera.png) 
+<p style="font-size: 12px" class="text-center">
 Aqui demonstramos visualização com lentes oftalmológicas esféricas (acima) e asféricas (abaixo). Observar que as aberrações nas lentes asféricas são bem menores.
+</p> 
 
 ![](../../src/images/esferica.png)   
 <p style="font-size: 12px" class="text-center">

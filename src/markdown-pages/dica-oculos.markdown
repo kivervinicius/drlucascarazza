@@ -13,20 +13,22 @@ aos óculos por não ter gostado da estética da armação escolhida. Por isso,
 escolha sua armação com calma e procure levar alguém de confiança junto
 com você, que conheça seu gosto e estilo para te ajudar a fazer a melhor
 escolha.  
+
 **Obs:** nem todas as armações combinam com todas as lentes. Por isso, peça
 o auxílio do óptico para te orientar nessa tarefa.  
-
+<br>
 #### Materiais de Armações
 
-**•Acetato:** são as mais utilizadas por possuírem material leve e resistente.  
+**•Acetato:** são as mais utilizadas por possuírem material leve e resistente. 
+
 **•Metálicas:** geralmente mais estreitas e precisam de lentes mais finas.
 Para alérgicos a níquel, perguntar se não há presença desse material na liga
-metálica.  
-**• Emborrachadas**: mais maleáveis, sendo ideais para crianças.  
-**Obs:** algumas armações possuem plaquetas de apoio para o nariz. Observe
-se vai ficar confortável para o seu formato de nariz. Em geral, asiáticos e
-negros têm a base do nariz menos proeminente, o que dificulta o uso desse
-tipo de armação.
+metálica.    
+
+**• Emborrachadas**: mais maleáveis, sendo ideais para crianças. 
+
+**Obs:** algumas armações possuem plaquetas de apoio para o nariz. Observe se vai ficar confortável para o seu formato de nariz. Em geral, asiáticos e negros têm a base do nariz menos proeminente, desta forma as armações com plaquetas podem ajudar no posicionamento dos óculos no rosto. 
+
 
 #### Design das Armações  
 
@@ -46,8 +48,7 @@ tipo de armação.
  </div>
  <div class = "col-7">
  <p class = "">• Rosto quadrado: prefira
-armações redondas ou ovala-
-das e menores.   </p>
+armações redondas ou ovaladas e menores.   </p>
  </div>
  </div>
  <div class = "row mt-1">
@@ -85,14 +86,16 @@ armação. </p>
 
 **Vidro:** em desuso pelo seu maior peso e espessura, além de quebrar com
 facilidade. Sua vantagem é ter maior resistência aos riscos.  
+
 **Resina:** é o material mais utilizado pela sua leveza e versatilidade. Existem
 as resinas mais simples que são mais baratas e mais espessas e as resinas
 de alto índice de refração que são mais finas.  
+
 **Policarbonato:** é um material de alta resistência, muito indicado para profissões de risco e armações em que a lente precisa ser perfurada (armações
-em 3 peças presas com parafusos).  
+em 3 peças presas com parafusos). 
+
 **Trivex:** é um material também de grande resistência, porém com qualidade
-óptica melhor que o policarbonato. Por isso, é indicado para crianças que preci-
-sam da associação de resistência com uma boa qualidade de visão, já que
+óptica melhor que o policarbonato. Por isso, é indicado para crianças que precisam da associação de resistência com uma boa qualidade de visão, já que
 estão em fase de desenvolvimento visual.
 
 
@@ -103,17 +106,22 @@ nas lentes, causando uma melhora estética e também da visão.
 Existem diversos tipos de antirreflexo. Quanto maior número de
 camadas oferecidas, mais funções possuem o tratamento escolhido, geralmente aumentando sua durabilidade, garantia e também o preço.
 Entre as funções das camadas do antirreflexo, existem:  
-**- o antirreflexo propriamente dito:** melhora a sensibilidade ao contraste.   
+**- o antirreflexo propriamente dito:** melhora a sensibilidade ao contraste.  
+
 **- camada antirrisco:** diminui a incidência de riscos na lente, mas não os
 impede. Por isso, é importante sempre guardar os óculos no estojo quando
 não estiverem sendo utilizados.  
+
 **- camada hidrorrepelente:** evita o acúmulo de líquidos e facilita a limpeza da lente.  
-**- camada antiestática:** diminui o acúmulo de poeira nas lentes, mantendoas mesmas limpas por mais tempo.    
-**- camada liporrepelente:** diminui o acúmulo de gordura nas lentes, mantendo as mesmas limpas por mais tempo.   
+
+**- camada antiestática:** diminui o acúmulo de poeira nas lentes, mantendoas mesmas limpas por mais tempo.   
+
+**- camada liporrepelente:** diminui o acúmulo de gordura nas lentes, mantendo as mesmas limpas por mais tempo. 
+<br />  
+<br />
 **Tratamentos Fotossensíveis:** é o tipo de tratamento que torna as lentes
 adaptáveis, ou seja, aquelas que se tornam mais escuras em ambientes
 muito iluminados e mais claras em ambientes menos iluminados.    
-
 
 **Obs:** muito importante salientar para quem pretende usar esse tratamento pela primeira vez que a ativação do tratamento é feita por raios UV,
 porém essa lente não escurece tanto quanto os óculos escuros. Outra
