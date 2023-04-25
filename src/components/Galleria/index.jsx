@@ -17,7 +17,6 @@ import img14 from "./images/Oftalmologista-24.jpg";
 import { Row, Col, Button, Stack } from "react-bootstrap";
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
-import "/home/kituxi/drlucascarazza/src/pages/index.scss";
 
 const images = [
   img6,
