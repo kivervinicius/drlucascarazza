@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import "./style.scss"
-//import Galeria from '../Galeria/index'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -19,7 +18,7 @@ import img8 from "./images/placas-optometria-daltonismo.jpg";
 
 
 
-import Galeria from "../../components/Galeria";
+import Galeria from "../Galleria";
 
 
 import { Accordion, Button, Stack } from 'react-bootstrap';
@@ -81,7 +80,7 @@ const Exames = () => {
       id: 5,
       name: ' Teste de visão de cores',
       url: "",
-      nikName: 'O Teste de Visão de Cores, também conhecido como Teste de Daltonismo, é utilizado para identificação de Discromatopsias, popularmente conhecidas como Daltonismo',
+      nikName: 'O Teste de Visão de Cores, também conhecido como Teste de Daltonismo, é utilizado para identificação de Discromatopsias, popularmente conhecidas como Daltonismo.',
       img: img8,
       imge2: ""
     },
