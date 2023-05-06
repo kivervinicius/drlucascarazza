@@ -215,7 +215,7 @@ const Exames = () => {
         <Container className='d-block'>
 
           <Galeria />
-          <h1 className="text-tratamento text-center">CONSULTAS DE ROTINA</h1>
+          <h4 className="text-tratamento mt-5 text-center">CONSULTAS DE ROTINA</h4>
           <Row>
             <Col>
               <Row>

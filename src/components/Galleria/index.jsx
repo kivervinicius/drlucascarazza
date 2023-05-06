@@ -42,9 +42,9 @@ const Galeria = () => {
     <>
       <div className="d-block">
     
-        <div id="clinica" class="container-clinica-page p-5 mt-5">
+        <div id="clinica" class="container-clinica-page mt-5">
           <Row>
-            <Col md={7} className="text-center">
+            <Col  md={7} className="text-center">
               <div className="text-center" >
 
                 <h1 className="text-clinica text-center">Nosso consultório</h1>
