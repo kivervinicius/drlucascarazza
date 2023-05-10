@@ -288,8 +288,6 @@ https://www.gov.br/ans/pt-br/arquivos/acesso-a-informacao/transparencia-instituc
 
  [Comos escolher seus óculos](/dica-oculos)   
  
-[Colocar após Tratamento fotossensíveis](/dica-folder-lente)
-
  [⇦ voltar a pagina principal](/)
 
  ---------------------------------------------------------------------------------------------------

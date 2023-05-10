@@ -72,8 +72,6 @@ Agora que você já entendeu sobre a catarata e seu tratamento, está na hora de
 
 **Veja também**  
  [Comos escolher seus óculos](/dica-oculos)   
- 
-[Colocar após Tratamento fotossensíveis](/dica-folder-lente)  
 
 [Como escolher a lente intraocular](/dica-lente)
 

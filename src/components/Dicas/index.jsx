@@ -2,7 +2,8 @@ import React from "react";
 import "./style.scss";
 import img1 from "../images/dicas1.png";
 import img2 from "../images/dicas2.png";
-import img3 from "../images/folder-lente13.jpg";
+import img4 from "../images/cirurgia1.jpg";
+
 
 import { Row, Col } from "react-bootstrap";
 // import img3 from '../images/dicas3.png'
@@ -48,8 +49,7 @@ const Card = () => {
               <div className="card-body">
                 <h5 className="card-title">Como escolher a lente?</h5>
                 <p className="card-text">
-                  A catarata é uma doença em que a lente natural do nosso olho
-                  per...
+                A escolha da lente intraocular é uma oportunidade muito interessante para poder...
                 </p>
                 <Link to="/dica-lentes/" className="btn btn-primary">
                   Saiba mais
@@ -62,14 +62,14 @@ const Card = () => {
               <img
               alt="imagem de lente"
                 className="img-dicas rounded img-thumbnail"
-                src={img3}
+                src={img4}
               />
               <div className="card-body">
-                <h5 className="card-title">Colocar após Tratamento fotossensíveis!</h5>
+                <h5 className="card-title">Catarata e Cirurgia de Catarata!</h5>
                 <p className="card-text">
-                Uma outra alternativa que tem caído... 
+                A catarata é um processo de opacificação do cristalino... 
                 </p>
-                <Link to="/dica-folder-lente/" className="btn btn-primary">
+                <Link to="/dica-catarata-cirurgia/" className="btn btn-primary">
                   Saiba mais
                 </Link>
               </div>
