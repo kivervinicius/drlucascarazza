@@ -243,32 +243,28 @@ const Exames = () => {
                           </Accordion.Header>
                           <Accordion.Body>
                             <Row sm={12}>
-                              <Col sm={6}>
-                                <Row sm={6}>
-                                  <Col sm={12} md={6}>
-                                    <img
-                                      className="d-flex m-auto"
-                                      width="250"
-                                      height="150"
-                                      src={item.img}
-                                      alt={item.name}
-                                    />
-                                  </Col>
-                                  {item.imge2 && (
-                                    <Col sm={12} md={6}>
-                                      <img
-                                        className="d-flex m-auto"
-                                        width="250"
-                                        height="150"
-                                        src={item.imge2}
-                                        alt={item.name}
-
-                                      />
-                                    </Col>
-                                  )}
-                                </Row>
+                              <Col>
+                                <img
+                                  className="d-flex mx-auto img-thumbnail"
+                                  width="250"
+                                  // height="150"
+                                  src={item.img}
+                                  alt={item.name}
+                                />
                               </Col>
-                              <Row sm={12}>
+                              {item.imge2 && (
+                                <Col>
+                                  <img
+                                    className="d-flex mx-auto img-thumbnail"
+                                    width="250"
+                                    // height="150"
+                                    src={item.imge2}
+                                    alt={item.name}
+
+                                  />
+                                </Col>
+                              )}
+                              <Row sm={12} className="mt-4">
                                 <p>{item.nikName}</p>
                               </Row>
                             </Row>
