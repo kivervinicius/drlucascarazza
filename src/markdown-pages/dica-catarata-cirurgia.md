@@ -32,6 +32,7 @@ Depois que a catarata é removida, o seu oftalmologista vai implantar uma lente 
 Imagem demonstrando a cirurgia de catarata com implante da lente intraocular.
 </p>
 ​
+
 #### Quando operar?  
 Com o surgimento da doença, a tendência da catarata é evoluir e a visão tende a ficar cada dia mais turva.
 
