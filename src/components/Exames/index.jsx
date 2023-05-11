@@ -12,6 +12,22 @@ import img5 from "./images/oftalmoscopio-indireto-binocular.jpg";
 import img6 from "./images/tonomertia-convencional.jpg";
 import img7 from "./images/tonometro.jpg";
 import img8 from "./images/placas-optometria-daltonismo.jpg";
+import img9 from "./images/topografo.png";
+import img10 from "./images/tomografia.jpg";
+import img10 from "./images/Bioultra.jpg";
+import img11 from "./images/Potencialdeacuidade.png";
+import img12 from "./images/campimetria.jpg";
+import img13 from "./images/curva-tensional-diaria.jpg";
+import img14 from "./images/lupa-ocular.jpg";
+import img15 from "./images/TomografiadeCoerencia.jpg";
+import img16 from "./images/retiografo-portatil.jpg";
+import img17 from "./images/Paquimetro.jpg";
+
+
+
+
+
+
 
 
 
@@ -33,7 +49,7 @@ const Exames = () => {
     {
       id: 10,
       name: 'Refratometria medida do grau dos óculos ',
-      nikName: 'É um exame que quantifica, de forma aproximada, o erro refracional (miopia; hipermetropia; astigmatismo) do paciente.',
+      nikName: 'Nesse exame, são realizados as medidas do grau dos óculos de forma automática (computadorizada) e manual (escolhida pelo próprio paciente). Os resultados são comparados e são prescritos o grau final do paciente.',
       url: "https://www.medicalexpo.com/pt/prod/topcon-europe-medical/product-77876-471210.html",
       img: img1,
       imge2: ""
@@ -43,7 +59,7 @@ const Exames = () => {
     {
       id: 12,
       name: 'Tonometria de sopro com tecnologia Corneal response technology',
-      nikName: 'Exame utilizado naturalmente em pacientes que não requerem uma medida precisa da sua pressão intra-ocular, e pela sua praticidade serve de triagem para exames mais sofisticados para o glaucoma.',
+      nikName: 'A tecnologia de medida da pressão por sopro é uma medida de não contato da pressão, ou seja, um jato de ar é jogado no olho e o aparelho mede a pressão analisando o comportamento desse jato de ar em contato com a córnea. É uma forma adicional de medir a pressão ocular que não precisa de colírios anestésicos nem corantes, por isso se torna mais confortável. Nosso tonometro de sopro ainda nos oferece uma medida adicional da pressão ocular, de acordo com a deformação da córnea nos fornecendo mais um parâmetro para nos auxiliar a entender a pressão intra ocular do paciente.',
       url: "https://www.medicalexpo.com/pt/prod/topcon-europe-medical/product-77876-471210.html",
       img: img2,
       imge2: ""
@@ -52,7 +68,7 @@ const Exames = () => {
     {
       id: 11,
       name: 'Tonometria convencional  (medida da pressão dos olhos)',
-      nikName: " Exame executado para a verificação da pressão intra-ocular. Após o uso de colírio anestésico, com o tonômetro acoplado à lâmpada de fenda, faz-se uma discreta compressão na córnea, aplainando a sua área central. Observa-se em um tamborzinho lateral o valor em mmHg.",
+      nikName: " A medida da pressão dos olhos é um exame fundamental para descobrir se o paciente tem glaucoma e para acompanhamento de pacientes com diagnóstico de glaucoma. Também é importante para acompanhamento de inflamações oculares, uso de medicamentos, pós operatórios (entre outras situações que podem alterar a pressão ocular). Sempre que possível, você terá sua pressão intra ocular aferida em suas visitas ao nosso consultório.",
       url: "https://www.keelerusa.com/products/tonometry/kat-tonometer-type-r.html",
       img: img6,
       imge2: img7,
@@ -62,150 +78,200 @@ const Exames = () => {
 
     {
       id: 1,
-      name: 'Biomicroscopia',
-      nikName: 'Avaliação com biomicroscópio e lentes especiais da anatomia do segmento anterior e posterior do olho.',
+      name: 'Biomicroscopia (avaliação com biomicroscópio e lentes especiais da anatomia do segmento anterior e posterior do olho)',
+      nikName: 'Biomicroscopia (avaliação com biomicroscópio e lentes especiais da anatomia do segmento anterior e posterior do olho)',
       url: "https://usophthalmic.com/products/hs-5000-5x",
       img: img3,
     },
     {
       id: 2,
       name: 'Mapeamento de retina',
-      nikName: "O exame de mapeamento de retina é feito para avaliar a retina e procurar por alguma alteração, sobretudo na sua periferiaO exame de mapeamento de retina é feito para avaliar a retina e procurar por alguma alteração, sobretudo na sua periferia.",
+      nikName: "Através desse exame, conseguimos avaliar os detalhes da retina do paciente para descobrir se existem doenças ou alterações retinianas bem como acompanhar o seu tratamento.",
       url: "https://www.eyetec.com.br/equipamento-oftalmoscopio-binocular-indireto",
       img: img4,
       imge2: img5
     },
 
     {
+      id: 3,
+      name: 'Teste de lentes de contato',
+      nikName: "Este é um procedimento indispensável para o paciente que usa óculos e deseja passar a usar também as lentes de contato. No dia do seu teste, faremos avaliação da sua córnea para entender a interação dela com a lente de contato proposta, lhe ensinaremos a manusear e cuidar de sua lente de contato e avaliaremos como ficam a visão e o seu conforto com a lente de contato. A partir desse procedimento que você poderá obter uma adaptação segura e saudável da sua lente de contato",
+      url: "",
+      imge2: ""
+    },
+
+
+    {
+      id: 4,
+      name: 'Teste de estrabismo (cover test)',
+      nikName:'Este é um teste utilizado para avaliar se um paciente possuem algum grau de desvio ocular. É especialmente utilizado em crianças que podem ter seu desenvolvimento visual comprometido pelos estrabismos.',
+       url: ""
+    },
+
+
+    {
       id: 5,
       name: ' Teste de visão de cores',
       url: "",
-      nikName: 'O Teste de Visão de Cores, também conhecido como Teste de Daltonismo, é utilizado para identificação de Discromatopsias, popularmente conhecidas como Daltonismo.',
+      nikName: 'Este teste é útil para diagnosticar discromatopsias (daltonismo) bem como avaliar doenças no nervo óptico. Também utilizado em algumas avaliações pré operatórias.',
       img: img8,
       imge2: ""
     },
-
     {
-      id: 3,
-      name: 'Teste de lentes de contato',
-      nikName: "É a análise curvatura da córnea para iniciar o teste, mas somente colocando as lentes nos olhos para garantir a correta adaptação.",
-      url: "",
-      imge2: ""
-    },
+       id: 6,
+         name: 'Teste de estereopsia (avaliação da visão tridimensional)',
+        nikName:"Esse teste nos ajuda a avaliar qual o grau de visão tridimensional que o paciente possui..",
+        img: '',
+        imge2: ""
+       },
+    
+   
+      ]
+      const cornea =[
+    // 
+    // /Córnea, Catarata, Ceratocone e Cirurgia Refrativa
+      {
+        id: 7,
+        name: 'Topografia de córnea',
+        nikName: 'A topografia de córnea é um exame que avalia a forma e curvatura da córnea do paciente. Ele é extremamente útil e amplamente utilizado para avaliar a córnea do paciente em casos de graus mais moderados a elevados, rastreio e acompanhamento de doenças da córnea (especialmente o ceratocone), pré operatório de cirurgias oculares (pterígio, catarata), acompanhamento do uso de lentes de contato, entre várias outras indicações.',
+        img: img9,
+        imge2: ""
+      },
 
-    // {
-    //   id: 4,
+      {
+        id: 9,
+        name: ' Tomografia de córnea e Biometria Óptica (Pentacam AXL)',
+        nikName:' A tomografia é uma evolução da topografia. Enquanto a topografia analisa apenas uma foto da sua córnea, a tomografia faz diversas fotos em posições diferentes para fazer uma reconstrução tridimensional da sua córnea. Por isso, ele consegue nos dar informações mais precisas e detalhadas da córnea dos pacientes, sendo muito importante em quase todas as indicações de topografia de córnea.Importante salientar que não são exames excludentes e sim complementares. Por utilizarem tecnologias diferentes para aquisição das imagens, seus resultados são sempre analisados em conjunto para melhor tomada de decisão sobre um caso clínico do paciente.',
+        img: img10,
+        imge2: ""
+      },
 
-    //   name: 'Teste de estrabismo (cover test)',
-    //   url: ""
-    // },
+      {
+        id: 8,
+        name: ' Biometria Ultra Sônica',
+        url: "https://www.apramed.com.br/v4/produtos_detalhes.php?id=249",
+        nikName:'A biometria é a medida do tamanho do globo ocular e as distâncias entre as estruturas intra oculares (córnea, cristalino e retina). Muito utilizado em conjunto com as medidas da curvatura ocular (topografia e tomografia) para o cálculo da lente intra ocular do paciente. Também utilizamos muito a biometria para pacientes com grau mais elevado, diferença de grau entre os olhos e em alguns pré operatórios.',
+        img: img10,
+        imge2: ""
+      },
 
-    // {
-    //   id: 6,
-    //   name: 'Teste de estereopsia (avaliação da visão tridimensional)',
-    //   nikName:"É um exame que avalia a visão tridimensional ou de profundidade.",
-    //   url: "https://descricao.com.br/produto/teste-de-daltonismo-ishihara/?utm_source=Google%20Shopping&utm_campaign=Google%20Shopping&utm_medium=cpc&utm_term=43366&gclid=Cj0KCQiAzfuNBhCGARIsAD1nu-_9Ve8Dlo9_KWVia1NOng89VeWXH79zOVr-EPnyOBSQTBPk2mPtfyYaAszpEALw_wcB"
-    // },
-    //   //Córnea, Catarata, Ceratocone e Cirurgia Refrativa
-    //   {
-    //     id: 7,
-    //     name: 'Topografia de córnea',
-    //     url: "http://houseofvision.com.br/equipamentos/ca800/"
-    //   },
-
-    //   {
-    //     id: 8,
-    //     name: ' Biometria Ultra Sônica',
-    //     url: "https://www.apramed.com.br/v4/produtos_detalhes.php?id=249"
-    //   },
-
-
-    //   {
-    //     id: 9,
-    //     name: ' Tomografia de córnea e Biometria Óptica (Pentacam AXL)',
-    //     url: "https://www.oculus.de/en/national-press/information/truevisions-trueplan-is-now-linked-to-pentacam-axl/"
-
-    //   },
-
-
-    //   {
-    //     id: 23,
-    //     name: '  Oct Retina',
-    //     nikName
-    //     url: " https://www.medicalexpo.com/pt/prod/tomey/product-77872-496896.html"
-    //   },
-
-    // ]
-    // var consultas2 = [
+      {
+        id: 14,
+        name: 'Biometria Óptica (Pentacam AXL)',
+        nikName: "Esse exame é uma evolução da biometria ultra sônica e utiliza um método mais moderno chamado de interferometria óptica para medir o tamanho do globo ocular de uma maneira mais precisa que o ultra som.",
+      },
 
 
-    //   {
-    //     id: 13,
-    //     name: ' Microscopia especular de córnea',
-    //     url: "https://www.nidek-intl.com/product/ophthaloptom/diagnostic/dia_cornea/cem-530.html"
-    //   },
-
-    //   {
-    //     id: 14,
-    //     name: 'Biometria Ultra Sônica',
-    //     url: "http://houseofvision.com.br/equipamentos/ca800/"
-    //   },
-    //   {
-    //     id: 15,
-    //     name: 'Potencial de acuidade visual (PAM)',
-    //     url: "https://visarerio.com.br/project/acuidade-potencial-macular/ "
-    //   },
-
-    //   // 1.3 Glaucoma
-
-    //   {
-    //     id: 16,
-    //     name: 'Campimetria computadorizada',
-    //     url: "https://www.kwipped.com/rentals/product/zeiss-hfa-750i-visual-field-perimeter-factory-authorized/18211"
-    //   },
-    //   {
-    //     id: 15,
-    //     name: 'Curva diária de pressão ocular',
-    //     url: "    https://ccolhos.com.br/portfolio/curva-tensional-diaria/"
-    //   },
-    //   {
-    //     id: 17,
-    //     name: 'Teste de Sobrecarga Hídrica',
-    //     url: "https://visarerio.com.br/project/acuidade-potencial-macular/ "
-    //   },
-
-    //   {
-    //     id: 18,
-    //     name: 'Gonioscopia',
-    //     url: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.glaucomapatients.org%2Fwp-content%2Fuploads%2F2018%2F03%2Fslide30-pic1.jpg&imgrefurl=https%3A%2F%2Fwww.glaucomapatients.org%2Fpt-br%2Fexame-ocular-pt-br%2Fcomo-e-feita-a-gonioscopia%2F&tbnid=y5viv87rUXe3uM&vet=12ahUKEwjk27zLp_D0AhWaq5UCHaYNDAEQMygKegUIARDBAQ..i&docid=qNQMUcQp7k6P4M&w=800&h=792&q=gonioscopia&ved=2ahUKEwjk27zLp_D0AhWaq5UCHaYNDAEQMygKegUIARDBAQ"
-    //   },
-
-    //   {
-    //     id: 19,
-    //     name: "Tomografia de Coerência Óptica",
-    //     nikName: "(OCT) do nervo óptico e da camada de fibras nervosas",
-    //     url: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.glaucomapatients.org%2Fwp-content%2Fuploads%2F2018%2F03%2Fslide30-pic1.jpg&imgrefurl=https%3A%2F%2Fwww.glaucomapatients.org%2Fpt-br%2Fexame-ocular-pt-br%2Fcomo-e-feita-a-gonioscopia%2F&tbnid=y5viv87rUXe3uM&vet=12ahUKEwjk27zLp_D0AhWaq5UCHaYNDAEQMygKegUIARDBAQ..i&docid=qNQMUcQp7k6P4M&w=800&h=792&q=gonioscopia&ved=2ahUKEwjk27zLp_D0AhWaq5UCHaYNDAEQMygKegUIARDBAQ"
-    //   },
-    //   {
-    //     id: 20,
-    //     name: ' Retinografia',
-    //     url: " https://phelcom.com/"
-    //   },
-    //   {
-    //     id: 21,
-    //     name: ' Paquimetria',
-    //     url: "https://www.medicalexpo.com/pt/prod/tomey/product-77872-496896.html"
-    //   },
+      {
+        id: 13,
+        name: ' Microscopia especular de córnea',
+        nikName: "Esse exame avalia a camada mais posterior da córnea: o endotélio. Essa camada é fundamental, pois é nela que se encontra as células responsáveis por manter a córnea transparente. Esse exame é muito utilizado em pré e pós operatório de cirurgias oculares, acompanhamento de usuários de lentes de contato bem como pacientes que possuem doenças específicas que acometem essa camada de células (distrofias do endotélio corneano).",
+      },
 
 
 
+      {
+        id: 23,
+        name: '  Potencial de acuidade visual (PAM)',
+        nikName:'Exame útil para tentar nos mostrar qual potencial de visão o paciente poderia alcançar após uma determinada cirurgia ocular.',
+       img: img11,
+       imge2:''
+      },
 
-    //   {
-    //     //  1.3 Retina:
-    //     id: 22,
-    //     name: ' Angioflueresceinografia',
-    //     url: " https://www.medicalexpo.com/pt/prod/tomey/product-77872-496896.html"
-    //   },
+      {
+        id: 15,
+        name: 'Potencial de acuidade visual (PAM)',
+        url: "https://visarerio.com.br/project/acuidade-potencial-macular/ "
+      },
+
+    ]
+    var Glaucoma = [
+
+
+      
+
+      // 1.3 Glaucoma:Todos os exames dessa seção são utilizados para avaliar suspeitos de glaucoma ou pacientes glaucomatosos. Eles são avaliados em conjunto e repetidos rotineiramente, conforme a necessidade individual de cada paciente.
+      
+
+      {
+        id: 16,
+        name: 'Campimetria computadorizada',
+        nikName: "Sabidamente o glaucoma afeta o campo visual dos pacientes com essa doença. Esse exame permite avaliar o campo visual do paciente nos suspeitos e portadores de glaucoma. Também pode ser usado em outras doenças da retina, do nervo óptico e palpebrais.",
+        img: img12,
+        imge2: ""
+      },
+      {
+        id: 15,
+        name: 'Curva diária de pressão ocular',
+        nikName: "Nossa pressão intra ocular pode sofrer variações ao longo do dia. Nesse exame, fazemos algumas medidas da pressão ocular ao longo do dia com intuito de avaliar melhor quais seriam essas variações.",
+        img: img13,
+        imge2: ""
+      },
+      {
+        id: 17,
+        name: 'Teste de Sobrecarga Hídrica',
+        nikName: "Este teste tem como objetivo causar um estresse nas estruturas de drenagem do nosso olho (após ingestão de uma quantidade de água predeterminada). Logo após, algumas medidas de pressão são realizadas para avaliar o comportamento dessa pressão.",
+        img: img13,
+        imge2: ""
+      },
+      {
+        id: 18,
+        name: 'Gonioscopia',
+        nikName: "Esse exame visa avaliar as estruturas de drenagem do olho localizadas em um local denominado ângulo camerular que só pode ser observado através da utilização de lentes com espelhos especiais.",
+        img: img14,
+        imge2: ""
+      },
+      {
+        id: 19,
+        name: "Tomografia de Coerência Óptica",
+        nikName: "Esse exame tem como objetivo avaliar a camada de fibras nervosas e camadas de células ganglionares da retina, estruturas que são danificadas no glaucoma e que não são possíveis de serem avaliadas sem esse instrumento.",
+        img: img15,
+        imge2: ""
+      },
+      {
+        id: 20,
+        name: ' Retinografia',
+        nikName: " A retinografia é uma foto da sua retina e do nervo óptico que utilizamos para documentar o estado atual das estruturas intra oculares e comparar futuramente.  ",
+        img: img16,
+        imge2: ""
+      },
+      {
+        id: 21,
+        name: ' Paquimetria',
+        url: "Avalia a espessura da camada córnea que tem íntima relação com a pressão intra ocular.",
+        img: img17,
+        imge2: ""
+
+      },
+
+
+    ]
+
+    const retina =[
+      //  1.3 Retina:
+      {
+        id: 23,
+        name: ' Retinografia',
+        nikName: "Fotografia para documentação das alterações retinianas.",
+        img: img16,
+        imge2: ""
+      },
+ 
+      {
+        id: 22,
+        name: ' Angioflueresceinografia',
+        nikName: " Exame que avalia a retina, seus vasos sanguíneos e possíveis lesões da retina e nervo óptico através da injeção de um contraste intra venoso. Após a infusão desse contraste, são tiradas diversas fotos da retina e acompanhamos qual comportamento desse contraste e das estruturas retinianas para nos auxiliar no diagnóstico e acompanhamento das patologias oculares."
+      },
+      {
+        id: 24,
+        name: '  Oct Retina',
+        nikName: "O OCT de retina é um tomógrafo capaz de avaliar a retina tirando diversas fotografias da mesma e fazendo reconstruções que simulam cortes histológicos da mesma (analise de cada camada de células de retina) que nos ajudam a identificar precisamente qual parte da retina está danificada para podermos definir qual diagnóstico e qual melhor tratamento.",
+        img: img10,
+        imge2: ""
+
+      },
+     
+
 
   ]
 
@@ -243,28 +309,32 @@ const Exames = () => {
                           </Accordion.Header>
                           <Accordion.Body>
                             <Row sm={12}>
-                              <Col>
-                                <img
-                                  className="d-flex mx-auto img-thumbnail"
-                                  width="250"
-                                  // height="150"
-                                  src={item.img}
-                                  alt={item.name}
-                                />
-                              </Col>
-                              {item.imge2 && (
-                                <Col>
-                                  <img
-                                    className="d-flex mx-auto img-thumbnail"
-                                    width="250"
-                                    // height="150"
-                                    src={item.imge2}
-                                    alt={item.name}
+                              <Col sm={6}>
+                                <Row sm={6}>
+                                  <Col sm={12} md={6}>
+                                    <img
+                                      className="d-flex m-auto"
+                                      width="250"
+                                      height="150"
+                                      src={item.img}
+                                      alt={item.name}
+                                    />
+                                  </Col>
+                                  {item.imge2 && (
+                                    <Col sm={12} md={6}>
+                                      <img
+                                        className="d-flex m-auto"
+                                        width="250"
+                                        height="150"
+                                        src={item.imge2}
+                                        alt={item.name}
 
-                                  />
-                                </Col>
-                              )}
-                              <Row sm={12} className="mt-4">
+                                      />
+                                    </Col>
+                                  )}
+                                </Row>
+                              </Col>
+                              <Row sm={12}>
                                 <p>{item.nikName}</p>
                               </Row>
                             </Row>
