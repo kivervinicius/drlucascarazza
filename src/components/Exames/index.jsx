@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "./style.scss"
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -14,7 +14,7 @@ import img7 from "./images/tonometro.jpg";
 import img8 from "./images/placas-optometria-daltonismo.jpg";
 import img9 from "./images/topografo.png";
 import img10 from "./images/tomografia.jpg";
-import img10 from "./images/Bioultra.jpg";
+import img18 from "./images/Bioultra.jpg";
 import img11 from "./images/Potencialdeacuidade.png";
 import img12 from "./images/campimetria.jpg";
 import img13 from "./images/curva-tensional-diaria.jpg";
@@ -37,11 +37,11 @@ import img17 from "./images/Paquimetro.jpg";
 import Galeria from "../Galleria";
 
 
-import { Accordion, Button, Stack } from 'react-bootstrap';
+import { Accordion } from 'react-bootstrap';
 
 
 const Exames = () => {
-  const [showLess, setShowLess] = useState(false);
+  
 
   //consultas de rotina
   const consultas = [
@@ -104,8 +104,8 @@ const Exames = () => {
     {
       id: 4,
       name: 'Teste de estrabismo (cover test)',
-      nikName:'Este é um teste utilizado para avaliar se um paciente possuem algum grau de desvio ocular. É especialmente utilizado em crianças que podem ter seu desenvolvimento visual comprometido pelos estrabismos.',
-       url: ""
+      nikName: 'Este é um teste utilizado para avaliar se um paciente possuem algum grau de desvio ocular. É especialmente utilizado em crianças que podem ter seu desenvolvimento visual comprometido pelos estrabismos.',
+      url: ""
     },
 
 
@@ -118,159 +118,159 @@ const Exames = () => {
       imge2: ""
     },
     {
-       id: 6,
-         name: 'Teste de estereopsia (avaliação da visão tridimensional)',
-        nikName:"Esse teste nos ajuda a avaliar qual o grau de visão tridimensional que o paciente possui..",
-        img: '',
-        imge2: ""
-       },
-    
-   
-      ]
-      const cornea =[
+      id: 6,
+      name: 'Teste de estereopsia (avaliação da visão tridimensional)',
+      nikName: "Esse teste nos ajuda a avaliar qual o grau de visão tridimensional que o paciente possui..",
+      img: '',
+      imge2: ""
+    },
+
+
+  ]
+  const cornea = [
     // 
     // /Córnea, Catarata, Ceratocone e Cirurgia Refrativa
-      {
-        id: 7,
-        name: 'Topografia de córnea',
-        nikName: 'A topografia de córnea é um exame que avalia a forma e curvatura da córnea do paciente. Ele é extremamente útil e amplamente utilizado para avaliar a córnea do paciente em casos de graus mais moderados a elevados, rastreio e acompanhamento de doenças da córnea (especialmente o ceratocone), pré operatório de cirurgias oculares (pterígio, catarata), acompanhamento do uso de lentes de contato, entre várias outras indicações.',
-        img: img9,
-        imge2: ""
-      },
+    {
+      id: 7,
+      name: 'Topografia de córnea',
+      nikName: 'A topografia de córnea é um exame que avalia a forma e curvatura da córnea do paciente. Ele é extremamente útil e amplamente utilizado para avaliar a córnea do paciente em casos de graus mais moderados a elevados, rastreio e acompanhamento de doenças da córnea (especialmente o ceratocone), pré operatório de cirurgias oculares (pterígio, catarata), acompanhamento do uso de lentes de contato, entre várias outras indicações.',
+      img: img9,
+      imge2: ""
+    },
 
-      {
-        id: 9,
-        name: ' Tomografia de córnea e Biometria Óptica (Pentacam AXL)',
-        nikName:' A tomografia é uma evolução da topografia. Enquanto a topografia analisa apenas uma foto da sua córnea, a tomografia faz diversas fotos em posições diferentes para fazer uma reconstrução tridimensional da sua córnea. Por isso, ele consegue nos dar informações mais precisas e detalhadas da córnea dos pacientes, sendo muito importante em quase todas as indicações de topografia de córnea.Importante salientar que não são exames excludentes e sim complementares. Por utilizarem tecnologias diferentes para aquisição das imagens, seus resultados são sempre analisados em conjunto para melhor tomada de decisão sobre um caso clínico do paciente.',
-        img: img10,
-        imge2: ""
-      },
+    {
+      id: 9,
+      name: ' Tomografia de córnea e Biometria Óptica (Pentacam AXL)',
+      nikName: ' A tomografia é uma evolução da topografia. Enquanto a topografia analisa apenas uma foto da sua córnea, a tomografia faz diversas fotos em posições diferentes para fazer uma reconstrução tridimensional da sua córnea. Por isso, ele consegue nos dar informações mais precisas e detalhadas da córnea dos pacientes, sendo muito importante em quase todas as indicações de topografia de córnea.Importante salientar que não são exames excludentes e sim complementares. Por utilizarem tecnologias diferentes para aquisição das imagens, seus resultados são sempre analisados em conjunto para melhor tomada de decisão sobre um caso clínico do paciente.',
+      img: img10,
+      imge2: ""
+    },
 
-      {
-        id: 8,
-        name: ' Biometria Ultra Sônica',
-        url: "https://www.apramed.com.br/v4/produtos_detalhes.php?id=249",
-        nikName:'A biometria é a medida do tamanho do globo ocular e as distâncias entre as estruturas intra oculares (córnea, cristalino e retina). Muito utilizado em conjunto com as medidas da curvatura ocular (topografia e tomografia) para o cálculo da lente intra ocular do paciente. Também utilizamos muito a biometria para pacientes com grau mais elevado, diferença de grau entre os olhos e em alguns pré operatórios.',
-        img: img10,
-        imge2: ""
-      },
+    {
+      id: 8,
+      name: ' Biometria Ultra Sônica',
+      url: "https://www.apramed.com.br/v4/produtos_detalhes.php?id=249",
+      nikName: 'A biometria é a medida do tamanho do globo ocular e as distâncias entre as estruturas intra oculares (córnea, cristalino e retina). Muito utilizado em conjunto com as medidas da curvatura ocular (topografia e tomografia) para o cálculo da lente intra ocular do paciente. Também utilizamos muito a biometria para pacientes com grau mais elevado, diferença de grau entre os olhos e em alguns pré operatórios.',
+      img: img18,
+      imge2: ""
+    },
 
-      {
-        id: 14,
-        name: 'Biometria Óptica (Pentacam AXL)',
-        nikName: "Esse exame é uma evolução da biometria ultra sônica e utiliza um método mais moderno chamado de interferometria óptica para medir o tamanho do globo ocular de uma maneira mais precisa que o ultra som.",
-      },
-
-
-      {
-        id: 13,
-        name: ' Microscopia especular de córnea',
-        nikName: "Esse exame avalia a camada mais posterior da córnea: o endotélio. Essa camada é fundamental, pois é nela que se encontra as células responsáveis por manter a córnea transparente. Esse exame é muito utilizado em pré e pós operatório de cirurgias oculares, acompanhamento de usuários de lentes de contato bem como pacientes que possuem doenças específicas que acometem essa camada de células (distrofias do endotélio corneano).",
-      },
+    {
+      id: 14,
+      name: 'Biometria Óptica (Pentacam AXL)',
+      nikName: "Esse exame é uma evolução da biometria ultra sônica e utiliza um método mais moderno chamado de interferometria óptica para medir o tamanho do globo ocular de uma maneira mais precisa que o ultra som.",
+    },
 
 
-
-      {
-        id: 23,
-        name: '  Potencial de acuidade visual (PAM)',
-        nikName:'Exame útil para tentar nos mostrar qual potencial de visão o paciente poderia alcançar após uma determinada cirurgia ocular.',
-       img: img11,
-       imge2:''
-      },
-
-      {
-        id: 15,
-        name: 'Potencial de acuidade visual (PAM)',
-        url: "https://visarerio.com.br/project/acuidade-potencial-macular/ "
-      },
-
-    ]
-    var Glaucoma = [
+    {
+      id: 13,
+      name: ' Microscopia especular de córnea',
+      nikName: "Esse exame avalia a camada mais posterior da córnea: o endotélio. Essa camada é fundamental, pois é nela que se encontra as células responsáveis por manter a córnea transparente. Esse exame é muito utilizado em pré e pós operatório de cirurgias oculares, acompanhamento de usuários de lentes de contato bem como pacientes que possuem doenças específicas que acometem essa camada de células (distrofias do endotélio corneano).",
+    },
 
 
-      
 
-      // 1.3 Glaucoma:Todos os exames dessa seção são utilizados para avaliar suspeitos de glaucoma ou pacientes glaucomatosos. Eles são avaliados em conjunto e repetidos rotineiramente, conforme a necessidade individual de cada paciente.
-      
+    {
+      id: 23,
+      name: '  Potencial de acuidade visual (PAM)',
+      nikName: 'Exame útil para tentar nos mostrar qual potencial de visão o paciente poderia alcançar após uma determinada cirurgia ocular.',
+      img: img11,
+      imge2: ''
+    },
 
-      {
-        id: 16,
-        name: 'Campimetria computadorizada',
-        nikName: "Sabidamente o glaucoma afeta o campo visual dos pacientes com essa doença. Esse exame permite avaliar o campo visual do paciente nos suspeitos e portadores de glaucoma. Também pode ser usado em outras doenças da retina, do nervo óptico e palpebrais.",
-        img: img12,
-        imge2: ""
-      },
-      {
-        id: 15,
-        name: 'Curva diária de pressão ocular',
-        nikName: "Nossa pressão intra ocular pode sofrer variações ao longo do dia. Nesse exame, fazemos algumas medidas da pressão ocular ao longo do dia com intuito de avaliar melhor quais seriam essas variações.",
-        img: img13,
-        imge2: ""
-      },
-      {
-        id: 17,
-        name: 'Teste de Sobrecarga Hídrica',
-        nikName: "Este teste tem como objetivo causar um estresse nas estruturas de drenagem do nosso olho (após ingestão de uma quantidade de água predeterminada). Logo após, algumas medidas de pressão são realizadas para avaliar o comportamento dessa pressão.",
-        img: img13,
-        imge2: ""
-      },
-      {
-        id: 18,
-        name: 'Gonioscopia',
-        nikName: "Esse exame visa avaliar as estruturas de drenagem do olho localizadas em um local denominado ângulo camerular que só pode ser observado através da utilização de lentes com espelhos especiais.",
-        img: img14,
-        imge2: ""
-      },
-      {
-        id: 19,
-        name: "Tomografia de Coerência Óptica",
-        nikName: "Esse exame tem como objetivo avaliar a camada de fibras nervosas e camadas de células ganglionares da retina, estruturas que são danificadas no glaucoma e que não são possíveis de serem avaliadas sem esse instrumento.",
-        img: img15,
-        imge2: ""
-      },
-      {
-        id: 20,
-        name: ' Retinografia',
-        nikName: " A retinografia é uma foto da sua retina e do nervo óptico que utilizamos para documentar o estado atual das estruturas intra oculares e comparar futuramente.  ",
-        img: img16,
-        imge2: ""
-      },
-      {
-        id: 21,
-        name: ' Paquimetria',
-        url: "Avalia a espessura da camada córnea que tem íntima relação com a pressão intra ocular.",
-        img: img17,
-        imge2: ""
+    {
+      id: 15,
+      name: 'Potencial de acuidade visual (PAM)',
+      url: "https://visarerio.com.br/project/acuidade-potencial-macular/ "
+    },
 
-      },
+  ]
+  var glaucoma = [
 
 
-    ]
 
-    const retina =[
-      //  1.3 Retina:
-      {
-        id: 23,
-        name: ' Retinografia',
-        nikName: "Fotografia para documentação das alterações retinianas.",
-        img: img16,
-        imge2: ""
-      },
- 
-      {
-        id: 22,
-        name: ' Angioflueresceinografia',
-        nikName: " Exame que avalia a retina, seus vasos sanguíneos e possíveis lesões da retina e nervo óptico através da injeção de um contraste intra venoso. Após a infusão desse contraste, são tiradas diversas fotos da retina e acompanhamos qual comportamento desse contraste e das estruturas retinianas para nos auxiliar no diagnóstico e acompanhamento das patologias oculares."
-      },
-      {
-        id: 24,
-        name: '  Oct Retina',
-        nikName: "O OCT de retina é um tomógrafo capaz de avaliar a retina tirando diversas fotografias da mesma e fazendo reconstruções que simulam cortes histológicos da mesma (analise de cada camada de células de retina) que nos ajudam a identificar precisamente qual parte da retina está danificada para podermos definir qual diagnóstico e qual melhor tratamento.",
-        img: img10,
-        imge2: ""
 
-      },
-     
+    // 1.3 Glaucoma:Todos os exames dessa seção são utilizados para avaliar suspeitos de glaucoma ou pacientes glaucomatosos. Eles são avaliados em conjunto e repetidos rotineiramente, conforme a necessidade individual de cada paciente.
+
+
+    {
+      id: 16,
+      name: 'Campimetria computadorizada',
+      nikName: "Sabidamente o glaucoma afeta o campo visual dos pacientes com essa doença. Esse exame permite avaliar o campo visual do paciente nos suspeitos e portadores de glaucoma. Também pode ser usado em outras doenças da retina, do nervo óptico e palpebrais.",
+      img: img12,
+      imge2: ""
+    },
+    {
+      id: 15,
+      name: 'Curva diária de pressão ocular',
+      nikName: "Nossa pressão intra ocular pode sofrer variações ao longo do dia. Nesse exame, fazemos algumas medidas da pressão ocular ao longo do dia com intuito de avaliar melhor quais seriam essas variações.",
+      img: img13,
+      imge2: ""
+    },
+    {
+      id: 17,
+      name: 'Teste de Sobrecarga Hídrica',
+      nikName: "Este teste tem como objetivo causar um estresse nas estruturas de drenagem do nosso olho (após ingestão de uma quantidade de água predeterminada). Logo após, algumas medidas de pressão são realizadas para avaliar o comportamento dessa pressão.",
+      img: img13,
+      imge2: ""
+    },
+    {
+      id: 18,
+      name: 'Gonioscopia',
+      nikName: "Esse exame visa avaliar as estruturas de drenagem do olho localizadas em um local denominado ângulo camerular que só pode ser observado através da utilização de lentes com espelhos especiais.",
+      img: img14,
+      imge2: ""
+    },
+    {
+      id: 19,
+      name: "Tomografia de Coerência Óptica",
+      nikName: "Esse exame tem como objetivo avaliar a camada de fibras nervosas e camadas de células ganglionares da retina, estruturas que são danificadas no glaucoma e que não são possíveis de serem avaliadas sem esse instrumento.",
+      img: img15,
+      imge2: ""
+    },
+    {
+      id: 20,
+      name: ' Retinografia',
+      nikName: " A retinografia é uma foto da sua retina e do nervo óptico que utilizamos para documentar o estado atual das estruturas intra oculares e comparar futuramente.  ",
+      img: img16,
+      imge2: ""
+    },
+    {
+      id: 21,
+      name: ' Paquimetria',
+      url: "Avalia a espessura da camada córnea que tem íntima relação com a pressão intra ocular.",
+      img: img17,
+      imge2: ""
+
+    },
+
+
+  ]
+
+  const retina = [
+    //  1.3 Retina:
+    {
+      id: 23,
+      name: ' Retinografia',
+      nikName: "Fotografia para documentação das alterações retinianas.",
+      img: img16,
+      imge2: ""
+    },
+
+    {
+      id: 22,
+      name: ' Angioflueresceinografia',
+      nikName: " Exame que avalia a retina, seus vasos sanguíneos e possíveis lesões da retina e nervo óptico através da injeção de um contraste intra venoso. Após a infusão desse contraste, são tiradas diversas fotos da retina e acompanhamos qual comportamento desse contraste e das estruturas retinianas para nos auxiliar no diagnóstico e acompanhamento das patologias oculares."
+    },
+    {
+      id: 24,
+      name: '  Oct Retina',
+      nikName: "O OCT de retina é um tomógrafo capaz de avaliar a retina tirando diversas fotografias da mesma e fazendo reconstruções que simulam cortes histológicos da mesma (analise de cada camada de células de retina) que nos ajudam a identificar precisamente qual parte da retina está danificada para podermos definir qual diagnóstico e qual melhor tratamento.",
+      img: img10,
+      imge2: ""
+
+    },
+
 
 
   ]
@@ -281,118 +281,402 @@ const Exames = () => {
         <Container className='d-block'>
 
           <Galeria />
-          <h4 className="text-tratamento mt-5 text-center">CONSULTAS DE ROTINA</h4>
-          <Row>
+          <Row className='mt-3'> 
             <Col>
-              <Row>
-                {consultas.map((item) => {
-                  return (
-                    <>
-
-                      <Accordion defaultActiveKey={['0']} >
-                        <Accordion.Item eventKey={item.id}>
-                          <Accordion.Header>
-                            <Col sm={1}>
-                              <img
-                                className="d-flex m-auto"
-                                width="70"
-                                height="35"
-                                src={img}
-                                alt={item.name}
-                              />
-                            </Col>
-                            <Col>
-                              <h6 className='text-center'>{item.name}</h6>
-                            </Col>
+              <Accordion defaultActiveKey={['0']} >
+                <Accordion.Item  eventKey='1'>
+                  <Accordion.Header>
+                    <Col sm={1}>
+                      <img
+                        className="d-flex m-auto"
+                        width="70"
+                        height="35"
+                        src={img}
+                        alt='logotipo'
+                      />
+                    </Col>
+                    <Col>
+                      <h6 className='text-center'>CONSULTAS DE ROTINA</h6>
+                    </Col>
 
 
-                          </Accordion.Header>
-                          <Accordion.Body>
-                            <Row sm={12}>
-                              <Col sm={6}>
-                                <Row sm={6}>
-                                  <Col sm={12} md={6}>
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    <Row>
+                      {consultas.map((item) => {
+                        return (
+                          <>
+
+                            <Accordion defaultActiveKey={['0']} >
+                              <Accordion.Item eventKey={item.id}>
+                                <Accordion.Header>
+                                  <Col sm={1}>
                                     <img
                                       className="d-flex m-auto"
-                                      width="250"
-                                      height="150"
-                                      src={item.img}
+                                      width="70"
+                                      height="35"
+                                      src={img}
                                       alt={item.name}
                                     />
                                   </Col>
-                                  {item.imge2 && (
-                                    <Col sm={12} md={6}>
-                                      <img
-                                        className="d-flex m-auto"
-                                        width="250"
-                                        height="150"
-                                        src={item.imge2}
-                                        alt={item.name}
+                                  <Col>
+                                    <h6 className='text-center'>{item.name}</h6>
+                                  </Col>
 
-                                      />
+
+                                </Accordion.Header>
+                                <Accordion.Body>
+                                  <Row sm={12}>
+                                    <Col sm={6}>
+                                      <Row sm={6}>
+                                        <Col sm={12} md={6}>
+                                          <img
+                                            className="d-flex m-auto"
+                                            width="250"
+                                            height="150"
+                                            src={item.img}
+                                            alt={item.name}
+                                          />
+                                        </Col>
+                                        {item.imge2 && (
+                                          <Col sm={12} md={6}>
+                                            <img
+                                              className="d-flex m-auto"
+                                              width="250"
+                                              height="150"
+                                              src={item.imge2}
+                                              alt={item.name}
+
+                                            />
+                                          </Col>
+                                        )}
+                                      </Row>
                                     </Col>
-                                  )}
-                                </Row>
-                              </Col>
-                              <Row sm={12}>
-                                <p>{item.nikName}</p>
-                              </Row>
-                            </Row>
+                                    <Row sm={12}>
+                                      <p>{item.nikName}</p>
+                                    </Row>
+                                  </Row>
 
-                          </Accordion.Body>
-                        </Accordion.Item>
-                      </Accordion>
-                      <p className="text tex-center ">
+                                </Accordion.Body>
+                              </Accordion.Item>
+                            </Accordion>
+                            <p className="text tex-center ">
 
-                      </p>
+                            </p>
 
 
-                    </>
+                          </>
 
-                  )
+                        )
 
 
-                })
+                      })
 
-                }
-              </Row>
+                      }
+                    </Row>
+                  </Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
+
             </Col>
-          </Row>
-          {/* {showLess && (
-            <Row>
-              <Col xs={12} md={12} >
-                <Row >
-                  {consultas2.map((item) => {
-                    return (
-                      <>
-                        <Col key={item.id} xs={6} md={3} lg={2}>
-                          <img
-                            className="d-flex m-auto"
-                            width="140"
-                            height="90"
-                            src={img}
-                            alt={item.name}
-                          />
-                          <p className="text text-center">
-                            {item.name}
-                          </p>
-                        </Col>
-
-                      </>
-
-                    )
-
-
-                  })
-
-                  }
-                </Row>
-              </Col>
             </Row>
-          )} */}
-          <Stack className='p-5 '>
-            <Button variante="primary" onClick={() => setShowLess(!showLess)}>{showLess ? 'Ver menos' : 'Ver mais'}</Button>
-          </Stack>
+            <Row className='mt-3'>
+            <Col>
+              <Accordion defaultActiveKey={['2']} >
+                <Accordion.Item eventKey='1'>
+                  <Accordion.Header>
+                    <Col sm={1}>
+                      <img
+                        className="d-flex m-auto"
+                        width="70"
+                        height="35"
+                        src={img}
+                        alt='logotipo'
+                      />
+                    </Col>
+                    <Col>
+                      <h6 className='text-center'>CÓRNEA, CATARATA, CERATOCONE E  CIRURGIA REFRATIVA</h6>
+                    </Col>
+
+
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    <Row>
+                      {cornea.map((item) => {
+                        return (
+                          <>
+
+                            <Accordion defaultActiveKey={['0']} >
+                              <Accordion.Item eventKey={item.id}>
+                                <Accordion.Header>
+                                  <Col sm={1}>
+                                    <img
+                                      className="d-flex m-auto"
+                                      width="70"
+                                      height="35"
+                                      src={img}
+                                      alt={item.name}
+                                    />
+                                  </Col>
+                                  <Col>
+                                    <h6 className='text-center'>{item.name}</h6>
+                                  </Col>
+
+
+                                </Accordion.Header>
+                                <Accordion.Body>
+                                  <Row sm={12}>
+                                    <Col sm={6}>
+                                      <Row sm={6}>
+                                        <Col sm={12} md={6}>
+                                          <img
+                                            className="d-flex m-auto"
+                                            width="250"
+                                            height="150"
+                                            src={item.img}
+                                            alt={item.name}
+                                          />
+                                        </Col>
+                                        {item.imge2 && (
+                                          <Col sm={12} md={6}>
+                                            <img
+                                              className="d-flex m-auto"
+                                              width="250"
+                                              height="150"
+                                              src={item.imge2}
+                                              alt={item.name}
+
+                                            />
+                                          </Col>
+                                        )}
+                                      </Row>
+                                    </Col>
+                                    <Row sm={12}>
+                                      <p>{item.nikName}</p>
+                                    </Row>
+                                  </Row>
+
+                                </Accordion.Body>
+                              </Accordion.Item>
+                            </Accordion>
+                            <p className="text tex-center ">
+
+                            </p>
+
+
+                          </>
+
+                        )
+
+
+                      })
+
+                      }
+                    </Row>
+                  </Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
+
+            </Col>
+            </Row>
+            <Row className='mt-3'>
+            <Col>
+              <Accordion defaultActiveKey={['3']} >
+                <Accordion.Item eventKey='1'>
+                  <Accordion.Header>
+                    <Col sm={1}>
+                      <img
+                        className="d-flex m-auto"
+                        width="70"
+                        height="35"
+                        src={img}
+                        alt='logotipo'
+                      />
+                    </Col>
+                    <Col>
+                      <h6 className='text-center'>GLAUCOMA</h6>
+                    </Col>
+
+
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    <Row>
+                      {glaucoma.map((item) => {
+                        return (
+                          <>
+
+                            <Accordion defaultActiveKey={['0']} >
+                              <Accordion.Item eventKey={item.id}>
+                                <Accordion.Header>
+                                  <Col sm={1}>
+                                    <img
+                                      className="d-flex m-auto"
+                                      width="70"
+                                      height="35"
+                                      src={img}
+                                      alt={item.name}
+                                    />
+                                  </Col>
+                                  <Col>
+                                    <h6 className='text-center'>{item.name}</h6>
+                                  </Col>
+
+
+                                </Accordion.Header>
+                                <Accordion.Body>
+                                  <Row sm={12}>
+                                    <Col sm={6}>
+                                      <Row sm={6}>
+                                        <Col sm={12} md={6}>
+                                          <img
+                                            className="d-flex m-auto"
+                                            width="250"
+                                            height="150"
+                                            src={item.img}
+                                            alt={item.name}
+                                          />
+                                        </Col>
+                                        {item.imge2 && (
+                                          <Col sm={12} md={6}>
+                                            <img
+                                              className="d-flex m-auto"
+                                              width="250"
+                                              height="150"
+                                              src={item.imge2}
+                                              alt={item.name}
+
+                                            />
+                                          </Col>
+                                        )}
+                                      </Row>
+                                    </Col>
+                                    <Row sm={12}>
+                                      <p>{item.nikName}</p>
+                                    </Row>
+                                  </Row>
+
+                                </Accordion.Body>
+                              </Accordion.Item>
+                            </Accordion>
+                            <p className="text tex-center ">
+
+                            </p>
+
+
+                          </>
+
+                        )
+
+
+                      })
+
+                      }
+                    </Row>
+                  </Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
+
+            </Col>
+            </Row>
+            <Row className='mt-3 mb-3'>
+            <Col>
+              <Accordion defaultActiveKey={['4']} >
+                <Accordion.Item eventKey='1'>
+                  <Accordion.Header>
+                    <Col sm={1}>
+                      <img
+                        className="d-flex m-auto"
+                        width="70"
+                        height="35"
+                        src={img}
+                        alt='logotipo'
+                      />
+                    </Col>
+                    <Col>
+                      <h6 className='text-center'>RETINA</h6>
+                    </Col>
+
+
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    <Row>
+                      {retina.map((item) => {
+                        return (
+                          <>
+
+                            <Accordion defaultActiveKey={['0']} >
+                              <Accordion.Item eventKey={item.id}>
+                                <Accordion.Header>
+                                  <Col sm={1}>
+                                    <img
+                                      className="d-flex m-auto"
+                                      width="70"
+                                      height="35"
+                                      src={img}
+                                      alt={item.name}
+                                    />
+                                  </Col>
+                                  <Col>
+                                    <h6 className='text-center'>{item.name}</h6>
+                                  </Col>
+
+
+                                </Accordion.Header>
+                                <Accordion.Body>
+                                  <Row sm={12}>
+                                    <Col sm={6}>
+                                      <Row sm={6}>
+                                        <Col sm={12} md={6}>
+                                          <img
+                                            className="d-flex m-auto"
+                                            width="250"
+                                            height="150"
+                                            src={item.img}
+                                            alt={item.name}
+                                          />
+                                        </Col>
+                                        {item.imge2 && (
+                                          <Col sm={12} md={6}>
+                                            <img
+                                              className="d-flex m-auto"
+                                              width="250"
+                                              height="150"
+                                              src={item.imge2}
+                                              alt={item.name}
+
+                                            />
+                                          </Col>
+                                        )}
+                                      </Row>
+                                    </Col>
+                                    <Row sm={12}>
+                                      <p>{item.nikName}</p>
+                                    </Row>
+                                  </Row>
+
+                                </Accordion.Body>
+                              </Accordion.Item>
+                            </Accordion>
+                            <p className="text tex-center ">
+
+                            </p>
+
+
+                          </>
+
+                        )
+
+
+                      })
+
+                      }
+                    </Row>
+                  </Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
+
+            </Col>
+            </Row>
         </Container>
       </div>
 
