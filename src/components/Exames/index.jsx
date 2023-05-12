@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import "./style.scss"
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -42,7 +42,15 @@ import { Accordion } from 'react-bootstrap';
 
 const Exames = () => {
   
+  const [activeId, setActiveId] = useState(2);
 
+  function toggleActive(id) {
+    if (activeId === id) {
+      setActiveId(null);
+    } else {
+      setActiveId(id);
+    }
+  }
   //consultas de rotina
   const consultas = [
 
@@ -283,9 +291,14 @@ const Exames = () => {
           <Galeria />
           <Row className='mt-3'> 
             <Col>
-              <Accordion defaultActiveKey={['0']} >
-                <Accordion.Item  eventKey='1'>
-                  <Accordion.Header>
+              <Accordion 
+                key='1'  eventKey='1' 
+                onClick={() => toggleActive(1)}
+                className={activeId === 1 ? "active" : null} 
+                >
+                <Accordion.Item >
+                  <Accordion.Header
+                    >
                     <Col sm={1}>
                       <img
                         className="d-flex m-auto"
@@ -301,13 +314,13 @@ const Exames = () => {
 
 
                   </Accordion.Header>
-                  <Accordion.Body>
+                  <Accordion.Body >
                     <Row>
                       {consultas.map((item) => {
                         return (
                           <>
 
-                            <Accordion defaultActiveKey={['0']} >
+                            <Accordion key={item.id} >
                               <Accordion.Item eventKey={item.id}>
                                 <Accordion.Header>
                                   <Col sm={1}>
@@ -382,7 +395,9 @@ const Exames = () => {
             </Row>
             <Row className='mt-3'>
             <Col>
-              <Accordion defaultActiveKey={['2']} >
+              <Accordion  key="2"  eventKey="2" defaultActiveKey={activeId}
+                      onClick={() => toggleActive(2)}
+                      className={activeId === 2 ? "active" : null} >
                 <Accordion.Item eventKey='1'>
                   <Accordion.Header>
                     <Col sm={1}>
