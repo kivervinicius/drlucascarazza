@@ -177,7 +177,9 @@ const CirurgiasEtratamento = () => {
                                 </Accordion.Body>
                               </Accordion.Item>
                             </Accordion>
+                            <p className="text tex-center ">
 
+                            </p>
 
 
                           </>
@@ -198,7 +200,7 @@ const CirurgiasEtratamento = () => {
             <Col xs={12} md={12}>
               <Accordion
                 key='2' eventKey='2'
-                onClick={() => toggleActive(1)}
+                onClick={() => toggleActive(1)} defaultActiveKey={['2']}
                 className={activeId === 1 ? "active" : null}
               >
                 <Accordion.Item >
@@ -214,7 +216,7 @@ const CirurgiasEtratamento = () => {
                       />
                     </Col>
                     <Col>
-                      <h6 className='text-center'>Implante de todas as lentes intra oculares disponíveis no mercado oftalmológico <br /> para excelência em resultado de cirurgia de catarata</h6>
+                      <h6 className='text-center'>IMPLANTE DE TODAS AS LENTES INTRA OCULARES DISPONÍVEIS NO MERCCADO OFTAMOLÓGICO   <br /> PARA EXCELÊNCIA EM RESULTADO EM RESULTADO DE CIRURGIA DE CATARATA</h6>
                     </Col>
                   </Accordion.Header>
                   <Accordion.Body >
@@ -265,7 +267,9 @@ const CirurgiasEtratamento = () => {
                               </Accordion.Item>
                             </Accordion>
 
+                            <p className="text tex-center ">
 
+                            </p>
 
                           </>
 
@@ -284,7 +288,7 @@ const CirurgiasEtratamento = () => {
           <Row className="mt-3 mb-3" >
             <Col xs={12} md={12}>
               <Accordion
-                key='3' eventKey='3'
+                key='3' eventKey='3' defaultActiveKey={['3']}
                 onClick={() => toggleActive(2)}
                 className={activeId === 2 ? "active" : null}
               >
@@ -301,7 +305,7 @@ const CirurgiasEtratamento = () => {
                       />
                     </Col>
                     <Col>
-                      <h6 className='text-center'>cirurgia à laser realizada em Cuiabá, em parceria com hospital de olhos de Cuiaba</h6>
+                      <h6 className='text-center'>CIRURGIAS À LASER REALIZADA EM  CUIABÁ, EM PARCERIA COM HOSPITAL DE OLHOS DE CUIBÁ</h6>
                     </Col>
                   </Accordion.Header>
                   <Accordion.Body >
@@ -353,7 +357,9 @@ const CirurgiasEtratamento = () => {
                             </Accordion>
 
 
+                            <p className="text tex-center ">
 
+                            </p>
                           </>
 
                         )
