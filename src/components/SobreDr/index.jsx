@@ -17,16 +17,16 @@ const SobreOdr = () => {
               
               <li>Residência Médica em Oftalmologia pelo Hospital das Clínicas da UFMG.</li>
               
-              <li>Título de Especialista em Oftamologia pelo MEC e Conselho Brasileiro de Oftmologia (CBO)</li>
+              <li>Título de Especialista em Oftalmologia pelo MEC e Conselho Brasileiro de Oftalmologia (CBO).</li>
               
-              <li>Título de Especialista em Oftamologia peel Conselho Internacional de Oftmologia (ICO)</li>
+              <li>Título de Especialista em Oftalmologia pelo Conselho Internacional de Oftalmologia (ICO).</li>
   
               <li>Fellowship em Córnea, Catarata e Cirurgia Refrativa
-              pelo Hospital das Clínicas da  UFMG</li>
+              pelo Hospital das Clínicas da  UFMG.</li>
               <li>Fellowship  em Glaucoma pelo
-              Hospital das Clínicas da UFMG</li>
+              Hospital das Clínicas da UFMG.</li>
               <li>Fellowship  em Retina pelo
-              Hospital das Clínicas da  UFMG</li>
+              Hospital das Clínicas da  UFMG.</li>
             </ul>
 
           </div>

@@ -42,7 +42,7 @@ const Galeria = () => {
     <>
       <div className="d-block">
     
-        <div id="clinica" class="container-clinica-page mt-5">
+        {/* <div id="clinica" class="container-clinica-page mt-5">
           <Row>
             <Col  md={7} className="text-center">
               <div className="text-center" >
@@ -90,7 +90,11 @@ const Galeria = () => {
               </Row>
             </Col>
           </Row>
-        </div>
+        </div> */}
+        <h1>Exames</h1>
+        <p style={{color: "#fff"}}>
+        Contamos com os mais modernos equipamentos oftalmológicos para diagnóstico e tratamento das patologias oculares.
+        </p>
         {isOpen && (
         <Lightbox
           mainSrc={images[photoIndex]}

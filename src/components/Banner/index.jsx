@@ -15,27 +15,27 @@ const Banner = () => {
 const pageName = window.location.pathname;
 const bannerImage = document.getElementById("banner");
 if(pageName === "/"){
-  bannerImage.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.829)), url(${img1})`;  
+  bannerImage.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.92)), url(${img1})`;  
   
 }else if(pageName === "/tratamentos/"){
-  bannerImage.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.829)), url(${img2})`;;
+  bannerImage.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.92)), url(${img2})`;;
   
 }
 
 else if(pageName === "/exames/"){
-  bannerImage.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.829)), url(${img3})`;;
+  bannerImage.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.92)), url(${img3})`;;
   
 }
 else if(pageName === "/dica-oculos/"){
-  bannerImage.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.829)), url(${img5})`;;
+  bannerImage.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.92)), url(${img5})`;;
   
 }
 else if(pageName === "/dica-lentes/"){
-  bannerImage.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.829)), url(${img6})`;;
+  bannerImage.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.92)), url(${img6})`;;
   
 }
 else{
-  bannerImage.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.829)), url(${img2})`;;
+  bannerImage.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.92)), url(${img2})`;;
   
 }
 

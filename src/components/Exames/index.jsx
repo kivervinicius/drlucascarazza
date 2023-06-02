@@ -56,20 +56,10 @@ const Exames = () => {
 
     {
       id: 10,
-      name: 'Refratometria medida do grau dos óculos ',
-      nikName: 'Nesse exame, são realizados as medidas do grau dos óculos de forma automática (computadorizada) e manual (escolhida pelo próprio paciente). Os resultados são comparados e são prescritos o grau final do paciente.',
+      name: 'Refratometria (medida do grau dos óculos)',
+      nikName: 'Nesse exame, são realizados as medidas do grau dos óculos de forma automática (computadorizada) e manual (refinamento das escolha das lentes pelo próprio paciente, com nossa ajuda). Os resultados são comparados para prescrição do grau final para o paciente.',
       url: "https://www.medicalexpo.com/pt/prod/topcon-europe-medical/product-77876-471210.html",
       img: img1,
-      imge2: ""
-    },
-
-
-    {
-      id: 12,
-      name: 'Tonometria de sopro com tecnologia Corneal response technology',
-      nikName: 'A tecnologia de medida da pressão por sopro é uma medida de não contato da pressão, ou seja, um jato de ar é jogado no olho e o aparelho mede a pressão analisando o comportamento desse jato de ar em contato com a córnea. É uma forma adicional de medir a pressão ocular que não precisa de colírios anestésicos nem corantes, por isso se torna mais confortável. Nosso tonometro de sopro ainda nos oferece uma medida adicional da pressão ocular, de acordo com a deformação da córnea nos fornecendo mais um parâmetro para nos auxiliar a entender a pressão intra ocular do paciente.',
-      url: "https://www.medicalexpo.com/pt/prod/topcon-europe-medical/product-77876-471210.html",
-      img: img2,
       imge2: ""
     },
 
@@ -83,11 +73,22 @@ const Exames = () => {
 
     },
 
+    {
+      id: 12,
+      name: 'Tonometria de sopro com tecnologia Corneal response technology',
+      nikName: 'A tecnologia de medida da pressão por sopro é uma medida de não contato da pressão, ou seja, um jato de ar é jogado no olho e o aparelho mede a pressão analisando o comportamento desse jato de ar em contato com a córnea. É uma forma adicional de medir a pressão ocular que não precisa de colírios anestésicos nem corantes, por isso se torna mais confortável. Nosso tonometro de sopro ainda nos oferece uma medida adicional da pressão ocular, de acordo com a deformação da córnea nos fornecendo mais um parâmetro para nos auxiliar a entender a pressão intra ocular do paciente.',
+      url: "https://www.medicalexpo.com/pt/prod/topcon-europe-medical/product-77876-471210.html",
+      img: img2,
+      imge2: ""
+    },
+
+    
+
 
     {
       id: 1,
-      name: 'Biomicroscopia (avaliação com biomicroscópio e lentes especiais da anatomia do segmento anterior e posterior do olho)',
-      nikName: 'Biomicroscopia (avaliação com biomicroscópio e lentes especiais da anatomia do segmento anterior e posterior do olho)',
+      name: 'Biomicroscopia',
+      nikName: 'Neste exame avaliamos com o biomicroscópio e lentes especiais a anatomia tanto da parte anterior quanto do fundo do olho.',
       url: "https://usophthalmic.com/products/hs-5000-5x",
       img: img3,
     },
@@ -100,20 +101,14 @@ const Exames = () => {
       imge2: img5
     },
 
-    {
-      id: 3,
-      name: 'Teste de lentes de contato',
-      nikName: "Este é um procedimento indispensável para o paciente que usa óculos e deseja passar a usar também as lentes de contato. No dia do seu teste, faremos avaliação da sua córnea para entender a interação dela com a lente de contato proposta, lhe ensinaremos a manusear e cuidar de sua lente de contato e avaliaremos como ficam a visão e o seu conforto com a lente de contato. A partir desse procedimento que você poderá obter uma adaptação segura e saudável da sua lente de contato",
-      url: "",
-      imge2: ""
-    },
+    
 
 
     {
       id: 4,
-      name: 'Teste de estrabismo (cover test)',
-      nikName: 'Este é um teste utilizado para avaliar se um paciente possuem algum grau de desvio ocular. É especialmente utilizado em crianças que podem ter seu desenvolvimento visual comprometido pelos estrabismos.',
-      url: ""
+      name: 'Exame ortóptico ou teste de estrabismo',
+      nikName: 'Este é um teste utilizado para avaliar se o paciente possui algum grau de desvio ocular. É rotineiramente realizado em crianças, que podem ter seu desenvolvimento visual comprometido pelos estrabismos e também realizado em adultos com suspeitas de desvio ocular.',
+      url: "https://eyewiki.aao.org/w/images/1/a/ae/AA0_2117.jpg"
     },
 
 
@@ -128,8 +123,8 @@ const Exames = () => {
     {
       id: 6,
       name: 'Teste de estereopsia (avaliação da visão tridimensional)',
-      nikName: "Esse teste nos ajuda a avaliar qual o grau de visão tridimensional que o paciente possui..",
-      img: '',
+      nikName: "Esse teste avalia qual o grau de visão tridimensional do paciente.",
+      img: 'https://i.ebayimg.com/images/g/yHcAAOSwYhda-ftT/s-l1600.jpg',
       imge2: ""
     },
 
@@ -149,7 +144,7 @@ const Exames = () => {
     {
       id: 9,
       name: ' Tomografia de córnea e Biometria Óptica (Pentacam AXL)',
-      nikName: ' A tomografia é uma evolução da topografia. Enquanto a topografia analisa apenas uma foto da sua córnea, a tomografia faz diversas fotos em posições diferentes para fazer uma reconstrução tridimensional da sua córnea. Por isso, ele consegue nos dar informações mais precisas e detalhadas da córnea dos pacientes, sendo muito importante em quase todas as indicações de topografia de córnea.Importante salientar que não são exames excludentes e sim complementares. Por utilizarem tecnologias diferentes para aquisição das imagens, seus resultados são sempre analisados em conjunto para melhor tomada de decisão sobre um caso clínico do paciente.',
+      nikName: ' A tomografia é uma evolução da topografia. Enquanto a topografia analisa apenas uma foto da sua córnea, a tomografia faz diversas fotos em posições diferentes para fazer uma reconstrução tridimensional da sua córnea. Por isso, ele consegue nos dar informações mais precisas e detalhadas da córnea dos pacientes, sendo muito importante em quase todas as mesmas indicações de topografia de córnea descritas anteriormente. Importante salientar que não são exames excludentes e sim complementares. Por utilizarem tecnologias diferentes para aquisição das imagens, seus resultados são sempre analisados em conjunto para melhor tomada de decisão sobre um caso clínico do paciente.',
       img: img10,
       imge2: ""
     },
@@ -158,7 +153,7 @@ const Exames = () => {
       id: 8,
       name: ' Biometria Ultra Sônica',
       url: "https://www.apramed.com.br/v4/produtos_detalhes.php?id=249",
-      nikName: 'A biometria é a medida do tamanho do globo ocular e as distâncias entre as estruturas intra oculares (córnea, cristalino e retina). Muito utilizado em conjunto com as medidas da curvatura ocular (topografia e tomografia) para o cálculo da lente intra ocular do paciente. Também utilizamos muito a biometria para pacientes com grau mais elevado, diferença de grau entre os olhos e em alguns pré operatórios.',
+      nikName: 'A biometria é a medida do tamanho do globo ocular e as distâncias entre as estruturas intra oculares (córnea, cristalino e retina). Muito utilizado em conjunto com as medidas da curvatura ocular (topografia e tomografia) para o cálculo da lente intra ocular do paciente. Também utilizamos muito a biometria para pacientes com grau mais elevado, diferença de grau entre os olhos e em algumas avaliações pré operatórias.',
       img: img18,
       imge2: ""
     },
@@ -166,7 +161,10 @@ const Exames = () => {
     {
       id: 14,
       name: 'Biometria Óptica (Pentacam AXL)',
-      nikName: "Esse exame é uma evolução da biometria ultra sônica e utiliza um método mais moderno chamado de interferometria óptica para medir o tamanho do globo ocular de uma maneira mais precisa que o ultra som.",
+      nikName: `
+      Esse exame é uma evolução da biometria ultra sônica e utiliza um método mais moderno chamado de interferometria óptica para medir o tamanho do globo ocular (assim como a distância entre a córnea, cristalino e retina) de uma maneira mais precisa que o ultra som.
+      `,
+      img: "https://oculare.com.br/wp-content/uploads/2018/08/pentacam-axl.jpg",
     },
 
 
@@ -174,6 +172,7 @@ const Exames = () => {
       id: 13,
       name: ' Microscopia especular de córnea',
       nikName: "Esse exame avalia a camada mais posterior da córnea: o endotélio. Essa camada é fundamental, pois é nela que se encontra as células responsáveis por manter a córnea transparente. Esse exame é muito utilizado em pré e pós operatório de cirurgias oculares, acompanhamento de usuários de lentes de contato bem como pacientes que possuem doenças específicas que acometem essa camada de células (distrofias do endotélio corneano).",
+      img: "https://nidek.com.br/wp-content/uploads/2020/09/CEM-530-2.png",
     },
 
 
@@ -187,10 +186,19 @@ const Exames = () => {
     },
 
     {
-      id: 15,
-      name: 'Potencial de acuidade visual (PAM)',
-      url: "https://visarerio.com.br/project/acuidade-potencial-macular/ "
+      id: 21,
+      name: 'Paquimetria',
+      nikName: "Avalia a espessura da camada córnea que tem íntima relação com a pressão intra ocular.",
+      img: img17,
+      imge2: ""
+
     },
+
+    // {
+    //   id: 15,
+    //   name: 'Potencial de acuidade visual (PAM)',
+    //   url: "https://visarerio.com.br/project/acuidade-potencial-macular/ "
+    // },
 
   ]
   var glaucoma = [
@@ -243,10 +251,11 @@ const Exames = () => {
       img: img16,
       imge2: ""
     },
+
     {
       id: 21,
-      name: ' Paquimetria',
-      url: "Avalia a espessura da camada córnea que tem íntima relação com a pressão intra ocular.",
+      name: 'Paquimetria',
+      nikName: "Avalia a espessura da camada córnea que tem íntima relação com a pressão intra ocular.",
       img: img17,
       imge2: ""
 
@@ -267,8 +276,8 @@ const Exames = () => {
 
     {
       id: 22,
-      name: ' Angioflueresceinografia',
-      nikName: " Exame que avalia a retina, seus vasos sanguíneos e possíveis lesões da retina e nervo óptico através da injeção de um contraste intra venoso. Após a infusão desse contraste, são tiradas diversas fotos da retina e acompanhamos qual comportamento desse contraste e das estruturas retinianas para nos auxiliar no diagnóstico e acompanhamento das patologias oculares."
+      name: 'Angioflueresceinografia',
+      nikName: "Exame que avalia a retina, seus vasos sanguíneos e possíveis lesões da retina e nervo óptico através da injeção de um contraste intra venoso. Após a infusão desse contraste, são tiradas diversas fotos da retina e acompanhamos qual comportamento desse contraste e das estruturas retinianas para nos auxiliar no diagnóstico e acompanhamento das patologias oculares."
     },
     {
       id: 24,
@@ -279,8 +288,18 @@ const Exames = () => {
 
     },
 
+  ]
 
-
+  const lente = [
+    {
+      id: 3,
+      name: 'Teste de lentes de contato',
+      nikName: `Este é um procedimento indispensável para o paciente que usa óculos e deseja passar a usar também lentes de contato. 
+      No dia do seu teste, faremos avaliação da sua córnea para entender a interação dela com a lente de contato, lhe ensinaremos a manusear e cuidar de sua lente de contato e avaliaremos como ficam a visão e o seu conforto com a lente.
+      Assim, você poderá obter uma adaptação segura e saudável da sua lente de contato.`,
+      url: "",
+      imge2: ""
+    },
   ]
 
   return (
@@ -494,6 +513,106 @@ const Exames = () => {
 
             </Col>
             </Row>
+            <Row>
+              <Col>
+              <Accordion  key="2"  eventKey="2" defaultActiveKey={activeId}
+                      onClick={() => toggleActive(2)}
+                      className={activeId === 2 ? "active" : null} >
+                <Accordion.Item eventKey='1'>
+                  <Accordion.Header>
+                    <Col sm={1}>
+                      <img
+                        className="d-flex m-auto"
+                        width="70"
+                        height="35"
+                        src={img}
+                        alt='logotipo'
+                      />
+                    </Col>
+                    <Col>
+                      <h6 className='text-center'>Lente de contato</h6>
+                    </Col>
+
+
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    <Row>
+                      {lente.map((item) => {
+                        return (
+                          <>
+
+                            <Accordion defaultActiveKey={['0']} >
+                              <Accordion.Item eventKey={item.id}>
+                                <Accordion.Header>
+                                  <Col sm={1}>
+                                    <img
+                                      className="d-flex m-auto"
+                                      width="70"
+                                      height="35"
+                                      src={img}
+                                      alt={item.name}
+                                    />
+                                  </Col>
+                                  <Col>
+                                    <h6 className='text-center'>{item.name}</h6>
+                                  </Col>
+
+
+                                </Accordion.Header>
+                                <Accordion.Body>
+                                  <Row sm={12}>
+                                    <Col sm={6}>
+                                      <Row sm={6}>
+                                        <Col sm={12} md={6}>
+                                          <img
+                                            className="d-flex m-auto"
+                                            width="250"
+                                            height="150"
+                                            src={item.img}
+                                            alt={item.name}
+                                          />
+                                        </Col>
+                                        {item.imge2 && (
+                                          <Col sm={12} md={6}>
+                                            <img
+                                              className="d-flex m-auto"
+                                              width="250"
+                                              height="150"
+                                              src={item.imge2}
+                                              alt={item.name}
+
+                                            />
+                                          </Col>
+                                        )}
+                                      </Row>
+                                    </Col>
+                                    <Row sm={12}>
+                                      <p>{item.nikName}</p>
+                                    </Row>
+                                  </Row>
+
+                                </Accordion.Body>
+                              </Accordion.Item>
+                            </Accordion>
+                            <p className="text tex-center ">
+
+                            </p>
+
+
+                          </>
+
+                        )
+
+
+                      })
+
+                      }
+                    </Row>
+                  </Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
+              </Col>
+            </Row>
             <Row className='mt-3'>
             <Col>
               <Accordion defaultActiveKey={['3']} >
@@ -689,6 +808,8 @@ const Exames = () => {
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
+
+              
 
             </Col>
             </Row>
