@@ -24,6 +24,7 @@ import { Row, Col, Button, Stack } from "react-bootstrap";
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
 import "./index.scss";
+import Galeria from "../components/Galleria";
 
 const images = [
   img15,
@@ -112,6 +113,9 @@ Na clínica contamos com salas de consultas, salas de <a href="/exames/"> exames
               </Row>
             </Col>
           </Row>
+          <Row>
+          <Galeria />
+        </Row>
         </div>
         {isOpen && (
         <Lightbox

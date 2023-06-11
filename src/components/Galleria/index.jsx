@@ -1,19 +1,17 @@
 import React, { useState } from "react";
 
 
-import img1 from "./images/Oftalmologista-42.jpg";
-import img2 from "./images/Oftalmologista-43.jpg";
-import img3 from "./images/Oftalmologista-44.jpg";
-import img4 from "./images/Oftalmologista-45.jpg";
-import img6 from "./images/Oftalmologista-46.jpg";
-import img7 from "./images/Oftalmologista-51.jpg";
-import img8 from "./images/Oftalmologista-52.jpg";
-import img9 from "./images/Oftalmologista-53.jpg";
-import img10 from "./images/Oftalmologista-30.jpg";
-import img11 from "./images/Oftalmologista-24.jpg";
-import img12 from "./images/Oftalmologista-38.jpg";
-import img13 from "./images/Oftalmologista-31.jpg";
-import img14 from "./images/Oftalmologista-24.jpg";
+import img1 from "./images/Dr3.jpg";
+import img2 from "./images/Dr12.jpg";
+import img4 from "./images/Dr13.jpg";
+import img3 from "./images/Dr18.jpg";
+import img6 from "./images/Dr19.jpg";
+import img7 from "./images/Dr20.jpg";
+import img8 from "./images/Dr28.jpg";
+import img9 from "./images/D1.jpg";
+import img10 from "./images/D2.jpg";
+import img11 from "./images/D3.jpg";
+import img12 from "./images/D4.jpg";
 import { Row, Col, Button, Stack } from "react-bootstrap";
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
@@ -30,8 +28,6 @@ const images = [
   img10,
   img11,
   img12,
-  img13,
-  img14,
 ];
 
 const Galeria = () => {
@@ -42,7 +38,7 @@ const Galeria = () => {
     <>
       <div className="d-block">
     
-        {/* <div id="clinica" class="container-clinica-page mt-5">
+         <div id="clinica" class="container-clinica-page mt-5">
           <Row>
             <Col  md={7} className="text-center">
               <div className="text-center" >
@@ -56,10 +52,10 @@ const Galeria = () => {
             <Col xs={12} md={5} >
               <Row>
                 <Col xs={6} md={12} lg={6}>
-                  <img alt="foto da clinica" src={img3} className="img-clinica img-thumbnail img-fluid"></img>
+                  <img alt="foto da clinica" src={img6} className="img-clinica img-thumbnail img-fluid"></img>
                 </Col>
                 <Col xs={6} md={12} lg={6}>
-                  <img alt="foto da clinica" src={img4} className="img-clinica img-thumbnail img-fluid"></img>
+                  <img alt="foto da clinica" src={img7} className="img-clinica img-thumbnail img-fluid"></img>
                 </Col >
               </Row>
             </Col>
@@ -73,16 +69,16 @@ const Galeria = () => {
             <Col xs={12} md={5}>
               <Row>
                 <Col xs={6} md={12} lg={6}>
-                  <img alt="foto da clinica" src={img9} className="img-clinica img-thumbnail img-fluid"></img>
+                  <img alt="foto da clinica" src={img4} className="img-clinica img-thumbnail img-fluid"></img>
                 </Col>
                 <Col xs={6} md={12} lg={6}>
                   <img alt="foto da clinica" src={img8} className="img-clinica img-thumbnail img-fluid"></img>
                 </Col>
                 <Col xs={6} md={12} lg={6}>
-                  <img alt="foto da clinica" src={img6} className="img-clinica img-thumbnail img-fluid"></img>
+                  <img alt="foto da clinica" src={img3} className="img-clinica img-thumbnail img-fluid"></img>
                 </Col>
                 <Col xs={6} md={12} lg={6}>
-                  <img alt="foto da clinica" src={img7} className="img-clinica img-thumbnail img-fluid"></img>    
+                  <img alt="foto da clinica" src={img9} className="img-clinica img-thumbnail img-fluid"></img>    
                 </Col >
                 <Stack gap={2} className="col-md-3 mx-auto pt-3">
                  <Button  onClick={() => setIsOpen(true)} variant="light">Ver todas as fotos</Button>
@@ -90,11 +86,7 @@ const Galeria = () => {
               </Row>
             </Col>
           </Row>
-        </div> */}
-        <h1>Exames</h1>
-        <p style={{color: "#fff"}}>
-        Contamos com os mais modernos equipamentos oftalmológicos para diagnóstico e tratamento das patologias oculares.
-        </p>
+        </div> 
         {isOpen && (
         <Lightbox
           mainSrc={images[photoIndex]}

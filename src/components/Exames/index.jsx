@@ -22,19 +22,13 @@ import img14 from "./images/lupa-ocular.jpg";
 import img15 from "./images/TomografiadeCoerencia.jpg";
 import img16 from "./images/retiografo-portatil.jpg";
 import img17 from "./images/Paquimetro.jpg";
+import img19 from "./images/angifluor.jpeg";
+import img20 from "./images/angi.jpeg";
+import img21 from "./images/oct.jpeg";
+import img22 from "./images/octretina.jpeg";
 
 
 
-
-
-
-
-
-
-
-
-
-import Galeria from "../Galleria";
 
 
 import { Accordion } from 'react-bootstrap';
@@ -277,14 +271,16 @@ const Exames = () => {
     {
       id: 22,
       name: 'Angioflueresceinografia',
-      nikName: "Exame que avalia a retina, seus vasos sanguíneos e possíveis lesões da retina e nervo óptico através da injeção de um contraste intra venoso. Após a infusão desse contraste, são tiradas diversas fotos da retina e acompanhamos qual comportamento desse contraste e das estruturas retinianas para nos auxiliar no diagnóstico e acompanhamento das patologias oculares."
+      nikName: "Exame que avalia a retina, seus vasos sanguíneos e possíveis lesões da retina e nervo óptico através da injeção de um contraste intra venoso. Após a infusão desse contraste, são tiradas diversas fotos da retina e acompanhamos qual comportamento desse contraste e das estruturas retinianas para nos auxiliar no diagnóstico e acompanhamento das patologias oculares.",
+      img: img19,
+      imge2: img20
     },
     {
       id: 24,
       name: '  Oct Retina',
       nikName: "O OCT de retina é um tomógrafo capaz de avaliar a retina tirando diversas fotografias da mesma e fazendo reconstruções que simulam cortes histológicos da mesma (analise de cada camada de células de retina) que nos ajudam a identificar precisamente qual parte da retina está danificada para podermos definir qual diagnóstico e qual melhor tratamento.",
-      img: img10,
-      imge2: ""
+      img: img21,
+      imge2:img22
 
     },
 
@@ -306,8 +302,12 @@ const Exames = () => {
     <>
       <div className='container-exame  justify-content-center'>
         <Container className='d-block'>
-
-          <Galeria />
+        <Row>
+         <h1 className='text-center'>Exames</h1>
+        <p className='text-center' style={{color: "#fff"}}>
+        Contamos com os mais modernos equipamentos oftalmológicos para diagnóstico e tratamento das patologias oculares.
+        </p>
+         </Row>
           <Row className='mt-3'> 
             <Col>
               <Accordion 
@@ -513,7 +513,7 @@ const Exames = () => {
 
             </Col>
             </Row>
-            <Row>
+            <Row className='mt-3'>
               <Col>
               <Accordion  key="2"  eventKey="2" defaultActiveKey={activeId}
                       onClick={() => toggleActive(2)}
@@ -530,7 +530,7 @@ const Exames = () => {
                       />
                     </Col>
                     <Col>
-                      <h6 className='text-center'>Lente de contato</h6>
+                      <h6 className='text-center'>LENTE DE CONTATO</h6>
                     </Col>
 
 

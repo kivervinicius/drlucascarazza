@@ -167,6 +167,13 @@ da visão intermediária e para longe, sendo necessário tirar e colocar os
 óculos constantemente (ou mesmo olhar por cima dos óculos).
 ![](../../src/images/ocolos7.jpg) 
 
+**Óculos de visão simples especiais para miopia**  
+Recentemente foram lançadas no mercado óptico  lentes especiais para pacientes míope
+cujo o grau estão aumentando, especialmente crianaças e adolescente.  
+Essas lentes possuem tecnologias variadas que tem por objetivo tentar desacelerar a progressãoda    miopia.   
+Ainda é uma tecnologia cara e não está indicada para todos pacientes.   
+Converse com seu oftamologista durante  a consulta para maiores detalhes. 
+
 **Óculos multifocais**  
 Para os pacientes que apresentam dificuldade tanto para perto
 quanto para longe, ou mesmo para os pacientes que apresentam dificuldade apenas para perto e não desejam ficar tirando e colocando os óculos o
