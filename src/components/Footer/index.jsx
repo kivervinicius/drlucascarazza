@@ -19,7 +19,7 @@ const Footer = () => {
             <h4 className="text-clinica text-align-center">Visão</h4>
             <p class="text-justify-center text-dr">Ser o seu oftalmologista de confiança assim como da sua familia, oferecendo o que existe de mais moderno para sua saúde visual. </p>
             <h4 className="text-clinica text-align-center">Valores</h4>
-            <p class="text-justify-center text-dr">Cuidar do nosso paciente como gostaríamos que cuidasse dos nossos pais e filhos;
+            <p class="text-justify-center text-dr">Cuidar do nosso paciente como gostaríamos que cuidasse dos nossos pais e filhos; <br />
               Estar sempre atualizado;
               <br />
               Transparência com o paciente;
