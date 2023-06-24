@@ -123,6 +123,14 @@ não estiverem sendo utilizados.
 adaptáveis, ou seja, aquelas que se tornam mais escuras em ambientes
 muito iluminados e mais claras em ambientes menos iluminados. 
 
+**Obs:** muito importante salientar para quem pretende usar esse tratamento pela primeira vez que a ativação do tratamento é feita por raios UV,
+porém essa lente não escurece tanto quanto os óculos escuros. Outra
+observação é que, dentro dos carros, como existe proteção UV obrigatória
+nos vidros dos mesmos, a lente com esse tipo de tratamento tende a escurecer menos do que quando exposta diretamente ao sol. Importante também informar que, em alguns ambientes internos muito iluminados, as
+lentes podem ser ativadas por esse excesso de luminosidade, causando
+uma discreta coloração das mesmas. Portanto, esse tratamento torna a
+lente bem prática para uso no dia a dia, mas alguns pacientes preferem ter   2 óculos: 1 par de lentes claras e 1 par de lentes escuras.  
+
 ![](../../src/images/folder-lente1.jpg)    
 
 Uma outra alternativa que tem caído no gosto dos pacientes são as armações
@@ -132,13 +140,7 @@ marrons ou amarelos à armação. Com isso transformam os óculos tradicionais e
 
 ![](../../src/images/folder-lente2.jpg)   
 
-**Obs:** muito importante salientar para quem pretende usar esse tratamento pela primeira vez que a ativação do tratamento é feita por raios UV,
-porém essa lente não escurece tanto quanto os óculos escuros. Outra
-observação é que, dentro dos carros, como existe proteção UV obrigatória
-nos vidros dos mesmos, a lente com esse tipo de tratamento tende a escurecer menos do que quando exposta diretamente ao sol. Importante também informar que, em alguns ambientes internos muito iluminados, as
-lentes podem ser ativadas por esse excesso de luminosidade, causando
-uma discreta coloração das mesmas. Portanto, esse tratamento torna a
-lente bem prática para uso no dia a dia, mas alguns pacientes preferem ter   2 óculos: 1 par de lentes claras e 1 par de lentes escuras.  
+
 
 **Polarização:** as lentes polarizadas são aquelas que possuem um filtro que
 minimiza os efeitos de reflexos do sol sob superfícies como estradas de
