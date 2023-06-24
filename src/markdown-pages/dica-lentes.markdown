@@ -3,10 +3,14 @@ slug: "/dica-lentes"
 title: "Como escolher a lente intraocular para cirurgia de catarata mais adequada para o meu olho? "
 image: 
 ---
-     
+
+Antes de começar a ler esse post sobre lentes intra oculares, é interessante que você saiba que durante a cirurgia de catarata, o oftalmologista retira a lente natural do olho chamada cristalino (que está com catarata e com perda da sua transparência natural) por uma lente artificial. Se quiser saber mais detalhes sobre a cirurgia de catarata, sugiro clicar no link abaixo que explicamos isso de forma melhor.     
+[Catarata e Cirurgia de Catarata](/dica-catarata-cirurgia) 
+
+
 A escolha da lente intraocular é uma oportunidade muito interessante para poder diminuir a dependência dos óculos. É importante ressaltar que essa escolha deverá ser feita apenas uma vez na vida, haja visto que apenas em raríssimas ocasiões iremos trocar a lente intraocular. Ainda não existe uma lente intraocular ideal, aquela que tenha a mesma função da nossa lente natural jovem e que sirva para todos os olhos, por isso existem vários modelos de lentes que tentam oferecer a melhor qualidade de vida para o paciente. 
 
-A indústria oftalmológica continua em busca da lente perfeita e esse post vai ser atualizado, à medida que novas tecnologias forem sendo lançadas. Este post tem como objetivo te ajudar a entender melhor a tecnologia das lentes, para facilitar sua escolha, junto ao seu oftalmologista. São muitas informações e, às vezes, de difícil compreensão para quem não está familiarizado, no entanto, elas são fundamentais para fazer uma escolha que é para o resto da vida. Portanto, se você vai ser operado de catarata em breve (especialmente se for operar comigo), sugiro ler esse post com calma, em um momento em que tenha bastante tempo para reler e tentar entender todos os pontos que vão ser descritos. Sugiro ainda ler com um ou com vários familiares para que eles possam te ajudar nessa decisão e venham junto na consulta de cálculo da lente para que possamos fazer, juntos, a melhor escolha. 
+A indústria oftalmológica continua em busca da lente perfeita e esse post vai ser atualizado, à medida que novas tecnologias forem sendo lançadas. Este post tem como objetivo te ajudar a entender melhor a tecnologia das lentes, para facilitar sua escolha, junto ao seu oftalmologista. São muitas informações e, às vezes, de difícil compreensão para quem não está familiarizado. No entanto, elas são fundamentais para fazer uma escolha que é para o resto da vida. Portanto, se você vai ser operado de catarata em breve (especialmente se for operar comigo), sugiro ler esse post com calma, em um momento em que tenha bastante tempo para reler e tentar entender todos os pontos que vão ser descritos. Sugiro ainda ler com um ou com vários familiares para que eles possam te ajudar nessa decisão e venham junto na consulta de cálculo da lente para que possamos fazer, juntos, a melhor escolha. 
 
 A escolha da lente leva em consideração as características dos olhos (por isso são realizados diversos exames oftalmológicos), os hábitos do paciente (por isso gostamos que o paciente preencha um questionário para entendermos melhor seu dia a dia e suas expectativas) bem como as características e limitações de cada modelo de lente intraocular. 
  
@@ -90,7 +94,7 @@ Simulação de uma visão com astigmatismo moderado.
  </p>  
 
 
-Dependendo da forma do seu olho (isso vai ser avaliado pelos exames pré-operatórios), ele vai precisar de lentes que corrijam o astigmatismo para que você possa ter o melhor foco possível. A lente que corrige o astigmatismo é chamada de **LENTE TÓRICA**. Quase todos os modelos de lentes intraoculares possuem o modelo não tórico (quando calculamos que o astigmatismo residual vai ser de 0,50 ou inferior) e modelo tórico (quando calculamos que o astigmatismo residual será de 0,75 ou superior). Essa informação é importante, pois as **lentes tóricas são mais caras**, seu implante é mais complexo e isso pode influenciar nos valores da sua cirurgia. 
+Dependendo da forma do seu olho (isso vai ser avaliado pelos exames pré-operatórios), ele pode precisar de lentes que corrijam o astigmatismo para que você possa ter o melhor foco possível. A lente que corrige o astigmatismo é chamada de **LENTE TÓRICA**. Quase todos os modelos de lentes intraoculares possuem o modelo não tórico (quando calculamos que o astigmatismo residual vai ser de 0,50 ou inferior) e modelo tórico (quando calculamos que o astigmatismo residual será de 0,75 ou superior). Essa informação é importante, pois as **lentes tóricas são mais caras**, seu implante é mais complexo e isso pode influenciar nos valores da sua cirurgia. 
 
 ![](../../src/images/torre1.png)   
 <p style="font-size: 12px" class="text-center">
@@ -141,7 +145,6 @@ Alguns autores gostam de comparar a visão das lentes esféricas às TVs analóg
 Detalhes sobre as lentes monofocais:    
 Em alguns casos selecionados, podemos fazer uma adaptação com essas lentes monofocais chamada báscula: consiste em programar as lentes em um olho com focalização para longe e no outro olho com focalização para perto, objetivando dar mais independência dos óculos. 
 Alguns pacientes se beneficiam dessa estratégia, mas é importante ressaltar que o paciente precisa de um período de adaptação para que o cérebro se acostume com essa diferença de visão entre os olhos. Além disso, para situações de uso mais prolongado da visão de longe (dirigir, ver filmes, etc) ou de perto (leituras prolongadas), podem ser necessários óculos para que o paciente se sinta mais confortável e volte a utilizar os dois olhos ao mesmo tempo. 
-(essa estratégia de adaptação da visão também é comumente realizada com lentes de contato em pacientes acima de 40 anos, sem catarata)
 
 
 Da sessão 2 em diante, todas as lentes possuem alguma tecnologia para tentar minimizar o uso dos óculos nas visões intermediária e de perto. Todas as lentes da sessão 2 e 3 são asféricas e todas as lentes asféricas (incluindo a monofocal descrita acima) são conhecidas na oftalmologia como “lentes premium”, ou seja, lentes que oferecem alguma tecnologia acima das tecnologias tradicionais. 
@@ -174,12 +177,12 @@ Essas lentes têm por característica principal pequenas ranhuras em sua superf�
 
 
 A maior parte da energia luminosa continua sendo direcionada para o foco de longe, no entanto, a depender do modelo de lente (descritos a seguir), a lente divide a energia luminosa também para o foco intermediário e/ou de perto. 
-É fato que ainda não temos uma lente intraocular perfeita, então essa divisão da luz tem algumas desvantagens:   
-- por dividirem a luz, elas precisam de olhos com características muito próximas do que consideramos perfeitos para funcionar adequadamente. Portanto, é grande o número de pacientes que desejam colocar esse tipo de lente, que, no entanto, é contraindicada por alterações de seu olho (cicatrizes, doenças da retina, olho seco, aberrações corneanas, entre outros). Então, não se assuste se o seu oftalmologista disser que seu olho não é um bom candidato a esse tipo de lente. 
+É fato que ainda não temos uma lente intraocular perfeita, então essa divisão da luz tem algumas características proprias que precisam ser explicadas:   
+* por dividirem a luz, elas precisam de olhos com características muito próximas do que consideramos perfeitos para funcionar adequadamente. Portanto, é grande o número de pacientes que desejam colocar esse tipo de lente, que, no entanto, é contraindicada por alterações de seu olho (cicatrizes, doenças da retina, olho seco, aberrações corneanas, entre outros). Então, não se assuste se o seu oftalmologista disser que seu olho não é um bom candidato a esse tipo de lente. 
 
-- diminuição do contraste em todos os focos já que não chega 100% da energia luminosa em um só foco. Para entender melhor a diminuição do contraste, gosto de comparar com uma impressora: quando você imprime no modo normal ou ótimo, você tem 100% de contraste; quando imprime no modo econômico, você ainda vê, mas com menor contraste. 
+* diminuição do contraste em todos os focos já que não chega 100% da energia luminosa em um só foco. Para entender melhor a diminuição do contraste, gosto de comparar com uma impressora: quando você imprime no modo normal ou ótimo, você tem 100% de contraste; quando imprime no modo econômico, você ainda vê, mas com menor contraste. 
 
-- surgimento de fenômenos ópticos conhecidos como halos, glare e starburst, onde há um espalhamento das luzes fazendo com que o paciente tenha um pouco de dificuldade com objetos iluminados, especialmente à noite, tais como faróis de carros, lâmpadas, etc.
+* surgimento de fenômenos ópticos conhecidos como halos, glare e starburst, onde há um espalhamento das luzes fazendo com que o paciente tenha um pouco de dificuldade com objetos iluminados, especialmente à noite, tais como faróis de carros, lâmpadas, etc.
  ![](../../src/images/ponto-de-luz.png) 
   <p style="font-size: 12px" class="text-center">
   Na imagem vemos um ponto de luz visto por um olho normal à esquerda e os possíveis fenômenos ópticos causados pelas lentes difrativas. 
@@ -187,11 +190,6 @@ A maior parte da energia luminosa continua sendo direcionada para o foco de long
   
   Muito importante ressaltar que esses fenômenos não são complicações da cirurgia. São fenômenos ópticos esperados justamente pelo modo como as lentes são fabricadas (necessários para ter a visão média e de perto). A boa notícia é que a intensidade desses fenômenos é variável entre as pessoas (algumas pessoas nem chegam a se incomodar com eles). Outra boa notícia é que com o passar dos meses, vai havendo neuroadaptação, ou seja, o cérebro vai se adaptando àquelas imagens e elas tendem a parar de ser um incômodo. Além disso, regularmente as empresas fabricantes vão atualizando e aperfeiçoando seus modelos de lentes, sendo que as mais modernas geram menos sintomas que as mais antigas (sempre vamos oferecer para você o que tem de mais moderno no mercado de oftalmologia). 
 Em último caso, se o paciente não se adaptar aos fenômenos ópticos após algum tempo, pode ser avaliada a possibilidade de troca da lente, embora essa cirurgia não seja desejável já que incorre em riscos até maiores do que a cirurgia de catarata em si (além de gerar novo gasto ao paciente por se tratar de nova cirurgia com implante de nova lente).
-
-Outra desvantagem das lentes difrativas é que elas costumam ser bem sensíveis aos erros de cálculo das lentes. Na prática, não existe um cálculo perfeito pro grau da lente que iremos implantar em seu olho, portanto, pequenos erros (até 0,50 ou até 0,75 graus) ainda são considerados bons resultados. Nessas lentes difrativas, quanto mais fora do alvo, maiores serão as aberrações ópticas causadas. 
-
-**Obs:** importante salientar nesse tópico que um erro de grau da lente não é considerado um erro médico, mas uma limitação técnica prevista em literatura médica. Assim, mesmo com as melhores tecnologias atualmente disponíveis (que estão ao seu alcance em nossa clínica), esses erros podem ocorrer. Portanto, caso ocorra um grau residual indesejado e não consigamos resolver com outros meios, podem ser necessários uso de óculos ou tratamentos adicionais (novas cirurgias, tratamentos à laser ou mesmo troca da lente) e isso poderá incorrer em novos custos para o paciente.
-
 
 **2.1 Lentes difrativas bifocais**
 Foram as primeiras lentes com mais de um foco desenvolvidas. Elas possuem geralmente um foco principal para longe e o segundo foco pode variar entre intermediário ou de perto, de acordo com o desejo do paciente e intenção do cirurgião. Essas lentes têm sido menos usadas atualmente após o lançamento das lentes trifocais descritas a seguir. 
@@ -267,7 +265,10 @@ Perspectivas futuras são de lentes adaptativas, ou seja, lentes que consigam mu
 **Algumas considerações importantes:**   
 Para aumentar a chance de sucesso com o cálculo das lentes intraoculares são necessários diversos exames oftalmológicos, sendo que alguns deles não estão contemplados no rol de procedimentos cobertos pelos planos de saúde e poderão ser cobrados à parte pelo oftalmologista.
 
-Já dissemos anteriormente que o erro do calculo do grau da lente intraocular pode ocorrer por isso é fundamental que façamos diversos exames para torna-lo mais preciso. Nesse ponto, é importante chamar atenção para o olho seco, pois o paciente com olho seco pode tornar a captura dos exames menos precisas. Portanto, caso seu oftalmologista tenha prescrito tratamento para blefarite/olho seco, é fundamental que você o faça corretamente, dando ainda mais atenção nos dias que antecedem seu calculo de lente. É importante ressaltar que, se você tiver um olho seco, vai precisar continuar o tratamento após a cirurgia para que a lente consiga atingir o seu máximo desempenho.
+Importante salientar que um erro de grau da lente não é considerado um erro médico, mas uma limitação técnica prevista em literatura médica. Assim, mesmo com as melhores tecnologias atualmente disponíveis (que estão ao seu alcance em nossa clínica), esses erros podem ocorrer. É considerado um sucesso quando o grau residual do paciente fica em 0,50 a 0,75 graus, pois isso geralmente não interfere as atividades cotidianas do paciente. Se ocorre um desvio do grau esperado no primeiro olho operado, sempre tentamos compensar esse desvio no segundo olho, promovendo um balanço binocular adequado para perfeito uso da visão. 
+Entretanto, caso ocorra um grau residual indesejado e não consigamos resolver com o balanço binocular, podem ser necessários uso de óculos ou tratamentos adicionais (novas cirurgias, tratamentos à laser ou mesmo troca da lente) e isso poderá incorrer em novos custos para o paciente.
+
+É importante chamar atenção para o olho seco, pois o paciente com olho seco pode tornar a captura dos exames menos precisas. Portanto, caso seu oftalmologista tenha prescrito tratamento para blefarite/olho seco, é fundamental que você o faça corretamente, dando ainda mais atenção nos dias que antecedem seu calculo de lente. É importante ressaltar que, se você tiver um olho seco, vai precisar continuar o tratamento após a cirurgia para que a lente consiga atingir o seu máximo desempenho.
 
 Infelizmente, nem sempre os pacientes podem colocar o tipo de lente que deseja. Algumas características do olho podem ser contraindicações para alguns tipos de lentes, especialmente as lentes difrativas. 
   
