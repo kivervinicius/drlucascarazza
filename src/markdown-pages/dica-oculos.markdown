@@ -133,6 +133,7 @@ lente bem prática para uso no dia a dia, mas alguns pacientes preferem ter   2 
 
 ![](../../src/images/folder-lente1.jpg)    
 
+**Armações clip-on**
 Uma outra alternativa que tem caído no gosto dos pacientes são as armações
 do tipo clip-on, ou seja, aquelas que permitem adicionar lentes com filtros escuros,
 marrons ou amarelos à armação. Com isso transformam os óculos tradicionais em
@@ -153,7 +154,7 @@ resultando em melhora tanto do conforto quanto da qualidade visual.
 </br>
 
 # Modelo/Desenho das lentes      
-#### Óculos de Visão Simples para longe: 
+**Óculos de Visão Simples para longe**
 Para pacientes até por volta de 40 anos e saudáveis que possuem
 hipermetropia ou miopia, associado ou não a astigmatismo, uma lente de
 visão simples para longe geralmente é suficiente. Isto quer dizer que os
