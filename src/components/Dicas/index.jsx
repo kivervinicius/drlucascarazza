@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.scss";
 import img1 from "../images/dicas1.png";
-import img2 from "../images/dicas2.png";
-import img4 from "../images/cirurgia1.jpg";
+// import img2 from "../images/dicas2.png";
+// import img4 from "../images/cirurgia1.jpg";
 
 
 import { Row, Col } from "react-bootstrap";
@@ -39,7 +39,7 @@ const Card = () => {
               </div>
             </div>
           </Col>
-          <Col xs={12} sm={4}>
+          {/* <Col xs={12} sm={4}>
             <div className="card m-2">
               <img
               alt="imagem de lente"
@@ -56,8 +56,8 @@ const Card = () => {
                 </Link>
               </div>
             </div>
-          </Col>
-          <Col xs={12} sm={4}>
+          </Col> */}
+          {/* <Col xs={12} sm={4}>
             <div className="card m-2">
               <img
               alt="imagem de lente"
@@ -74,7 +74,7 @@ const Card = () => {
                 </Link>
               </div>
             </div>
-          </Col>
+          </Col> */}
          
         </Row>
       </div>

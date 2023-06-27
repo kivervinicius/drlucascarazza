@@ -1,11 +1,11 @@
 ---
-slug: "/dica-lentes"
+slug: "/lentes"
 title: "Como escolher a lente intraocular para cirurgia de catarata mais adequada para o meu olho? "
 image: 
 ---
 
 Antes de começar a ler esse post sobre lentes intra oculares, é interessante que você saiba que durante a cirurgia de catarata, o oftalmologista retira a lente natural do olho chamada cristalino (que está com catarata e com perda da sua transparência natural) por uma lente artificial. Se quiser saber mais detalhes sobre a cirurgia de catarata, sugiro clicar no link abaixo que explicamos isso de forma melhor.     
-[Catarata e Cirurgia de Catarata](/dica-catarata-cirurgia) 
+[Catarata e Cirurgia de Catarata](/catarata-cirurgia) 
 
 
 A escolha da lente intraocular é uma oportunidade muito interessante para poder diminuir a dependência dos óculos. É importante ressaltar que essa escolha deverá ser feita apenas uma vez na vida, haja visto que apenas em raríssimas ocasiões iremos trocar a lente intraocular. Ainda não existe uma lente intraocular ideal, aquela que tenha a mesma função da nossa lente natural jovem e que sirva para todos os olhos, por isso existem vários modelos de lentes que tentam oferecer a melhor qualidade de vida para o paciente. 

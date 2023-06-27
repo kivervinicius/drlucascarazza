@@ -32,7 +32,7 @@ const Menu = () => {
               <Nav.Link href="../#sobre-mim"> SOBRE MIM</Nav.Link>
               <Nav.Link href="../sobre-a-clinica/"  > SOBRE A CLINICA </Nav.Link>
               <Nav.Link href="../exames/" >  EXAMES </Nav.Link>
-              <Nav.Link href="../#">DOENÇAS OCULARES</Nav.Link>
+              <Nav.Link href="/catarata-cirurgia/">DOENÇAS OCULARES</Nav.Link>
               <Nav.Link href="../tratamentos">TRATAMENTOS E CIRURGIAS</Nav.Link>
               <Nav.Link href="../#dicas">DICAS</Nav.Link>
               <Nav.Link href="#footer">CONTATO</Nav.Link>

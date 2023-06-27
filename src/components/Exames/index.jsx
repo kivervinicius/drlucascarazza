@@ -26,6 +26,9 @@ import img19 from "./images/angifluor.jpeg";
 import img20 from "./images/angi.jpeg";
 import img21 from "./images/oct.jpeg";
 import img22 from "./images/octretina.jpeg";
+import img23 from "./images/estrabismo.jpeg";
+import img24 from "./images/abarrometria.jpeg";
+
 
 
 
@@ -102,7 +105,9 @@ const Exames = () => {
       id: 4,
       name: 'Exame ortóptico ou teste de estrabismo',
       nikName: 'Este é um teste utilizado para avaliar se o paciente possui algum grau de desvio ocular. É rotineiramente realizado em crianças, que podem ter seu desenvolvimento visual comprometido pelos estrabismos e também realizado em adultos com suspeitas de desvio ocular.',
-      url: "https://eyewiki.aao.org/w/images/1/a/ae/AA0_2117.jpg"
+      url: "https://eyewiki.aao.org/w/images/1/a/ae/AA0_2117.jpg",
+      img: img23,
+      imge2:"",
     },
 
 
@@ -188,15 +193,18 @@ const Exames = () => {
 
     },
 
-    // {
-    //   id: 15,
-    //   name: 'Potencial de acuidade visual (PAM)',
-    //   url: "https://visarerio.com.br/project/acuidade-potencial-macular/ "
-    // },
+    
+
+    {
+      id: 15,
+      name: 'Aberrometria',
+      nikName: "Este exame é também conhecido como um super auto  refrator. O nosso aberrometro é capaz de avaliar de uma forma mais precisa o grau do paciente bem como as aberrações corneanas e intraoculares. É muito valioso para estudo das doenças corneanas bem como no pré operatório das cirurgias oculares. ",
+      img:img24,
+      imge: ""
+    },
 
   ]
   var glaucoma = [
-
 
 
 

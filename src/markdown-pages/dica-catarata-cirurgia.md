@@ -1,5 +1,5 @@
 ---
-slug: "/dica-catarata-cirurgia"
+slug: "/catarata-cirurgia"
 title: "Catarata e Cirurgia de Catarata"
 image: 
 ---
@@ -72,9 +72,9 @@ Agora que você já entendeu sobre a catarata e seu tratamento, está na hora de
 
 
 **Veja também**  
- [Comos escolher seus óculos](/dica-oculos)   
+[Como escolher a lente intraocular](/lentes)
 
-[Como escolher a lente intraocular](/dica-lente)
+ [Comos escolher seus óculos](/dica-oculos)   
 
  [⇦ voltar a pagina principal](/)
 
