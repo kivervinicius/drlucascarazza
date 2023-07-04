@@ -28,6 +28,8 @@ import img21 from "./images/oct.jpeg";
 import img22 from "./images/octretina.jpeg";
 import img23 from "./images/estrabismo.jpeg";
 import img24 from "./images/abarrometria.jpeg";
+import img25 from "./images/test-lent.jpeg";
+
 
 
 
@@ -297,13 +299,14 @@ const Exames = () => {
   const lente = [
     {
       id: 3,
-      name: 'Teste de lentes de contato',
+      name: 'Teste de lentes de contato gelatinosas, rígidas e esclarias ',
       nikName: `Este é um procedimento indispensável para o paciente que usa óculos e deseja passar a usar também lentes de contato. 
       No dia do seu teste, faremos avaliação da sua córnea para entender a interação dela com a lente de contato, lhe ensinaremos a manusear e cuidar de sua lente de contato e avaliaremos como ficam a visão e o seu conforto com a lente.
       Assim, você poderá obter uma adaptação segura e saudável da sua lente de contato.`,
       url: "",
-      imge2: ""
-    },
+      img: img25,   
+      imge2: ''
+      },
   ]
 
   return (

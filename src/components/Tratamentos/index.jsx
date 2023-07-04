@@ -4,9 +4,23 @@ import "./style.scss"
 
 import img from "../images/imgcon1.png"
 import img1 from "./images/catarata.webp"
-import img2 from "./images/yaglaser.webp"
+import img11 from "./images/catarata3.jpeg"
+
+import img2 from "./images/yaglaser.jpeg"
 import img3 from "./images/crosslink.jpeg"
 import img4 from "./images/refrator-laser.jpg"
+import img10 from "./images/glaucoma.jpeg"
+import img5 from "./images/slt.jpeg"
+import img6 from "./images/prsmile2.jpeg"
+import img7 from "./images/pterigio.jpeg"
+import img8 from "./images/iridotnia.jpeg"
+import img9 from "./images/iridotnia.jpeg"
+
+
+
+
+
+
 
 
 import { Accordion } from 'react-bootstrap';
@@ -24,7 +38,8 @@ const consultas = [
     name: 'Cirugia da catarata com implante de lente intra ocular',
     nikName: link ,
     // ``,  
-    img: img1,
+    imge: img1,
+    imge2:img11,
     url: " https://www.leica-microsystems.com/products/surgical-microscopes/p/leica-m620-f20/"
   },
   
@@ -32,7 +47,8 @@ const consultas = [
     id: 2,
     name: ' Yag Laser para capsulotomia (limpeza de lente pós cirurgia de catarata)',
     nikName:"Procedimento em que aplicamos um laser na parte posterior da lente intra ocular implantada, com objetivo de eliminar opacidades atrás da lente intra ocular causada pelo crescimento de células do próprio olho e que acabam por embaçar um pouco a visão alguns meses ou anos após a cirurgia de catarata.",
-    img: img2,
+    imge: img2,
+    imge2: "",
     url: "https://houseofvision.com.br/equipamentos/yag-laserslt-deux/"
   },
 ]
@@ -42,7 +58,8 @@ const pTerigio =[{
     id: 7,
     name: 'Cirurgia de Pterígio com auto transplante conjuntival e cola biológica (sem pontos)',
     nikName:'Cirurgia para retirar o pterígio (“carne crescida”) dos olhos, realizada com a técnica considerada mais eficaz para evitar a recidiva da visão (auto transplante conjuntival) e a de realização mais rápida e confortável para o paciente (com uso de cola biológica e sem pontos).   Em alguns pacientes especiais, ainda podemos utilizar a mitomicina (medicamento que diminui a chance de recidiva em paciente com aumento do risco). Não utilizado em todos os pacientes pelo seu maior potencial de toxicidade.',
-    url: ""
+    url: "",
+    imge: img7
   
 
 },
@@ -56,7 +73,8 @@ const prkLasik =[
     name: ' PRK, LASIK e SMILE',
     nikName:"Cirurgias utilizadas com objetivo de eliminar o grau dos pacientes (miopia, astigmatismo e hipermetropia) e deixa-los mais indepentende dos óculos.",
     url: "",
-    img: img4
+    imge: img6,
+    imge2: img4
 
   },
 
@@ -69,7 +87,7 @@ const ceratocone=[{
   name: 'Cirurgia de Anel intra corneano para ceratocone (manual e com laser de femtosegundo)',
   nikName:"Cirurgia de implante de anel intra corneano também conhecido como anel de ferrara com intuito de melhorar a forma da córnea em pacientes com ceratocone. Essa cirurgia pode ser realizada com técnica manual ou com laser, sendo esta última realizada por mim em Cuiabá.(em breve disponibilizaremos um link com mais informações)",
   url: "",
-  img: img4
+  imge: img4
 
 
 
@@ -79,7 +97,7 @@ const ceratocone=[{
   name: 'Cross Linking para ceratocone',
   nikName:"Cirurgia com objetivo de tentar estabilizar o ceratocone em pacientes que documentamos que a doença está progredindo.",
   url: "",
-  img: img3
+  imge: img3
 },
 
 ]
@@ -90,7 +108,8 @@ const implante = [
     id: 8,
     name: 'Cirurgia de Glaucoma (trabeculectomia- TREC)',
     nikName:"Cirurgia em que criamos uma pequena abertura no olho denominada fístula com intuito de diminuir a pressão intra ocular e impedir a evolução da doença.",
-    url: ""
+    url: "",
+    imge: img10
   },
 
   {
@@ -98,7 +117,7 @@ const implante = [
     name: 'Cirurgia a laser para glaucoma (trabeculoplastia seletiva – SLT)',
     nikName:"Cirurgia a laser com objetivo onde aplicamos uma energia predeterminada em uma região dos olhos conhecida como trabeculado (região responsável pela drenagem do líquido de dentro do olho), com intuito de aumentar a eficiência do seu trabalho e diminuir a pressão intra ocular.",
     url: "",
-    img: img4
+    imge: img5
 
   },
 
@@ -107,7 +126,9 @@ const implante = [
     id: 10,
     name: 'Iridotomia a laser para glaucoma',
     nikName:"Cirurgia realizada naqueles pacientes em que identificamos possuir um chamado ângulo estreito, ou seja, pacientes com potencial para desenvolver um glaucoma de ângulo estreito.",
-    url: ""
+    url: "",
+    imge: img8,
+    img2: img9
 
   },
 
@@ -185,8 +206,17 @@ const CirurgiasEtratamento = () => {
                                             className="d-flex m-auto"
                                             width="250"
                                             height="150"
-                                            src={item.img}
+                                            src={item.imge}
                                             alt={item.name}
+                                          />
+                                        </Col>
+                                        <Col sm={12} md={6}>
+                                          <img
+                                            className="d-flex m-auto"
+                                            width="250"
+                                            height="150"
+                                            src={item.imge2}
+                                            alt={item.imge2 != "" ? item.name : ""}
                                           />
                                         </Col>
                                       </Row>
@@ -274,7 +304,7 @@ const CirurgiasEtratamento = () => {
                                             className="d-flex m-auto"
                                             width="250"
                                             height="150"
-                                            src={item.img}
+                                            src={item.imge}
                                             alt={item.name}
                                           />
                                         </Col>
@@ -363,7 +393,16 @@ const CirurgiasEtratamento = () => {
                                             className="d-flex m-auto"
                                             width="250"
                                             height="150"
-                                            src={item.img}
+                                            src={item.imge}
+                                            alt={item.name}
+                                          />
+                                        </Col>
+                                        <Col sm={12} md={6}>
+                                          <img
+                                            className="d-flex m-auto"
+                                            width="250"
+                                            height="150"
+                                            src={item.imge2}
                                             alt={item.name}
                                           />
                                         </Col>
@@ -452,7 +491,7 @@ const CirurgiasEtratamento = () => {
                                             className="d-flex m-auto"
                                             width="250"
                                             height="150"
-                                            src={item.img}
+                                            src={item.imge}
                                             alt={item.name}
                                           />
                                         </Col>
@@ -541,7 +580,7 @@ const CirurgiasEtratamento = () => {
                                             className="d-flex m-auto"
                                             width="250"
                                             height="150"
-                                            src={item.img}
+                                            src={item.imge}
                                             alt={item.name}
                                           />
                                         </Col>
