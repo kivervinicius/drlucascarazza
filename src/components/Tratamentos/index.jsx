@@ -210,15 +210,17 @@ const CirurgiasEtratamento = () => {
                                             alt={item.name}
                                           />
                                         </Col>
+                                      { item.imge2 && 
                                         <Col sm={12} md={6}>
                                           <img
                                             className="d-flex m-auto"
                                             width="250"
                                             height="150"
                                             src={item.imge2}
-                                            alt={item.imge2 != "" ? item.name : ""}
-                                          />
+                                            alt={item.imge2}
+                                            />
                                         </Col>
+                                      }  
                                       </Row>
                                     </Col>
                                     <Row sm={12}>
