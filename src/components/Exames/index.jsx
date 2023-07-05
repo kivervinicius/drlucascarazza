@@ -299,7 +299,7 @@ const Exames = () => {
   const lente = [
     {
       id: 3,
-      name: 'Teste de lentes de contato gelatinosas, rígidas e esclarias ',
+      name: 'Teste de lentes de contato gelatinosas, rígidas e esclerias ',
       nikName: `Este é um procedimento indispensável para o paciente que usa óculos e deseja passar a usar também lentes de contato. 
       No dia do seu teste, faremos avaliação da sua córnea para entender a interação dela com a lente de contato, lhe ensinaremos a manusear e cuidar de sua lente de contato e avaliaremos como ficam a visão e o seu conforto com a lente.
       Assim, você poderá obter uma adaptação segura e saudável da sua lente de contato.`,
