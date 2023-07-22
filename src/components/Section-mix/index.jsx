@@ -2,7 +2,7 @@ import React from "react";
 import "./style.scss";
 import img1 from "../images/cirurgia1.jpg";
 import img2 from "../images/exame1.jpg";
-import img4 from "../images/dicas4.jpg";
+import img4 from "../images/section1.jpeg";
 
 
 import { Row, Col } from "react-bootstrap";
@@ -32,7 +32,7 @@ const SectionMix = () => {
               />
               <div className="card-body">
                 <p className="card-text">
-                Contamos com os mais modernos equipamentos oftalmológicos para diagnóstico e tratamento das patologias oculares.
+                Saiba mais sobre os exames disponíveis para o diagnóstico e acompanhamento das patologias oculares.
                 </p>
                 
               </div>
@@ -60,7 +60,7 @@ const SectionMix = () => {
               />
               <div className="card-body">
                 <p className="card-text">
-                Contamos com os mais modernos equipamentos oftalmológicos para diagnóstico e tratamento das patologias oculares.
+                Confira artigos com informações sobre as principais doenças oculares
                 </p>
                 
               </div>
@@ -87,7 +87,7 @@ const SectionMix = () => {
               />
               <div className="card-body">
                 <p className="card-text">
-                Contamos com os mais modernos equipamentos oftalmológicos para diagnóstico e tratamento das patologias oculares.
+                Acesse para conhecer todos os tratamentos e cirurgias disponíveis
                 </p>
                 
               </div>

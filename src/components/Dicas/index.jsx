@@ -47,7 +47,7 @@ const Card = () => {
                 src={img2}
               />
               <div className="card-body">
-                <h5 className="card-title">Como escolher a lente?</h5>
+                <h5 className="card-title">Como escolher sua lente para cirurgia de catarata ?</h5>
                 <p className="card-text">
                 A escolha da lente intraocular é uma oportunidade muito interessante para poder...
                 </p>

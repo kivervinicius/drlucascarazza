@@ -5,7 +5,6 @@
 }
 body {
     font-family: "Montserrat", sans-serif;
-    overflow-x: hidden;
 }
 
 .container-clinica-page{
@@ -49,4 +48,5 @@ body {
 .blog-post-content{
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }

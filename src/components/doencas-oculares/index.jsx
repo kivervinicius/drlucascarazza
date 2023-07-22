@@ -23,7 +23,7 @@ const catarataLente = [
   
   {
     id: 2,
-    name: 'Como escolher sua lente',
+    name: 'como escolher sua lente para cirurgia de catarata ',
     nikName: link2,
   },
 ]
