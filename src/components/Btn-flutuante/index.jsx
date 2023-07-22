@@ -8,7 +8,7 @@ const  BotaoFlutuante = () => {
 
 
         const scrollFunction = () => {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20 && document.documentElement.scrollTop < 2700) {
+            if ((document.body.scrollTop > 20) || (document.documentElement.scrollTop > 20) && document.documentElement.scrollTop < 2700) {
                 document.getElementById("icon").style.display = "block";
             } else {
                 document.getElementById("icon").style.display = "none";

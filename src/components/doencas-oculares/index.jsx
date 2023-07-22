@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 
 import img from "../images/imgcon1.png";
-import { Accordion } from 'react-bootstrap';
+import { Accordion, Alert } from 'react-bootstrap';
 import { Col, Container, Row } from 'react-bootstrap';
 
 
@@ -205,6 +205,12 @@ const DoencasOculares = () => {
               </Accordion>
             </Col>
           </Row>
+          <Alert variant="danger"  dismissible>
+        <Alert.Heading> Página em construção!</Alert.Heading>
+        <p>
+        Serão divulgados novos artigos em breve...
+        </p> 
+        </Alert>
         </Container>
       </div>
 

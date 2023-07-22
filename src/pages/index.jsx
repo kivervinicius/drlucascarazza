@@ -8,6 +8,7 @@ import BotaoFlutuante from "../components/Btn-flutuante"
 import SobreAcl from "../components/Sobre-clinica"
 import Banner from '../components/Banner'
 import "./index.scss";
+import SectionMix from "../components/Section-mix"
 
 const IndexPage = () => {
   return (
@@ -18,6 +19,7 @@ const IndexPage = () => {
         <BotaoFlutuante />
         <SobreOdr />
         <SobreAcl />
+        <SectionMix />
         <Dicas />
         <Footer />
 

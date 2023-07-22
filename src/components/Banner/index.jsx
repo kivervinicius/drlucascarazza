@@ -60,7 +60,7 @@ console.log(pageName);
         <a
           href="https://wa.me/556596276197?text=ol%C3%A1%21+gostaria+de+agendar+uma+consulta"
           class="btn btn-primary btn-lg rounded-5"
-          target="_blank"
+          // target="_blank"
         >
           Agende sua consulta
         </a>

@@ -51,7 +51,7 @@ const Card = () => {
                 <p className="card-text">
                 A escolha da lente intraocular é uma oportunidade muito interessante para poder...
                 </p>
-                <Link to="/dica-lentes/" className="btn btn-primary">
+                <Link to="/lentes/" className="btn btn-primary">
                   Saiba mais
                 </Link>
               </div>

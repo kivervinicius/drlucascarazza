@@ -15,9 +15,9 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-4 col-md-12 mb-3 mb-md-0 ">
             <h4 className="text-clinica text-align-center mb-0">Missão</h4>
-            <p class="text-justify-center text-dr">Oferecer tratamento Oftalmológico com que existe de mais moderno e atualizado na oftalmologia mundial</p>
+            <p class="text-justify-center text-dr">Oferecer tratamento Oftalmológico com o que existe de mais moderno e atualizado na oftalmologia mundial</p>
             <h4 className="text-clinica text-align-center">Visão</h4>
-            <p class="text-justify-center text-dr">Ser o seu oftalmologista de confiança assim como da sua familia, oferecendo o que existe de mais moderno para sua saúde visual. </p>
+            <p class="text-justify-center text-dr">Ser o seu oftalmologista de confiança, assim como da sua familia, oferecendo o que existe de mais moderno para sua saúde visual. </p>
             <h4 className="text-clinica text-align-center">Valores</h4>
             <p class="text-justify-center text-dr">Cuidar do nosso paciente como gostaríamos que cuidassem dos nossos pais e filhos; <br />
               Estar sempre atualizado;
@@ -69,22 +69,22 @@ const Footer = () => {
         <div className="d-flex justify-content-around">
           <ul className="d-flex justify-content-around">
             <li className="m-1">
-              <a target="_blank" href="mailto:drlucas@drlucascarazza.com.br">
+              <a  href="mailto:drlucas@drlucascarazza.com.br">
                 <img className="img-icon-footer" src={icon4} alt="icone do email" />
               </a>
             </li>
             <li className="m-1">
-              <a target="_blank" href="https://instagram.com/drlucascarazza?igshid=YmMyMTA2M2Y=">
+              <a  href="https://instagram.com/drlucascarazza?igshid=YmMyMTA2M2Y=">
                 <img className="img-icon-footer" src={icon1} alt="icone do istagram" />
               </a>
             </li>
             <li className="m-1" >
-              <a target="_blank" href="https://www.facebook.com/drlucascarazza?igshid=YmMyMTA2M2Y=">
+              <a  href="https://www.facebook.com/drlucascarazza?igshid=YmMyMTA2M2Y=">
                 <img className="img-icon-footer" src={icon2} alt="icone do facebook" />
               </a>
             </li>
             <li className="m-1" >
-              <a target="_blank" href="https://wa.me/556596276197?text=ol%C3%A1%21+gostaria+de+agendar+uma+consulta">
+              <a  href="https://wa.me/556596276197?text=ol%C3%A1%21+gostaria+de+agendar+uma+consulta">
                 <img className="img-icon-footer" src={icon3} alt="icone do whatssap" />
               </a>
             </li>

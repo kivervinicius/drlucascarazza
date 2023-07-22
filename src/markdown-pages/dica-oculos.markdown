@@ -114,7 +114,7 @@ não estiverem sendo utilizados.
 
 **- camada hidrorrepelente:** evita o acúmulo de líquidos e facilita a limpeza da lente.  
 
-**- camada antiestática:** diminui o acúmulo de poeira nas lentes, mantendoas mesmas limpas por mais tempo.   
+**- camada antiestática:** diminui o acúmulo de poeira nas lentes, mantendo as mesmas limpas por mais tempo.   
 
 **- camada liporrepelente:** diminui o acúmulo de gordura nas lentes, mantendo as mesmas limpas por mais tempo. 
 <br />  
