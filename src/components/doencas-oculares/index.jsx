@@ -13,6 +13,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 const link1 =<a href="/catarata-cirurgia">Catarata e Cirurgia de Catarata</a>  
 const link2 =  <a href='/lentes'>Como escolher a lente intraocular para cirurgia de catarata mais adequada para o meu olho?</a>
 const link3 = <a href='/dica-oculos'>Comos escolher seus óculos</a>
+const link4 = <a href='/ceratocone'>Ceratocone</a>
 
 const catarataLente = [
   {
@@ -23,7 +24,7 @@ const catarataLente = [
   
   {
     id: 2,
-    name: 'como escolher sua lente para cirurgia de catarata ',
+    name: 'Como escolher sua lente para cirurgia de catarata ',
     nikName: link2,
   },
 ]
@@ -34,7 +35,15 @@ const refracao =[{
     name: 'Dicas para te ajudar a escolher o seus óculos',
     nikName: link3,
 },
-]
+];
+
+const cornea =[{
+  
+    id: 8,
+    name: 'Ceratocone',
+    nikName: link4,
+},
+];
 
 
 
@@ -114,6 +123,82 @@ const DoencasOculares = () => {
 
                             </p>
 
+
+                          </>
+
+                        )
+
+
+                      })
+
+                      }
+                    </Row>
+                  </Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
+            </Col>
+          </Row>
+          <Row className="mt-3 mb-3">
+            <Col xs={12} md={12}>
+              <Accordion
+                key='3' eventKey='3'
+                onClick={() => toggleActive(3)}
+                className={activeId === 3 ? "active" : null}
+              >
+                <Accordion.Item >
+                  <Accordion.Header
+                  >
+                    <Col sm={1}>
+                      <img
+                        className="d-flex m-auto"
+                        width="70"
+                        height="35"
+                        src={img}
+                        alt='logotipo'
+                      />
+                    </Col>
+                    <Col>
+                      <h6 className='text-center'>Córnea</h6>
+                    </Col>
+                  </Accordion.Header>
+                  <Accordion.Body >
+                    <Row>
+                      {cornea.map((item) => {
+                        return (
+                          <>
+
+                            <Accordion key={item.id} >
+                              <Accordion.Item eventKey={item.id}>
+                                <Accordion.Header>
+                                  <Col sm={1}>
+                                    <img
+                                      className="d-flex m-auto"
+                                      width="70"
+                                      height="35"
+                                      src={img}
+                                      alt={item.name}
+                                    />
+                                  </Col>
+                                  <Col>
+                                    <h6 className='text-center'>{item.name}</h6>
+                                  </Col>
+
+
+                                </Accordion.Header>
+                                <Accordion.Body>
+                                
+                                    <Row sm={12}>
+                                      <p>{item.nikName}</p>
+                                    </Row>
+                                  
+
+                                </Accordion.Body>
+                              </Accordion.Item>
+                            </Accordion>
+
+                            <p className="text tex-center ">
+
+                            </p>
 
                           </>
 
