@@ -2,6 +2,7 @@ import React from "react";
 import "./style.scss";
 import img1 from "../images/dicas1.png";
 import img2 from "../images/dicas2.png";
+import img3 from "../images/dicas3.jpg";
 // import img4 from "../images/cirurgia1.jpg";
 
 
@@ -47,11 +48,29 @@ const Card = () => {
                 src={img2}
               />
               <div className="card-body">
-                <h5 className="card-title">Como escolher sua lente para cirurgia de catarata ?</h5>
+                <h5 className="card-title">Como escolher sua lente para cirurgia de catarata?</h5>
                 <p className="card-text">
                 A escolha da lente intraocular é uma oportunidade muito interessante para poder...
                 </p>
                 <Link to="/lentes/" className="btn btn-primary">
+                  Saiba mais
+                </Link>
+              </div>
+            </div>
+          </Col>
+          <Col xs={12} sm={4}>
+            <div className="card m-2">
+              <img
+              alt="imagem de lente"
+                className="img-dicas rounded img-thumbnail"
+                src={img3}
+              />
+              <div className="card-body">
+                <h5 className="card-title">Consultas oftalmológicas de rotina na infância</h5>
+                <p className="card-text">
+                A primeira consulta oftalmológica na infância é um marco importante no cuidado...
+                </p>
+                <Link to="/dica-pediatria/" className="btn btn-primary">
                   Saiba mais
                 </Link>
               </div>
