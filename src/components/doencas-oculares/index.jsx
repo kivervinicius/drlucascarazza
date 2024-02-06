@@ -14,6 +14,7 @@ const link1 =<a href="/catarata-cirurgia">Catarata e Cirurgia de Catarata</a>
 const link2 =  <a href='/lentes'>Como escolher a lente intraocular para cirurgia de catarata mais adequada para o meu olho?</a>
 const link3 = <a href='/dica-oculos'>Comos escolher seus óculos</a>
 const link4 = <a href='/ceratocone'>Ceratocone</a>
+const link21 = <a href='/conjutivites-infecciosas'>Conjuntivites Infecciosas</a>
 
 const catarataLente = [
   {
@@ -26,6 +27,10 @@ const catarataLente = [
     id: 2,
     name: 'Como escolher sua lente para cirurgia de catarata ',
     nikName: link2,
+  }, {
+    id: 2.1,
+    name: 'Conjuntiva',
+    nikName: link21,
   },
 ]
 

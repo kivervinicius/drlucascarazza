@@ -36,42 +36,42 @@ const consultas = [
   {
     id: 1,
     name: 'Cirugia da catarata com implante de lente intra ocular',
-    nikName: link ,
+    nikName: link,
     // ``,  
     imge: img1,
-    imge2:img11,
+    imge2: img11,
     url: " https://www.leica-microsystems.com/products/surgical-microscopes/p/leica-m620-f20/"
   },
-  
+
   {
     id: 2,
     name: ' Yag Laser para capsulotomia (limpeza de lente pós cirurgia de catarata)',
-    nikName:"Procedimento em que aplicamos um laser na parte posterior da lente intra ocular implantada, com objetivo de eliminar opacidades atrás da lente intra ocular causada pelo crescimento de células do próprio olho e que acabam por embaçar um pouco a visão alguns meses ou anos após a cirurgia de catarata.",
+    nikName: "Procedimento em que aplicamos um laser na parte posterior da lente intra ocular implantada, com objetivo de eliminar opacidades atrás da lente intra ocular causada pelo crescimento de células do próprio olho e que acabam por embaçar um pouco a visão alguns meses ou anos após a cirurgia de catarata.",
     imge: img2,
     imge2: "",
     url: "https://houseofvision.com.br/equipamentos/yag-laserslt-deux/"
   },
 ]
 
-const pTerigio =[{
-  
-    id: 7,
-    name: 'Cirurgia de Pterígio com auto transplante conjuntival e cola biológica (sem pontos)',
-    nikName:'Cirurgia para retirar o pterígio (“carne crescida”) dos olhos, realizada com a técnica considerada mais eficaz para evitar a recidiva da visão (auto transplante conjuntival) e a de realização mais rápida e confortável para o paciente (com uso de cola biológica e sem pontos).   Em alguns pacientes especiais, ainda podemos utilizar a mitomicina (medicamento que diminui a chance de recidiva em paciente com aumento do risco). Não utilizado em todos os pacientes pelo seu maior potencial de toxicidade.',
-    url: "",
-    imge: img7
-  
+const pTerigio = [{
+
+  id: 7,
+  name: 'Cirurgia de Pterígio com auto transplante conjuntival e cola biológica (sem pontos)',
+  nikName: 'Cirurgia para retirar o pterígio (“carne crescida”) dos olhos, realizada com a técnica considerada mais eficaz para evitar a recidiva da visão (auto transplante conjuntival) e a de realização mais rápida e confortável para o paciente (com uso de cola biológica e sem pontos).   Em alguns pacientes especiais, ainda podemos utilizar a mitomicina (medicamento que diminui a chance de recidiva em paciente com aumento do risco). Não utilizado em todos os pacientes pelo seu maior potencial de toxicidade.',
+  url: "",
+  imge: img7
+
 
 },
 
 
 ]
 
-const prkLasik =[
+const prkLasik = [
   {
     id: 11,
     name: ' PRK, LASIK e SMILE',
-    nikName:"Cirurgias utilizadas com objetivo de eliminar o grau dos pacientes (miopia, astigmatismo e hipermetropia) e deixa-los mais indepentende dos óculos.",
+    nikName: "Cirurgias utilizadas com objetivo de eliminar o grau dos pacientes (miopia, astigmatismo e hipermetropia) e deixa-los mais indepentende dos óculos.",
     url: "",
     imge: img6,
     imge2: img4
@@ -81,11 +81,15 @@ const prkLasik =[
 
 ]
 
-const ceratocone=[{
+const ceratocone = [{
 
   id: 4,
   name: 'Cirurgia de Anel intra corneano para ceratocone (manual e com laser de femtosegundo)',
-  nikName:"Cirurgia de implante de anel intra corneano também conhecido como anel de ferrara com intuito de melhorar a forma da córnea em pacientes com ceratocone. Essa cirurgia pode ser realizada com técnica manual ou com laser, sendo esta última realizada por mim em Cuiabá.(em breve disponibilizaremos um link com mais informações)",
+  nikName: `Cirurgia de implante de anel intra corneano também conhecido como anel de ferrara 
+    com intuito de melhorar a forma da córnea em pacientes com ceratocone. 
+    Essa cirurgia pode ser realizada com técnica manual ou com laser, 
+    sendo esta última realizada por mim em Cuiabá. <br/>
+    <a href="/ceratocone">Saiba mais sobre ceratocone e seus tratamentos clicando aqui</a>.`,
   url: "",
   imge: img4
 
@@ -95,7 +99,10 @@ const ceratocone=[{
 {
   id: 6,
   name: 'Cross Linking para ceratocone',
-  nikName:"Cirurgia com objetivo de tentar estabilizar o ceratocone em pacientes que documentamos que a doença está progredindo.",
+  nikName: `Cirurgia com objetivo de tentar estabilizar o ceratocone em 
+  pacientes que documentamos que a doença está progredindo.
+  <br/>
+  <a href="/ceratocone">Saiba mais sobre ceratocone e seus tratamentos clicando aqui</a>.`,
   url: "",
   imge: img3
 },
@@ -107,7 +114,7 @@ const implante = [
   {
     id: 8,
     name: 'Cirurgia de Glaucoma (trabeculectomia- TREC)',
-    nikName:"Cirurgia em que criamos uma pequena abertura no olho denominada fístula com intuito de diminuir a pressão intra ocular e impedir a evolução da doença.",
+    nikName: "Cirurgia em que criamos uma pequena abertura no olho denominada fístula com intuito de diminuir a pressão intra ocular e impedir a evolução da doença.",
     url: "",
     imge: img10
   },
@@ -115,7 +122,7 @@ const implante = [
   {
     id: 9,
     name: 'Cirurgia a laser para glaucoma (trabeculoplastia seletiva – SLT)',
-    nikName:"Cirurgia a laser com objetivo onde aplicamos uma energia predeterminada em uma região dos olhos conhecida como trabeculado (região responsável pela drenagem do líquido de dentro do olho), com intuito de aumentar a eficiência do seu trabalho e diminuir a pressão intra ocular.",
+    nikName: "Cirurgia a laser com objetivo onde aplicamos uma energia predeterminada em uma região dos olhos conhecida como trabeculado (região responsável pela drenagem do líquido de dentro do olho), com intuito de aumentar a eficiência do seu trabalho e diminuir a pressão intra ocular.",
     url: "",
     imge: img5
 
@@ -125,7 +132,7 @@ const implante = [
   {
     id: 10,
     name: 'Iridotomia a laser para glaucoma',
-    nikName:"Cirurgia realizada naqueles pacientes em que identificamos possuir um chamado ângulo estreito, ou seja, pacientes com potencial para desenvolver um glaucoma de ângulo estreito.",
+    nikName: "Cirurgia realizada naqueles pacientes em que identificamos possuir um chamado ângulo estreito, ou seja, pacientes com potencial para desenvolver um glaucoma de ângulo estreito.",
     url: "",
     imge: img8,
     img2: img9
@@ -210,17 +217,17 @@ const CirurgiasEtratamento = () => {
                                             alt={item.name}
                                           />
                                         </Col>
-                                      { item.imge2 && 
-                                        <Col sm={12} md={6}>
-                                          <img
-                                            className="d-flex m-auto"
-                                            width="250"
-                                            height="150"
-                                            src={item.imge2}
-                                            alt={item.imge2}
+                                        {item.imge2 &&
+                                          <Col sm={12} md={6}>
+                                            <img
+                                              className="d-flex m-auto"
+                                              width="250"
+                                              height="150"
+                                              src={item.imge2}
+                                              alt={item.imge2}
                                             />
-                                        </Col>
-                                      }  
+                                          </Col>
+                                        }
                                       </Row>
                                     </Col>
                                     <Row sm={12}>
@@ -500,7 +507,7 @@ const CirurgiasEtratamento = () => {
                                       </Row>
                                     </Col>
                                     <Row sm={12}>
-                                      <p>{item.nikName}</p>
+                                      <p dangerouslySetInnerHTML={{ __html: item.nikName }} />
                                     </Row>
                                   </Row>
 
