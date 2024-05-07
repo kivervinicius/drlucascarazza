@@ -47,7 +47,8 @@ Assista abaixo o vídeo de como seu bebê aproximadamente enxerga durante o prim
 
 <div class="text-center">
   <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/AmeGYKV-L5s?si=T89zEC2wURH4nw5W&autoplay=1&loop=1&playlist=AmeGYKV-L5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="text-center"></iframe> -->
-  <img decoding="async" loading="lazy" data-restrict="false"  src="https://exame.com/wp-content/uploads/2017/02/gif-bebe.gif" border="0" alt="Visão de bebê ao longo dos primeiros meses" title="Visão de bebê ao longo dos primeiros meses" width="580"/>
+  <!-- <img decoding="async" loading="lazy" data-restrict="false"  src="https://exame.com/wp-content/uploads/2017/02/gif-bebe.gif" border="0" alt="Visão de bebê ao longo dos primeiros meses" title="Visão de bebê ao longo dos primeiros meses" width="580"/> -->
+  <iframe src="https://fast.wistia.net/embed/iframe/dlq63g7nft?dnt=1" title=Visão de bebê ao longo dos primeiros meses" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen="" oallowfullscreen="" msallowfullscreen="" width="800" height="650" allow="fullscreen" style="max-width: 100%"></iframe>
 </div>
 
 ## Marcos do desenvolvimento da visão

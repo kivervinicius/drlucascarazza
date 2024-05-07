@@ -10,6 +10,7 @@ const link2 =  <a href='/lentes'>Como escolher a lente intraocular para cirurgia
 const link3 = <a href='/dica-oculos'>Comos escolher seus óculos</a>
 const link4 = <a href='/ceratocone'>Ceratocone</a>
 const link21 = <a href='/conjutivites-infecciosas'>Conjuntivites Infecciosas</a>
+const link22 = <a href='/conjutivites-alergicas'>Conjuntivites Alérgicas</a>
 const dicaPediatria = <a href='/dica-pediatria/'>Consultas oftalmológicas de rotina na infância</a>
 const corOlhos = <a href='/dica-pediatria-cor-olhos//'>Como vai ser formada a cor do olho do meu bebê?</a>
 
@@ -30,8 +31,13 @@ const catarataLente = [
 const conjuntiva = [
   {
     id: 2.1,
-    name: 'Conjuntivites',
+    name: 'Conjuntivites Infecciosas',
     nikName: link21,
+  },
+  {
+    id: 2.2,
+    name: 'Conjuntivites Alérgicas',
+    nikName: link22,
   },
 ]
 
@@ -177,7 +183,7 @@ const DoencasOculares = () => {
                       />
                     </Col>
                     <Col>
-                      <h6 className='text-center'>Conjuntiva</h6>
+                      <h6 className='text-center'>Conjuntivites infecciosas</h6>
                     </Col>
                   </Accordion.Header>
                   <Accordion.Body >
