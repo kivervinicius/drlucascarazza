@@ -8,6 +8,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 const link1 =<a href="/catarata-cirurgia">Catarata e Cirurgia de Catarata</a>  
 const link2 =  <a href='/lentes'>Como escolher a lente intraocular para cirurgia de catarata mais adequada para o meu olho?</a>
 const link3 = <a href='/dica-oculos'>Comos escolher seus óculos</a>
+const link31 = <a href='/cirurgia-refrativa'>Cirúrgia refrativa</a>
 const link4 = <a href='/ceratocone'>Ceratocone</a>
 const link21 = <a href='/conjutivites-infecciosas'>Conjuntivites Infecciosas</a>
 const link22 = <a href='/conjutivites-alergicas'>Conjuntivites Alérgicas</a>
@@ -46,6 +47,11 @@ const refracao =[{
     id: 7,
     name: 'Dicas para te ajudar a escolher o seus óculos',
     nikName: link3,
+},{
+  
+    id: 7.1,
+    name: 'Cirurgia refrativa',
+    nikName: link31,
 },
 ];
 

@@ -15,21 +15,8 @@ import img6 from "./images/prsmile2.jpeg"
 import img7 from "./images/pterigio.jpeg"
 import img8 from "./images/iridotnia.jpeg"
 import img9 from "./images/iridotnia.jpeg"
-
-
-
-
-
-
-
-
 import { Accordion } from 'react-bootstrap';
 import { Col, Container, Row } from 'react-bootstrap';
-
-
-
-
-
 
 const link = <p>Nessa cirurgia, retiramos a lente intra ocular natural do olho (cristalino) que está doente para implantar uma lente artificial em seu lugar. Importante destacar que temos os melhores aparelhos disponíveis no mercado para realizar uma cirurgia com os mesmos níveis de segurança alcançados nos melhores centros de oftalmologia do Brasil e do mundo. para maiores informações sobre a cirurgia de catarata para maiores informações sobre a cirurgia de catarata clique no link abaixo<br />  <a href="/catarata-cirurgia">Catarata e cirurgia de catarata </a> <br /> Além disso, temos acesso a todas as lentes intra oculares que estão registradas no Brasil, desde as lentes ofertadas pelos planos de saúde até as especiais, com objetivo de proporcionar os melhores resultados visuais para cada paciente, respeitando sua individualidade. para saber mais sobre lentes intra oculares, clique no link abaixo <br /><a href="/lentes">como escolher a lente intraocular</a> </p>
 const consultas = [
@@ -71,7 +58,10 @@ const prkLasik = [
   {
     id: 11,
     name: ' PRK, LASIK e SMILE',
-    nikName: "Cirurgias utilizadas com objetivo de eliminar o grau dos pacientes (miopia, astigmatismo e hipermetropia) e deixa-los mais indepentende dos óculos.",
+    nikName: `Cirurgias utilizadas com objetivo de eliminar o grau dos pacientes 
+      (miopia, astigmatismo e hipermetropia) e deixa-los mais indepentende dos óculos.
+      
+       <a href="/cirurgia-refrativa">Veja mais aqui</a>`,
     url: "",
     imge: img6,
     imge2: img4
@@ -418,7 +408,7 @@ const CirurgiasEtratamento = () => {
                                       </Row>
                                     </Col>
                                     <Row sm={12}>
-                                      <p>{item.nikName}</p>
+                                     <p dangerouslySetInnerHTML={{ __html: item.nikName }} />
                                     </Row>
                                   </Row>
 
