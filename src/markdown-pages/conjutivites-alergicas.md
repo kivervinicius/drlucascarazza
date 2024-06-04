@@ -3,12 +3,6 @@ slug: "/conjutivites-alergicas"
 title: "Conjuntivites alérgicas"
 ---
    
-<style>
-  ul li {
-    list-style: disc;
-  }
-</style>
-
 ## Conjuntivite Alérgica
 
 A conjuntivite é uma inflamação da membrana fina e transparente que reveste a parte interna das pálpebras e a superfície branca do olho, conhecida como conjuntiva.

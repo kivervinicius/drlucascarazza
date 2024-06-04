@@ -61,6 +61,7 @@ Outra desvantagem importante diz respeito acerca do tempo necessário para a rec
 Uma terceira desvantagem é a possibilidade de ocorrer Haze corneano, que é uma inflamação exagerada da córnea, que pode diminuir sua transparência por um período de tempo, prejudicando a qualidade de visão. Essa foi uma limitação dessa técnica por um grande período de tempo, mas com o atual uso de um medicamento chamado mitomicina ao final da cirurgia associado ao conhecimento que a radiação UV do sol aumenta o risco e a orientação para usar óculos solar, esse risco caiu bastante. Com a técnica atual esse risco é, em média, de 1%.
 
 **2. LASIK:**
+
 Nessa modalidade de tratamento, inicialmente se confecciona um flap corneano, que é um corte onde uma parte mais superficial da córnea é levantada (veja as figuras abaixo para entender, mas costumo falar com o paciente que se assemelha quando cortamos uma "tampinha de uma laranja".) Depois disso, o laser é aplicado em uma região mais profunda da córnea gerando seu remodelamento. Por último, o flap é recolocado de volta em seu lugar, funcionando como um curativo perfeito para a córnea. Geralmente deixamos uma lente de contato por 1 dia para proteção. Esse corte na córnea pode ser realizado com uma lâmina (técnica tradicional) ou um segundo tipo de laser denominado Femtossegundo laser (técnica mais moderna e segura, única que atualmente realizamos).
 
 ![imagem mostrando a confecção do flap corneano e aplicação mais profunda do laser no Lasik](./cirurgia-refrativa/3.jpg)
