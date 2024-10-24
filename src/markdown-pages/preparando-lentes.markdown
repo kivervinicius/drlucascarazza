@@ -3,48 +3,50 @@ slug: "/como-usar-lentes"
 title: ""
 ---
 
-<div class="row">
-  <h1 class="title">Preparando-se para utilizar as lentes</h1>
-  <div class="col text-column">
-    <ol>
-      <li>Lave bem as mãos com água e sabão neutro; em seguida, seque-as com uma toalha que não solte pelos.</li>
-      <li>Retire a lente a ser utilizada do blister (nova) ou do estojo contendo o produto adequado (para lentes de troca mensal ou anual já em uso) e posicione-a na ponta do dedo indicador da sua mão dominante. Neste momento, observe que a lente gelatinosa deve estar em forma de bacia, e não em forma de prato.</li>
-      <li>É recomendável utilizar um protetor de ralos de pia para evitar a perda das lentes em caso de queda acidental.</li>
-    </ol>
+<div class="container">
+  <div class="row mb-4">
+    <h1 class="title">Preparando-se para utilizar as lentes</h1>
+    <div class="col-12 col-md-8">
+      <ol>
+        <li>Lave bem as mãos com água e sabão neutro; em seguida, seque-as com uma toalha que não solte pelos.</li>
+        <li>Retire a lente a ser utilizada do blister (nova) ou do estojo contendo o produto adequado.</li>
+        <li>Use um protetor de ralos de pia para evitar a perda das lentes em caso de queda acidental.</li>
+      </ol>
+    </div>
+    <div class="col-12 col-md-4">
+      <img src="./preparando-lentes/1.jpeg" alt="Preparando-se para utilizar as lentes" class="img-fluid" />
+    </div>
   </div>
-  <div class="col image-column">
-    <img src="./preparando-lentes/1.jpeg" alt="Preparando-se para utilizar as lentes" />
-  </div>
-</div>
 
-<div class="row">
-  <h1 class="title">Colocando a Lente de Contato</h1>
-  <div class="col text-column">
-    <ol>
-      <li>Utilize a ponta dos dedos para afastar as pálpebras de forma a deixar o maior espaço possível para a inserção da lente. Quanto maior o espaço, mais fácil será colocá-la, observando que os cílios podem atrapalhar a inserção se não forem devidamente afastados.</li>
-      <li>Aproxime lentamente a lente do centro do olho até que ela se acomode corretamente.</li>
-      <li>Pisque os olhos de forma lenta, fazendo movimentos suaves para que a lente se acomode mais rapidamente. (Uma piscada forte pode expulsar a lente que ainda não está encaixada.)</li>
-      <li><strong>Obs.:</strong> Neste momento, jogue fora a solução de conservação que estava no estojo e deixe-o secar.</li>
-      <li>Agora você está pronto para utilizar sua lente pelo tempo indicado durante a consulta.</li>
-    </ol>
+  <div class="row mb-4">
+    <h1 class="title">Colocando a Lente de Contato</h1>
+    <div class="col-12 col-md-8">
+      <ol>
+        <li>Utilize a ponta dos dedos para afastar as pálpebras de forma a deixar o maior espaço possível para a inserção da lente.</li>
+        <li>Aproxime lentamente a lente do centro do olho até que ela se acomode corretamente.</li>
+        <li>Pisque os olhos de forma lenta, fazendo movimentos suaves para que a lente se acomode mais rapidamente.</li>
+        <li><strong>Obs.:</strong> Neste momento, jogue fora a solução de conservação que estava no estojo e deixe-o secar.</li>
+        <li>Agora você está pronto para utilizar sua lente pelo tempo indicado durante a consulta.</li>
+      </ol>
+    </div>
+    <div class="col-12 col-md-4">
+      <img src="./preparando-lentes/2.jpeg" alt="Inserindo a lente de contato" class="img-fluid" />
+    </div>
   </div>
-  <div class="col image-column">
-    <img src="./preparando-lentes/2.jpeg" alt="Inserindo a lente de contato" />
-  </div>
-</div>
 
-<div class="row">
-  <h1 class="title">Removendo a Sua Lente de Contato</h2>
-  <div class="col text-column">
-    <ol>
-      <li>Olhe para cima.</li>
-      <li>Com as mãos limpas, use o dedo indicador para deslizar a lente para a parte branca inferior do olho.</li>
-      <li>Use os dedos polegar e indicador formando uma pinça para pegar a lente.</li>
-      <li>Guarde sua lente dentro do estojo e adicione novamente o produto adequado para o seu tipo de lente (nunca reutilize o produto do dia anterior). Coloque uma quantidade adequada da solução de conservação, mas evite excesso para diminuir o risco de a tampa danificar a lente durante o fechamento do estojo.</li>
-    </ol>
-  </div>
-  <div class="col image-column">
-    <img src="./preparando-lentes/3.jpeg" alt="Removendo a lente de contato" />
+  <div class="row mb-4">
+    <h1 class="title">Removendo a Sua Lente de Contato</h1>
+    <div class="col-12 col-md-8">
+      <ol>
+        <li>Olhe para cima.</li>
+        <li>Com as mãos limpas, use o dedo indicador para deslizar a lente para a parte branca inferior do olho.</li>
+        <li>Use os dedos polegar e indicador formando uma pinça para pegar a lente.</li>
+        <li>Guarde sua lente dentro do estojo e adicione novamente o produto adequado para o seu tipo de lente.</li>
+      </ol>
+    </div>
+    <div class="col-12 col-md-4">
+      <img src="./preparando-lentes/3.jpeg" alt="Removendo a lente de contato" class="img-fluid" />
+    </div>
   </div>
 </div>
 
