@@ -9,7 +9,7 @@ const link21 = <a href='/conjutivites-infecciosas'>Conjuntivites Infecciosas</a>
 const link22 = <a href='/conjutivites-alergicas'>Conjuntivites Alérgicas</a>;
 const dicaPediatria = <a href='/dica-pediatria/'>Consultas oftalmológicas de rotina na infância</a>;
 const corOlhos = <a href='/dica-pediatria-cor-olhos/'>Como vai ser formada a cor do olho do meu bebê?</a>;
-const preparandoUsarLentes = <a href='/como-usar-lentes/'>Preparando-se para utilizar as lentes</a>;
+const preparandoUsarLentes = <a href='/como-usar-lentes/'>Instruções para uso e conservação das lentes de contato</a>;
 
 export const catarataLente = [
   { id: 1, name: 'Catarata', nikName: link1 },
@@ -31,7 +31,7 @@ export const refracao = [
 ];
 
 export const lentes = [
-  { id: 11, name: 'Preparando-se para utilizar as lentes', nikName: preparandoUsarLentes },
+  { id: 11, name: 'Instruções para uso e conservação das lentes de contato', nikName: preparandoUsarLentes },
 ];
 
 export const oftalmoPediatria = [
