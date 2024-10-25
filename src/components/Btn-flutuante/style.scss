@@ -1,57 +1,35 @@
+#icon {
+  display: none; // Inicialmente oculto, controlado via JS.
+  position: fixed;
+  bottom: 60px;
+  right: 7px;
+  z-index: 9999;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%; // Botão circular.
+  transition: all 0.5s ease-in-out;
+  animation: glowing 1300ms infinite; // Animação contínua.
+}
 
-    #icon {
-        // display: none;
-        position: fixed;
-        bottom: 60px;
-        right: 7px;
-        z-index: 9999;
-        border: none;
-        outline: none;
-        cursor: pointer;
-        border-radius: 0px;
-        border-radius: 50%;
-        
-      }
+#icon img {
+  height: 68px;
+  width: 68px;
+  border-radius: 50%; // A imagem também segue o formato circular.
+}
 
-      // #icon img{
-      //   height: 68px;
-      //   width: 68px;
-      //   border-radius: 50%
+#icon:hover {
+  background-color: rgba(7, 228, 18, 0.336); // Efeito hover.
+}
 
-      // }
-      
-      #icon:hover {
-        background-color: rgba(7, 228, 18, 0.336);
-      }
-
-      //  #icon  {
-      //   background-color: #1c87c9;
-      //   -webkit-border-radius: 60px;
-      //   
-      //   border: none;
-      //   color: #eeeeee;
-      
-      //   display: inline-block;
-      //   font-family: sans-serif;
-      //   font-size: 20px;
-      //   padding: 5px 15px;
-      //   text-align: center;
-      //   text-decoration: none;
-      // }
-      @keyframes glowing {
-        0% {
-          // background-color: rgba(7, 228, 18, 0.336);;
-          box-shadow: 0 0 5px rgb(7, 228, 18);;
-        }
-        50% {
-          // background-color: rgba(7, 228, 18, 0.521);;
-          box-shadow: 0 0 20px rgb(7, 228, 18);;
-        }
-        100% {
-          // background-color: rgba(7, 228, 18, 0.336);;
-          box-shadow: 0 0 5px rgb(7, 228, 18);;
-        }
-      }
-      #icon {
-        animation: glowing 1300ms infinite;
-      }
+@keyframes glowing {
+  0% {
+    box-shadow: 0 0 5px rgb(7, 228, 18);
+  }
+  50% {
+    box-shadow: 0 0 20px rgb(7, 228, 18);
+  }
+  100% {
+    box-shadow: 0 0 5px rgb(113, 255, 118);
+  }
+}

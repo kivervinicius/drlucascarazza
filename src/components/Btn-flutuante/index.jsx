@@ -1,35 +1,46 @@
-import React,{useEffect} from "react";
-import icon3 from "../images/whatsapp-icon.png"
+import React, { useEffect } from "react";
+import icon3 from "../images/whatsapp-icon.png";
+import './style.scss';
 
-import './style.scss'
+const BotaoFlutuante = () => {
+  const scrollFunction = () => {
+    const icon = document.getElementById("icon");
+    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
 
-
-const  BotaoFlutuante = () => {
-
-
-        const scrollFunction = () => {
-            if ((document.body.scrollTop > 20) || (document.documentElement.scrollTop > 20) && document.documentElement.scrollTop < 2700) {
-                document.getElementById("icon").style.display = "block";
-            } else {
-                document.getElementById("icon").style.display = "none";
-            }
-        }
-
+    if (scrollTop > 20 && scrollTop < 2700) {
+      icon.style.display = "block";
+    } else {
+      icon.style.display = "none";
+    }
+  };
 
   useEffect(() => {
+    // Verifica se o objeto window está definido
     if (typeof window !== 'undefined') {
-        window.onscroll = () => { scrollFunction() };
-      }
-   
-    
-  }, []);
-        return (
-            <div>
-                <a target="_blank" id="icon" href="https://wa.me/556596276197?text=ol%C3%A1%21+gostaria+de+agendar+uma+consulta">
-                    <img src={icon3} alt="icone do whatssap" />
-                </a>
-
-            </div>
-        )
+      window.addEventListener('scroll', scrollFunction);
     }
+    
+    // Cleanup function to remove the event listener
+    return () => {
+      if (typeof window !== 'undefined') {
+        window.removeEventListener('scroll', scrollFunction);
+      }
+    };
+  }, []);
+
+  return (
+    <div>
+      <a 
+        id="icon" 
+        href="https://wa.me/556596276197?text=ol%C3%A1%21+gostaria+de+agendar+uma+consulta" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        style={{ display: 'none' }} // Inicialmente oculto
+      >
+        <img src={icon3} alt="ícone do WhatsApp" />
+      </a>
+    </div>
+  );
+};
+
 export default BotaoFlutuante;
