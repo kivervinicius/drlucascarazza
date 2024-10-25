@@ -13,7 +13,8 @@ const link4 = <a href='/ceratocone'>Ceratocone</a>
 const link21 = <a href='/conjutivites-infecciosas'>Conjuntivites Infecciosas</a>
 const link22 = <a href='/conjutivites-alergicas'>Conjuntivites Alérgicas</a>
 const dicaPediatria = <a href='/dica-pediatria/'>Consultas oftalmológicas de rotina na infância</a>
-const corOlhos = <a href='/dica-pediatria-cor-olhos//'>Como vai ser formada a cor do olho do meu bebê?</a>
+const corOlhos = <a href='/dica-pediatria-cor-olhos/'>Como vai ser formada a cor do olho do meu bebê?</a>
+const preparandoUsarLentes = <a href='/como-usar-lentes/'>Preparando-se para utilizar as lentes</a>
 
 const catarataLente = [
   {
@@ -73,6 +74,14 @@ const oftalmoPediatria =[{
     id: 10,
     name: 'Cor dos olhos',
     nikName: corOlhos,
+},
+];
+
+const lentes =[{
+  
+  id: 11,
+  name: 'Preparando-se para utilizar as lentes',
+  nikName: preparandoUsarLentes,
 },
 ];
 
@@ -347,6 +356,82 @@ const DoencasOculares = () => {
                   <Accordion.Body >
                     <Row>
                       {refracao.map((item) => {
+                        return (
+                          <>
+
+                            <Accordion key={item.id} >
+                              <Accordion.Item eventKey={item.id}>
+                                <Accordion.Header>
+                                  <Col sm={1}>
+                                    <img
+                                      className="d-flex m-auto"
+                                      width="70"
+                                      height="35"
+                                      src={img}
+                                      alt={item.name}
+                                    />
+                                  </Col>
+                                  <Col>
+                                    <h6 className='text-center'>{item.name}</h6>
+                                  </Col>
+
+
+                                </Accordion.Header>
+                                <Accordion.Body>
+                                
+                                    <Row sm={12}>
+                                      <p>{item.nikName}</p>
+                                    </Row>
+                                  
+
+                                </Accordion.Body>
+                              </Accordion.Item>
+                            </Accordion>
+
+                            <p className="text tex-center ">
+
+                            </p>
+
+                          </>
+
+                        )
+
+
+                      })
+
+                      }
+                    </Row>
+                  </Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
+            </Col>
+          </Row>
+          <Row className="mt-3 mb-3">
+            <Col xs={12} md={12}>
+              <Accordion
+                key='1' eventKey='1'
+                onClick={() => toggleActive(1)}
+                className={activeId === 1 ? "active" : null}
+              >
+                <Accordion.Item >
+                  <Accordion.Header
+                  >
+                    <Col sm={1}>
+                      <img
+                        className="d-flex m-auto"
+                        width="70"
+                        height="35"
+                        src={img}
+                        alt='logotipo'
+                      />
+                    </Col>
+                    <Col>
+                      <h6 className='text-center'>LENTES DE CONTATO</h6>
+                    </Col>
+                  </Accordion.Header>
+                  <Accordion.Body >
+                    <Row>
+                      {lentes.map((item) => {
                         return (
                           <>
 

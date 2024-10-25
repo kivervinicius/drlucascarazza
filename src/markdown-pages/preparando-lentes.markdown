@@ -2,10 +2,10 @@
 slug: "/como-usar-lentes"
 title: ""
 ---
-
+<h1 class="title">Instruções para uso e conservação das lentes de contato</h1>
 <div class="container">
   <div class="row mb-4">
-    <h1 class="title">Preparando-se para utilizar as lentes</h1>
+    <h2 class="title">Preparando-se para utilizar as lentes</h2>
     <div class="col-12 col-md-8">
       <ol>
         <li>Lave bem as mãos com água e sabão neutro; em seguida, seque-as com uma toalha que não solte pelos.</li>
@@ -19,7 +19,7 @@ title: ""
   </div>
 
   <div class="row mb-4">
-    <h1 class="title">Colocando a Lente de Contato</h1>
+    <h2 class="title">Colocando a Lente de Contato</h2>
     <div class="col-12 col-md-8">
       <ol>
         <li>Utilize a ponta dos dedos para afastar as pálpebras de forma a deixar o maior espaço possível para a inserção da lente.</li>
@@ -35,7 +35,7 @@ title: ""
   </div>
 
   <div class="row mb-4">
-    <h1 class="title">Removendo a Sua Lente de Contato</h1>
+    <h2 class="title">Removendo a Sua Lente de Contato</h2>
     <div class="col-12 col-md-8">
       <ol>
         <li>Olhe para cima.</li>
@@ -50,7 +50,7 @@ title: ""
   </div>
 </div>
 
-<h1 class="title">Dicas e Cuidados</h1>
+<h2 class="title">Dicas e Cuidados</h2>
 
 1. Tenha o hábito de manusear, inicialmente, a lente do olho direito e, depois, a do olho esquerdo. Criar esse padrão ajuda a diminuir as chances de trocar as lentes entre os olhos (importante para quem tem graus diferentes).  
 2. Lave o estojo semanalmente usando a solução de conservação das lentes. Substitua o estojo a cada três meses, no máximo.  
