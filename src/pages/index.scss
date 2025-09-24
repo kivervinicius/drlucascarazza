@@ -1,8 +1,9 @@
 @import url(../fonts/Fontastique.css);
 
-::root{
+::root {
     --bs-body-font-size: 1.2rem;
 }
+
 body {
     font-family: "Montserrat", sans-serif;
 }
@@ -15,46 +16,90 @@ ul li {
     list-style: disc;
 }
 
-.container-clinica-page{
- background-color: #021933;
- height: auto;
+.container-clinica-page {
+    background-color: #021933;
+    height: auto;
 
 }
-.img-clinica-page{
+
+.img-clinica-page {
     width: 330px;
 }
-.img-clinica-home{
+
+.img-clinica-home {
     width: 100%;
 }
+
 // .gatsby-resp-image-image{
 //     height: 60vh !important;
 //     width: 90vw !important;
 // }
-.imG{
+.imG {
     width: 204 !important;
-    height:170  !important;
+    height: 170 !important;
 }
 
-.title { 
+.title {
     font-family: 'Fontastique', sans-serif;
 }
 
-.borda{
-    
+.borda {
+
     background-color: #021933;
     border-radius: 10% 90% 12% 88% / 18% 85% 15% 82%;
     border: #021933 1px solid;
 }
-.conteiner-ocolos{
+
+.conteiner-ocolos {
     background-image: url("../images/ocolos5.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 440px;
-    
+
 }
-.blog-post-content{
+
+.blog-post-content {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    text-align: justify
+}
+
+figure {
+    //   display: flex;
+    flex-direction: column;
+    align-items: center; // centraliza imagem e legenda
+    margin: 1.5rem auto;
+    max-width: 600px; // controla largura máxima do bloco
+    text-align: center;
+
+    img {
+        width: 100%; // imagem ocupa até o limite do figure
+        height: auto;
+        border-radius: 4px; // opcional, cantos levemente arredondados
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); // opcional, destaque
+    }
+
+
+}
+
+figcaption {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-style: italic;
+    color: #555;
+    text-align: center;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem auto;
+    max-width: 800px; // controla largura máxima do bloco
+
+    figure {
+        margin: 0; // remove margem padrão do figure
+    }
 }
