@@ -208,11 +208,6 @@ const Exames = () => {
   ]
   var glaucoma = [
 
-
-
-    // 1.3 Glaucoma:Todos os exames dessa seção são utilizados para avaliar suspeitos de glaucoma ou pacientes glaucomatosos. Eles são avaliados em conjunto e repetidos rotineiramente, conforme a necessidade individual de cada paciente.
-
-
     {
       id: 16,
       name: 'Campimetria computadorizada',

@@ -2,8 +2,13 @@
 slug: "/ceratocone"
 title: "Ceratocone"
 ---
-   
-
+<style>
+    @media (max-width: 850px) {
+        .blog-post-content img {
+            width: 100%;
+        }
+    }
+</style>
 
 O ceratocone é uma doença progressiva que causa afinamento e deformação da córnea, formando uma protuberância em forma de cone. A córnea é a camada transparente mais externa do nosso olho e, no ceratocone, ela é mais frágil e tende a ir se deformando.
 
