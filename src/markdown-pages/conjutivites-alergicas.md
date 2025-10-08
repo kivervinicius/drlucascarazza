@@ -39,8 +39,9 @@ O principal sintoma da conjuntivite alérgica é a coceira nos olhos
 O grande perigo de coçar os olhos, especialmente nas crianças, é a possibilidade de causar deformação na córnea e causar uma doença chamada [ceratocone (click nesse link se quiser saber mais sobre ceratocone)](/ceratocone).
 
 <p style="font-size: 12px" class="text-center">
-  <video width="400" loop autoplay muted>
+  <video width="400" loop autoplay muted playsinline>
     <source src="/videos/cocar-olhos.mp4" type="video/mp4">
+    Seu navegador não suporta vídeo.
   </video>
   <br>
   O perigo em coçar os olhos
