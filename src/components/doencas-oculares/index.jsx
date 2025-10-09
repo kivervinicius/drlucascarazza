@@ -44,11 +44,11 @@ const DoencasOculares = () => {
     { id: 1, header: 'CATARATA', data: catarataLente },
     { id: 2, header: 'Conjuntivites Infecciosas', data: conjuntiva },
     { id: 3, header: 'Córnea', data: cornea },
-    { id: 4, header: 'REFRAÇÃO E ÓCULOS', data: refracao },
+    { id: 8, header: 'GLAUCOMA', data: glaucoma },
     { id: 5, header: 'LENTES DE CONTATO', data: lentes },
     { id: 6, header: 'OFTALMO PEDIATRIA', data: oftalmoPediatria },
     { id: 7, header: 'OLHO SECO', data: olhoSeco },
-    { id: 8, header: 'GLAUCOMA', data: glaucoma },
+    { id: 4, header: 'REFRAÇÃO E ÓCULOS', data: refracao },
   ];
 
   return (

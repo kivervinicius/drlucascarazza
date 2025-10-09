@@ -1,7 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Dr-lucasPage`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://drlucascarazza.com.br`,
+    description: `Dr. Lucas Carazza, médico oftalmologista em Tangará da Serra - MT. Cirurgia de catarata, cirurgia refrativa, ceratocone, glaucoma, lentes de contato e outras especialidades.`,
+    keywords: `oftalmologista, tangará da serra, catarata, cirurgia refrativa, ceratocone, glaucoma, lentes de contato`
   },
   plugins: ["gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',

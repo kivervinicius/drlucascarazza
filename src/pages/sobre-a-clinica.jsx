@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Helmet } from "react-helmet";
+import { graphql } from "gatsby";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import BotaoFlutuante from "../components/Btn-flutuante";
@@ -48,12 +50,18 @@ const images = [
   img14,
 ];
 
-const SobreAclinica = () => {
+const SobreAclinica = ({ data }) => {
+  const { site } = data
   const [isOpen, setIsOpen] = useState(false);
   const [photoIndex, setPhotoIndex] = useState(0);
 
   return (
     <>
+      <Helmet>
+        <title>{site.siteMetadata.title}</title>
+        <meta name="description" content={site.siteMetadata.description} />
+        <meta name="keywords" content={site.siteMetadata.keywords} />
+      </Helmet>
       <div className="d-block">
         <Menu />
         <div id="clinica" class="container-clinica-page p-5 mt-5">
@@ -144,3 +152,15 @@ Na clínica contamos com salas de consultas, salas de <a href="/exames/"> exames
 };
 
 export default SobreAclinica;
+
+export const pageQuery = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+        description
+        keywords
+      }
+    }
+  }
+`
