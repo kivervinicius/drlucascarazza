@@ -14,7 +14,7 @@ Anatomia do olho com destaque para a conjuntiva
 </p>
 
 Esse tipo de conjuntivite tem como causa um micro organismo que está se proliferando, diferentemente da conjuntivite alérgica, que descreveremos em outro artigo.
-Click nesse link se quiser saber mais sobre conjuntivites alérgicas.
+[Click nesse link se quiser saber mais sobre conjuntivites alérgicas](/conjutivites-alergicas).
 
 ![conjuntiva normal à esquerda e inflamada à direita](./conjutivites-infecciosas/2.jpeg)
 <p style="font-size: 12px" class="text-center">

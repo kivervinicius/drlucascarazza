@@ -83,7 +83,7 @@ As opções incluem:
 
 O mais importante é que o paciente use corretamente o tratamento e faça acompanhamento regular com o oftalmologista.
 
-Para saber mais sobre o tratamento do glaucoma com laser SLT, acesse aqui.
+Para saber mais sobre o tratamento do glaucoma com laser SLT, [acesse aqui](/slt).
 
 ---
 

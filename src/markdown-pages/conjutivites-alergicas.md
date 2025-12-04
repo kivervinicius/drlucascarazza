@@ -12,7 +12,7 @@ A conjuntivite é uma inflamação da membrana fina e transparente que reveste a
 Anatomia do olho com destaque para a conjuntiva
 </p>
 
-Diferentemente da conjuntivite infecciosa (click nesse link se quiser saber mais sobre conjuntivites infecciosas), a conjuntivite alérgica não tem algum microorganismo causando uma infecção e gerando inflamação (por isso, esse tipo de conjuntivite não é transmissível). Na verdade, a inflamação é causada por uma reação exagerada do seu corpo a alguma coisa que está presente no ambiente a qual chamamos de alérgeno. Os principais alérgenos presentes no ambiente são: pólen, pelos de animais, ácaros, mofo e produtos químicos.
+Diferentemente da conjuntivite infecciosa ([click nesse link se quiser saber mais sobre conjuntivites infecciosas](/conjutivites-infecciosas)), a conjuntivite alérgica não tem algum microorganismo causando uma infecção e gerando inflamação (por isso, esse tipo de conjuntivite não é transmissível). Na verdade, a inflamação é causada por uma reação exagerada do seu corpo a alguma coisa que está presente no ambiente a qual chamamos de alérgeno. Os principais alérgenos presentes no ambiente são: pólen, pelos de animais, ácaros, mofo e produtos químicos.
 
 ![Paciente com quadro de conjuntivite alérgica](./conjutivites-alergicas/2.jpeg)
 <p style="font-size: 12px" class="text-center">
