@@ -53,6 +53,10 @@ export const refracao = [
     id: 7.1,
     name: "Cirurgia refrativa",
     nikName: createLink("/cirurgia-refrativa", "Cirurgia refrativa"),
+  },{
+    id: 8,
+    name: "Miopia",
+    nikName: createLink("/miopia", "Miopia"),
   },
 ];
 
@@ -93,6 +97,13 @@ export const olhoSeco = [
     nikName: createLink(
       "/blefarite-olhos-secos/",
       "Blefarite e Olho Seco"
+    ),
+  },{
+    id: 13,
+    name: "Hordéolo e Calázio",
+    nikName: createLink(
+      "/hordeolo-calazio/",
+      "Hordéolo e Calázio"
     ),
   },
 ];
