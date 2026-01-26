@@ -1,7 +1,7 @@
 import React from 'react';
 import img from "../images/imgcon1.png";
 import { Accordion, Alert, Col, Container, Row } from 'react-bootstrap';
-import { catarataLente, conjuntiva, cornea, refracao, lentes, oftalmoPediatria, olhoSeco, glaucoma, retinaVitreo } from './data';
+import { catarataLente, conjuntiva, corneaData, refracao, lentesData, oftalmoPediatria, olhoSeco, glaucomaData, retinaVitreo } from '../allData';
 
 const InnerAccordion = ({ data }) => {
   return (
@@ -43,9 +43,9 @@ const DoencasOculares = () => {
   const sections = [
     { id: 1, header: 'Catarata', data: catarataLente },
     { id: 2, header: 'Conjuntiva', data: conjuntiva },
-    { id: 3, header: 'Córnea', data: cornea },
-    { id: 8, header: 'Glaucoma', data: glaucoma },
-    { id: 5, header: 'Lentes de Contato', data: lentes },
+    { id: 3, header: 'Córnea', data: corneaData },
+    { id: 8, header: 'Glaucoma', data: glaucomaData },
+    { id: 5, header: 'Lentes de Contato', data: lentesData },
     { id: 6, header: 'Oftalmo Pediatria', data: oftalmoPediatria },
     { id: 7, header: 'Olho Seco', data: olhoSeco },
     { id: 4, header: 'Refração e Óculos', data: refracao },

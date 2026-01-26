@@ -60,14 +60,4 @@ Finalmente, a pergunta que os pais nos fazem no consultório ainda não existe u
 
  <br />
  <br />
- <br />  
-
- **Veja também**  
-
-  [Como escolher a lente intraocular](/lentes)  
-
-  [Catarata e Cirurgia de Catarata](/catarata-cirurgia)
-
-  [⇦ voltar a pagina principal](/)
-
-----------------------------------------------------------------------------------------------------
+ <br />

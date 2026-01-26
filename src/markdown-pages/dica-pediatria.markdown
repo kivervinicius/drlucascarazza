@@ -91,14 +91,4 @@ Outra duvida muito comum em nosso dia a dia é sobre a cor dos olhos das crianç
 
  <br />
  <br />
- <br />  
-
- **Veja também**  
-
-  [Como escolher a lente intraocular](/lentes)  
-
-  [Catarata e Cirurgia de Catarata](/catarata-cirurgia)
-
-  [⇦ voltar a pagina principal](/)
-
-----------------------------------------------------------------------------------------------------
+ <br />

@@ -72,14 +72,4 @@ title: ""
 
 11. Siga as prescrições do seu médico, incluindo as instruções sobre o tempo de substituição das lentes e o tempo de uso.  
 
-12. Faça acompanhamento regular conforme orientado pelo seu oftalmologista para a correta atualização de suas lentes corretivas e para avaliação da sua saúde ocular (avaliação ocular, medição da pressão ocular, exame do fundo de olho e, especialmente, avaliação da sua córnea, que é a parte do seu olho onde repousa a lente de contato).  
-
-**Veja também**  
-
-[Catarata e Cirurgia de Catarata](/dica-catarata-cirurgia)
-
- [Comos escolher seus óculos](/dica-oculos)
-
- [⇦ voltar a pagina principal](/)
-
- ---------------------------------------------------------------------------------------------------
+12. Faça acompanhamento regular conforme orientado pelo seu oftalmologista para a correta atualização de suas lentes corretivas e para avaliação da sua saúde ocular (avaliação ocular, medição da pressão ocular, exame do fundo de olho e, especialmente, avaliação da sua córnea, que é a parte do seu olho onde repousa a lente de contato).

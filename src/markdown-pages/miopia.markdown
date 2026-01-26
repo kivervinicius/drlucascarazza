@@ -147,14 +147,4 @@ Do diagnóstico precoce da **pré-miopia** ao controle com **colírios, lentes e
 
  <br />
  <br />
- <br />  
-
- **Veja também**  
-
-  [Como escolher a lente intraocular](/lentes)  
-
-  [Catarata e Cirurgia de Catarata](/catarata-cirurgia)
-
-  [⇦ voltar a pagina principal](/)
-
-----------------------------------------------------------------------------------------------------
+ <br />

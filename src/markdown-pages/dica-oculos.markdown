@@ -229,15 +229,4 @@ E não deixe passar muito tempo, pois a maioria das lentes de boa qualidade têm
 
  <br />
  <br />
- <br />  
- 
- **Veja também**  
-
-  [Como escolher a lente intraocular](/lentes)  
-
-  [Catarata e Cirurgia de Catarata](/catarata-cirurgia) 
-
-  [⇦ voltar a pagina principal](/) 
-
- 
-----------------------------------------------------------------------------------------------------
+ <br />

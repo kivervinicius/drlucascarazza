@@ -107,14 +107,4 @@ Por fim, gostaria de deixar o recado de que entendemos o quanto é desgastante e
 
  <br />
  <br />
- <br />  
-
- **Veja também**  
-
-  [Como escolher a lente intraocular](/lentes)  
-
-  [Catarata e Cirurgia de Catarata](/catarata-cirurgia)
-
-  [⇦ voltar a pagina principal](/)
-
-----------------------------------------------------------------------------------------------------
+ <br />

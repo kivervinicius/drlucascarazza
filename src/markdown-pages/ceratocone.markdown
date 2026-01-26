@@ -125,14 +125,4 @@ Nem todos os pacientes precisam de tratamento cirúrgico para o ceratocone, mas 
 
  <br />
  <br />
- <br />  
-
- **Veja também**  
-
-  [Como escolher a lente intraocular](/lentes)  
-
-  [Catarata e Cirurgia de Catarata](/catarata-cirurgia)
-
-  [⇦ voltar a pagina principal](/)
-
-----------------------------------------------------------------------------------------------------
+ <br />
