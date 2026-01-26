@@ -33,6 +33,16 @@ export const conjuntiva = [
     name: "Conjuntivites Alérgicas",
     nikName: createLink("/conjutivites-alergicas", "Conjuntivites Alérgicas"),
   },
+  {
+    id: 2.3,
+    name: "Pterígio",
+    nikName: createLink("/pterigio", "Pterígio"),
+  },
+  {
+    id: 2.4,
+    name: "Hemorragia subconjuntival",
+    nikName: createLink("/hemorragia-subconjuntival", "Hemorragia subconjuntival"),
+  },
 ];
 
 export const cornea = [
@@ -53,7 +63,7 @@ export const refracao = [
     id: 7.1,
     name: "Cirurgia refrativa",
     nikName: createLink("/cirurgia-refrativa", "Cirurgia refrativa"),
-  },{
+  }, {
     id: 8,
     name: "Miopia",
     nikName: createLink("/miopia", "Miopia"),
@@ -98,7 +108,7 @@ export const olhoSeco = [
       "/blefarite-olhos-secos/",
       "Blefarite e Olho Seco"
     ),
-  },{
+  }, {
     id: 13,
     name: "Hordéolo e Calázio",
     nikName: createLink(
@@ -115,6 +125,17 @@ export const glaucoma = [
     nikName: createLink(
       "/glaucoma/",
       "Glaucoma"
+    ),
+  },
+];
+
+export const retinaVitreo = [
+  {
+    id: 14,
+    name: "Descolamento de Vítreo",
+    nikName: createLink(
+      "/descolamento-de-vitreo",
+      "Descolamento de Vítreo"
     ),
   },
 ];

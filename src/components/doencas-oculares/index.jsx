@@ -1,7 +1,7 @@
 import React from 'react';
 import img from "../images/imgcon1.png";
 import { Accordion, Alert, Col, Container, Row } from 'react-bootstrap';
-import { catarataLente, conjuntiva, cornea, refracao, lentes, oftalmoPediatria, olhoSeco, glaucoma } from './data';
+import { catarataLente, conjuntiva, cornea, refracao, lentes, oftalmoPediatria, olhoSeco, glaucoma, retinaVitreo } from './data';
 
 const InnerAccordion = ({ data }) => {
   return (
@@ -41,14 +41,15 @@ const AccordionItem = ({ id, header, data }) => (
 
 const DoencasOculares = () => {
   const sections = [
-    { id: 1, header: 'CATARATA', data: catarataLente },
-    { id: 2, header: 'Conjuntivites Infecciosas', data: conjuntiva },
+    { id: 1, header: 'Catarata', data: catarataLente },
+    { id: 2, header: 'Conjuntiva', data: conjuntiva },
     { id: 3, header: 'Córnea', data: cornea },
-    { id: 8, header: 'GLAUCOMA', data: glaucoma },
-    { id: 5, header: 'LENTES DE CONTATO', data: lentes },
-    { id: 6, header: 'OFTALMO PEDIATRIA', data: oftalmoPediatria },
-    { id: 7, header: 'OLHO SECO', data: olhoSeco },
-    { id: 4, header: 'REFRAÇÃO E ÓCULOS', data: refracao },
+    { id: 8, header: 'Glaucoma', data: glaucoma },
+    { id: 5, header: 'Lentes de Contato', data: lentes },
+    { id: 6, header: 'Oftalmo Pediatria', data: oftalmoPediatria },
+    { id: 7, header: 'Olho Seco', data: olhoSeco },
+    { id: 4, header: 'Refração e Óculos', data: refracao },
+    { id: 9, header: 'Retina', data: retinaVitreo },
   ];
 
   return (

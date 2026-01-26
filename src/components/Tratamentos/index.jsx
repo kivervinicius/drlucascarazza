@@ -20,12 +20,12 @@ const catarataLink = `
   Importante destacar que temos os melhores aparelhos disponíveis no mercado para realizar uma cirurgia 
   com os mesmos níveis de segurança alcançados nos melhores centros de oftalmologia do Brasil e do mundo. 
   Para maiores informações, clique abaixo:
-  <br /><a href="/catarata-cirurgia">Catarata e cirurgia de catarata</a>
+  <br /><a class="btn btn-primary mt-2" href="/catarata-cirurgia" target="_blank" rel="noopener noreferrer">Catarata e cirurgia de catarata</a>
   <br /><br />
   Além disso, temos acesso a todas as lentes intra oculares registradas no Brasil, 
   desde as ofertadas pelos planos de saúde até as especiais. 
   Para saber mais sobre lentes intra oculares, clique abaixo:
-  <br /><a href="/lentes">Como escolher a lente intraocular</a>
+  <br /><a class="btn btn-primary mt-2" href="/lentes" target="_blank" rel="noopener noreferrer">Como escolher a lente intraocular</a>
 `;
 
 const data = [
@@ -55,8 +55,8 @@ const data = [
       {
         id: 3,
         name: "Cirurgia de Pterígio com auto transplante conjuntival e cola biológica (sem pontos)",
-        description:
-          "Cirurgia para retirar o pterígio (“carne crescida”) dos olhos, com técnica eficaz para evitar recidiva (auto transplante conjuntival) e mais confortável (uso de cola biológica, sem pontos).",
+        description: `Cirurgia para retirar o pterígio (“carne crescida”) dos olhos, com técnica eficaz para evitar recidiva (auto transplante conjuntival) e mais confortável (uso de cola biológica, sem pontos).
+          <br /><a class="btn btn-primary mt-2" href="/pterigio" target="_blank" rel="noopener noreferrer">Saiba mais sobre Pterígio</a>`,
         images: [img7],
       },
     ]
@@ -68,7 +68,7 @@ const data = [
         id: 4,
         name: "PRK, LASIK e SMILE",
         description: `Cirurgias para eliminar o grau dos pacientes (miopia, astigmatismo e hipermetropia) e deixá-los mais independentes dos óculos.
-          <br/><a href="/cirurgia-refrativa">Veja mais aqui</a>`,
+          <br/><a class="btn btn-primary mt-2" href="/cirurgia-refrativa" target="_blank" rel="noopener noreferrer">Veja mais aqui</a>`,
         images: [img6, img4],
       },
     ]
@@ -80,14 +80,14 @@ const data = [
         id: 5,
         name: "Anel intra corneano para ceratocone (manual e laser de femtosegundo)",
         description: `Implante de anel intra corneano (anel de Ferrara) para melhorar a forma da córnea em pacientes com ceratocone.
-          <br/><a href="/ceratocone">Saiba mais aqui</a>`,
+          <br/><a class="btn btn-primary mt-2" href="/ceratocone" target="_blank" rel="noopener noreferrer">Saiba mais aqui</a>`,
         images: [img4],
       },
       {
         id: 6,
         name: "Cross Linking para ceratocone",
         description: `Cirurgia para estabilizar o ceratocone em pacientes com progressão documentada.
-          <br/><a href="/ceratocone">Saiba mais aqui</a>`,
+          <br/><a class="btn btn-primary mt-2" href="/ceratocone" target="_blank" rel="noopener noreferrer">Saiba mais aqui</a>`,
         images: [img3],
       },
     ]
@@ -196,7 +196,7 @@ const CirurgiasEtratamento = () => {
                                 />
                                 {item.url && (
                                   <p>
-                                    <a href={item.url}>Saiba mais</a>
+                                    <a className="btn btn-primary mt-2" href={item.url} target="_blank" rel="noopener noreferrer">Saiba mais</a>
                                   </p>
                                 )}
                               </Col>
