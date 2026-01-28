@@ -87,7 +87,7 @@ A partir de 1 ano de vida a criança ainda vai amadurecer a visão até por volt
 
 Outra duvida muito comum em nosso dia a dia é sobre a cor dos olhos das crianças, por isso fizemos um post especial sobre esse assunto,
 [clique nesse link para acessar](/dica-pediatria-cor-olhos)
-<!-- (clique nesse link para acessar - favor colocar o link ). -->
+
 
  <br />
  <br />

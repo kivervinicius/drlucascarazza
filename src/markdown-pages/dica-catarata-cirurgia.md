@@ -64,4 +64,4 @@ Durante as primeiras semanas, devem ser evitadas atividades como exercício fís
 (uma lista completa das orientações pré e pós operatórias você encontra disponível para download abaixo). 
 Aproximadamente um mês após a sua cirurgia, você fará uma consulta de revisão onde será avaliado o resultado final da cirurgia e se tudo tiver acontecido conforme esperado, você receberá alta para continuar sua vida normalmente (ou planejar a cirurgia do segundo olho, caso você só tenha operado o primeiro olho).
 
-Agora que você já entendeu sobre a catarata e seu tratamento, está na hora de visitar nosso link para te ajudar a entender um pouco mais sobre as tecnologias disponíveis para as lentes intraoculares.
+Agora que você já entendeu sobre a catarata e seu tratamento, está na hora de visitar nosso link para te ajudar a entender um pouco mais sobre as tecnologias disponíveis para as lentes intraoculares: [Como escolher a lente intraocular](/lentes)

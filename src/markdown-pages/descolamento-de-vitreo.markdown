@@ -35,7 +35,7 @@ O humor vítreo é uma substância gelatinosa e transparente que preenche o inte
   <img src="./descolamento-de-vitreo/d97175a387a286e5.jpeg" alt="enter image description here"/>
 </figure>
 
-Esse fenômeno pode ocorrer em um ou ambos os olhos ao longo da vida adulta e não é necessariamente uma doença — é uma mudança natural associada ao envelhecimento ocular. Ou seja, não nenhum problema no fato do gel vítreo se descolar da retina. O que não pode se descolar é a própria retina (vamos entender ao longo do texto o que pode nos preocupar). 
+Esse fenômeno pode ocorrer em um ou ambos os olhos ao longo da vida adulta e não é necessariamente uma doença — é uma mudança natural associada ao envelhecimento ocular. Ou seja, não existe nenhum problema no fato do gel vítreo se descolar da retina. O que não pode se descolar é a própria retina (vamos entender ao longo do texto o que pode nos preocupar). 
 
 
 ## 🧠 Causas e fatores de risco

@@ -23,8 +23,10 @@ Apesar de ser uma **lesão benigna**, ele pode causar desconforto, inflamação 
 
 <figure>
   <img src="./pterigio/a97e4a8752b863b4.jpeg" alt="enter image description here"/>
-  <figcaption><em>O pterígio é um crescimento  anormal de um tecido fibrovascular que se estende da membrana conjuntiva que recobre a parte branca do olho para a córnea, geralmente pelo lado do nariz.</em></figcaption>
+  <figcaption><em></em></figcaption>
 </figure>
+
+O pterígio é um crescimento  anormal de um tecido fibrovascular que se estende da membrana conjuntiva que recobre a parte branca do olho para a córnea, geralmente pelo lado do nariz.
 
 Com o tempo, esse tecido pode:
 
@@ -38,7 +40,7 @@ Com o tempo, esse tecido pode:
 Por se tratar de uma condição progressiva,  deve ser acompanhada pelo oftalmologista.
 
 Obs: muita gente confunde pterigio com catarata, mas elas são duas doenças bem distintas. Enquanto o pterígio é a carne externa ao olho, a catarata é a perda da transparência da lente natural do olho, que fica dentro do olho (por isso a catarata só é visível ao olho nu se estiver muito avançada). 
-Se seu interesse é sobre catarata, pode clicar nesse link que te levaremos ao nosso artigo sobre esse tema.
+Se seu interesse é sobre catarata, pode [clicar nesse link](/catarata-cirurgia) que te levaremos ao nosso artigo sobre esse tema.
 
 <figure>
   <img src="./pterigio/2a2336954bebafbd.jpeg" alt="enter image description here"/>

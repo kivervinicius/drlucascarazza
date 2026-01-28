@@ -3,7 +3,7 @@ slug: "/lentes"
 title: "Como escolher a lente intraocular para cirurgia de catarata mais adequada para o meu olho?"
 ---
 
-A catarata é uma doença em que a lente natural do nosso olho perde sua transparência. Se você ainda não leu nosso post sobre o que é catarata e sobre a cirurgia de catarata, sugerimos dar uma olhada nesse link antes de continuar a ler sobre as lentes intraoculares. A cirurgia de catarata consiste em substituir a lente natural do olho doente, cujo nome é cristalino, por uma lente artificial.
+A catarata é uma doença em que a lente natural do nosso olho perde sua transparência. Se você ainda não leu nosso post sobre o que é catarata e sobre a cirurgia de catarata, sugerimos dar uma olhada [nesse link](/catarata-cirurgia) antes de continuar a ler sobre as lentes intraoculares. A cirurgia de catarata consiste em substituir a lente natural do olho doente, cujo nome é cristalino, por uma lente artificial.
 
 [Catarata e Cirurgia de Catarata](/catarata-cirurgia)
 
