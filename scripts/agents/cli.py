@@ -6,66 +6,49 @@ if __name__ == "__main__" and __package__ is None:
     sys.path.append(os.path.dirname(os.path.abspath(__file__)))
     from article_creator import create_article
     from image_processor import process_images
+    from chat_processor import main as process_chat
+    from validator import validate_articles
     from utils import get_valid_input
 else:
     from .article_creator import create_article
     from .image_processor import process_images
+    from .chat_processor import main as process_chat
+    from .validator import validate_articles
     from .utils import get_valid_input
 
 def main():
     while True:
-        print("\n=== Gatsby Article Agent ===")
-        print("1. Create New Article") # Added back based on the if/elif structure
-        print("2. Process external images in an article")
-        print("3. Process chat message to update lists")
-        print("4. Validate articles for missing links")
-        print("5. Exit")
+        print("\n" + "="*30)
+        print("   DR. LUCAS AGENT CLI")
+        print("="*30)
+        print("1. Criar novo artigo (Markdown)")
+        print("2. Processar imagens externas em um artigo")
+        print("3. Processar mensagem do Chat (atualizar listas)")
+        print("4. Validar artigos (links ausentes)")
+        print("5. Sair")
+        print("-" * 30)
         
-        choice = input("\nEnter your choice (1-5): ")
+        choice = input("Escolha uma opção (1-5): ").strip()
         
-        if choice == '1':
-            # Assuming create_article_interactive is a new function or a wrapper for create_article
-            # For now, let's assume it's a new function that needs to be imported or defined.
-            # If it's not defined, this will cause an error.
-            # For the purpose of this edit, I will assume it's a placeholder for a future import/definition.
-            # If the original create_article was meant to be used, the instruction should have kept it.
-            # Given the instruction, I'll use create_article_interactive.
-            # To make it syntactically correct, I'll add a placeholder import for now.
-            try:
-                from .article_creator import create_article_interactive
-            except ImportError:
-                # Fallback or error handling if not found
-                print("Error: create_article_interactive not found. Using create_article.")
+        try:
+            if choice == '1':
                 create_article()
-            else:
-                create_article_interactive()
-        elif choice == '2':
-            # Similar assumption for process_images_interactive
-            try:
-                from .image_processor import process_images_interactive
-            except ImportError:
-                print("Error: process_images_interactive not found. Using original process_images.")
-                file_path = get_valid_input("Enter path to markdown file: ")
+            elif choice == '2':
+                file_path = get_valid_input("Digite o caminho do arquivo markdown: ")
                 process_images(file_path)
+            elif choice == '3':
+                process_chat()
+            elif choice == '4':
+                validate_articles("src/markdown-pages")
+                input("\nPressione Enter para continuar...")
+            elif choice == '5':
+                print("Até logo!")
+                sys.exit(0)
             else:
-                process_images_interactive()
-        elif choice == '3':
-            # New function, assuming it needs to be imported or defined
-            try:
-                from .chat_processor import process_chat_interactive
-            except ImportError:
-                print("Error: process_chat_interactive not found. Please implement it.")
-            else:
-                process_chat_interactive()
-        elif choice == '4':
-            from validator import validate_articles
-            validate_articles("src/markdown-pages")
-            input("\nPress Enter to continue...")
-        elif choice == '5':
-            print("Goodbye!")
-            sys.exit(0)
-        else:
-            print("Invalid option. Please try again.")
+                print("Opção inválida. Tente novamente.")
+        except Exception as e:
+            print(f"\n❌ Ocorreu um erro: {e}")
+            input("\nPressione Enter para continuar...")
 
 if __name__ == "__main__":
     main()
