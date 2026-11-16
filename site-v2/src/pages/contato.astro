@@ -1,0 +1,11 @@
+---
+import Layout from "../layouts/SiteLayout.astro";
+import {web} from "../lib/catalog";
+const maps="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(web.address);
+---
+<Layout title="Contato e localização" description="Entre em contato com o consultório do Dr. Lucas Carazza em Tangará da Serra. Telefone, WhatsApp, endereço e como chegar.">
+<section class="page-hero"><div class="container"><nav class="breadcrumbs" aria-label="Caminho de navegação"><a href="/">Início</a><span>/</span> Contato</nav><p class="eyebrow">Contato e localização</p><h1 class="display">Estamos aqui para <em style="color:var(--teal)">atender você.</em></h1><p>Fale com a equipe do consultório ou confira como chegar ao Instituto da Visão, em Tangará da Serra.</p></div></section>
+<section class="section"><div class="container grid-2">
+<div class="card" style="padding:35px"><span class="eyebrow">Fale com a equipe</span><h2 class="display" style="font-size:38px;margin:25px 0">Entre em contato.</h2><div class="footer-links" style="gap:21px"><div><span class="card-tag">WhatsApp e celular</span><h3 style="margin:3px 0 5px"><a href={"tel:"+web.cell}>(65) 9 9627-6197</a></h3></div><div><span class="card-tag">Telefone fixo</span><h3 style="margin:3px 0 5px"><a href={"tel:"+web.phone}>(65) 3326-5201</a></h3></div><div><span class="card-tag">E-mail</span><h3 style="margin:3px 0 5px"><a href={"mailto:"+web.email}>{web.email}</a></h3></div></div><div style="margin-top:29px"><a class="button button-primary" href={web.whatsapp} target="_blank" rel="noopener noreferrer">Conversar pelo WhatsApp ↗</a></div></div>
+<div class="card" style="padding:35px"><span class="eyebrow">Onde estamos</span><h2 class="display" style="font-size:38px;margin:25px 0">Nossa localização.</h2><p style="font-size:18px;color:var(--ink)">{web.address}</p><p>Dentro do Instituto da Visão, em frente ao Fórum Municipal.</p><img src="/media/clinic/clinica.png" width="500" height="240" alt="Foto da clínica" style="width:100%;height:225px;object-fit:cover;border-radius:14px;margin:20px 0"/><a class="button button-secondary" href={maps} target="_blank" rel="noopener noreferrer">Traçar rota no Google Maps ↗</a></div></div></section>
+</Layout>
