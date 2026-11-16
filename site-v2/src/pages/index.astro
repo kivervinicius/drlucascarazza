@@ -1,0 +1,76 @@
+---
+import Layout from "../layouts/SiteLayout.astro";
+import {web,exams,conditions,procedures} from "../lib/catalog";
+const topics=[
+  {title:"Catarata",desc:"Entenda o que é, como afeta a visão e quais são as possibilidades de tratamento.",url:"/catarata-cirurgia/",image:"/media/legacy/olho-catarata.png"},
+  {title:"Ceratocone",desc:"Conheça essa condição da córnea e as opções de acompanhamento.",url:"/ceratocone/",image:"/media/clinic/exame1.jpg"},
+  {title:"Glaucoma",desc:"Saiba por que o diagnóstico e o acompanhamento são tão importantes.",url:"/glaucoma/",image:"/media/clinic/exame2.jpg"}
+];
+---
+<Layout title="Início" description="Dr. Lucas Carazza, oftalmologista em Tangará da Serra, MT. Conheça a clínica, exames oftalmológicos, doenças oculares, tratamentos e orientações.">
+  <section class="hero">
+    <div class="container hero-inner">
+      <div>
+        <p class="eyebrow">Dr. Lucas Carazza · Oftalmologista</p>
+        <h1 class="display">A sua visão merece um <em>olhar atento.</em></h1>
+        <p class="hero-copy">Informação clara e acompanhamento oftalmológico individualizado. Conheça o trabalho do Dr. Lucas Carazza e os cuidados disponíveis para a saúde dos seus olhos em Tangará da Serra.</p>
+        <div class="hero-actions"><a class="button button-primary" href={web.whatsapp} target="_blank" rel="noopener noreferrer">Agendar consulta <span class="button-arrow">↗</span></a><a class="button button-secondary" href="/o-medico/">Conheça o médico <span class="button-arrow">→</span></a></div>
+        <div class="hero-info">Tangará da Serra · Mato Grosso</div>
+      </div>
+      <div class="hero-image-wrap"><img class="hero-image" src="/media/clinic/Oftalmologista-62.jpg" alt="Fotografia original do consultório do Dr. Lucas Carazza" width="630" height="550" fetchpriority="high" /><span class="hero-image-caption">Dr. Lucas Carazza · Oftalmologia</span></div>
+    </div>
+  </section>
+  <div class="container quick-grid" aria-label="Encontre o que procura">
+    <a class="quick-card" href="/exames/"><span class="quick-icon" aria-hidden="true">⌕</span><span><strong>Exames oftalmológicos</strong><small>Conheça os exames realizados</small></span><span class="arrow" aria-hidden="true">↗</span></a>
+    <a class="quick-card" href="/doencas-oculares/"><span class="quick-icon" aria-hidden="true">◉</span><span><strong>Doenças oculares</strong><small>Informações e orientações</small></span><span class="arrow" aria-hidden="true">↗</span></a>
+    <a class="quick-card" href="/tratamentos/"><span class="quick-icon" aria-hidden="true">✳</span><span><strong>Tratamentos e cirurgias</strong><small>Conheça as possibilidades</small></span><span class="arrow" aria-hidden="true">↗</span></a>
+  </div>
+  <section class="section">
+    <div class="container split">
+      <div class="split-media"><img src="/media/clinic/perfil.jpg" alt="Dr. Lucas Carazza, médico oftalmologista" width="580" height="570" loading="lazy" style="object-position:center 15%;background:#e1e5e6" /><span class="photo-label">Dr. Lucas Carazza</span></div>
+      <div>
+        <p class="eyebrow">Quem cuida de você</p>
+        <h2 class="display">Experiência, estudo e <em>atenção à sua visão.</em></h2>
+        <p>Graduado em Medicina pela Universidade Federal de Minas Gerais (UFMG), com residência médica em Oftalmologia pelo Hospital das Clínicas da UFMG.</p>
+        <p>Possui formação complementar em córnea, catarata, cirurgia refrativa, glaucoma e retina, conforme currículo apresentado no site original.</p>
+        <ul class="checklist"><li>Residência médica em Oftalmologia pela UFMG</li><li>Formação complementar em diferentes áreas da oftalmologia</li><li>Atendimento em Tangará da Serra, Mato Grosso</li></ul>
+        <a class="button button-secondary" href="/o-medico/">Conheça sua trajetória <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+  <section class="section section-soft">
+    <div class="container">
+      <div class="section-heading"><div><p class="eyebrow">A clínica</p><h2 class="display">Um espaço para cuidar <em>dos seus olhos.</em></h2><p>Conheça o consultório localizado no Instituto da Visão, em Tangará da Serra. As fotografias são do acervo real da clínica.</p></div><a class="button button-secondary" href="/sobre-a-clinica/">Conheça a estrutura <span aria-hidden="true">→</span></a></div>
+      <div class="gallery-grid">
+        <img src="/media/clinic/Oftalmologista-61.jpg" width="520" height="550" alt="Fotografia real da estrutura do consultório oftalmológico" loading="lazy" />
+        <img src="/media/clinic/clinica.png" width="300" height="260" alt="Ambiente da clínica Instituto da Visão" loading="lazy" />
+        <img src="/media/clinic/clinica2.png" width="300" height="260" alt="Ambiente interno da clínica" loading="lazy" />
+        <img src="/media/clinic/clinica3.png" width="300" height="260" alt="Instalações da clínica" loading="lazy" />
+        <img src="/media/clinic/clinica4.png" width="300" height="260" alt="Consultório e instalações da clínica" loading="lazy" />
+      </div>
+    </div>
+  </section>
+  <section class="section section-white">
+    <div class="container">
+      <div class="section-heading"><div><p class="eyebrow">Informação para o paciente</p><h2 class="display">Entenda mais sobre <em>saúde ocular.</em></h2><p>Artigos informativos existentes no site, agora organizados para facilitar a leitura e a descoberta de conteúdos.</p></div><a class="button button-secondary" href="/conteudos/">Ver todos os conteúdos <span aria-hidden="true">→</span></a></div>
+      <div class="grid-3">
+        {topics.map(topic=><a href={topic.url} class="card"><img class="card-img" src={topic.image} width="380" height="220" alt="" loading="lazy" /><div class="card-body"><span class="card-tag">Saúde ocular</span><h3>{topic.title}</h3><p>{topic.desc}</p><span class="text-link">Ler conteúdo <span aria-hidden="true">→</span></span></div></a>)}
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container split split-reverse">
+      <div>
+        <p class="eyebrow">Orientação e acompanhamento</p>
+        <h2 class="display">Cuidados diferentes para <em>necessidades diferentes.</em></h2>
+        <p>O site reúne informações sobre consultas, exames diagnósticos, doenças oculares, lentes de contato, tratamentos clínicos e procedimentos cirúrgicos.</p>
+        <div class="stats"><div class="stat"><strong>Exames</strong><small>Recursos diagnósticos</small></div><div class="stat"><strong>Tratamentos</strong><small>Orientações sobre procedimentos</small></div><div class="stat"><strong>Conteúdos</strong><small>Informação educativa</small></div></div>
+        <div style="margin-top:30px"><a class="button button-secondary" href="/exames/">Explorar exames <span aria-hidden="true">→</span></a></div>
+      </div>
+      <div class="split-media"><img src="/media/clinic/exame1.jpg" alt="Equipamentos e prática de exames oftalmológicos no acervo original" width="560" height="475" loading="lazy" /></div>
+    </div>
+  </section>
+  <section class="cta-band">
+    <div class="container"><div><p class="eyebrow" style="color:#80c7d2">Entre em contato</p><h2 class="display">Quer agendar sua consulta?</h2><p>Fale com a equipe do consultório pelo WhatsApp ou telefone. Atendimento na Avenida Tancredo de Almeida Neves, em Tangará da Serra.</p></div><a class="button" href={web.whatsapp} target="_blank" rel="noopener noreferrer">Falar pelo WhatsApp <span aria-hidden="true">↗</span></a></div>
+  </section>
+</Layout>
