@@ -44,8 +44,8 @@ for (const entry of readdirSync(sourceArticles,{withFileTypes:true})) {
   let body=raw.slice(front[0].length);
   body=body.replace(/(?:\.\.\/)+src\/images\//g,"/media/legacy/");
   // Gatsby originally resolved markdown images relative to source file; point to preserved public directories.
-  body=body.replace(/(["'(])\.\/([a-zA-Z0-9_-]+)\//g,(_,q,folder)=>q+"/"+folder+"/");
-  body=body.replace(/(\]\()\.\/([a-zA-Z0-9_-]+)\//g,(_,q,folder)=>q+"/"+folder+"/");
+  body=body.replace(/(["'(])\.\/([a-zA-Z0-9_=-]+)\//g,(_,q,folder)=>q+"/"+folder+"/");
+  body=body.replace(/(\]\()\.\/([a-zA-Z0-9_=-]+)\//g,(_,q,folder)=>q+"/"+folder+"/");
   // Fix the former broken stray bracket in the original ceratoconus article.
   if (slug==="ceratocone") body=body.replace(/<\/div>\]/g,"</div>");
   writeFileSync(join(destArticles,slug+".md"),"---\nslug: "+JSON.stringify(slug)+"\ntitle: "+JSON.stringify(title)+"\n---\n"+body);
