@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.astro/
+public/media/
+public/pterigio/
+public/preparando-lentes/
+public/dica-lentes/
+public/ceratocone/
+public/miopia/
+public/slt/
+public/hordeolo-e=calazio/
+public/hemorragia-subconjuntival/
+public/descolamento-de-vitreo/
+public/conjutivites-*/
+public/cirurgia-refrativa/
+src/content/articles/
+src/data/catalog.json
