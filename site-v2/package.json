@@ -8,7 +8,8 @@
     "build": "astro build",
     "dev": "node scripts/sync-legacy.mjs && astro dev",
     "preview": "astro preview",
-    "check": "astro check"
+    "check": "astro check",
+    "build:pages": "npm run build && node scripts/base-path.mjs"
   },
   "dependencies": {
     "astro": "^6.0.0",
