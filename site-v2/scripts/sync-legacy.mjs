@@ -14,8 +14,9 @@ function copyFrom(relative, to) {
   const src = join(legacy, relative);
   if (!existsSync(src)) throw new Error("Origem ausente: " + src);
   mkdirSync(dirname(to), {recursive:true});
-  cpSync(src,to,{recursive:true,force:true});
+  cpSync(src,to,{recursive:true,force:true,filter:(source)=>!(/:Zone\.Identifier$|Thumbs\.db$|\.DS_Store$/i.test(source)||/[<>:"|?*]/.test(basename(source)))});
 }
+rmSync(media,{recursive:true,force:true});
 mkdirSync(media,{recursive:true});
 copyFrom("src/components/images", join(media,"clinic"));
 copyFrom("src/components/Exames/images", join(media,"exams"));
