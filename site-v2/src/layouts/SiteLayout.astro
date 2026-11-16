@@ -1,0 +1,88 @@
+---
+import "../styles/global.css";
+import {web} from "../lib/catalog";
+interface Props {title:string; description?:string; eyebrow?:string;}
+const {title,description="Informações sobre oftalmologia, exames, doenças oculares e tratamentos com o Dr. Lucas Carazza em Tangará da Serra, MT.",eyebrow} = Astro.props;
+const nav = [
+  {label:"Início",url:"/"},{label:"O médico",url:"/o-medico/"},{label:"A clínica",url:"/sobre-a-clinica/"},
+  {label:"Exames",url:"/exames/"},{label:"Doenças oculares",url:"/doencas-oculares/"},
+  {label:"Tratamentos",url:"/tratamentos/"},{label:"Conteúdos",url:"/conteudos/"}
+];
+const current = Astro.url.pathname.replace(/\/$/,"")||"/";
+const active=(url:string)=>current===(url.replace(/\/$/,"")||"/");
+const siteTitle=title==="Início"?"Dr. Lucas Carazza | Oftalmologista em Tangará da Serra":title+" | Dr. Lucas Carazza — Oftalmologista";
+const mapLink="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(web.address);
+---
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#12354b" />
+  <meta name="description" content={description} />
+  <meta name="robots" content="noindex,nofollow" />
+  <title>{siteTitle}</title>
+  <link rel="icon" href="/media/clinic/icon.png" />
+  <link rel="canonical" href={"https://drlucascarazza.com.br"+Astro.url.pathname} />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+  <meta property="og:title" content={siteTitle} />
+  <meta property="og:description" content={description} />
+  <meta property="og:type" content="website" />
+</head>
+<body>
+  <a class="skip-link" href="#principal">Ir para o conteúdo</a>
+  <div class="topline"><div class="container topline-inner">
+    <span>Oftalmologia em Tangará da Serra, Mato Grosso</span>
+    <div class="topline-right"><a href={"tel:"+web.phone}>(65) 3326-5201</a><span class="topline-separator">•</span><a href={mapLink} target="_blank" rel="noopener noreferrer">Como chegar ↗</a></div>
+  </div></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="brand" aria-label="Dr. Lucas Carazza — início">
+        <img src="/media/clinic/logotipo03.jpeg" alt="" width="83" height="62" />
+        <span class="brand-name"><b>DR. LUCAS CARAZZA</b><small>OFTALMOLOGISTA</small></span>
+      </a>
+      <nav class="main-nav" aria-label="Navegação principal">
+        {nav.map(item=><a href={item.url} aria-current={active(item.url)?"page":undefined} class:list={{"nav-current":active(item.url)}}>{item.label}</a>)}
+      </nav>
+      <a class="button button-primary header-cta" href={web.whatsapp} target="_blank" rel="noopener noreferrer">Agendar consulta <span aria-hidden="true">↗</span></a>
+      <details class="mobile-menu">
+        <summary aria-label="Abrir menu de navegação"><span>Menu</span><span class="hamburger">☰</span></summary>
+        <nav aria-label="Navegação móvel">{nav.map(item=><a href={item.url} aria-current={active(item.url)?"page":undefined}>{item.label}</a>)}<a class="button button-primary" href={web.whatsapp} target="_blank" rel="noopener noreferrer">Agendar consulta ↗</a></nav>
+      </details>
+    </div>
+  </header>
+  <main id="principal"><slot /></main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div><div class="footer-brand"><img src="/media/clinic/logotipo03.jpeg" width="72" height="52" alt="" /><span><b>DR. LUCAS CARAZZA</b><small>OFTALMOLOGISTA</small></span></div><p>Informação, atenção e cuidado para a saúde dos seus olhos.</p><div class="footer-social"><a href="https://instagram.com/drlucascarazza" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="https://www.facebook.com/drlucascarazza" target="_blank" rel="noopener noreferrer">Facebook ↗</a></div></div>
+        <div><h3>Explore o site</h3><div class="footer-links">{nav.map(item=><a href={item.url}>{item.label}</a>)}</div></div>
+        <div><h3>Contato</h3><div class="footer-links"><a href={"tel:"+web.cell}>(65) 9 9627-6197</a><a href={"tel:"+web.phone}>(65) 3326-5201</a><a href={"mailto:"+web.email}>{web.email}</a><a href={web.whatsapp} target="_blank" rel="noopener noreferrer">Conversar no WhatsApp ↗</a></div></div>
+        <div><h3>Onde estamos</h3><address>{web.address}</address><a class="footer-map" href={mapLink} target="_blank" rel="noopener noreferrer">Abrir rota no Google Maps ↗</a></div>
+      </div>
+      <div class="footer-bottom"><span>© {new Date().getFullYear()} Dr. Lucas Carazza. Todos os direitos reservados.</span><span>Informações educativas não substituem avaliação médica individual.</span></div>
+    </div>
+  </footer>
+  <a class="floating-contact" href={web.whatsapp} target="_blank" rel="noopener noreferrer" aria-label="Agendar consulta pelo WhatsApp"><span aria-hidden="true">✳</span> Agendar consulta</a>
+  <script>
+    const input = document.querySelector<HTMLInputElement>("[data-filter-input]");
+    if(input) {
+      const cards=[...document.querySelectorAll<HTMLElement>("[data-search]")];
+      const groups=[...document.querySelectorAll<HTMLElement>("[data-group]")];
+      const count=document.querySelector<HTMLElement>("[data-result-count]");
+      const normalize=(s:string)=>s.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+      const filter=()=>{
+        const q=normalize(input.value.trim());
+        let visible=0;
+        cards.forEach(card=>{const match=normalize(card.dataset.search||"").includes(q);card.hidden=!match;if(match)visible++;});
+        groups.forEach(group=>{group.hidden=!group.querySelector("[data-search]:not([hidden])");});
+        if(count)count.textContent=visible+" resultado"+(visible===1?"":"s");
+      };
+      input.addEventListener("input",filter);
+      filter();
+    }
+  </script>
+</body>
+</html>
