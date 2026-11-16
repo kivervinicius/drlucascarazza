@@ -1,0 +1,18 @@
+---
+import Layout from "../layouts/SiteLayout.astro";
+import {web} from "../lib/catalog";
+const studies=[
+  "Graduação em Medicina pela Universidade Federal de Minas Gerais (UFMG).",
+  "Residência médica em Oftalmologia no Hospital das Clínicas da UFMG.",
+  "Título de Especialista em Oftalmologia pelo MEC e Conselho Brasileiro de Oftalmologia (CBO).",
+  "Título de Especialista em Oftalmologia pelo Conselho Internacional de Oftalmologia (ICO).",
+  "Fellowship em Córnea, Catarata e Cirurgia Refrativa pelo Hospital das Clínicas da UFMG.",
+  "Fellowship em Glaucoma pelo Hospital das Clínicas da UFMG.",
+  "Fellowship em Retina pelo Hospital das Clínicas da UFMG."
+];
+---
+<Layout title="O médico" description="Conheça a formação e a trajetória profissional do Dr. Lucas Carazza, médico oftalmologista em Tangará da Serra.">
+<section class="page-hero"><div class="container"><nav class="breadcrumbs" aria-label="Caminho de navegação"><a href="/">Início</a><span>/</span> O médico</nav><p class="eyebrow">Sobre o profissional</p><h1 class="display">Dr. Lucas <em style="color:var(--teal)">Carazza.</em></h1><p>Conheça a formação acadêmica e a trajetória profissional apresentadas pelo médico em seu site original.</p></div></section>
+<section class="section"><div class="container split"><div class="split-media"><img src="/media/clinic/Oftalmologista-62.jpg" alt="Fotografia original do Dr. Lucas Carazza e do consultório" width="570" height="520" loading="lazy" /></div><div><p class="eyebrow">Médico oftalmologista</p><h2 class="display">O conhecimento a serviço do <em>cuidado.</em></h2><p>Com graduação e residência na UFMG, o Dr. Lucas Carazza apresenta formação complementar em áreas como córnea, catarata, glaucoma, retina e cirurgia refrativa.</p><p>O consultório está localizado em Tangará da Serra, Mato Grosso, e reúne informações detalhadas para que os pacientes conheçam os exames e tratamentos oftalmológicos.</p><a class="button button-primary" href={web.whatsapp} target="_blank" rel="noopener noreferrer">Agendar consulta ↗</a></div></div></section>
+<section class="section section-soft"><div class="container"><div class="section-heading"><div><p class="eyebrow">Formação e experiência</p><h2 class="display">Trajetória <em>acadêmica.</em></h2><p>As informações abaixo foram preservadas do conteúdo publicado no site anterior e devem ser conferidas pela equipe na homologação.</p></div></div><div class="grid-2">{studies.map((item,i)=><div class="card" style="padding:24px;display:flex;gap:17px;align-items:start"><span class="quick-icon" style="font-size:16px;width:42px;height:42px">{String(i+1).padStart(2,"0")}</span><p style="margin:3px 0;color:var(--ink)">{item}</p></div>)}</div></div></section>
+</Layout>
