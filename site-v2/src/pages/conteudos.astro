@@ -1,0 +1,20 @@
+---
+import Layout from "../layouts/SiteLayout.astro";
+import {getCollection} from "astro:content";
+const articles=(await getCollection("articles")).sort((a,b)=>a.data.title.localeCompare(b.data.title,"pt-BR"));
+const pics:Record<string,string>={
+  "catarata-cirurgia":"/media/legacy/olho-catarata.png",
+  "ceratocone":"/media/clinic/exame1.jpg",
+  "glaucoma":"/media/clinic/exame2.jpg",
+  "lentes":"/media/clinic/banner-lentes.png",
+  "dica-oculos":"/media/clinic/armacoes.jpg",
+  "dica-pediatria":"/media/clinic/Oftalmologista-59.jpg",
+  "cirurgia-refrativa":"/media/clinic/cirurgia1.jpg"
+};
+---
+<Layout title="Conteúdos de saúde ocular" description="Artigos médicos informativos do Dr. Lucas Carazza sobre saúde ocular, catarata, glaucoma, lentes de contato e cirurgias.">
+<section class="page-hero"><div class="container"><nav class="breadcrumbs" aria-label="Caminho de navegação"><a href="/">Início</a><span>/</span> Conteúdos</nav><p class="eyebrow">Biblioteca médica</p><h1 class="display">Informação para <em style="color:var(--teal)">cuidar da visão.</em></h1><p>Uma biblioteca de conteúdos já disponíveis no site, agora com pesquisa e leitura mais organizada.</p></div></section>
+<section class="section"><div class="container"><div class="searchbar"><input type="search" data-filter-input aria-label="Buscar artigos" placeholder="Buscar um artigo..." /></div><p class="result-count" data-result-count>{articles.length} resultados</p>
+<div class="grid-3">{articles.map(item=><a class="card" href={"/"+item.data.slug+"/"} data-search={item.data.title+" "+item.data.slug}><img class="card-img" src={pics[item.data.slug]||"/media/clinic/oftalmologia.jpeg"} alt="" width="380" height="220" loading="lazy" /><div class="card-body"><span class="card-tag">Orientações e saúde ocular</span><h3>{item.data.title}</h3><span class="text-link">Ler artigo <span aria-hidden="true">→</span></span></div></a>)}</div>
+</div></section>
+</Layout>
