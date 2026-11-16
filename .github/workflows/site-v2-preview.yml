@@ -47,6 +47,12 @@ jobs:
             test -f "dist/$page" || { echo "Faltando: $page"; exit 1; }
           done
           echo "Páginas e assets preparados."
+      - name: Salvar versão estática para download
+        uses: actions/upload-artifact@v4
+        with:
+          name: dr-lucas-site-v2-preview
+          path: site-v2/dist
+          retention-days: 14
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
         with:
