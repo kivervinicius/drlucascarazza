@@ -1,0 +1,28 @@
+---
+import Layout from "../layouts/SiteLayout.astro";
+import {web} from "../lib/catalog";
+const photos=[
+ ["Oftalmologista-62.jpg","Ambiente de atendimento do consultório"],
+ ["Oftalmologista-61.jpg","Fotografia do espaço clínico"],
+ ["Oftalmologista-60.jpg","Estrutura do consultório oftalmológico"],
+ ["Oftalmologista-44.jpg","Área de atendimento da clínica"],
+ ["Oftalmologista-45.jpg","Estrutura interna da clínica"],
+ ["Oftalmologista-46.jpg","Equipamentos e ambiente clínico"],
+ ["Oftalmologista-47.jpg","Instalações da clínica"],
+ ["Oftalmologista-48.jpg","Ambientes da clínica"],
+ ["Oftalmologista-49.jpg","Estrutura de atendimento oftalmológico"],
+ ["Oftalmologista-56.jpg","Fotografia do consultório"],
+ ["Oftalmologista-57.jpg","Fotografia do acervo da clínica"],
+ ["Oftalmologista-58.jpg","Instalações do consultório"],
+ ["Oftalmologista-59.jpg","Fotografia da clínica"],
+ ["clinica.png","Ambiente clínico do Instituto da Visão"],
+ ["clinica2.png","Detalhe do consultório"],
+ ["clinica3.png","Ambiente interno do consultório"],
+ ["clinica4.png","Estrutura interna do Instituto da Visão"]
+];
+---
+<Layout title="Sobre a clínica" description="Conheça o consultório oftalmológico do Dr. Lucas Carazza, dentro do Instituto da Visão, em Tangará da Serra. Veja as fotografias reais.">
+<section class="page-hero"><div class="container"><nav class="breadcrumbs" aria-label="Caminho de navegação"><a href="/">Início</a><span>/</span> A clínica</nav><p class="eyebrow">Nossa estrutura</p><h1 class="display">Um espaço para <em style="color:var(--teal)">cuidar da visão.</em></h1><p>O consultório está localizado no Instituto da Visão, na Avenida Tancredo de Almeida Neves, em frente ao Fórum Municipal de Tangará da Serra.</p></div></section>
+<section class="section"><div class="container split"><div class="split-media"><img src="/media/clinic/Oftalmologista-61.jpg" alt="Fotografia real das instalações da clínica" width="570" height="480" /></div><div><p class="eyebrow">Instituto da Visão</p><h2 class="display">Conheça nosso <em>consultório.</em></h2><p>O consultório conta com salas para consultas, exames, adaptação de lentes de contato e um centro cirúrgico, conforme descrito no site atual.</p><p>Está situado na Avenida Presidente Tancredo de Almeida Neves, 1187-W, Parque das Mansões, em Tangará da Serra, MT.</p><div class="hero-actions"><a class="button button-primary" href={web.whatsapp} target="_blank" rel="noopener noreferrer">Agendar consulta ↗</a><a class="button button-secondary" href="/contato/">Endereço e contato →</a></div></div></div></section>
+<section class="section section-soft"><div class="container"><div class="section-heading"><div><p class="eyebrow">Acervo fotográfico</p><h2 class="display">Veja a clínica <em>por dentro.</em></h2><p>Fotografias originais presentes no repositório do site Dr. Lucas Carazza. Nenhuma imagem é uma representação gerada por IA.</p></div></div><div class="grid-3">{photos.map(([name,description])=><a href={"/media/clinic/"+name} target="_blank" rel="noopener noreferrer" class="card" aria-label={"Ampliar foto: "+description}><img class="card-img" style="height:240px" loading="lazy" src={"/media/clinic/"+name} width="380" height="240" alt={description}/><div class="card-body" style="padding:15px 20px"><span class="text-link">Ampliar fotografia ↗</span></div></a>)}</div></div></section>
+</Layout>
