@@ -1,0 +1,58 @@
+name: Homologação do novo site Dr. Lucas
+
+on:
+  push:
+    branches: [refactor/astro-2026]
+    paths:
+      - "site-v2/**"
+      - "src/**"
+      - ".github/workflows/site-v2-preview.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: drlucas-site-v2-pages
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    defaults:
+      run:
+        working-directory: site-v2
+    steps:
+      - name: Checkout do projeto completo
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Instalar dependências
+        run: npm install --no-audit --no-fund
+      - name: Gerar site e copiar fotos e conteúdo reais
+        run: npm run build:pages
+      - name: Conferir páginas essenciais
+        run: |
+          set -eu
+          for page in index.html exames/index.html tratamentos/index.html doencas-oculares/index.html sobre-a-clinica/index.html o-medico/index.html contato/index.html conteudos/index.html; do
+            test -f "dist/$page" || { echo "Faltando: $page"; exit 1; }
+          done
+          echo "Páginas e assets preparados."
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Enviar arquivos do preview
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site-v2/dist
+      - name: Publicar site de homologação
+        id: deployment
+        uses: actions/deploy-pages@v4
