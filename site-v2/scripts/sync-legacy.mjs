@@ -32,7 +32,7 @@ mkdirSync(destArticles,{recursive:true});
 const recognized=[];
 for (const entry of readdirSync(sourceArticles,{withFileTypes:true})) {
   if (!entry.isFile() || !/\.(md|markdown)$/i.test(entry.name)) continue;
-  const raw=readFileSync(join(sourceArticles,entry.name),"utf8");
+  const raw=readFileSync(join(sourceArticles,entry.name),"utf8").replace(/^\uFEFF/,"");
   const front=raw.match(/^---\s*\r?\n([\s\S]*?)\r?\n---/);
   if (!front) throw new Error("Frontmatter ausente em "+entry.name);
   const slug=front[1].match(/^slug:\s*["']?\/([^"' \r\n]+)/m)?.[1]?.replace(/\/$/,"");
