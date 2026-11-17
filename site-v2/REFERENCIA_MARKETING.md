@@ -28,20 +28,28 @@
 - O número de WhatsApp presente no hyperlink da referência está aparentemente incompleto: `556596276197`. O número mantido no site é `5565996276197` (65 99627-6197), consistente com a associação de oftalmologia.
 - Imagens de Google, Doctoralia e diretórios externos não devem ser copiadas automaticamente. Sujeitas a direitos autorais e revisão de origem.
 
-## Fotografias de propriedade do material fornecido pela equipe de marketing
+## Imagens versionadas a partir do material da equipe de marketing
 
-**Importação apenas no preview** via `scripts/sync-doctor-media.mjs`:
+**Status atualizado:** as oito imagens estão no GitHub e o build não acessa mais o WordPress.
 
-| Destino do build | Fonte WordPress original | Dimensões declaradas no HTML |
-| --- | --- | --- |
-| `/media/doctor/hero.webp` | `/wp-content/uploads/2026/02/IMG_4763.webp` | 768 × 903 |
-| `/media/doctor/portrait.webp` | `/wp-content/uploads/2026/06/IMG_4841-768x1187.webp` | 768 × 1187 |
-| `/media/doctor/portrait-secondary.webp` | `/wp-content/uploads/2026/02/IMG_4844-593x1024.webp` | 593 × 1024 |
-| `/media/doctor/brand.webp` | `/wp-content/uploads/2026/02/Logo-Dr-Lucas-Carazza-B.webp` | 768 × 336 |
+| Uso | Original preservado | WebP tratado e publicado | Processamento não generativo |
+| --- | --- | --- | --- |
+| Hero principal | `assets/doctor/originals/hero.webp` (768×903) | `public/media/doctor/hero.webp` | Corte de 32px transparentes no topo, exposição +3,5%, contraste leve |
+| Retrato em consultório | `assets/doctor/originals/portrait.webp` (1656×2560) | `public/media/doctor/portrait.webp` (1120×1614) | Enquadramento mais próximo, luz +9% |
+| Retrato com vestimenta cirúrgica | `assets/doctor/originals/portrait-secondary.webp` (768×1327) | `public/media/doctor/portrait-secondary.webp` (768×1257) | Corte de área superior sem pessoa, luz +5,5% |
+| Logo oficial da equipe de marketing | `assets/doctor/originals/brand.webp` (768×336) | `public/media/doctor/brand.webp` (728×280) | Apenas recorte de transparência externa; arte inalterada |
 
-Host base: `https://floralwhite-rhinoceros-901309.hostingersite.com`.
+**Fontes:**
+- `/wp-content/uploads/2026/02/IMG_4763.webp`
+- `/wp-content/uploads/2026/06/IMG_4841-scaled.webp`
+- `/wp-content/uploads/2026/02/IMG_4844.webp`
+- `/wp-content/uploads/2026/02/Logo-Dr-Lucas-Carazza-B.webp`
 
-**Atenção:** URLs do WordPress têm caráter temporário. O build copia os arquivos em vez de usar hotlink em runtime. No entanto, permanece dependência do WordPress *durante a compilação*. Antes da produção, obter os originais autorizados da equipe de marketing e passar a versioná-los em armazenamento controlado pelo projeto (Git LFS privado ou Cloudflare R2/Images), registrando autor, autorização de uso, resolução, licença, data e finalidade. Não supor autorização de redistribuição em repositório público apenas por imagem estar na internet.
+Host de origem: `https://floralwhite-rhinoceros-901309.hostingersite.com`.
+
+A identidade e as vestimentas do Dr. Lucas foram preservadas. As imagens são retratos reais e não são gerações por IA. Como são fotografias fornecidas na referência da equipe de marketing, registrar a autorização formal de uso e autoria antes de lançar o site definitivo.
+
+**Contraste de marca:** logo com lettering branco e fundo transparente. A correção correta é colocar o cabeçalho em azul-marinho `#1D374E`, sem aplicar filtro ou modificar a logo.
 
 ## Hierarquia de informação adotada
 
