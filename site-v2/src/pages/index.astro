@@ -10,12 +10,6 @@ const areas = [
   {number:"05",title:"Lentes de contato",detail:"Informações sobre adaptação, utilização e cuidados com lentes de contato.",href:"/lentes/"},
   {number:"06",title:"Saúde ocular",detail:"Consultas, exames diagnósticos e orientação para diferentes fases da vida.",href:"/exames/"}
 ];
-const guidance=[
-  {step:"01",title:"Consulta e avaliação",description:"Uma conversa sobre suas necessidades, seu histórico e uma avaliação oftalmológica."},
-  {step:"02",title:"Explicação do diagnóstico",description:"Entenda os achados e as alternativas de acompanhamento ou tratamento."},
-  {step:"03",title:"Plano individualizado",description:"Quando indicado, o tratamento é planejado considerando as particularidades de cada caso."},
-  {step:"04",title:"Acompanhamento",description:"Orientações e retornos de acordo com a necessidade de cada paciente."}
-];
 const selected=[
   {title:"Ceratocone: o que é e como acompanhar",href:"/ceratocone/",meta:"Córnea"},
   {title:"Cirurgia refrativa: conheça as possibilidades",href:"/cirurgia-refrativa/",meta:"Cirurgias"},
@@ -24,7 +18,7 @@ const selected=[
 
 const legacyTips=[
  {title:"Dicas para te ajudar a escolher seus óculos",excerpt:"O que considerar na escolha de uma armação.",href:"/dica-oculos/",image:"/media/clinic/dicas1.png",alt:"Óculos e armações"},
- {title:"Como escolher sua lente para cirurgia de catarata?",excerpt:"Entenda as opções de lentes intraoculares para conversar com seu médico.",href:"/lentes/",image:"/media/clinic/dicas2.png",alt:"Imagem relacionada a lentes intraoculares"},
+ {title:"Como escolher sua lente para cirurgia de catarata?",excerpt:"Entenda as opções de lentes intraoculares para conversar com seu médico.",href:"/catarata-cirurgia/",image:"/media/clinic/dicas2.png",alt:"Imagem relacionada a lentes intraoculares"},
  {title:"Consultas oftalmológicas de rotina na infância",excerpt:"Informações sobre o acompanhamento oftalmológico durante a infância.",href:"/dica-pediatria/",image:"/media/clinic/dicas3.jpg",alt:"Imagem relacionada a cuidados oculares infantis"}
 ];
 ---
@@ -34,8 +28,8 @@ const legacyTips=[
       <div class="doctor-hero-copy">
         <p class="eyebrow">Médico oftalmologista · CRM-MT 7823 · RQE 3253</p>
         <h1 class="display">Dr. Lucas <em>Carazza.</em></h1>
-        <p class="doctor-hero-lead">Ciência, precisão e um cuidado atento à sua visão.</p>
-        <p class="doctor-hero-description">Da consulta de rotina às avaliações de córnea, catarata e cirurgia refrativa, o Dr. Lucas une formação especializada e orientação individualizada em cada etapa do atendimento.</p>
+        <p class="doctor-hero-lead">Oftalmologia em Tangará da Serra, com atenção à saúde dos seus olhos.</p>
+        <p class="doctor-hero-description">Conheça a formação do Dr. Lucas Carazza, suas áreas de atuação em oftalmologia e as informações sobre consultas, exames e tratamentos.</p>
         <div class="hero-actions">
           <a class="button button-primary" href={web.whatsapp} target="_blank" rel="noopener noreferrer">Agendar uma avaliação <span aria-hidden="true">↗</span></a>
           <a class="button button-secondary" href="#areas-de-atuacao">Conhecer áreas de atuação <span aria-hidden="true">↓</span></a>
@@ -44,7 +38,7 @@ const legacyTips=[
       </div>
       <div class="doctor-hero-visual">
         <div class="doctor-hero-backdrop" aria-hidden="true"></div>
-        <img class="doctor-portrait-primary" src="/media/doctor/hero.png" alt="Retrato profissional do Dr. Lucas Carazza" width="1177" height="1337" fetchpriority="high" decoding="async" />
+        <img class="doctor-portrait-primary" src="/media/doctor/hero.webp" alt="Dr. Lucas Carazza em seu consultório, com um modelo anatômico do olho" width="1254" height="1254" fetchpriority="high" decoding="async" />
         <div class="doctor-hero-caption"><span class="doctor-hero-caption-kicker">Dr. Lucas Carazza</span><span>Oftalmologista · Tangará da Serra</span></div>
       </div>
     </div>
@@ -59,7 +53,7 @@ const legacyTips=[
   </section>
   <section class="section section-white" id="areas-de-atuacao">
     <div class="container">
-      <div class="section-heading"><div><p class="eyebrow">Áreas de atuação</p><h2 class="display">Um cuidado direcionado <em>a cada necessidade.</em></h2><p>Conheça algumas das principais áreas de atendimento do Dr. Lucas. A indicação de exames ou tratamentos é sempre individualizada.</p></div><a class="button button-secondary" href="/tratamentos/">Ver todos os tratamentos <span aria-hidden="true">↗</span></a></div>
+      <div class="section-heading"><div><p class="eyebrow">Áreas de atuação</p><h2 class="display">Córnea, catarata e <em>outras áreas da oftalmologia.</em></h2><p>Veja as áreas abordadas na atuação e nos conteúdos do Dr. Lucas, incluindo ceratocone, catarata, glaucoma e cirurgia refrativa.</p></div><a class="button button-secondary" href="/tratamentos/">Ver todos os tratamentos <span aria-hidden="true">↗</span></a></div>
       <div class="doctor-services">
         {areas.map(area=><a class="doctor-service-card" href={area.href}><span class="doctor-service-index">{area.number}</span><h3>{area.title}</h3><p>{area.detail}</p><span class="doctor-service-link">Conhecer melhor <span aria-hidden="true">↗</span></span></a>)}
       </div>
@@ -67,10 +61,10 @@ const legacyTips=[
   </section>
   <section class="section doctor-about-section" id="sobre-mim">
     <div class="container doctor-about-layout">
-      <div class="doctor-about-photo"><img src="/media/doctor/portrait.png" alt="Segundo retrato profissional do Dr. Lucas Carazza" width="1254" height="1254" loading="lazy" decoding="async" /></div>
+      <div class="doctor-about-photo"><img src="/media/doctor/portrait.webp" alt="Dr. Lucas Carazza junto a equipamento oftalmológico" width="1254" height="1254" loading="lazy" decoding="async" /></div>
       <div>
         <p class="eyebrow">O profissional por trás do atendimento</p>
-        <h2 class="display">Conhecimento técnico, com <em>atenção às pessoas.</em></h2>
+        <h2 class="display">Formação em oftalmologia <em>pela UFMG.</em></h2>
         <p>O Dr. Lucas Carazza é graduado em Medicina e concluiu sua residência em Oftalmologia na Universidade Federal de Minas Gerais (UFMG).</p>
         <p>Realizou formação complementar em córnea, catarata, cirurgia refrativa, glaucoma e retina pelo Hospital das Clínicas da UFMG.</p>
         <div class="doctor-formations"><div><strong>UFMG</strong><span>Graduação e residência médica</span></div><div><strong>CBO · MEC</strong><span>Titulação informada no currículo profissional</span></div><div><strong>CRM 7823 · RQE 3253</strong><span>Registro profissional no Mato Grosso</span></div></div>
@@ -78,24 +72,35 @@ const legacyTips=[
       </div>
     </div>
   </section>
-  <section class="section section-white">
+  <section class="section section-white" id="fotografias">
     <div class="container">
-      <div class="section-heading"><div><p class="eyebrow">O atendimento</p><h2 class="display">Da primeira conversa <em>ao acompanhamento.</em></h2><p>Um percurso de cuidado que pode variar conforme a necessidade clínica de cada pessoa.</p></div></div>
-      <ol class="doctor-process">{guidance.map(item=><li><span class="doctor-process-number">{item.step}</span><h3>{item.title}</h3><p>{item.description}</p></li>)}</ol>
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">O Dr. Lucas em imagens</p>
+          <h2 class="display">Além do consultório, <em>o profissional.</em></h2>
+          <p>Conheça o Dr. Lucas Carazza e parte de sua rotina na oftalmologia.</p>
+        </div>
+        <a class="button button-secondary" href="/sobre-a-clinica/#galeria">Ver mais fotografias <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="doctor-gallery-teaser">
+        <a href="/sobre-a-clinica/#galeria"><img src="/media/doctor/hero.webp" alt="Dr. Lucas com modelo anatômico de um olho" width="1254" height="1254" loading="lazy" decoding="async"/><span>Oftalmologia e saúde ocular ↗</span></a>
+        <a href="/sobre-a-clinica/#galeria"><img src="/media/doctor/portrait.webp" alt="Dr. Lucas com equipamento oftalmológico" width="1254" height="1254" loading="lazy" decoding="async"/><span>No consultório ↗</span></a>
+        <a href="/sobre-a-clinica/#galeria"><img src="/media/doctor/portrait-secondary.webp" alt="Retrato profissional do Dr. Lucas Carazza" width="1177" height="1337" loading="lazy" decoding="async"/><span>Dr. Lucas Carazza ↗</span></a>
+      </div>
     </div>
   </section>
   <section class="section section-soft">
     <div class="container">
-      <div class="section-heading"><div><p class="eyebrow">Saúde ocular em linguagem acessível</p><h2 class="display">Informação para tomar <em>decisões mais conscientes.</em></h2><p>Conteúdos médicos do site original, preservados e organizados para facilitar a consulta.</p></div><a class="button button-secondary" href="/conteudos/">Explorar artigos <span aria-hidden="true">↗</span></a></div>
+      <div class="section-heading"><div><p class="eyebrow">Saúde ocular em linguagem acessível</p><h2 class="display">Informação para tomar <em>decisões mais conscientes.</em></h2><p>Artigos sobre ceratocone, catarata, cirurgia refrativa e outros temas da saúde ocular.</p></div><a class="button button-secondary" href="/conteudos/">Explorar artigos <span aria-hidden="true">↗</span></a></div>
       <div class="doctor-articles">{selected.map((article,i)=><a href={article.href} class="doctor-article-card"><span class="card-tag">{article.meta}</span><h3>{article.title}</h3><span class="doctor-article-footer"><span>Leitura informativa</span><span aria-hidden="true">↗</span></span></a>)}</div>
     </div>
   </section>
   <section class="section section-white" id="dicas">
     <div class="container">
       <div class="section-heading">
-        <div><p class="eyebrow">Dicas preservadas do site original</p>
+        <div><p class="eyebrow">Orientações para pacientes</p>
           <h2 class="display">Orientações para o <em>dia a dia.</em></h2>
-          <p>Os conteúdos que já faziam parte da página inicial continuam disponíveis, com os mesmos endereços de acesso.</p>
+          <p>Saiba mais sobre óculos, lentes e cuidados com a visão na infância.</p>
         </div>
       </div>
       <div class="grid-3">
