@@ -1,28 +1,36 @@
 ---
 import Layout from "../layouts/SiteLayout.astro";
 import {web} from "../lib/catalog";
-const photos=[
- ["Oftalmologista-62.jpg","Ambiente de atendimento do consultório"],
- ["Oftalmologista-61.jpg","Fotografia do espaço clínico"],
- ["Oftalmologista-60.jpg","Estrutura do consultório oftalmológico"],
- ["Oftalmologista-44.jpg","Área de atendimento da clínica"],
- ["Oftalmologista-45.jpg","Estrutura interna da clínica"],
- ["Oftalmologista-46.jpg","Equipamentos e ambiente clínico"],
- ["Oftalmologista-47.jpg","Instalações da clínica"],
- ["Oftalmologista-48.jpg","Ambientes da clínica"],
- ["Oftalmologista-49.jpg","Estrutura de atendimento oftalmológico"],
- ["Oftalmologista-56.jpg","Fotografia do consultório"],
- ["Oftalmologista-57.jpg","Fotografia do acervo da clínica"],
- ["Oftalmologista-58.jpg","Instalações do consultório"],
- ["Oftalmologista-59.jpg","Fotografia da clínica"],
- ["clinica.png","Ambiente clínico do Instituto da Visão"],
- ["clinica2.png","Detalhe do consultório"],
- ["clinica3.png","Ambiente interno do consultório"],
- ["clinica4.png","Estrutura interna do Instituto da Visão"]
-];
+const map="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(web.address);
 ---
-<Layout title="Sobre a clínica" description="Conheça o consultório oftalmológico do Dr. Lucas Carazza, dentro do Instituto da Visão, em Tangará da Serra. Veja as fotografias reais.">
-<section class="page-hero"><div class="container"><nav class="breadcrumbs" aria-label="Caminho de navegação"><a href="/">Início</a><span>/</span> A clínica</nav><p class="eyebrow">Nossa estrutura</p><h1 class="display">Um espaço para <em style="color:var(--teal)">cuidar da visão.</em></h1><p>O consultório está localizado no Instituto da Visão, na Avenida Tancredo de Almeida Neves, em frente ao Fórum Municipal de Tangará da Serra.</p></div></section>
-<section class="section"><div class="container split"><div class="split-media"><img src="/media/clinic/Oftalmologista-61.jpg" alt="Fotografia real das instalações da clínica" width="570" height="480" /></div><div><p class="eyebrow">Instituto da Visão</p><h2 class="display">Conheça nosso <em>consultório.</em></h2><p>O consultório conta com salas para consultas, exames, adaptação de lentes de contato e um centro cirúrgico, conforme descrito no site atual.</p><p>Está situado na Avenida Presidente Tancredo de Almeida Neves, 1187-W, Parque das Mansões, em Tangará da Serra, MT.</p><div class="hero-actions"><a class="button button-primary" href={web.whatsapp} target="_blank" rel="noopener noreferrer">Agendar consulta ↗</a><a class="button button-secondary" href="/contato/">Endereço e contato →</a></div></div></div></section>
-<section class="section section-soft"><div class="container"><div class="section-heading"><div><p class="eyebrow">Acervo fotográfico</p><h2 class="display">Veja a clínica <em>por dentro.</em></h2><p>Fotografias originais presentes no repositório do site Dr. Lucas Carazza. Nenhuma imagem é uma representação gerada por IA.</p></div></div><div class="grid-3">{photos.map(([name,description])=><a href={"/media/clinic/"+name} target="_blank" rel="noopener noreferrer" class="card" aria-label={"Ampliar foto: "+description}><img class="card-img" style="height:240px" loading="lazy" src={"/media/clinic/"+name} width="380" height="240" alt={description}/><div class="card-body" style="padding:15px 20px"><span class="text-link">Ampliar fotografia ↗</span></div></a>)}</div></div></section>
+<Layout title="Local de atendimento" description="Saiba onde o Dr. Lucas Carazza atende em Tangará da Serra: Instituto da Visão, Av. Presidente Tancredo de Almeida Neves, 1187-W. Endereço e contatos.">
+  <section class="page-hero"><div class="container">
+    <nav class="breadcrumbs" aria-label="Caminho de navegação"><a href="/">Início</a><span>/</span> Local de atendimento</nav>
+    <p class="eyebrow">Onde o Dr. Lucas atende</p>
+    <h1 class="display">Seu atendimento em <em>Tangará da Serra.</em></h1>
+    <p>Confira o endereço e as formas de contato para consultas com o Dr. Lucas Carazza.</p>
+  </div></section>
+  <section class="section section-white">
+    <div class="container doctor-local-layout">
+      <div>
+        <p class="eyebrow">Local de atendimento</p>
+        <h2 class="display">No Instituto da <em>Visão.</em></h2>
+        <p>O Dr. Lucas Carazza realiza seus atendimentos no Instituto da Visão, localizado na Avenida Presidente Tancredo de Almeida Neves, em Tangará da Serra, em frente ao Fórum Municipal.</p>
+        <p>O Instituto da Visão é o local onde o médico atende. Este site é dedicado ao trabalho do Dr. Lucas Carazza, não à divulgação institucional da clínica.</p>
+        <div class="hero-actions"><a class="button button-primary" href={web.whatsapp} target="_blank" rel="noopener noreferrer">Solicitar atendimento <span aria-hidden="true">↗</span></a><a class="button button-secondary" href={map} target="_blank" rel="noopener noreferrer">Traçar rota <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <div class="doctor-local-card">
+        <p class="doctor-local-label">Endereço</p>
+        <h3>Instituto da Visão</h3><p>{web.address}</p>
+        <div class="doctor-formations"><div><strong>Telefone</strong><span><a href={"tel:"+web.phone}>(65) 3326-5201</a></span></div><div><strong>WhatsApp</strong><span><a href={web.whatsapp} target="_blank" rel="noopener noreferrer">(65) 9 9627-6197</a></span></div></div>
+        <a class="text-link" href={map} target="_blank" rel="noopener noreferrer">Ver no Google Maps <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </section>
+  <section class="section section-soft">
+    <div class="container split">
+      <div class="doctor-about-photo" style="height:465px;border-radius:22px 170px 22px 22px"><img src="/media/doctor/portrait-secondary.webp" width="593" height="1024" alt="Dr. Lucas Carazza, médico oftalmologista" loading="lazy" /></div>
+      <div><p class="eyebrow">Seu médico</p><h2 class="display">Conheça o Dr. Lucas <em>Carazza.</em></h2><p>Formação pela Universidade Federal de Minas Gerais e atuação em oftalmologia, com informações sobre consultas, exames e tratamentos para os pacientes de Tangará da Serra.</p><a class="button button-secondary" href="/o-medico/">Conhecer o médico <span aria-hidden="true">↗</span></a></div>
+    </div>
+  </section>
 </Layout>
