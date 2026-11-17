@@ -25,6 +25,10 @@ const secondary = resolve(original, "portrait-secondary.webp");
 await sharp(secondary).resize({ width: 720, withoutEnlargement: true })
   .webp({ quality: 82, effort: 5 }).toFile(resolve(target, "portrait-neutral.webp"));
 
-for (const name of ["hero-cutout.webp", "hero.png", "portrait-neutral.webp"]) {
+const consultation = resolve(root, "assets/doctor/user-provided/consultation-equipment.png");
+await sharp(consultation).resize({ width: 1100, withoutEnlargement: true })
+  .webp({ quality: 82, effort: 5 }).toFile(resolve(target, "consultation.webp"));
+
+for (const name of ["hero-cutout.webp", "hero.png", "portrait-neutral.webp", "consultation.webp"]) {
   console.log("Foto preparada:", name, (await stat(resolve(target, name))).size, "bytes");
 }
