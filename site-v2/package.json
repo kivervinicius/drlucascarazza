@@ -4,9 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "prebuild": "node scripts/sync-legacy.mjs && node scripts/sync-doctor-media.mjs && node scripts/prepare-doctor-media.mjs",
+    "prebuild": "node scripts/sync-legacy.mjs && node scripts/sync-doctor-media.mjs && node scripts/optimize-assets.mjs",
     "build": "astro build",
-    "dev": "node scripts/sync-legacy.mjs && node scripts/sync-doctor-media.mjs && node scripts/prepare-doctor-media.mjs && astro dev",
+    "dev": "node scripts/sync-legacy.mjs && node scripts/sync-doctor-media.mjs && node scripts/optimize-assets.mjs && astro dev",
     "preview": "astro preview",
     "check": "astro check",
     "build:pages": "npm run build && node scripts/base-path.mjs",
@@ -15,7 +15,7 @@
   "dependencies": {
     "astro": "^6.0.0",
     "@astrojs/sitemap": "^3.6.0",
-    "sharp": "0.35.5"
+    "sharp": "^0.34.5"
   },
   "devDependencies": {
     "typescript": "^5.9.0",
