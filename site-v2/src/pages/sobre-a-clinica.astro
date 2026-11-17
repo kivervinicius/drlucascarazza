@@ -2,7 +2,12 @@
 import Layout from "../layouts/SiteLayout.astro";
 import {web} from "../lib/catalog";
 const map="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(web.address);
-const images = [
+const featuredPhotos=[
+  {src:"/media/doctor/hero.webp",alt:"Dr. Lucas Carazza com modelo anatômico do olho",caption:"Oftalmologia e saúde ocular"},
+  {src:"/media/doctor/portrait.webp",alt:"Dr. Lucas Carazza ao lado de equipamento oftalmológico",caption:"No consultório"},
+  {src:"/media/doctor/portrait-secondary.webp",alt:"Retrato profissional do Dr. Lucas Carazza",caption:"Dr. Lucas Carazza"}
+];
+const additionalPhotos = [
   ...["Dr3.jpg","Dr12.jpg","Dr13.jpg","Dr18.jpg","Dr19.jpg","Dr20.jpg","Dr28.jpg","D1.jpg","D2.jpg","D3.jpg","D4.jpg"]
     .map((file,i)=>({src:"/media/archive/"+file,alt:"Fotografia histórica do atendimento do Dr. Lucas — "+String(i+1).padStart(2,"0")})),
   ...["Oftalmologista-57.jpg","Oftalmologista-58.jpg","Oftalmologista-59.jpg","Oftalmologista-61.jpg","Oftalmologista-50.jpg","Oftalmologista-62.jpg","Oftalmologista-60.jpg",
@@ -24,7 +29,7 @@ const images = [
         <p class="eyebrow">Local de atendimento</p>
         <h2 class="display">No Instituto da <em>Visão.</em></h2>
         <p>O Dr. Lucas Carazza realiza seus atendimentos no Instituto da Visão, localizado na Avenida Presidente Tancredo de Almeida Neves, em Tangará da Serra, em frente ao Fórum Municipal.</p>
-        <p>O local de atendimento conta com salas de consulta e exames, sala de adaptação de lentes de contato e centro cirúrgico, conforme apresentado no site original. Para saber sobre horários e disponibilidade, entre em contato com a equipe.</p>
+        <p>Para informações sobre consultas, horários e localização, fale com a equipe pelo WhatsApp ou telefone.</p>
         <div class="hero-actions"><a class="button button-primary" href={web.whatsapp} target="_blank" rel="noopener noreferrer">Solicitar atendimento <span aria-hidden="true">↗</span></a><a class="button button-secondary" href={map} target="_blank" rel="noopener noreferrer">Traçar rota <span aria-hidden="true">↗</span></a></div>
       </div>
       <div class="doctor-local-card">
@@ -37,46 +42,54 @@ const images = [
   </section>
   <section class="section section-soft">
     <div class="container split">
-      <div class="doctor-about-photo" style="height:auto;border-radius:22px"><img src="/media/doctor/portrait-secondary.png" width="1254" height="1254" alt="Dr. Lucas Carazza, médico oftalmologista" loading="lazy" /></div>
-      <div><p class="eyebrow">Seu médico</p><h2 class="display">Conheça o Dr. Lucas <em>Carazza.</em></h2><p>Formação pela Universidade Federal de Minas Gerais e atuação em oftalmologia, com informações sobre consultas, exames e tratamentos para os pacientes de Tangará da Serra.</p><a class="button button-secondary" href="/o-medico/">Conhecer o médico <span aria-hidden="true">↗</span></a></div>
+      <div class="doctor-about-photo" style="height:auto;border-radius:22px"><img src="/media/doctor/portrait.webp" width="1254" height="1254" alt="Dr. Lucas Carazza, médico oftalmologista" loading="lazy" /></div>
+      <div><p class="eyebrow">Seu médico</p><h2 class="display">Conheça o Dr. Lucas <em>Carazza.</em></h2><p>Graduado em Medicina e com residência médica em Oftalmologia pela UFMG, o Dr. Lucas possui formação complementar em córnea, catarata, cirurgia refrativa, glaucoma e retina.</p><a class="button button-secondary" href="/o-medico/">Conhecer o médico <span aria-hidden="true">↗</span></a></div>
     </div>
   </section>
-  <section class="section section-white" id="fotos-consultorio">
+  <section class="section section-white" id="galeria">
     <div class="container">
       <div class="section-heading">
         <div>
-          <p class="eyebrow">Arquivo preservado</p>
-          <h2 class="display">Fotografias do <em>acervo original.</em></h2>
-          <p>O site anterior também apresentava imagens dos ambientes e do consultório. Elas continuam disponíveis aqui, sem ocupar o destaque da apresentação do médico.</p>
+          <p class="eyebrow">Dr. Lucas Carazza</p>
+          <h2 class="display">Conheça o Dr. Lucas <em>em imagens.</em></h2>
+          <p>Retratos profissionais, momentos no consultório e fotografias do local de atendimento.</p>
         </div>
       </div>
-      <details class="archive-disclosure">
-        <summary>Ver todas as fotografias ({images.length}) <span aria-hidden="true">+</span></summary>
-        <div class="archive-gallery" data-photo-gallery>
-          {images.map((photo,i)=><button type="button" class="archive-thumb" data-photo-index={i} aria-label={"Ampliar imagem "+(i+1)+" de "+images.length}>
-            <img src={photo.src} alt={photo.alt} loading="lazy" width="300" height="240" />
-            <span>Ampliar <span aria-hidden="true">↗</span></span>
+      <div data-photo-gallery>
+        <div class="doctor-photo-featured">
+          {featuredPhotos.map((photo,i)=><button type="button" class="doctor-photo-card" data-photo-index={i} aria-label={"Ampliar: "+photo.alt}>
+            <img src={photo.src} alt={photo.alt} width="1254" height="1254" loading="lazy" decoding="async" />
+            <span class="doctor-photo-caption">{photo.caption} <span aria-hidden="true">↗</span></span>
           </button>)}
         </div>
-      </details>
+        <details class="doctor-photo-more">
+          <summary>Ver mais fotografias do consultório <span aria-hidden="true">+</span></summary>
+          <div class="doctor-photo-grid">
+            {additionalPhotos.map((photo,i)=><button type="button" class="doctor-photo-card doctor-photo-extra" data-photo-index={i+featuredPhotos.length} aria-label={"Ampliar: "+photo.alt}>
+              <img src={photo.src} alt={photo.alt} width="480" height="360" loading="lazy" decoding="async"/>
+              <span class="doctor-photo-caption">Ver fotografia <span aria-hidden="true">↗</span></span>
+            </button>)}
+          </div>
+        </details>
+      </div>
     </div>
   </section>
-  <dialog id="archive-lightbox" class="archive-lightbox" aria-label="Visualizador do acervo fotográfico">
-    <div class="archive-lightbox-header">
-      <span id="archive-counter" aria-live="polite"></span>
-      <button type="button" data-photo-close aria-label="Fechar visualizador">Fechar ×</button>
+  <dialog id="doctor-photo-viewer" class="doctor-photo-viewer" aria-label="Visualizador de fotografias">
+    <div class="doctor-photo-viewer-toolbar">
+      <span id="doctor-photo-counter" aria-live="polite"></span>
+      <button type="button" data-photo-close aria-label="Fechar imagem">Fechar <span aria-hidden="true">×</span></button>
     </div>
-    <div class="archive-lightbox-body">
-      <button type="button" data-photo-prev aria-label="Fotografia anterior">‹</button>
-      <img id="archive-lightbox-image" alt="" width="1000" height="750" />
-      <button type="button" data-photo-next aria-label="Próxima fotografia">›</button>
+    <div class="doctor-photo-viewer-body">
+      <button type="button" data-photo-prev aria-label="Imagem anterior">‹</button>
+      <img id="doctor-photo-viewer-image" alt="" width="1254" height="1254"/>
+      <button type="button" data-photo-next aria-label="Próxima imagem">›</button>
     </div>
   </dialog>
   <script>
     const gallery=document.querySelector<HTMLElement>("[data-photo-gallery]");
-    const viewer=document.querySelector<HTMLDialogElement>("#archive-lightbox");
-    const preview=document.querySelector<HTMLImageElement>("#archive-lightbox-image");
-    const counter=document.querySelector<HTMLElement>("#archive-counter");
+    const viewer=document.querySelector<HTMLDialogElement>("#doctor-photo-viewer");
+    const preview=document.querySelector<HTMLImageElement>("#doctor-photo-viewer-image");
+    const counter=document.querySelector<HTMLElement>("#doctor-photo-counter");
     if(gallery&&viewer&&preview&&counter){
       const photos=[...gallery.querySelectorAll<HTMLButtonElement>("[data-photo-index]")];
       let selected=0;
@@ -85,22 +98,22 @@ const images = [
         selected=(index+photos.length)%photos.length;
         const thumb=photos[selected].querySelector("img");
         if(!thumb)return;
-        preview.src=thumb.getAttribute("src")||"";
+        preview.src=thumb.currentSrc || thumb.src;
         preview.alt=thumb.alt;
-        counter.textContent="Foto "+(selected+1)+" de "+photos.length;
+        counter.textContent=(selected+1)+" de "+photos.length;
         if(!viewer.open)viewer.showModal();
       };
-      gallery.addEventListener("click",ev=>{
-        const btn=(ev.target as HTMLElement).closest<HTMLButtonElement>("[data-photo-index]");
-        if(btn)display(Number(btn.dataset.photoIndex));
+      gallery.addEventListener("click",event=>{
+        const button=(event.target as HTMLElement).closest<HTMLButtonElement>("[data-photo-index]");
+        if(button)display(Number(button.dataset.photoIndex));
       });
       viewer.querySelector("[data-photo-prev]")?.addEventListener("click",()=>display(selected-1));
       viewer.querySelector("[data-photo-next]")?.addEventListener("click",()=>display(selected+1));
       viewer.querySelector("[data-photo-close]")?.addEventListener("click",()=>viewer.close());
-      viewer.addEventListener("click",ev=>{if(ev.target===viewer)viewer.close();});
-      viewer.addEventListener("keydown",ev=>{
-        if(ev.key==="ArrowLeft"){ev.preventDefault();display(selected-1);}
-        if(ev.key==="ArrowRight"){ev.preventDefault();display(selected+1);}
+      viewer.addEventListener("click",event=>{if(event.target===viewer)viewer.close();});
+      viewer.addEventListener("keydown",event=>{
+        if(event.key==="ArrowLeft"){event.preventDefault();display(selected-1);}
+        if(event.key==="ArrowRight"){event.preventDefault();display(selected+1);}
       });
     }
   </script>
