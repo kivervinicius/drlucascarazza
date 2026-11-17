@@ -10,15 +10,15 @@ const articles=(await getCollection("articles")).sort((a,b)=>a.data.title.locale
     <section class="ri-hero">
       <div class="container">
         <nav class="breadcrumbs" aria-label="Caminho de navegação"><a href="/">Início</a><span>/</span> Artigos</nav>
-        <p class="ri-label">SAÚDE OCULAR / ARTIGOS</p>
-        <h1>Entender faz <em>diferença.</em></h1>
-        <p>Recebeu um diagnóstico ou quer esclarecer uma dúvida sobre a visão? Explore informações sobre condições oftalmológicas, exames e tratamentos.</p>
+        <p class="ri-label">Saúde ocular</p>
+        <h1>Artigos e orientações</h1>
+        <p>Dúvidas sobre catarata, ceratocone, glaucoma ou o uso de lentes? Consulte os artigos e entenda melhor cada assunto.</p>
       </div>
     </section>
     <section class="ri-body" aria-labelledby="ri-article-list">
       <div class="container">
         <div class="ri-tools">
-          <div><p class="ri-label">LEITURAS</p><h2 id="ri-article-list">Artigos disponíveis</h2></div>
+          <div><p class="ri-label">Publicações</p><h2 id="ri-article-list">Todos os artigos</h2></div>
           <div class="ri-search">
             <label for="ri-search">Buscar por assunto</label>
             <input id="ri-search" type="search" data-filter-input placeholder="Ex.: catarata, glaucoma, lentes..." autocomplete="off" />
