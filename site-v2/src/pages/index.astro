@@ -16,11 +16,7 @@ const selected=[
   {title:"Catarata: dúvidas sobre cirurgia e lentes",href:"/catarata-cirurgia/",meta:"Catarata"}
 ];
 
-const legacyTips=[
- {title:"Dicas para te ajudar a escolher seus óculos",excerpt:"O que considerar na escolha de uma armação.",href:"/dica-oculos/",image:"/media/clinic/dicas1.png",alt:"Óculos e armações"},
- {title:"Como escolher sua lente para cirurgia de catarata?",excerpt:"Conheça os tipos de lentes intraoculares abordados no artigo do Dr. Lucas.",href:"/catarata-cirurgia/",image:"/media/clinic/dicas2.png",alt:"Imagem relacionada a lentes intraoculares"},
- {title:"Consultas oftalmológicas de rotina na infância",excerpt:"Informações sobre o acompanhamento oftalmológico durante a infância.",href:"/dica-pediatria/",image:"/media/clinic/dicas3.jpg",alt:"Imagem relacionada a cuidados oculares infantis"}
-];
+
 ---
 <Layout title="Início" description="Dr. Lucas Carazza, médico oftalmologista CRM-MT 7823 e RQE 3253 em Tangará da Serra. Informações sobre córnea, ceratocone, catarata, cirurgia refrativa e saúde ocular.">
   <section class="doctor-hero">
@@ -72,43 +68,10 @@ const legacyTips=[
       </div>
     </div>
   </section>
-  <section class="section section-white" id="fotografias">
-    <div class="container">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">O Dr. Lucas em imagens</p>
-          <h2 class="display">O Dr. Lucas <em>em fotografias.</em></h2>
-          <p>Retratos profissionais e registros do acervo do médico.</p>
-        </div>
-        <a class="button button-secondary" href="/sobre-a-clinica/#galeria">Ver mais fotografias <span aria-hidden="true">↗</span></a>
-      </div>
-      <div class="doctor-gallery-teaser">
-        <a href="/sobre-a-clinica/#galeria"><img src="/media/doctor/hero.webp" alt="Dr. Lucas com modelo anatômico de um olho" width="1254" height="1254" loading="lazy" decoding="async"/><span>Oftalmologia e saúde ocular ↗</span></a>
-        <a href="/sobre-a-clinica/#galeria"><img src="/media/doctor/portrait.webp" alt="Dr. Lucas com equipamento oftalmológico" width="1254" height="1254" loading="lazy" decoding="async"/><span>No consultório ↗</span></a>
-        <a href="/sobre-a-clinica/#galeria"><img src="/media/doctor/portrait-secondary.webp" alt="Retrato profissional do Dr. Lucas Carazza" width="1177" height="1337" loading="lazy" decoding="async"/><span>Dr. Lucas Carazza ↗</span></a>
-      </div>
-    </div>
-  </section>
   <section class="section section-soft">
     <div class="container">
       <div class="section-heading"><div><p class="eyebrow">Saúde ocular em linguagem acessível</p><h2 class="display">Leia sobre <em>catarata, córnea e outros temas.</em></h2><p>Conteúdos sobre ceratocone, cirurgia refrativa e catarata reunidos no site.</p></div><a class="button button-secondary" href="/conteudos/">Explorar artigos <span aria-hidden="true">↗</span></a></div>
       <div class="doctor-articles">{selected.map((article,i)=><a href={article.href} class="doctor-article-card"><span class="card-tag">{article.meta}</span><h3>{article.title}</h3><span class="doctor-article-footer"><span>Leitura informativa</span><span aria-hidden="true">↗</span></span></a>)}</div>
-    </div>
-  </section>
-  <section class="section section-white" id="dicas">
-    <div class="container">
-      <div class="section-heading">
-        <div><p class="eyebrow">Orientações para pacientes</p>
-          <h2 class="display">Óculos, lentes e <em>visão infantil.</em></h2>
-          <p>Saiba mais sobre óculos, lentes e cuidados com a visão na infância.</p>
-        </div>
-      </div>
-      <div class="grid-3">
-        {legacyTips.map(tip=><a class="card" href={tip.href}>
-          <img class="card-img" src={tip.image} alt={tip.alt} width="380" height="205" loading="lazy"/>
-          <div class="card-body"><span class="card-tag">Dicas de saúde ocular</span><h3>{tip.title}</h3><p>{tip.excerpt}</p><span class="text-link">Ler conteúdo <span aria-hidden="true">→</span></span></div>
-        </a>)}
-      </div>
     </div>
   </section>
   <section class="section section-white" id="clinica">
