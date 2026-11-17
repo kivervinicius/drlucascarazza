@@ -18,7 +18,7 @@ const selected=[
 
 const legacyTips=[
  {title:"Dicas para te ajudar a escolher seus óculos",excerpt:"O que considerar na escolha de uma armação.",href:"/dica-oculos/",image:"/media/clinic/dicas1.png",alt:"Óculos e armações"},
- {title:"Como escolher sua lente para cirurgia de catarata?",excerpt:"Conheça os tipos de lentes intraoculares abordados no artigo do Dr. Lucas.",href:"/lentes/",image:"/media/clinic/dicas2.png",alt:"Imagem relacionada a lentes intraoculares"},
+ {title:"Como escolher sua lente para cirurgia de catarata?",excerpt:"Conheça os tipos de lentes intraoculares abordados no artigo do Dr. Lucas.",href:"/catarata-cirurgia/",image:"/media/clinic/dicas2.png",alt:"Imagem relacionada a lentes intraoculares"},
  {title:"Consultas oftalmológicas de rotina na infância",excerpt:"Informações sobre o acompanhamento oftalmológico durante a infância.",href:"/dica-pediatria/",image:"/media/clinic/dicas3.jpg",alt:"Imagem relacionada a cuidados oculares infantis"}
 ];
 ---
@@ -28,17 +28,17 @@ const legacyTips=[
       <div class="doctor-hero-copy">
         <p class="eyebrow">Médico oftalmologista · CRM-MT 7823 · RQE 3253</p>
         <h1 class="display">Dr. Lucas <em>Carazza.</em></h1>
-        <p class="doctor-hero-lead">Oftalmologia em Tangará da Serra, com atenção à saúde dos seus olhos.</p>
-        <p class="doctor-hero-description">Conheça a formação do Dr. Lucas Carazza, suas áreas de atuação em oftalmologia e as informações sobre consultas, exames e tratamentos.</p>
+        <p class="doctor-hero-lead">Consultas oftalmológicas em Tangará da Serra.</p>
+        <p class="doctor-hero-description">Graduado em Medicina e com residência em Oftalmologia pela UFMG, o Dr. Lucas atende em Tangará da Serra. Conheça sua formação e os assuntos abordados no site.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href={web.whatsapp} target="_blank" rel="noopener noreferrer">Agendar uma avaliação <span aria-hidden="true">↗</span></a>
+          <a class="button button-primary" href={web.whatsapp} target="_blank" rel="noopener noreferrer">Solicitar consulta pelo WhatsApp <span aria-hidden="true">↗</span></a>
           <a class="button button-secondary" href="#areas-de-atuacao">Conhecer áreas de atuação <span aria-hidden="true">↓</span></a>
         </div>
         <div class="doctor-credentials" aria-label="Identificação profissional"><span>CRM-MT 7823</span><span>RQE 3253</span><span>Formação UFMG</span></div>
       </div>
       <div class="doctor-hero-visual">
         <div class="doctor-hero-backdrop" aria-hidden="true"></div>
-        <img class="doctor-portrait-primary" src="/media/doctor/hero.webp" alt="Dr. Lucas Carazza em seu consultório, com um modelo anatômico do olho" width="1254" height="1254" fetchpriority="high" decoding="async" />
+        <img class="doctor-portrait-primary" src="/media/doctor/hero-cutout.webp" alt="Dr. Lucas Carazza, médico oftalmologista" width="768" height="903" fetchpriority="high" decoding="async" />
         <div class="doctor-hero-caption"><span class="doctor-hero-caption-kicker">Dr. Lucas Carazza</span><span>Oftalmologista · Tangará da Serra</span></div>
       </div>
     </div>
@@ -53,7 +53,7 @@ const legacyTips=[
   </section>
   <section class="section section-white" id="areas-de-atuacao">
     <div class="container">
-      <div class="section-heading"><div><p class="eyebrow">Áreas de atuação</p><h2 class="display">Córnea, catarata e <em>outras áreas da oftalmologia.</em></h2><p>Veja as áreas abordadas na atuação e nos conteúdos do Dr. Lucas, incluindo ceratocone, catarata, glaucoma e cirurgia refrativa.</p></div><a class="button button-secondary" href="/tratamentos/">Ver todos os tratamentos <span aria-hidden="true">↗</span></a></div>
+      <div class="section-heading"><div><p class="eyebrow">Áreas de atuação</p><h2 class="display">Córnea, catarata, <em>glaucoma e cirurgia refrativa.</em></h2><p>Conheça as áreas destacadas na formação e nos materiais informativos do médico.</p></div><a class="button button-secondary" href="/tratamentos/">Ver todos os tratamentos <span aria-hidden="true">↗</span></a></div>
       <div class="doctor-services">
         {areas.map(area=><a class="doctor-service-card" href={area.href}><span class="doctor-service-index">{area.number}</span><h3>{area.title}</h3><p>{area.detail}</p><span class="doctor-service-link">Conhecer melhor <span aria-hidden="true">↗</span></span></a>)}
       </div>
@@ -64,7 +64,7 @@ const legacyTips=[
       <div class="doctor-about-photo"><img src="/media/doctor/portrait.webp" alt="Dr. Lucas Carazza junto a equipamento oftalmológico" width="1254" height="1254" loading="lazy" decoding="async" /></div>
       <div>
         <p class="eyebrow">O profissional por trás do atendimento</p>
-        <h2 class="display">Formação em oftalmologia <em>pela UFMG.</em></h2>
+        <h2 class="display">Formação e trajetória <em>na oftalmologia.</em></h2>
         <p>O Dr. Lucas Carazza é graduado em Medicina e concluiu sua residência em Oftalmologia na Universidade Federal de Minas Gerais (UFMG).</p>
         <p>Realizou formação complementar em córnea, catarata, cirurgia refrativa, glaucoma e retina pelo Hospital das Clínicas da UFMG.</p>
         <div class="doctor-formations"><div><strong>UFMG</strong><span>Graduação e residência médica</span></div><div><strong>CBO · MEC</strong><span>Titulação informada no currículo profissional</span></div><div><strong>CRM 7823 · RQE 3253</strong><span>Registro profissional no Mato Grosso</span></div></div>
@@ -77,8 +77,8 @@ const legacyTips=[
       <div class="section-heading">
         <div>
           <p class="eyebrow">O Dr. Lucas em imagens</p>
-          <h2 class="display">Além do consultório, <em>o profissional.</em></h2>
-          <p>Conheça o Dr. Lucas Carazza e parte de sua rotina na oftalmologia.</p>
+          <h2 class="display">O Dr. Lucas <em>em fotografias.</em></h2>
+          <p>Retratos profissionais e registros do acervo do médico.</p>
         </div>
         <a class="button button-secondary" href="/sobre-a-clinica/#galeria">Ver mais fotografias <span aria-hidden="true">↗</span></a>
       </div>
@@ -91,7 +91,7 @@ const legacyTips=[
   </section>
   <section class="section section-soft">
     <div class="container">
-      <div class="section-heading"><div><p class="eyebrow">Saúde ocular em linguagem acessível</p><h2 class="display">Informação para tomar <em>decisões mais conscientes.</em></h2><p>Artigos sobre ceratocone, catarata, cirurgia refrativa e outros temas da saúde ocular.</p></div><a class="button button-secondary" href="/conteudos/">Explorar artigos <span aria-hidden="true">↗</span></a></div>
+      <div class="section-heading"><div><p class="eyebrow">Saúde ocular em linguagem acessível</p><h2 class="display">Leia sobre <em>catarata, córnea e outros temas.</em></h2><p>Conteúdos sobre ceratocone, cirurgia refrativa e catarata reunidos no site.</p></div><a class="button button-secondary" href="/conteudos/">Explorar artigos <span aria-hidden="true">↗</span></a></div>
       <div class="doctor-articles">{selected.map((article,i)=><a href={article.href} class="doctor-article-card"><span class="card-tag">{article.meta}</span><h3>{article.title}</h3><span class="doctor-article-footer"><span>Leitura informativa</span><span aria-hidden="true">↗</span></span></a>)}</div>
     </div>
   </section>
@@ -99,7 +99,7 @@ const legacyTips=[
     <div class="container">
       <div class="section-heading">
         <div><p class="eyebrow">Orientações para pacientes</p>
-          <h2 class="display">Orientações para o <em>dia a dia.</em></h2>
+          <h2 class="display">Óculos, lentes e <em>visão infantil.</em></h2>
           <p>Saiba mais sobre óculos, lentes e cuidados com a visão na infância.</p>
         </div>
       </div>
@@ -119,7 +119,7 @@ const legacyTips=[
   </section>
   <section class="section section-soft">
     <div class="container doctor-faq-layout">
-      <div><p class="eyebrow">Informações úteis</p><h2 class="display">Dúvidas antes <em>da consulta?</em></h2><p>Respostas simples sobre agendamento e informações de atendimento.</p></div>
+      <div><p class="eyebrow">Informações úteis</p><h2 class="display">Dúvidas antes <em>da consulta?</em></h2><p>Saiba como solicitar uma consulta, confirmar horários e encontrar o local de atendimento.</p></div>
       <div class="doctor-faq-list">
         <details><summary>Como posso agendar uma consulta?</summary><p>Utilize o botão de WhatsApp para conversar com a equipe. Os horários e a confirmação do agendamento são informados diretamente pelo consultório.</p></details>
         <details><summary>Onde o Dr. Lucas realiza seus atendimentos?</summary><p>No Instituto da Visão, Avenida Presidente Tancredo de Almeida Neves, 1187-W, em frente ao Fórum Municipal de Tangará da Serra.</p></details>
@@ -129,6 +129,6 @@ const legacyTips=[
     </div>
   </section>
   <section class="cta-band">
-    <div class="container"><div><p class="eyebrow" style="color:#9ddae4">Agendamento</p><h2 class="display">Vamos conversar sobre a sua visão?</h2><p>Fale com a equipe para informações sobre consultas e disponibilidade de horários. O agendamento é confirmado diretamente pelo consultório.</p></div><a class="button" href={web.whatsapp} target="_blank" rel="noopener noreferrer">Conversar pelo WhatsApp <span aria-hidden="true">↗</span></a></div>
+    <div class="container"><div><p class="eyebrow" style="color:#9ddae4">Agendamento</p><h2 class="display">Entre em contato para solicitar sua consulta.</h2><p>Consulte os horários disponíveis pelo WhatsApp. A equipe confirma o agendamento.</p></div><a class="button" href={web.whatsapp} target="_blank" rel="noopener noreferrer">Conversar pelo WhatsApp <span aria-hidden="true">↗</span></a></div>
   </section>
 </Layout>
