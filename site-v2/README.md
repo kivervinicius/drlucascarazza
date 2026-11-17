@@ -15,6 +15,14 @@ O comando `dev` prepara os arquivos automaticamente, a partir de `../src/`.
 
 Para build estático: `npm run build`. Para GitHub Pages: `npm run build:pages`.
 
+## Retratos oficiais — independentes da Hostinger
+
+Os arquivos originais do material de marketing estão versionados em `site-v2/assets/doctor/originals/*.webp`, incluindo o retrato de alta resolução (1656 × 2560). As quatro versões prontas para uso estão em `site-v2/public/media/doctor/*.webp`.
+
+As correções foram determinísticas (recorte de área ociosa, ajuste leve de iluminação/cor e compactação WebP). Não há reconstrução de rosto, roupa ou ambiente por IA. O script `scripts/sync-doctor-media.mjs` apenas valida arquivos locais — **não há fetch ao WordPress no build ou na navegação**.
+
+O cabeçalho azul-marinho `#1D374E` garante contraste com a logo original transparente e branca.
+
 ## Conteúdo e fotografias
 
 **As fotos são cópias do acervo real do repositório**:
