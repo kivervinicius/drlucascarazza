@@ -2,6 +2,14 @@
 import Layout from "../layouts/SiteLayout.astro";
 import {web} from "../lib/catalog";
 const map="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(web.address);
+const images = [
+  ...["Dr3.jpg","Dr12.jpg","Dr13.jpg","Dr18.jpg","Dr19.jpg","Dr20.jpg","Dr28.jpg","D1.jpg","D2.jpg","D3.jpg","D4.jpg"]
+    .map((file,i)=>({src:"/media/archive/"+file,alt:"Fotografia histórica do atendimento do Dr. Lucas — "+String(i+1).padStart(2,"0")})),
+  ...["Oftalmologista-57.jpg","Oftalmologista-58.jpg","Oftalmologista-59.jpg","Oftalmologista-61.jpg","Oftalmologista-50.jpg","Oftalmologista-62.jpg","Oftalmologista-60.jpg",
+    "clinica.png","clinica2.png","clinica3.png","clinica4.png","Oftalmologista-44.jpg","Oftalmologista-45.jpg","Oftalmologista-46.jpg",
+    "Oftalmologista-47.jpg","Oftalmologista-48.jpg","Oftalmologista-49.jpg","Oftalmologista-56.jpg"]
+    .map((file,i)=>({src:"/media/clinic/"+file,alt:"Fotografia do acervo do local de atendimento — "+String(i+1).padStart(2,"0")}))
+];
 ---
 <Layout title="Local de atendimento" description="Saiba onde o Dr. Lucas Carazza atende em Tangará da Serra: Instituto da Visão, Av. Presidente Tancredo de Almeida Neves, 1187-W. Endereço e contatos.">
   <section class="page-hero"><div class="container">
@@ -16,7 +24,7 @@ const map="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(
         <p class="eyebrow">Local de atendimento</p>
         <h2 class="display">No Instituto da <em>Visão.</em></h2>
         <p>O Dr. Lucas Carazza realiza seus atendimentos no Instituto da Visão, localizado na Avenida Presidente Tancredo de Almeida Neves, em Tangará da Serra, em frente ao Fórum Municipal.</p>
-        <p>O Dr. Lucas realiza suas consultas neste endereço. Para saber sobre horários e disponibilidade de atendimento, entre em contato com a equipe.</p>
+        <p>O local de atendimento conta com salas de consulta e exames, sala de adaptação de lentes de contato e centro cirúrgico, conforme apresentado no site original. Para saber sobre horários e disponibilidade, entre em contato com a equipe.</p>
         <div class="hero-actions"><a class="button button-primary" href={web.whatsapp} target="_blank" rel="noopener noreferrer">Solicitar atendimento <span aria-hidden="true">↗</span></a><a class="button button-secondary" href={map} target="_blank" rel="noopener noreferrer">Traçar rota <span aria-hidden="true">↗</span></a></div>
       </div>
       <div class="doctor-local-card">
@@ -33,4 +41,67 @@ const map="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(
       <div><p class="eyebrow">Seu médico</p><h2 class="display">Conheça o Dr. Lucas <em>Carazza.</em></h2><p>Formação pela Universidade Federal de Minas Gerais e atuação em oftalmologia, com informações sobre consultas, exames e tratamentos para os pacientes de Tangará da Serra.</p><a class="button button-secondary" href="/o-medico/">Conhecer o médico <span aria-hidden="true">↗</span></a></div>
     </div>
   </section>
+  <section class="section section-white" id="fotos-consultorio">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Arquivo preservado</p>
+          <h2 class="display">Fotografias do <em>acervo original.</em></h2>
+          <p>O site anterior também apresentava imagens dos ambientes e do consultório. Elas continuam disponíveis aqui, sem ocupar o destaque da apresentação do médico.</p>
+        </div>
+      </div>
+      <details class="archive-disclosure">
+        <summary>Ver todas as fotografias ({images.length}) <span aria-hidden="true">+</span></summary>
+        <div class="archive-gallery" data-photo-gallery>
+          {images.map((photo,i)=><button type="button" class="archive-thumb" data-photo-index={i} aria-label={"Ampliar imagem "+(i+1)+" de "+images.length}>
+            <img src={photo.src} alt={photo.alt} loading="lazy" width="300" height="240" />
+            <span>Ampliar <span aria-hidden="true">↗</span></span>
+          </button>)}
+        </div>
+      </details>
+    </div>
+  </section>
+  <dialog id="archive-lightbox" class="archive-lightbox" aria-label="Visualizador do acervo fotográfico">
+    <div class="archive-lightbox-header">
+      <span id="archive-counter" aria-live="polite"></span>
+      <button type="button" data-photo-close aria-label="Fechar visualizador">Fechar ×</button>
+    </div>
+    <div class="archive-lightbox-body">
+      <button type="button" data-photo-prev aria-label="Fotografia anterior">‹</button>
+      <img id="archive-lightbox-image" alt="" width="1000" height="750" />
+      <button type="button" data-photo-next aria-label="Próxima fotografia">›</button>
+    </div>
+  </dialog>
+  <script>
+    const gallery=document.querySelector<HTMLElement>("[data-photo-gallery]");
+    const viewer=document.querySelector<HTMLDialogElement>("#archive-lightbox");
+    const preview=document.querySelector<HTMLImageElement>("#archive-lightbox-image");
+    const counter=document.querySelector<HTMLElement>("#archive-counter");
+    if(gallery&&viewer&&preview&&counter){
+      const photos=[...gallery.querySelectorAll<HTMLButtonElement>("[data-photo-index]")];
+      let selected=0;
+      const display=(index:number)=>{
+        if(!photos.length)return;
+        selected=(index+photos.length)%photos.length;
+        const thumb=photos[selected].querySelector("img");
+        if(!thumb)return;
+        preview.src=thumb.getAttribute("src")||"";
+        preview.alt=thumb.alt;
+        counter.textContent="Foto "+(selected+1)+" de "+photos.length;
+        if(!viewer.open)viewer.showModal();
+      };
+      gallery.addEventListener("click",ev=>{
+        const btn=(ev.target as HTMLElement).closest<HTMLButtonElement>("[data-photo-index]");
+        if(btn)display(Number(btn.dataset.photoIndex));
+      });
+      viewer.querySelector("[data-photo-prev]")?.addEventListener("click",()=>display(selected-1));
+      viewer.querySelector("[data-photo-next]")?.addEventListener("click",()=>display(selected+1));
+      viewer.querySelector("[data-photo-close]")?.addEventListener("click",()=>viewer.close());
+      viewer.addEventListener("click",ev=>{if(ev.target===viewer)viewer.close();});
+      viewer.addEventListener("keydown",ev=>{
+        if(ev.key==="ArrowLeft"){ev.preventDefault();display(selected-1);}
+        if(ev.key==="ArrowRight"){ev.preventDefault();display(selected+1);}
+      });
+    }
+  </script>
 </Layout>
