@@ -24,8 +24,8 @@ const selected=[
       <div class="doctor-hero-copy">
         <p class="eyebrow">Médico oftalmologista · CRM-MT 7823 · RQE 3253</p>
         <h1 class="display">Dr. Lucas <em>Carazza.</em></h1>
-        <p class="doctor-hero-lead">Consultas oftalmológicas em Tangará da Serra.</p>
-        <p class="doctor-hero-description">Graduado em Medicina e com residência em Oftalmologia pela UFMG, o Dr. Lucas atende em Tangará da Serra. Conheça sua formação e os assuntos abordados no site.</p>
+        <p class="doctor-hero-lead">Oftalmologia em Tangará da Serra, Mato Grosso.</p>
+        <p class="doctor-hero-description">O Dr. Lucas é formado em Medicina pela UFMG e realizou residência em Oftalmologia no Hospital das Clínicas da universidade. Conheça sua trajetória, os exames e os temas de saúde ocular apresentados neste site.</p>
         <div class="hero-actions">
           <a class="button button-primary" href={web.whatsapp} target="_blank" rel="noopener noreferrer">Solicitar consulta pelo WhatsApp <span aria-hidden="true">↗</span></a>
           <a class="button button-secondary" href="#areas-de-atuacao">Conhecer áreas de atuação <span aria-hidden="true">↓</span></a>
@@ -34,7 +34,7 @@ const selected=[
       </div>
       <div class="doctor-hero-visual">
         <div class="doctor-hero-backdrop" aria-hidden="true"></div>
-        <img class="doctor-portrait-primary" src="/media/doctor/hero-cutout.webp" alt="Dr. Lucas Carazza, médico oftalmologista, em retrato com fundo transparente" width="768" height="903" fetchpriority="high" decoding="async" />
+        <img class="doctor-portrait-primary" src="/media/doctor/hero.webp" alt="Dr. Lucas Carazza em consultório, segurando um modelo anatômico do olho" width="1254" height="1254" fetchpriority="high" decoding="async" />
         <div class="doctor-hero-caption"><span class="doctor-hero-caption-kicker">Dr. Lucas Carazza</span><span>Oftalmologista · Tangará da Serra</span></div>
       </div>
     </div>
@@ -49,7 +49,7 @@ const selected=[
   </section>
   <section class="section section-white" id="areas-de-atuacao">
     <div class="container">
-      <div class="section-heading"><div><p class="eyebrow">Áreas de atuação</p><h2 class="display">Córnea, catarata, <em>glaucoma e cirurgia refrativa.</em></h2><p>Conheça as áreas destacadas na formação e nos materiais informativos do médico.</p></div><a class="button button-secondary" href="/tratamentos/">Ver todos os tratamentos <span aria-hidden="true">↗</span></a></div>
+      <div class="section-heading"><div><p class="eyebrow">Áreas de atuação</p><h2 class="display">Córnea, catarata, <em>glaucoma e cirurgia refrativa.</em></h2><p>As áreas abaixo fazem parte da formação divulgada pelo médico. A indicação de exames e procedimentos depende de avaliação individual.</p></div><a class="button button-secondary" href="/tratamentos/">Ver todos os tratamentos <span aria-hidden="true">↗</span></a></div>
       <div class="doctor-services">
         {areas.map(area=><a class="doctor-service-card" href={area.href}><span class="doctor-service-index">{area.number}</span><h3>{area.title}</h3><p>{area.detail}</p><span class="doctor-service-link">Conhecer melhor <span aria-hidden="true">↗</span></span></a>)}
       </div>
@@ -57,9 +57,9 @@ const selected=[
   </section>
   <section class="section doctor-about-section" id="sobre-mim">
     <div class="container doctor-about-layout">
-      <div class="doctor-about-photo"><img src="/media/doctor/portrait.webp" alt="Dr. Lucas Carazza junto a equipamento oftalmológico" width="1254" height="1254" loading="lazy" decoding="async" /></div>
+      <div class="doctor-about-photo"><img src="/media/doctor/portrait.webp" alt="Retrato do Dr. Lucas Carazza com jaleco azul, gravata e fundo preto" width="1177" height="1337" loading="lazy" decoding="async" /></div>
       <div>
-        <p class="eyebrow">O profissional por trás do atendimento</p>
+        <p class="eyebrow">Formação e trajetória</p>
         <h2 class="display">Formação e trajetória <em>na oftalmologia.</em></h2>
         <p>O Dr. Lucas Carazza é graduado em Medicina e concluiu sua residência em Oftalmologia na Universidade Federal de Minas Gerais (UFMG).</p>
         <p>Realizou formação complementar em córnea, catarata, cirurgia refrativa, glaucoma e retina pelo Hospital das Clínicas da UFMG.</p>
@@ -70,8 +70,8 @@ const selected=[
   </section>
   <section class="section section-soft">
     <div class="container">
-      <div class="section-heading"><div><p class="eyebrow">Saúde ocular em linguagem acessível</p><h2 class="display">Leia sobre <em>catarata, córnea e outros temas.</em></h2><p>Conteúdos sobre ceratocone, cirurgia refrativa e catarata reunidos no site.</p></div><a class="button button-secondary" href="/conteudos/">Explorar artigos <span aria-hidden="true">↗</span></a></div>
-      <div class="doctor-articles">{selected.map((article,i)=><a href={article.href} class="doctor-article-card"><span class="card-tag">{article.meta}</span><h3>{article.title}</h3><span class="doctor-article-footer"><span>Leitura informativa</span><span aria-hidden="true">↗</span></span></a>)}</div>
+      <div class="section-heading"><div><p class="eyebrow">Saúde ocular em linguagem acessível</p><h2 class="display">Leia sobre <em>catarata, córnea e outros temas.</em></h2><p>Artigos sobre ceratocone, cirurgia refrativa, catarata e outras condições oculares, com acesso aos textos completos.</p></div><a class="button button-secondary" href="/conteudos/">Explorar artigos <span aria-hidden="true">↗</span></a></div>
+      <div class="doctor-articles">{selected.map((article,i)=><a href={article.href} class="doctor-article-card"><span class="card-tag">{article.meta}</span><h3>{article.title}</h3><span class="doctor-article-footer"><span>Acessar artigo</span><span aria-hidden="true">↗</span></span></a>)}</div>
     </div>
   </section>
   <section class="section section-white" id="clinica">
