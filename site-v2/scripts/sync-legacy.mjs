@@ -16,7 +16,11 @@ function copyFrom(relative, to) {
   mkdirSync(dirname(to), {recursive:true});
   cpSync(src,to,{recursive:true,force:true,filter:(source)=>!(/:Zone\.Identifier$|Thumbs\.db$|\.DS_Store$/i.test(source)||/[<>:"|?*]/.test(basename(source)))});
 }
-rmSync(media,{recursive:true,force:true});
+// Limpar somente os assets herdados. Os retratos e a logo do médico
+// são arquivos VERSIONADOS em public/media/doctor; nunca removê-los.
+for (const folder of ["clinic","exams","treatments","legacy"]) {
+  rmSync(join(media,folder),{recursive:true,force:true});
+}
 mkdirSync(media,{recursive:true});
 copyFrom("src/components/images", join(media,"clinic"));
 copyFrom("src/components/Exames/images", join(media,"exams"));
