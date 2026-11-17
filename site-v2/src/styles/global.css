@@ -159,3 +159,15 @@ h1{font-size:clamp(45px,5vw,78px)}h2{font-size:clamp(32px,3.5vw,52px)}h3{font-si
  .doctor-formations>div{grid-template-columns:1fr;gap:2px}
  .doctor-credentials span{font-size:10px}
 }
+
+/* FAQ: no JavaScript dependency and native keyboard-accessible disclosure. */
+.doctor-faq-layout{display:grid;grid-template-columns:.8fr 1.2fr;align-items:start;gap:9%}
+.doctor-faq-layout h2{margin:17px 0 18px}.doctor-faq-list{border-top:1px solid #cfdfdc}
+.doctor-faq-list details{border-bottom:1px solid #cfdfdc;padding:20px 0}
+.doctor-faq-list summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:20px;color:#193d50;font-weight:700;font-size:15px}
+.doctor-faq-list summary::-webkit-details-marker{display:none}
+.doctor-faq-list summary:after{content:"+";font-size:25px;font-weight:400;line-height:1;color:#23818e}
+.doctor-faq-list details[open] summary:after{content:"−"}
+.doctor-faq-list details p{font-size:14px;line-height:1.8;margin:14px 28px 0 0}
+.doctor-faq-list details a{color:#0d6c7d;text-decoration:underline}
+@media(max-width:720px){.doctor-faq-layout{grid-template-columns:1fr;gap:25px}}
