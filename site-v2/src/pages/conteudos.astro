@@ -1,21 +1,43 @@
 ---
 import Layout from "../layouts/SiteLayout.astro";
-import {getCollection} from "astro:content";
-import {deliveryImage} from "../lib/images";
+import "../styles/reading-index-editorial.css";
+import { getCollection } from "astro:content";
+
 const articles=(await getCollection("articles")).sort((a,b)=>a.data.title.localeCompare(b.data.title,"pt-BR"));
-const pics:Record<string,string>={
-  "catarata-cirurgia":"/media/legacy/olho-catarata.png",
-  "ceratocone":"/media/clinic/exame1.jpg",
-  "glaucoma":"/media/clinic/exame2.jpg",
-  "lentes":"/media/clinic/banner-lentes.png",
-  "dica-oculos":"/media/clinic/armacoes.jpg",
-  "dica-pediatria":"/media/clinic/Oftalmologista-59.jpg",
-  "cirurgia-refrativa":"/media/clinic/cirurgia1.jpg"
-};
 ---
-<Layout title="Conteúdos de saúde ocular" description="Artigos médicos informativos do Dr. Lucas Carazza sobre saúde ocular, catarata, glaucoma, lentes de contato e cirurgias.">
-<section class="page-hero"><div class="container"><nav class="breadcrumbs" aria-label="Caminho de navegação"><a href="/">Início</a><span>/</span> Conteúdos</nav><p class="eyebrow">Artigos e orientações</p><h1 class="display">Artigos sobre <em style="color:var(--teal)">saúde ocular.</em></h1><p>Leia os artigos sobre córnea, catarata, glaucoma, lentes de contato e outras questões da saúde ocular.</p></div></section>
-<section class="section"><div class="container"><div class="searchbar"><input type="search" data-filter-input aria-label="Buscar artigos" placeholder="Buscar um artigo..." /></div><p class="result-count" data-result-count>{articles.length} resultados</p>
-<div class="grid-3">{articles.map(item=><a class="card" href={"/"+item.data.slug+"/"} data-search={item.data.title+" "+item.data.slug}><img class="card-img" src={deliveryImage(pics[item.data.slug]||"/media/clinic/oftalmologia.jpeg")} alt="" width="380" height="220" loading="lazy" /><div class="card-body"><span class="card-tag">Orientações e saúde ocular</span><h3>{item.data.title}</h3><span class="text-link">Ler artigo <span aria-hidden="true">→</span></span></div></a>)}</div>
-</div></section>
+<Layout title="Artigos e saúde ocular" description="Artigos informativos sobre catarata, ceratocone, glaucoma, lentes de contato e outras dúvidas de saúde ocular com o Dr. Lucas Carazza.">
+  <div class="reading-editorial">
+    <section class="ri-hero">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Caminho de navegação"><a href="/">Início</a><span>/</span> Artigos</nav>
+        <p class="ri-label">SAÚDE OCULAR / ARTIGOS</p>
+        <h1>Entender faz <em>diferença.</em></h1>
+        <p>Recebeu um diagnóstico ou quer esclarecer uma dúvida sobre a visão? Explore informações sobre condições oftalmológicas, exames e tratamentos.</p>
+      </div>
+    </section>
+    <section class="ri-body" aria-labelledby="ri-article-list">
+      <div class="container">
+        <div class="ri-tools">
+          <div><p class="ri-label">LEITURAS</p><h2 id="ri-article-list">Artigos disponíveis</h2></div>
+          <div class="ri-search">
+            <label for="ri-search">Buscar por assunto</label>
+            <input id="ri-search" type="search" data-filter-input placeholder="Ex.: catarata, glaucoma, lentes..." autocomplete="off" />
+            <p data-result-count class="result-count" aria-live="polite">{articles.length} artigos</p>
+          </div>
+        </div>
+        <ol class="ri-list">
+          {articles.map((item,index)=>
+            <li data-search={item.data.title+" "+item.data.slug}>
+              <a href={"/"+item.data.slug+"/"}>
+                <span class="ri-number">{String(index+1).padStart(2,"0")}</span>
+                <span class="ri-article-title">{item.data.title}</span>
+                <span class="ri-read">Ler artigo <span aria-hidden="true">↗</span></span>
+              </a>
+            </li>
+          )}
+        </ol>
+        <p class="ri-endnote">Os artigos são informativos e não substituem a consulta médica.</p>
+      </div>
+    </section>
+  </div>
 </Layout>
