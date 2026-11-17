@@ -21,6 +21,12 @@ const selected=[
   {title:"Cirurgia refrativa: conheça as possibilidades",href:"/cirurgia-refrativa/",meta:"Cirurgias"},
   {title:"Catarata: dúvidas sobre cirurgia e lentes",href:"/catarata-cirurgia/",meta:"Catarata"}
 ];
+
+const legacyTips=[
+ {title:"Dicas para te ajudar a escolher seus óculos",excerpt:"O que considerar na escolha de uma armação.",href:"/dica-oculos/",image:"/media/clinic/dicas1.png",alt:"Óculos e armações"},
+ {title:"Como escolher sua lente para cirurgia de catarata?",excerpt:"Entenda as opções de lentes intraoculares para conversar com seu médico.",href:"/lentes/",image:"/media/clinic/dicas2.png",alt:"Imagem relacionada a lentes intraoculares"},
+ {title:"Consultas oftalmológicas de rotina na infância",excerpt:"Informações sobre o acompanhamento oftalmológico durante a infância.",href:"/dica-pediatria/",image:"/media/clinic/dicas3.jpg",alt:"Imagem relacionada a cuidados oculares infantis"}
+];
 ---
 <Layout title="Início" description="Dr. Lucas Carazza, médico oftalmologista CRM-MT 7823 e RQE 3253 em Tangará da Serra. Informações sobre córnea, ceratocone, catarata, cirurgia refrativa e saúde ocular.">
   <section class="doctor-hero">
@@ -82,6 +88,22 @@ const selected=[
     <div class="container">
       <div class="section-heading"><div><p class="eyebrow">Saúde ocular em linguagem acessível</p><h2 class="display">Informação para tomar <em>decisões mais conscientes.</em></h2><p>Conteúdos médicos do site original, preservados e organizados para facilitar a consulta.</p></div><a class="button button-secondary" href="/conteudos/">Explorar artigos <span aria-hidden="true">↗</span></a></div>
       <div class="doctor-articles">{selected.map((article,i)=><a href={article.href} class="doctor-article-card"><span class="card-tag">{article.meta}</span><h3>{article.title}</h3><span class="doctor-article-footer"><span>Leitura informativa</span><span aria-hidden="true">↗</span></span></a>)}</div>
+    </div>
+  </section>
+  <section class="section section-white" id="dicas">
+    <div class="container">
+      <div class="section-heading">
+        <div><p class="eyebrow">Dicas preservadas do site original</p>
+          <h2 class="display">Orientações para o <em>dia a dia.</em></h2>
+          <p>Os conteúdos que já faziam parte da página inicial continuam disponíveis, com os mesmos endereços de acesso.</p>
+        </div>
+      </div>
+      <div class="grid-3">
+        {legacyTips.map(tip=><a class="card" href={tip.href}>
+          <img class="card-img" src={tip.image} alt={tip.alt} width="380" height="205" loading="lazy"/>
+          <div class="card-body"><span class="card-tag">Dicas de saúde ocular</span><h3>{tip.title}</h3><p>{tip.excerpt}</p><span class="text-link">Ler conteúdo <span aria-hidden="true">→</span></span></div>
+        </a>)}
+      </div>
     </div>
   </section>
   <section class="section section-white" id="clinica">
