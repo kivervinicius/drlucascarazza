@@ -38,7 +38,7 @@ const selected=[
       </div>
       <div class="doctor-hero-visual">
         <div class="doctor-hero-backdrop" aria-hidden="true"></div>
-        <img class="doctor-portrait-primary" src="/media/doctor/hero.webp" alt="Retrato profissional do Dr. Lucas Carazza" width="768" height="871" fetchpriority="high" decoding="async" />
+        <img class="doctor-portrait-primary" src="/media/doctor/hero.png" alt="Retrato profissional do Dr. Lucas Carazza" width="1177" height="1337" fetchpriority="high" decoding="async" />
         <div class="doctor-hero-caption"><span class="doctor-hero-caption-kicker">Dr. Lucas Carazza</span><span>Oftalmologista · Tangará da Serra</span></div>
       </div>
     </div>
@@ -59,9 +59,9 @@ const selected=[
       </div>
     </div>
   </section>
-  <section class="section doctor-about-section">
+  <section class="section doctor-about-section" id="sobre-mim">
     <div class="container doctor-about-layout">
-      <div class="doctor-about-photo"><img src="/media/doctor/portrait.webp" alt="Segundo retrato profissional do Dr. Lucas Carazza" width="1120" height="1614" loading="lazy" decoding="async" /></div>
+      <div class="doctor-about-photo"><img src="/media/doctor/portrait.png" alt="Segundo retrato profissional do Dr. Lucas Carazza" width="1254" height="1254" loading="lazy" decoding="async" /></div>
       <div>
         <p class="eyebrow">O profissional por trás do atendimento</p>
         <h2 class="display">Conhecimento técnico, com <em>atenção às pessoas.</em></h2>
@@ -84,7 +84,7 @@ const selected=[
       <div class="doctor-articles">{selected.map((article,i)=><a href={article.href} class="doctor-article-card"><span class="card-tag">{article.meta}</span><h3>{article.title}</h3><span class="doctor-article-footer"><span>Leitura informativa</span><span aria-hidden="true">↗</span></span></a>)}</div>
     </div>
   </section>
-  <section class="section section-white">
+  <section class="section section-white" id="clinica">
     <div class="container doctor-local-layout">
       <div><p class="eyebrow">Onde o Dr. Lucas atende</p><h2 class="display">Seu atendimento em <em>Tangará da Serra.</em></h2><p>O Dr. Lucas realiza atendimentos no Instituto da Visão, na Avenida Presidente Tancredo de Almeida Neves, 1187-W, em frente ao Fórum Municipal.</p><a class="text-link" href="/sobre-a-clinica/">Endereço e informações de atendimento <span aria-hidden="true">↗</span></a></div>
       <div class="doctor-local-card"><p class="doctor-local-label">Local de atendimento</p><h3>Instituto da Visão</h3><p>{web.address}</p><a class="button button-secondary" href={"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(web.address)} target="_blank" rel="noopener noreferrer">Traçar rota <span aria-hidden="true">↗</span></a></div>
