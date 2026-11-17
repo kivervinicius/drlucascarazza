@@ -1,50 +1,69 @@
 ---
 import Layout from "../layouts/SiteLayout.astro";
-import {web} from "../lib/catalog";
-const education=[
-  {year:"Formação",title:"Medicina — UFMG",detail:"Graduação em Medicina pela Universidade Federal de Minas Gerais."},
-  {year:"Residência",title:"Oftalmologia — HC-UFMG",detail:"Residência médica em Oftalmologia pelo Hospital das Clínicas da UFMG."},
-  {year:"Complementar",title:"Córnea, catarata e cirurgia refrativa",detail:"Fellowship em córnea, catarata e cirurgia refrativa pelo Hospital das Clínicas da UFMG."},
-  {year:"Complementar",title:"Glaucoma e retina",detail:"Formação complementar em glaucoma e retina pelo Hospital das Clínicas da UFMG."},
-  {year:"Títulos",title:"Qualificação profissional",detail:"Título de especialista em Oftalmologia pelo MEC e pelo Conselho Brasileiro de Oftalmologia (CBO), conforme currículo divulgado pelo médico."}
+import "../styles/physician-editorial.css";
+import { web } from "../lib/catalog";
+
+const journey = [
+  {step:"01",stage:"GRADUAÇÃO",title:"Medicina",detail:"Universidade Federal de Minas Gerais (UFMG)."},
+  {step:"02",stage:"RESIDÊNCIA MÉDICA",title:"Oftalmologia",detail:"Hospital das Clínicas da Universidade Federal de Minas Gerais."},
+  {step:"03",stage:"FORMAÇÃO COMPLEMENTAR",title:"Córnea, catarata e cirurgia refrativa",detail:"Aprofundamento profissional nas áreas de córnea e procedimentos oftalmológicos, conforme currículo divulgado pelo médico."},
+  {step:"04",stage:"FORMAÇÃO COMPLEMENTAR",title:"Glaucoma e retina",detail:"Formação adicional nas áreas de glaucoma e retina, conforme currículo profissional."}
 ];
 ---
-<Layout title="O médico" description="Conheça o Dr. Lucas Carazza, médico oftalmologista CRM-MT 7823 e RQE 3253, formado pela UFMG e atuante em Tangará da Serra.">
-  <section class="page-hero"><div class="container">
-    <nav class="breadcrumbs" aria-label="Caminho de navegação"><a href="/">Início</a><span>/</span> O médico</nav>
-    <p class="eyebrow">Quem é o Dr. Lucas</p><h1 class="display">Dr. Lucas <em>Carazza.</em></h1>
-    <p>Graduado em Medicina pela UFMG e com residência em Oftalmologia pelo Hospital das Clínicas da UFMG, o Dr. Lucas atende em Tangará da Serra.</p>
-  </div></section>
-  <section class="section section-white">
-    <div class="container doctor-about-layout">
-      <div class="doctor-about-photo"><img src="/media/doctor/portrait.webp" alt="Retrato formal do Dr. Lucas Carazza com jaleco azul e fundo preto" width="1177" height="1337" decoding="async" /></div>
-      <div>
-        <p class="eyebrow">CRM-MT 7823 · RQE 3253</p>
-        <h2 class="display">Formação em <em>Oftalmologia.</em></h2>
-        <p>O Dr. Lucas Carazza graduou-se em Medicina pela Universidade Federal de Minas Gerais e realizou residência médica em Oftalmologia no Hospital das Clínicas da UFMG.</p>
-        <p>Sua formação complementar abrange córnea, catarata, cirurgia refrativa, glaucoma e retina.</p>
-        <div class="doctor-formations"><div><strong>CRM-MT 7823</strong><span>Registro no Conselho Regional de Medicina</span></div><div><strong>RQE 3253</strong><span>Registro de Qualificação de Especialista em Oftalmologia</span></div><div><strong>UFMG</strong><span>Graduação, residência e formação complementar</span></div></div>
-        <a class="button button-primary" href={web.whatsapp} target="_blank" rel="noopener noreferrer">Solicitar consulta <span aria-hidden="true">↗</span></a>
+<Layout title="O médico" description="Conheça a formação e a trajetória do Dr. Lucas Carazza, oftalmologista em Tangará da Serra, formado pela UFMG. CRM-MT 7823 e RQE 3253.">
+  <div class="physician-editorial">
+    <section class="pe-hero">
+      <div class="container pe-hero-layout">
+        <div class="pe-hero-copy">
+          <nav class="breadcrumbs" aria-label="Caminho de navegação"><a href="/">Início</a><span>/</span> O médico</nav>
+          <p class="pe-label">MÉDICO OFTALMOLOGISTA · TANGARÁ DA SERRA</p>
+          <h1>Dr. Lucas <span>Carazza.</span></h1>
+          <p class="pe-hero-lead">Conheça a formação e as áreas de atuação do médico responsável pelo seu atendimento oftalmológico.</p>
+          <div class="pe-records"><span>CRM-MT 7823</span><span>RQE 3253</span></div>
+        </div>
+        <div class="pe-hero-image">
+          <img src="/media/doctor/portrait-neutral.webp" alt="Retrato profissional do Dr. Lucas Carazza" width="720" height="1244" loading="eager" decoding="async"/>
+        </div>
       </div>
-    </div>
-  </section>
-  <section class="section section-soft">
-    <div class="container">
-      <div class="section-heading"><div><p class="eyebrow">Formação profissional</p><h2 class="display">Trajetória e <em>qualificações.</em></h2><p>Graduação, residência e formação complementar documentadas em sua trajetória profissional.</p></div></div>
-      <div class="grid-2">{education.map(item=><div class="card" style="padding:27px"><span class="card-tag">{item.year}</span><h3 style="margin:12px 0">{item.title}</h3><p style="font-size:14px;line-height:1.8;margin:0">{item.detail}</p></div>)}</div>
-    </div>
-  </section>
-  <section class="section section-white">
-    <div class="container split">
-      <div>
-        <p class="eyebrow">Atuação</p>
-        <h2 class="display">Córnea, catarata, <em>glaucoma e retina.</em></h2>
-        <p>As principais áreas de atuação divulgadas incluem córnea e ceratocone, catarata, cirurgia refrativa, glaucoma e adaptação de lentes de contato.</p>
-        <p>As páginas de exames e tratamentos explicam procedimentos oftalmológicos e orientações relacionadas a essas áreas. Confirme a disponibilidade diretamente com a equipe.</p>
-        <a class="button button-secondary" href="/tratamentos/">Conhecer os tratamentos <span aria-hidden="true">→</span></a>
+    </section>
+    <section class="pe-intro">
+      <div class="container pe-intro-layout">
+        <p class="pe-section-label">01 / A TRAJETÓRIA</p>
+        <div>
+          <h2>Formação construída na <em>Universidade Federal de Minas Gerais.</em></h2>
+          <p>O Dr. Lucas Carazza graduou-se em Medicina pela UFMG e realizou residência médica em Oftalmologia no Hospital das Clínicas da mesma universidade. Sua formação inclui também estudos complementares em córnea, catarata, cirurgia refrativa, glaucoma e retina.</p>
+          <p>Essas informações ajudam você a conhecer o histórico profissional do médico antes de agendar sua consulta.</p>
+        </div>
       </div>
-      <div class="doctor-about-photo doctor-about-photo--portrait"><img src="/media/doctor/portrait-secondary.webp" alt="Dr. Lucas Carazza junto a equipamento de exame oftalmológico" width="1254" height="1254" loading="lazy" /></div>
-    </div>
-  </section>
-  <section class="cta-band"><div class="container"><div><p class="eyebrow" style="color:#9ddae4">Contato com a equipe</p><h2 class="display">Quer agendar sua consulta?</h2><p>Entre em contato para informações sobre atendimento e horários disponíveis.</p></div><a class="button" href={web.whatsapp} target="_blank" rel="noopener noreferrer">Conversar pelo WhatsApp <span aria-hidden="true">↗</span></a></div></section>
+    </section>
+    <section class="pe-journey">
+      <div class="container pe-journey-layout">
+        <div>
+          <p class="pe-section-label">02 / FORMAÇÃO</p>
+          <h2>Da graduação à <em>prática oftalmológica.</em></h2>
+        </div>
+        <div class="pe-journey-list">
+          {journey.map(item =>
+            <div class="pe-journey-row">
+              <span class="pe-journey-index">{item.step}</span>
+              <div><small>{item.stage}</small><h3>{item.title}</h3><p>{item.detail}</p></div>
+            </div>
+          )}
+          <div class="pe-professional-records"><strong>Oftalmologia</strong><span>Título de especialista informado no currículo profissional · CRM-MT 7823 · RQE 3253</span></div>
+        </div>
+      </div>
+    </section>
+    <section class="pe-areas">
+      <div class="container pe-areas-inner">
+        <div><p class="pe-section-label">03 / ÁREAS DE ATUAÇÃO</p><h2>Córnea, catarata, <em>cirurgia refrativa e glaucoma.</em></h2></div>
+        <div><p>Saiba mais sobre condições e procedimentos oftalmológicos. A indicação de exames ou tratamentos é individualizada, conforme a avaliação de cada paciente.</p><a class="pe-text-link" href="/tratamentos/">Conhecer procedimentos <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+    <section class="pe-contact">
+      <div class="container pe-contact-inner">
+        <div><p class="pe-section-label">CONTATO E AGENDAMENTO</p><h2>Quer solicitar uma consulta?</h2><p>A equipe informa horários e condições de atendimento pelo WhatsApp.</p></div>
+        <a class="pe-contact-button" href={web.whatsapp} target="_blank" rel="noopener noreferrer">Conversar pelo WhatsApp <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </div>
 </Layout>
