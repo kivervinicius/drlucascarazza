@@ -18,7 +18,7 @@ function copyFrom(relative, to) {
 }
 // Limpar somente os assets herdados. Os retratos e a logo do médico
 // são arquivos VERSIONADOS em public/media/doctor; nunca removê-los.
-for (const folder of ["clinic","exams","treatments","legacy"]) {
+for (const folder of ["clinic","exams","treatments","legacy","archive"]) {
   rmSync(join(media,folder),{recursive:true,force:true});
 }
 mkdirSync(media,{recursive:true});
@@ -26,6 +26,7 @@ copyFrom("src/components/images", join(media,"clinic"));
 copyFrom("src/components/Exames/images", join(media,"exams"));
 copyFrom("src/components/Tratamentos/images", join(media,"treatments"));
 copyFrom("src/images", join(media,"legacy"));
+copyFrom("src/components/Galleria/images", join(media,"archive"));
 
 // Original photos and article-local images stay in the repository.
 // Copy the original image directories to the root of the static site.
