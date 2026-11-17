@@ -274,3 +274,6 @@
 @media(prefers-reduced-motion:reduce){
   .ed-button,.ed-underlink,.ed-area-row,.ed-route,.ed-article-row{transition:none}
 }
+
+/* The Home already has an explicit consultation CTA. Avoid covering the portrait on mobile. */
+.editorial-site.editorial-home-page .floating-contact{display:none}
