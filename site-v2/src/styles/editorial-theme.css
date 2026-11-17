@@ -1,0 +1,137 @@
+/*
+ * Dr. Lucas Carazza — identidade editorial.
+ * Escopo: somente body.editorial-site da branch conceitual.
+ * Não alterar os conteúdos médicos nem as fotografias originais.
+ */
+body.editorial-site {
+  --navy:#1D374E;
+  --ink:#2B4250;
+  --teal:#527B83;
+  --blue-dark:#1D374E;
+  --cream:#F8F5EE;
+  --sand:#F8F5EE;
+  --radius:5px;
+  --shadow:none;
+  background:#FDFCFA;
+  color:var(--ink);
+}
+.editorial-site .topline{display:none}
+.editorial-site .site-header{
+  background:#1D374E;
+  border-bottom:1px solid rgba(255,255,255,.15);
+  box-shadow:none;
+  backdrop-filter:none;
+}
+.editorial-site .header-inner{min-height:86px;gap:24px}
+.editorial-site .brand-doctor{min-width:194px}
+.editorial-site .brand-doctor img{
+  width:190px;
+  height:70px;
+  max-height:72px;
+  object-fit:contain;
+  object-position:left center;
+}
+.editorial-site .main-nav{gap:23px}
+.editorial-site .main-nav a {
+  color:#DCE8E7;
+  font-size:12px;
+  font-weight:600;
+  letter-spacing:.01em;
+}
+.editorial-site .main-nav a:hover,
+.editorial-site .main-nav a.nav-current{color:white}
+.editorial-site .main-nav a.nav-current:after{
+  bottom:5px;height:1px;background:#D1DAD7;
+}
+.editorial-site .header-cta {
+  border-radius:2px;
+  color:#1D374E;
+  background:#F8F5EE;
+  border:1px solid #F8F5EE;
+  box-shadow:none;
+  min-height:43px;
+  padding:10px 16px;
+}
+.editorial-site .header-cta:hover{background:#fff;box-shadow:none;color:#1D374E}
+.editorial-site .mobile-menu summary{color:#fff}
+.editorial-site .mobile-menu nav {
+  border-radius:3px;
+  border-color:#D8E0DC;
+  background:#F8F5EE;
+  box-shadow:0 18px 40px rgba(18,43,59,.16);
+}
+.editorial-site .mobile-menu nav a:not(.button){color:#1D374E;border-radius:2px}
+.editorial-site .mobile-menu nav .button {
+  color:#fff;background:#1D374E;border-radius:2px;
+}
+.editorial-site .page-hero{
+  background:#F8F5EE;
+  padding:76px 0 62px;
+  border-bottom:1px solid #DFE5DF;
+}
+.editorial-site .page-hero h1 {
+  font:400 clamp(58px,6.2vw,96px)/1.03 "Instrument Serif",Georgia,serif;
+  letter-spacing:-.03em;
+  max-width:920px;
+}
+.editorial-site .page-hero p{color:#586E75;max-width:700px}
+.editorial-site .breadcrumbs{color:#607A83}
+.editorial-site .display{
+  font-family:"Instrument Serif",Georgia,serif;
+  font-weight:400;
+  letter-spacing:-.025em;
+}
+.editorial-site .display em {font-style:italic;font-weight:400;color:#60818A}
+.editorial-site .eyebrow{color:#5F7D82;font-size:11px;letter-spacing:.13em}
+.editorial-site .eyebrow:before{height:1px;background:#9B7D65}
+.editorial-site .section-soft{background:#F0F2ED}
+.editorial-site .section-white{background:#FDFCFA}
+.editorial-site .card,
+.editorial-site .list-card,
+.editorial-site .doctor-service-card,
+.editorial-site .doctor-article-card,
+.editorial-site .doctor-local-card{
+  border-radius:5px;
+  border-color:#DEE4DF;
+  box-shadow:none;
+}
+.editorial-site .card:hover,
+.editorial-site .doctor-service-card:hover,
+.editorial-site .doctor-article-card:hover{transform:translateY(-2px);box-shadow:0 8px 25px rgba(31,54,63,.055)}
+.editorial-site .card h3,
+.editorial-site .list-card h3{letter-spacing:-.022em;color:#1D374E}
+.editorial-site .button {border-radius:3px;box-shadow:none}
+.editorial-site .button:hover{box-shadow:none}
+.editorial-site .button-primary{background:#1D374E}
+.editorial-site .button-primary:hover{background:#2D5268}
+.editorial-site .button-secondary{background:#FDFCFA;border-color:#B5C5C7}
+.editorial-site .searchbar input{border-radius:4px;box-shadow:none}
+.editorial-site .searchbar input:focus{box-shadow:0 0 0 3px rgba(68,119,128,.15)}
+.editorial-site .footer{background:#172F3F;padding-top:65px}
+.editorial-site .footer-grid{gap:35px}
+.editorial-site .footer-brand b{letter-spacing:.04em}
+.editorial-site .footer-brand small{color:#BDD4D5}
+.editorial-site .footer h3{font:400 26px/1.15 "Instrument Serif",Georgia,serif;letter-spacing:0}
+.editorial-site .footer-bottom{border-color:#375464}
+.editorial-site .floating-contact {
+  border-radius:3px;
+  background:#1D374E;
+}
+@media(max-width:1200px){
+  .editorial-site .header-inner{gap:18px}
+  .editorial-site .main-nav{gap:14px}
+  .editorial-site .brand-doctor{min-width:172px}
+  .editorial-site .brand-doctor img{width:170px}
+}
+@media(max-width:1000px){
+  .editorial-site .header-inner{min-height:74px}
+  .editorial-site .mobile-menu nav{top:50px}
+}
+@media(max-width:720px){
+  .editorial-site .header-inner{min-height:67px}
+  .editorial-site .brand-doctor img{width:152px;height:61px}
+  .editorial-site .brand-doctor{min-width:0}
+  .editorial-site .page-hero{padding:50px 0 42px}
+  .editorial-site .page-hero h1{font-size:clamp(49px,12vw,67px)}
+  .editorial-site .footer{padding-bottom:98px}
+}
