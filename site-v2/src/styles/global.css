@@ -302,3 +302,168 @@ h1{font-size:clamp(45px,5vw,78px)}h2{font-size:clamp(32px,3.5vw,52px)}h3{font-si
 @media(max-width:430px){
   .doctor-hero-visual{min-height:355px}
 }
+
+
+/* Doctor photo presentation: CSS adjusts the frame, never the supplied photographs. */
+.doctor-hero-visual{
+  min-height:0;
+  align-self:center;
+  aspect-ratio:1/1;
+  background:#eef3f2;
+  border-radius:150px 24px 24px 24px;
+  overflow:hidden;
+}
+.doctor-portrait-primary{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center center;
+  filter:none;
+}
+.doctor-hero-caption{bottom:18px;left:18px;right:auto}
+.doctor-hero-layout{min-height:630px}
+.doctor-about-photo{
+  aspect-ratio:1/1;
+  background:#eaeef0;
+  border-radius:24px;
+}
+.doctor-about-photo img{
+  object-fit:cover;
+  object-position:center;
+  filter:none;
+}
+.doctor-gallery-teaser{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:16px;
+}
+.doctor-gallery-teaser a{
+  display:block;
+  position:relative;
+  min-width:0;
+  overflow:hidden;
+  background:#e8ecee;
+  aspect-ratio:1/1;
+  border-radius:18px;
+  isolation:isolate;
+}
+.doctor-gallery-teaser a:last-child{background:#080909}
+.doctor-gallery-teaser img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+  transition:transform .25s ease;
+}
+.doctor-gallery-teaser a:hover img{transform:scale(1.035)}
+.doctor-gallery-teaser a span{
+  position:absolute;bottom:0;left:0;right:0;
+  padding:35px 17px 16px;
+  background:linear-gradient(transparent,rgba(0,0,0,.72));
+  color:white;font-weight:700;font-size:14px;
+}
+.doctor-photo-featured{
+  display:grid;
+  grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);
+  grid-template-rows:repeat(2,235px);
+  gap:16px;
+}
+.doctor-photo-card{
+  position:relative;
+  display:block;
+  min-width:0;
+  width:100%;
+  border:0;
+  border-radius:18px;
+  padding:0;
+  overflow:hidden;
+  background:#eaf0ed;
+  cursor:zoom-in;
+  text-align:left;
+}
+.doctor-photo-card:first-child{grid-row:span 2}
+.doctor-photo-card:last-child{background:#090909}
+.doctor-photo-card img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+  display:block;
+  transition:transform .25s ease;
+}
+.doctor-photo-card:hover img{transform:scale(1.025)}
+.doctor-photo-caption{
+  position:absolute;bottom:0;left:0;right:0;
+  padding:37px 19px 15px;
+  background:linear-gradient(transparent,rgba(0,0,0,.72));
+  color:#fff;font-size:14px;font-weight:700;
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+}
+.doctor-photo-caption span{font-size:20px}
+.doctor-photo-more{margin-top:24px;border:1px solid #d7e5e3;background:#f5f9f7;border-radius:16px;overflow:hidden}
+.doctor-photo-more summary{
+  display:flex;align-items:center;justify-content:space-between;gap:10px;
+  cursor:pointer;list-style:none;color:#174158;font-weight:700;
+  padding:18px 24px;font-size:14px;
+}
+.doctor-photo-more summary::-webkit-details-marker{display:none}
+.doctor-photo-more summary>span{font-size:22px;color:#23798a;line-height:1}
+.doctor-photo-more[open] summary>span{transform:rotate(45deg)}
+.doctor-photo-grid{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:12px;padding:0 16px 18px;
+}
+.doctor-photo-extra{aspect-ratio:4/3;border-radius:12px;min-height:0}
+.doctor-photo-extra:first-child{grid-row:auto}
+.doctor-photo-extra:last-child{background:#eaf0ed}
+.doctor-photo-extra .doctor-photo-caption{font-size:12px;padding:25px 11px 8px}
+.doctor-photo-viewer{
+  position:fixed;
+  inset:0;
+  width:min(96vw,1180px);
+  max-width:none;
+  height:min(96dvh,900px);
+  max-height:none;
+  padding:0;
+  border:0;
+  border-radius:18px;
+  background:#102635;
+  color:white;
+  box-shadow:0 24px 70px rgba(0,0,0,.35);
+}
+.doctor-photo-viewer::backdrop{background:rgba(4,14,23,.86)}
+.doctor-photo-viewer-toolbar{display:flex;align-items:center;justify-content:space-between;padding:12px 18px;font-size:14px}
+.doctor-photo-viewer button{
+  appearance:none;background:transparent;border:0;color:#fff;
+  font-size:16px;padding:10px 14px;cursor:pointer;border-radius:8px;
+}
+.doctor-photo-viewer button:hover{background:rgba(255,255,255,.12)}
+.doctor-photo-viewer-toolbar button{font-size:14px}
+.doctor-photo-viewer-body{
+  height:calc(100% - 63px);display:grid;
+  grid-template-columns:56px minmax(0,1fr) 56px;align-items:center;
+  justify-items:center;gap:5px;padding:4px 10px 16px;
+}
+.doctor-photo-viewer-body button{font-size:38px;line-height:1}
+.doctor-photo-viewer-body img{max-width:100%;max-height:100%;min-width:0;min-height:0;width:auto;height:auto;object-fit:contain}
+@media(max-width:720px){
+  .doctor-hero-layout{min-height:0}
+  .doctor-hero-visual{aspect-ratio:1/1;min-height:0;max-height:none;border-radius:95px 18px 18px 18px}
+  .doctor-portrait-primary{height:100%;width:100%;object-fit:cover}
+  .doctor-hero-caption{display:none}
+  .doctor-gallery-teaser{gap:9px}
+  .doctor-gallery-teaser a{border-radius:12px}
+  .doctor-gallery-teaser a span{font-size:11px;padding:20px 9px 9px}
+  .doctor-photo-featured{grid-template-columns:1fr 1fr;grid-template-rows:repeat(2,160px);gap:9px}
+  .doctor-photo-featured .doctor-photo-card:first-child{grid-column:span 2;grid-row:auto;aspect-ratio:1/1;max-height:400px}
+  .doctor-photo-caption{font-size:12px;padding:29px 12px 10px}
+  .doctor-photo-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;padding:0 10px 12px}
+  .doctor-photo-viewer{border-radius:0;width:100vw;height:100dvh}
+  .doctor-photo-viewer-body{grid-template-columns:40px minmax(0,1fr) 40px;gap:0;padding-inline:4px}
+  .doctor-photo-viewer-body button{padding:10px 5px}
+}
+@media(prefers-reduced-motion:reduce){
+  .doctor-gallery-teaser img,.doctor-photo-card img{transition:none}
+}
