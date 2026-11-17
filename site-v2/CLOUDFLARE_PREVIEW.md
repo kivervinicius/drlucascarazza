@@ -46,3 +46,14 @@ Esta configuração é mais segura para garantir que o script de migração leia
 
 - Build Astro previamente validado no GitHub Actions: 27 páginas geradas.
 - Deploy Cloudflare **não realizado**: painel inacessível no navegador conectado (`ERR_SOCKS_CONNECTION_FAILED`); credenciais e permissões Cloudflare não disponíveis.
+
+## Projeto Cloudflare Pages criado em 16/11/2026
+
+- Projeto independente: `drlucascarazza-preview`
+- Domínio padrão: `drlucascarazza-preview.pages.dev`
+- Branch: `refactor/astro-2026`
+- Root: `site-v2`
+- Build: `npm run build`
+- Diretório estático: `dist`
+- O projeto oficial `drlucascarazza` e seu domínio não foram alterados.
+- A URL só deve ser compartilhada após confirmar o primeiro deploy como `success` e testar as rotas principais.
