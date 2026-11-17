@@ -1,0 +1,1 @@
+# Separate Astro v2 package root. Cloudflare's Yarn autodetection must not use the legacy Gatsby root lockfile.
