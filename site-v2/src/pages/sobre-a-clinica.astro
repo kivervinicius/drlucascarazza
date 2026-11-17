@@ -4,7 +4,7 @@ import {web} from "../lib/catalog";
 const map="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(web.address);
 const featuredPhotos=[
   {src:"/media/doctor/consultation.webp",alt:"Dr. Lucas Carazza com modelo anatômico do olho",caption:"No consultório"},
-  {src:"/media/doctor/portrait.webp",alt:"Dr. Lucas Carazza ao lado de equipamento oftalmológico",caption:"No consultório"},
+  {src:"/media/doctor/portrait.webp",alt:"Dr. Lucas Carazza junto a equipamento oftalmológico",caption:"Atuação em oftalmologia"},
   {src:"/media/doctor/portrait-neutral.webp",alt:"Retrato profissional do Dr. Lucas Carazza",caption:"Dr. Lucas Carazza"}
 ];
 const additionalPhotos = [
@@ -58,7 +58,7 @@ const additionalPhotos = [
       <div data-photo-gallery>
         <div class="doctor-photo-featured">
           {featuredPhotos.map((photo,i)=><button type="button" class="doctor-photo-card" data-photo-index={i} aria-label={"Ampliar: "+photo.alt}>
-            <img src={photo.src} alt={photo.alt} width="1254" height="1254" loading="lazy" decoding="async" />
+            <img src={photo.src} alt={photo.alt} width="800" height="1000" loading="lazy" decoding="async" />
             <span class="doctor-photo-caption">{photo.caption} <span aria-hidden="true">↗</span></span>
           </button>)}
         </div>
