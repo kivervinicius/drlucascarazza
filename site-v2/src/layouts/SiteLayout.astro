@@ -4,9 +4,10 @@ import {web} from "../lib/catalog";
 interface Props {title:string; description?:string; eyebrow?:string;}
 const {title,description="Informações sobre oftalmologia, exames, doenças oculares e tratamentos com o Dr. Lucas Carazza em Tangará da Serra, MT.",eyebrow} = Astro.props;
 const nav = [
-  {label:"Início",url:"/"},{label:"O médico",url:"/o-medico/"},{label:"A clínica",url:"/sobre-a-clinica/"},
-  {label:"Exames",url:"/exames/"},{label:"Doenças oculares",url:"/doencas-oculares/"},
-  {label:"Tratamentos",url:"/tratamentos/"},{label:"Conteúdos",url:"/conteudos/"}
+  {label:"O médico",url:"/o-medico/"},{label:"Áreas de atuação",url:"/#areas-de-atuacao"},
+  {label:"Exames",url:"/exames/"},{label:"Doenças",url:"/doencas-oculares/"},
+  {label:"Tratamentos",url:"/tratamentos/"},{label:"Conteúdos",url:"/conteudos/"},
+  {label:"Onde atendo",url:"/sobre-a-clinica/"}
 ];
 const current = Astro.url.pathname.replace(/\/$/,"")||"/";
 const active=(url:string)=>current===(url.replace(/\/$/,"")||"/");
@@ -34,14 +35,13 @@ const mapLink="https://www.google.com/maps/search/?api=1&query="+encodeURICompon
 <body>
   <a class="skip-link" href="#principal">Ir para o conteúdo</a>
   <div class="topline"><div class="container topline-inner">
-    <span>Oftalmologia em Tangará da Serra, Mato Grosso</span>
+    <span>Dr. Lucas Carazza · CRM-MT 7823 · RQE 3253</span>
     <div class="topline-right"><a href={"tel:"+web.phone}>(65) 3326-5201</a><span class="topline-separator">•</span><a href={mapLink} target="_blank" rel="noopener noreferrer">Como chegar ↗</a></div>
   </div></div>
   <header class="site-header">
     <div class="container header-inner">
-      <a href="/" class="brand" aria-label="Dr. Lucas Carazza — início">
-        <img src="/media/clinic/logotipo03.jpeg" alt="" width="83" height="62" />
-        <span class="brand-name"><b>DR. LUCAS CARAZZA</b><small>OFTALMOLOGISTA</small></span>
+      <a href="/" class="brand brand-doctor" aria-label="Dr. Lucas Carazza — início">
+        <img src="/media/doctor/brand.webp" alt="Dr. Lucas Carazza — Oftalmologista" width="205" height="90" />
       </a>
       <nav class="main-nav" aria-label="Navegação principal">
         {nav.map(item=><a href={item.url} aria-current={active(item.url)?"page":undefined} class:list={{"nav-current":active(item.url)}}>{item.label}</a>)}
@@ -57,10 +57,10 @@ const mapLink="https://www.google.com/maps/search/?api=1&query="+encodeURICompon
   <footer class="footer">
     <div class="container">
       <div class="footer-grid">
-        <div><div class="footer-brand"><img src="/media/clinic/logotipo03.jpeg" width="72" height="52" alt="" /><span><b>DR. LUCAS CARAZZA</b><small>OFTALMOLOGISTA</small></span></div><p>Informação, atenção e cuidado para a saúde dos seus olhos.</p><div class="footer-social"><a href="https://instagram.com/drlucascarazza" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="https://www.facebook.com/drlucascarazza" target="_blank" rel="noopener noreferrer">Facebook ↗</a></div></div>
+        <div><div class="footer-brand"><span><b>DR. LUCAS CARAZZA</b><small>OFTALMOLOGISTA · CRM-MT 7823 · RQE 3253</small></span></div><p>Informação, atenção e cuidado para a saúde dos seus olhos.</p><div class="footer-social"><a href="https://instagram.com/drlucascarazza" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="https://www.facebook.com/drlucascarazza" target="_blank" rel="noopener noreferrer">Facebook ↗</a></div></div>
         <div><h3>Explore o site</h3><div class="footer-links">{nav.map(item=><a href={item.url}>{item.label}</a>)}</div></div>
         <div><h3>Contato</h3><div class="footer-links"><a href={"tel:"+web.cell}>(65) 9 9627-6197</a><a href={"tel:"+web.phone}>(65) 3326-5201</a><a href={"mailto:"+web.email}>{web.email}</a><a href={web.whatsapp} target="_blank" rel="noopener noreferrer">Conversar no WhatsApp ↗</a></div></div>
-        <div><h3>Onde estamos</h3><address>{web.address}</address><a class="footer-map" href={mapLink} target="_blank" rel="noopener noreferrer">Abrir rota no Google Maps ↗</a></div>
+        <div><h3>Local de atendimento</h3><address>{web.address}</address><p style="font-size:12px;margin:0 0 8px">Atendimento no Instituto da Visão.</p><a class="footer-map" href={mapLink} target="_blank" rel="noopener noreferrer">Abrir rota no Google Maps ↗</a></div>
       </div>
       <div class="footer-bottom"><span>© {new Date().getFullYear()} Dr. Lucas Carazza. Todos os direitos reservados.</span><span>Informações educativas não substituem avaliação médica individual.</span></div>
     </div>
