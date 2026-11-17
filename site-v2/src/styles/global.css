@@ -171,3 +171,92 @@ h1{font-size:clamp(45px,5vw,78px)}h2{font-size:clamp(32px,3.5vw,52px)}h3{font-si
 .doctor-faq-list details p{font-size:14px;line-height:1.8;margin:14px 28px 0 0}
 .doctor-faq-list details a{color:#0d6c7d;text-decoration:underline}
 @media(max-width:720px){.doctor-faq-layout{grid-template-columns:1fr;gap:25px}}
+
+
+/* Refinamento pontual 2026-11: contraste da logo e encaixe dos retratos.
+   A marca é transparente, com lettering branco: necessita fundo escuro no header.
+   Nenhuma cor/tipografia das seções internas foi modificada. */
+.site-header {
+  background: #1d374e;
+  border-bottom: 1px solid rgba(255,255,255,.12);
+  box-shadow: 0 3px 14px rgba(14,41,59,.08);
+  backdrop-filter: none;
+}
+.topline { background:#102b3d; }
+.header-inner { min-height: 94px; }
+.brand-doctor { min-width: 230px; }
+.brand-doctor img {
+  width: 222px;
+  height: 85px;
+  max-height: none;
+  object-fit: contain;
+  object-position: left center;
+}
+.main-nav a { color: #e9f1f4; }
+.main-nav a:hover,
+.main-nav a.nav-current { color: #a4e5ed; }
+.main-nav .nav-current:after { background: #81cbda; }
+.header-cta {
+  background: #f4fafb;
+  color: #193c50;
+  box-shadow: none;
+  border: 1px solid #d9edf0;
+}
+.header-cta:hover {
+  background: #fff;
+  color: #15354a;
+  box-shadow: 0 4px 15px rgba(0,0,0,.13);
+}
+.mobile-menu summary { color:#fff; }
+.mobile-menu nav { color:#15384a; }
+.mobile-menu nav a:not(.button) { color:#203b4c; }
+
+/* O retrato com transparência usa o fundo editorial da própria seção.
+   Sem background artificial e sem cortar fisionomia ou vestimenta. */
+.doctor-hero-visual { overflow:hidden; }
+.doctor-hero-backdrop {
+  background:linear-gradient(160deg,#eff8f4 0%,#d5e8e5 100%);
+  border-color:#bddad6;
+}
+.doctor-portrait-primary {
+  display:block;
+  height:min(630px,100%);
+  width:100%;
+  object-fit:contain;
+  object-position:center bottom;
+}
+/* Fotografia de consultório: aproveita a imagem inteira na área útil
+   e evita laterais vazias, com corte apenas de cenário. */
+.doctor-about-photo {
+  max-width:490px;
+  width:100%;
+  height:auto;
+  aspect-ratio:4/5;
+  align-self:center;
+}
+.doctor-about-photo img {
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:63% 52%;
+}
+@media(max-width:1200px){
+  .brand-doctor{min-width:190px}
+  .brand-doctor img{width:190px;height:78px}
+}
+@media(max-width:1000px){
+  .mobile-menu nav { box-shadow:0 15px 35px rgba(11,32,42,.16); }
+}
+@media(max-width:720px){
+  .header-inner{min-height:74px}
+  .brand-doctor{min-width:0}
+  .brand-doctor img{width:168px;height:70px}
+  .doctor-hero-visual{min-height:390px}
+  .doctor-portrait-primary{height:430px}
+  .doctor-about-photo{max-width:440px;aspect-ratio:4/5;height:auto}
+}
+@media(max-width:390px){
+  .brand-doctor img{width:146px;height:62px}
+  .doctor-portrait-primary{height:365px}
+}
