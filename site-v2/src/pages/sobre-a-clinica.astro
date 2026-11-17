@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/SiteLayout.astro";
 import {web} from "../lib/catalog";
+import {deliveryImage} from "../lib/images";
 const map="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(web.address);
 const featuredPhotos=[
   {src:"/media/doctor/hero.webp",alt:"Dr. Lucas Carazza com modelo anatômico do olho no consultório",caption:"No consultório"},
@@ -58,7 +59,7 @@ const additionalPhotos = [
       <div data-photo-gallery>
         <div class="doctor-photo-featured">
           {featuredPhotos.map((photo,i)=><button type="button" class="doctor-photo-card" data-photo-index={i} aria-label={"Ampliar: "+photo.alt}>
-            <img src={photo.src} alt={photo.alt} width="800" height="1000" loading="lazy" decoding="async" />
+            <img src={deliveryImage(photo.src)} alt={photo.alt} width="800" height="1000" loading="lazy" decoding="async" />
             <span class="doctor-photo-caption">{photo.caption} <span aria-hidden="true">↗</span></span>
           </button>)}
         </div>
@@ -66,7 +67,7 @@ const additionalPhotos = [
           <summary>Ver acervo fotográfico anterior <span aria-hidden="true">+</span></summary>
           <div class="doctor-photo-grid">
             {additionalPhotos.map((photo,i)=><button type="button" class="doctor-photo-card doctor-photo-extra" data-photo-index={i+featuredPhotos.length} aria-label={"Ampliar: "+photo.alt}>
-              <img src={photo.src} alt={photo.alt} width="480" height="360" loading="lazy" decoding="async"/>
+              <img src={deliveryImage(photo.src)} alt={photo.alt} width="480" height="360" loading="lazy" decoding="async"/>
               <span class="doctor-photo-caption">Ver fotografia <span aria-hidden="true">↗</span></span>
             </button>)}
           </div>
