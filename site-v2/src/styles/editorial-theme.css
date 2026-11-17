@@ -136,3 +136,9 @@ body.editorial-site {
   .editorial-site .page-hero h1{font-size:clamp(49px,12vw,67px)}
   .editorial-site .footer{padding-bottom:98px}
 }
+
+/* Avoid intrinsic-width overflow from the long professional registration in the footer. */
+.editorial-site .footer-grid>div{min-width:0}
+.editorial-site .footer-brand{min-width:0}
+.editorial-site .footer-brand span{white-space:normal;min-width:0;max-width:100%;overflow-wrap:anywhere}
+.editorial-site .footer-brand small{line-height:1.55;letter-spacing:.10em}
