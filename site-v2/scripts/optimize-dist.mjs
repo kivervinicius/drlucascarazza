@@ -25,6 +25,7 @@ await visit(dist);
 const images = files.filter(path => /\.(jpe?g|png)$/i.test(path) &&
   !path.endsWith(join("media", "doctor", "hero.png")));
 const mapping = new Map();
+const reservedPaths = new Set(files);
 const stats = { converted: 0, unchanged: 0, inputBytes: 0, outputBytes: 0 };
 let cursor = 0;
 
@@ -37,7 +38,8 @@ async function optimize(path) {
       stats.unchanged++; return;
     }
     const outfile = path.replace(/\.(jpe?g|png)$/i, ".webp");
-    if (outfile === path || files.includes(outfile)) { stats.unchanged++; return; }
+    if (outfile === path || reservedPaths.has(outfile)) { stats.unchanged++; return; }
+    reservedPaths.add(outfile);
     const processed = await sharp(path).rotate()
       .resize({ width: 1600, height: 1600, fit: "inside", withoutEnlargement: true })
       .webp({ quality: 82, alphaQuality: 100, effort: 4 }).toBuffer();
