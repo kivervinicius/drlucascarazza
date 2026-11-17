@@ -3,9 +3,9 @@ import Layout from "../layouts/SiteLayout.astro";
 import {exams,web} from "../lib/catalog";
 const total=exams.reduce((n,g)=>n+g.items.length,0);
 ---
-<Layout title="Exames oftalmológicos" description="Conheça os exames oftalmológicos do consultório Dr. Lucas Carazza em Tangará da Serra, MT.">
-<section class="page-hero"><div class="container"><nav class="breadcrumbs" aria-label="Caminho de navegação"><a href="/">Início</a><span>/</span> Exames</nav><p class="eyebrow">Consultas e diagnóstico</p><h1 class="display">Exames <em style="color:var(--teal)">oftalmológicos.</em></h1><p>Encontre informações sobre exames oftalmológicos, desde avaliação do grau até exames de córnea, glaucoma e retina.</p></div></section>
-<section class="section"><div class="container"><div class="searchbar"><input type="search" data-filter-input aria-label="Buscar exames" placeholder="Buscar um exame ou assunto..." /></div><p class="result-count" data-result-count>{total} resultados</p>
+<Layout title="Exames oftalmológicos" description="Informações sobre exames oftalmológicos reunidas no site do Dr. Lucas Carazza, em Tangará da Serra, MT.">
+<section class="page-hero"><div class="container"><nav class="breadcrumbs" aria-label="Caminho de navegação"><a href="/">Início</a><span>/</span> Exames</nav><p class="eyebrow">Consultas e diagnóstico</p><h1 class="display">Exames <em style="color:var(--teal)">oftalmológicos.</em></h1><p>Consulte as descrições dos exames abordados no site, organizados por área. Confirme diretamente com a equipe a disponibilidade de cada exame.</p></div></section>
+<section class="section"><div class="container"><div class="searchbar"><input type="search" data-filter-input aria-label="Buscar exames" placeholder="Buscar um exame ou assunto..." /></div><p class="result-count" data-result-count>{total} exames</p>
 {exams.map(group=><section class="group-section" data-group><h2 class="display">{group.title} <span>{group.items.length} itens</span></h2><div class="grid-3">{group.items.map(item=><article class="list-card" data-search={item.name+" "+item.nikName}>{item.img&&typeof item.img==="string"?<img src={item.img} width="380" height="190" loading="lazy" alt={"Exame oftalmológico: "+item.name}/>:null}<div class="list-card-main"><span class="card-tag">Exame oftalmológico</span><h3>{item.name}</h3><p>{String(item.nikName).slice(0,155)}{String(item.nikName).length>155?"…":""}</p></div><details><summary>Entenda este exame</summary>
   <div class="catalog-details">
     <p>{item.nikName}</p>
@@ -13,5 +13,5 @@ const total=exams.reduce((n,g)=>n+g.items.length,0);
     {item.url&&typeof item.url==="string"&&/^https?:\/\//.test(item.url)?<a href={item.url} target="_blank" rel="noopener noreferrer" class="text-link">Mais detalhes sobre o exame ↗</a>:null}
   </div>
 </details></article>)}</div></section>)}
-<div class="article-bottom"><h3>Fale com o consultório</h3><p>Para informações sobre consultas e exames, entre em contato com a equipe do Dr. Lucas.</p><a class="button button-primary" href={web.whatsapp} target="_blank" rel="noopener noreferrer">Entrar em contato ↗</a></div></div></section>
+<div class="article-bottom"><h3>Fale com o consultório</h3><p>A equipe pode informar sobre consultas e disponibilidade de exames.</p><a class="button button-primary" href={web.whatsapp} target="_blank" rel="noopener noreferrer">Entrar em contato ↗</a></div></div></section>
 </Layout>
