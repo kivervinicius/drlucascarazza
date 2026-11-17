@@ -3,9 +3,9 @@ import Layout from "../layouts/SiteLayout.astro";
 import {web} from "../lib/catalog";
 const map="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(web.address);
 const featuredPhotos=[
-  {src:"/media/doctor/consultation.webp",alt:"Dr. Lucas Carazza com modelo anatômico do olho",caption:"No consultório"},
-  {src:"/media/doctor/portrait.webp",alt:"Dr. Lucas Carazza junto a equipamento oftalmológico",caption:"Atuação em oftalmologia"},
-  {src:"/media/doctor/portrait-neutral.webp",alt:"Retrato profissional do Dr. Lucas Carazza",caption:"Dr. Lucas Carazza"}
+  {src:"/media/doctor/hero.webp",alt:"Dr. Lucas Carazza com modelo anatômico do olho no consultório",caption:"No consultório"},
+  {src:"/media/doctor/portrait-secondary.webp",alt:"Dr. Lucas Carazza junto a equipamento oftalmológico",caption:"Exames oftalmológicos"},
+  {src:"/media/doctor/portrait.webp",alt:"Retrato formal do Dr. Lucas Carazza com fundo preto",caption:"Dr. Lucas Carazza"}
 ];
 const additionalPhotos = [
   ...["Dr3.jpg","Dr12.jpg","Dr13.jpg","Dr18.jpg","Dr19.jpg","Dr20.jpg","Dr28.jpg","D1.jpg","D2.jpg","D3.jpg","D4.jpg"]
@@ -42,7 +42,7 @@ const additionalPhotos = [
   </section>
   <section class="section section-soft">
     <div class="container split">
-      <div class="doctor-about-photo" style="height:auto;border-radius:22px"><img src="/media/doctor/portrait.webp" width="1254" height="1254" alt="Dr. Lucas Carazza, médico oftalmologista" loading="lazy" /></div>
+      <div class="doctor-about-photo" style="height:auto;border-radius:22px"><img src="/media/doctor/portrait-secondary.webp" width="1254" height="1254" alt="Dr. Lucas Carazza junto ao aparelho de exame oftalmológico" loading="lazy" /></div>
       <div><p class="eyebrow">Seu médico</p><h2 class="display">Conheça o Dr. Lucas <em>Carazza.</em></h2><p>Graduado em Medicina e com residência médica em Oftalmologia pela UFMG, o Dr. Lucas possui formação complementar em córnea, catarata, cirurgia refrativa, glaucoma e retina.</p><a class="button button-secondary" href="/o-medico/">Conhecer o médico <span aria-hidden="true">↗</span></a></div>
     </div>
   </section>
@@ -52,7 +52,7 @@ const additionalPhotos = [
         <div>
           <p class="eyebrow">Dr. Lucas Carazza</p>
           <h2 class="display">Conheça o Dr. Lucas <em>em imagens.</em></h2>
-          <p>Retratos do médico e fotografias preservadas do site anterior. Algumas imagens representam registros históricos.</p>
+          <p>Fotografias atuais do Dr. Lucas, com acesso opcional ao acervo de imagens do site anterior.</p>
         </div>
       </div>
       <div data-photo-gallery>
@@ -63,7 +63,7 @@ const additionalPhotos = [
           </button>)}
         </div>
         <details class="doctor-photo-more">
-          <summary>Ver fotografias do acervo anterior <span aria-hidden="true">+</span></summary>
+          <summary>Ver acervo fotográfico anterior <span aria-hidden="true">+</span></summary>
           <div class="doctor-photo-grid">
             {additionalPhotos.map((photo,i)=><button type="button" class="doctor-photo-card doctor-photo-extra" data-photo-index={i+featuredPhotos.length} aria-label={"Ampliar: "+photo.alt}>
               <img src={photo.src} alt={photo.alt} width="480" height="360" loading="lazy" decoding="async"/>
