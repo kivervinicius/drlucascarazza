@@ -1,0 +1,147 @@
+/*
+  Home editorial compacta — estilos exclusivos da página inicial.
+  Não reutilizar estilos legados doctor-hero* para evitar regressões de
+  enquadramento da fotografia. O retrato é um WebP com alfa verdadeiro.
+*/
+.home-hero {
+  overflow: hidden;
+  background: linear-gradient(117deg, #f4f8f6 0%, #f6f9f7 47%, #e3efed 100%);
+}
+.home-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, .92fr);
+  align-items: center;
+  gap: clamp(20px, 4vw, 62px);
+  min-height: 560px;
+}
+.home-hero-content { padding: 66px 0 84px; position: relative; z-index: 1; }
+.home-hero .eyebrow { margin: 0 0 25px; }
+.home-hero h1 {
+  max-width: 675px;
+  margin: 0 0 24px;
+  font-size: clamp(46px, 5.1vw, 76px);
+  line-height: 1.08;
+  letter-spacing: -.045em;
+}
+.home-hero h1 em { color: #1c7888; font-style: italic; }
+.home-hero-lead { max-width: 530px; color: #4a6671; font-size: 17px; line-height: 1.77; margin: 0 0 27px; }
+.home-hero-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; }
+.home-hero-caption { margin: 22px 0 0; font-size: 12px; font-weight: 700; letter-spacing: .015em; color: #55727b; }
+.home-visual {
+  position: relative;
+  align-self: stretch;
+  min-width: 0;
+  min-height: 520px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  isolation: isolate;
+}
+.home-visual:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 10% 4% 7%;
+  background: linear-gradient(140deg, #e8f4f1 0%, #cae1dd 100%);
+  border: 1px solid #cee2de;
+  border-radius: 240px 240px 24px 24px;
+}
+.home-visual img {
+  display: block;
+  width: 100%;
+  height: min(535px, 100%);
+  max-width: 510px;
+  object-fit: contain;
+  object-position: center bottom;
+  filter: none;
+  transform: translateY(2px);
+}
+.home-shortcuts {
+  margin-top: -27px;
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 15px;
+}
+.home-shortcut {
+  min-width: 0;
+  padding: 23px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #fff;
+  border: 1px solid #dce8e7;
+  border-radius: 17px;
+  box-shadow: 0 12px 38px rgba(15, 65, 73, .055);
+  transition: transform .2s ease, border-color .2s ease;
+}
+.home-shortcut:hover { transform: translateY(-3px); border-color: #90c9d0; }
+.home-shortcut-number {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  background: #eaf4f4;
+  color: #217688;
+  font-weight: 800;
+  font-size: 12px;
+}
+.home-shortcut-content { flex: 1; min-width: 0; }
+.home-shortcut strong { display: block; color: #17364b; font-size: 16px; line-height: 1.35; }
+.home-shortcut small { display: block; color: #687e87; margin-top: 2px; font-size: 12px; line-height: 1.5; }
+.home-shortcut-arrow { color: #157485; font-size: 20px; flex: none; }
+.home-about { padding: 78px 0 66px; }
+.home-about-grid { display: grid; grid-template-columns: minmax(0, .86fr) minmax(0, 1.14fr); gap: 9%; align-items: center; }
+.home-about h2 { font-size: clamp(30px, 3.4vw, 48px); margin: 16px 0 0; }
+.home-about h2 em { color: #1c7888; }
+.home-about-text p { color: #56707b; font-size: 16px; line-height: 1.8; margin: 0 0 19px; }
+.home-contact { padding: 37px 0; background: #19384c; color: #fff; }
+.home-contact-inner { display: flex; justify-content: space-between; align-items: center; gap: 28px; }
+.home-contact h2 { margin: 0 0 7px; color: #fff; font-size: clamp(24px, 2.4vw, 34px); letter-spacing: -.025em; }
+.home-contact p { margin: 0; color: #d0e1e4; font-size: 13px; }
+.home-contact .button { flex: none; background: #f6fbfb; color: #19384c; }
+.home-contact .button:hover { background: #fff; }
+@media (max-width: 960px) {
+  .home-hero-grid { grid-template-columns: 1fr 1fr; min-height: 500px; gap: 10px; }
+  .home-hero-content { padding: 55px 0 70px; }
+  .home-hero h1 { font-size: clamp(40px, 5vw, 58px); }
+  .home-visual { min-height: 470px; }
+  .home-visual img { height: 450px; }
+  .home-shortcut { padding: 18px; gap: 10px; }
+  .home-shortcut strong { font-size: 14px; }
+  .home-about-grid { gap: 5%; }
+}
+@media (max-width: 720px) {
+  .home-hero-grid { display: flex; flex-direction: column; align-items: stretch; min-height: 0; gap: 0; }
+  .home-hero-content { padding: 46px 0 10px; }
+  .home-hero .eyebrow { margin-bottom: 17px; font-size: 10px; letter-spacing: .11em; }
+  .home-hero h1 { font-size: clamp(42px, 10vw, 57px); margin-bottom: 17px; max-width: 540px; }
+  .home-hero-lead { font-size: 15px; margin-bottom: 22px; }
+  .home-hero-caption { margin-top: 14px; }
+  .home-hero-actions .button { font-size: 12px; }
+  .home-visual { min-height: 0; height: 320px; width: min(100%, 440px); margin: 5px auto 21px; }
+  .home-visual:before { inset: 9% 11% 2%; border-radius: 145px 145px 15px 15px; }
+  .home-visual img { height: 100%; max-width: 350px; object-fit: contain; object-position: center bottom; }
+  .home-shortcuts { margin-top: -17px; grid-template-columns: 1fr; gap: 9px; }
+  .home-shortcut { padding: 15px 17px; }
+  .home-shortcut-number { width: 40px; height: 40px; }
+  .home-shortcut strong { font-size: 15px; }
+  .home-about { padding: 53px 0 49px; }
+  .home-about-grid { grid-template-columns: 1fr; gap: 19px; }
+  .home-about h2 { font-size: 35px; }
+  .home-about-text p { font-size: 15px; }
+  .home-contact { padding: 34px 0; }
+  .home-contact-inner { flex-direction: column; align-items: flex-start; gap: 18px; }
+  .home-contact .button { width: 100%; }
+}
+@media (max-width: 390px) {
+  .home-hero h1 { font-size: 40px; }
+  .home-hero-actions { gap: 8px; }
+  .home-visual { height: 285px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .home-shortcut { transition: none; }
+}
