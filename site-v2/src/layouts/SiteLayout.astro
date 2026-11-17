@@ -3,8 +3,8 @@ import "../styles/global.css";
 import "../styles/doctor-photos.css";
 import "../styles/editorial-theme.css";
 import {web} from "../lib/catalog";
-interface Props {title:string; description?:string; eyebrow?:string;}
-const {title,description="Informações sobre oftalmologia, exames, doenças oculares e tratamentos com o Dr. Lucas Carazza em Tangará da Serra, MT.",eyebrow} = Astro.props;
+interface Props {title:string; description?:string; eyebrow?:string; home?:boolean;}
+const {title,description="Informações sobre oftalmologia, exames, doenças oculares e tratamentos com o Dr. Lucas Carazza em Tangará da Serra, MT.",eyebrow,home=false} = Astro.props;
 const nav = [
   {label:"O médico",url:"/o-medico/"},{label:"Áreas de atuação",url:"/#areas-de-atuacao"},
   {label:"Exames",url:"/exames/"},{label:"Tratamentos",url:"/tratamentos/"},
@@ -38,7 +38,7 @@ const shareImage=shareOrigin+"/media/doctor/brand.webp";
   <meta property="og:image:alt" content="Dr. Lucas Carazza — oftalmologista" />
   <meta name="twitter:card" content="summary_large_image" />
 </head>
-<body class="editorial-site">
+<body class:list={{"editorial-site":true,"editorial-home-page":home}}>
   <a class="skip-link" href="#principal">Ir para o conteúdo</a>
   <div class="topline"><div class="container topline-inner">
     <span>Médico oftalmologista · Dr. Lucas Carazza · CRM-MT 7823 · RQE 3253</span>
