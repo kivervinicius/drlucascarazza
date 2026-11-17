@@ -3,46 +3,46 @@ import Layout from "../layouts/SiteLayout.astro";
 import "../styles/home-editorial.css";
 import { web } from "../lib/catalog";
 
-const routes = [
-  { number: "01", title: "Exames", detail: "Entenda o que cada avaliação investiga", href: "/exames/" },
-  { number: "02", title: "Tratamentos", detail: "Conheça possibilidades e indicações", href: "/tratamentos/" },
-  { number: "03", title: "Saúde ocular", detail: "Tire suas dúvidas com informação clara", href: "/conteudos/" }
+// Os links apontam para conteúdos já existentes. A Home não cria novas ofertas médicas.
+const quickLinks = [
+  { title: "Exames oftalmológicos", description: "Consultas e exames da visão", url: "/exames/" },
+  { title: "Tratamentos e cirurgias", description: "Indicações e procedimentos", url: "/tratamentos/" },
+  { title: "Artigos de saúde ocular", description: "Dúvidas e orientações", url: "/conteudos/" }
 ];
 
-const areas = [
-  { number: "01", label: "Córnea", title: "Ceratocone", detail: "Se as imagens parecem distorcidas ou seu grau muda com frequência, vale entender o que acontece com a córnea.", href: "/ceratocone/" },
-  { number: "02", label: "Cristalino", title: "Catarata", detail: "Quando a visão perde nitidez, a avaliação ajuda a esclarecer se a catarata está por trás da mudança e quais são as opções.", href: "/catarata-cirurgia/" },
-  { number: "03", label: "Correção do grau", title: "Cirurgia refrativa", detail: "Para quem considera reduzir a dependência dos óculos, a consulta é o primeiro passo para avaliar indicação e limites.", href: "/cirurgia-refrativa/" },
-  { number: "04", label: "Nervo óptico", title: "Glaucoma", detail: "O glaucoma pode evoluir sem sintomas. Saiba por que os exames e o acompanhamento são importantes.", href: "/glaucoma/" }
+const topics = [
+  { title: "Catarata", description: "Visão embaçada ou perda gradual de nitidez? Entenda como a catarata é avaliada e quando a cirurgia pode ser considerada.", href: "/catarata-cirurgia/" },
+  { title: "Ceratocone", description: "Distorções na visão e mudanças frequentes no grau podem estar relacionadas a alterações na córnea.", href: "/ceratocone/" },
+  { title: "Cirurgia refrativa", description: "Saiba o que é considerado na avaliação de quem deseja reduzir a dependência dos óculos ou das lentes.", href: "/cirurgia-refrativa/" },
+  { title: "Glaucoma", description: "Uma condição que pode evoluir sem sintomas. Conheça a importância dos exames e do acompanhamento.", href: "/glaucoma/" }
 ];
 
-const reading = [
-  { number: "01", label: "Entenda a córnea", title: "Ceratocone: quais sinais merecem atenção?", href: "/ceratocone/" },
-  { number: "02", label: "Dúvidas sobre cirurgia", title: "Cirurgia refrativa: quem pode ser avaliado?", href: "/cirurgia-refrativa/" },
-  { number: "03", label: "Visão e envelhecimento", title: "Catarata: como funciona a cirurgia?", href: "/catarata-cirurgia/" }
+const articles = [
+  { title: "Ceratocone", detail: "Córnea e alterações da visão", href: "/ceratocone/" },
+  { title: "Catarata e Cirurgia de Catarata", detail: "Avaliação e tratamento", href: "/catarata-cirurgia/" },
+  { title: "Cirurgia Refrativa", detail: "Miopia, hipermetropia e astigmatismo", href: "/cirurgia-refrativa/" }
 ];
 ---
 <Layout
   home={true}
   title="Início"
-  description="Dr. Lucas Carazza, médico oftalmologista em Tangará da Serra (CRM-MT 7823, RQE 3253). Informações sobre córnea, catarata, glaucoma, cirurgia refrativa e agendamento."
+  description="Dr. Lucas Carazza, médico oftalmologista em Tangará da Serra. CRM-MT 7823, RQE 3253. Informações sobre consultas, catarata, ceratocone, glaucoma e cirurgia refrativa."
 >
   <div class="editorial-home">
-    <section class="ed-hero" aria-labelledby="editorial-home-title">
-      <div class="container ed-hero-inner">
-        <div class="ed-hero-copy">
-          <p class="ed-kicker"><span class="ed-kicker-line" aria-hidden="true"></span>MÉDICO OFTALMOLOGISTA EM TANGARÁ DA SERRA</p>
-          <h1 id="editorial-home-title" class="ed-hero-name">Dr. Lucas <span>Carazza<span class="ed-period">.</span></span></h1>
-          <p class="ed-hero-statement">A visão merece atenção aos detalhes.</p>
-          <p class="ed-hero-description">Da mudança no grau às dúvidas sobre catarata ou ceratocone, compreender o diagnóstico ajuda a decidir o próximo passo. Conheça o trabalho do Dr. Lucas e saiba como solicitar uma consulta.</p>
-          <div class="ed-hero-actions">
-            <a href={web.whatsapp} class="ed-button ed-button-dark" target="_blank" rel="noopener noreferrer">Solicitar consulta <span aria-hidden="true">↗</span></a>
-            <a href="/o-medico/" class="ed-underlink">Conhecer o médico <span aria-hidden="true">↗</span></a>
+    <section class="dc-hero" aria-labelledby="dc-home-title">
+      <div class="container dc-hero-grid">
+        <div class="dc-hero-copy">
+          <p class="dc-label">Oftalmologista · Tangará da Serra, MT</p>
+          <h1 id="dc-home-title">Dr. Lucas<br />Carazza<span class="dc-period">.</span></h1>
+          <p class="dc-hero-focus">Oftalmologia, córnea, catarata e saúde ocular.</p>
+          <p class="dc-hero-description">Está com alguma alteração na visão, recebeu um diagnóstico ou precisa de acompanhamento? Conheça a formação do Dr. Lucas e encontre informações sobre exames e tratamentos oftalmológicos.</p>
+          <div class="dc-actions">
+            <a class="dc-primary" href={web.whatsapp} target="_blank" rel="noopener noreferrer">Agendar consulta <span aria-hidden="true">↗</span></a>
+            <a class="dc-secondary" href="/o-medico/">Conhecer o Dr. Lucas <span aria-hidden="true">→</span></a>
           </div>
-          <div class="ed-hero-credentials"><span>CRM-MT 7823</span><span>RQE 3253</span></div>
+          <p class="dc-credentials">CRM-MT 7823 <span aria-hidden="true">·</span> RQE 3253</p>
         </div>
-        <div class="ed-hero-portrait">
-          <span class="ed-portrait-monogram" aria-hidden="true">LC</span>
+        <div class="dc-hero-image">
           <img
             src="/media/doctor/hero-blue-transparent.webp"
             alt="Dr. Lucas Carazza com jaleco e gravata azuis"
@@ -51,100 +51,86 @@ const reading = [
             fetchpriority="high"
             decoding="async"
           />
-          <div class="ed-photo-signature" aria-hidden="true"><span>DR. LUCAS CARAZZA</span><span>OFTALMOLOGIA</span></div>
         </div>
       </div>
-      <div class="ed-hero-bottom" aria-hidden="true"><div class="container"><span>CUIDADO COM A VISÃO</span><span>TANGARÁ DA SERRA · MT</span></div></div>
     </section>
 
-    <nav class="ed-route-band" aria-label="Por onde começar">
-      <div class="container ed-route-inner">
-        <span class="ed-route-heading">POR ONDE COMEÇAR</span>
-        <div class="ed-route-items">
-          {routes.map(route =>
-            <a class="ed-route" href={route.href}>
-              <span class="ed-route-number">{route.number}</span>
-              <span class="ed-route-copy"><strong>{route.title}</strong><small>{route.detail}</small></span>
-              <span class="ed-route-arrow" aria-hidden="true">↗</span>
-            </a>
-          )}
-        </div>
+    <nav class="dc-quick" aria-label="Acessos rápidos">
+      <div class="container dc-quick-grid">
+        {quickLinks.map((link) =>
+          <a class="dc-quick-link" href={link.url}>
+            <span><strong>{link.title}</strong><small>{link.description}</small></span>
+            <span aria-hidden="true">↗</span>
+          </a>
+        )}
       </div>
     </nav>
 
-    <section class="ed-areas" id="areas-de-atuacao" aria-labelledby="ed-areas-title">
-      <div class="container ed-areas-layout">
-        <div class="ed-areas-intro">
-          <p class="ed-section-label">01 / ÁREAS DE ATUAÇÃO</p>
-          <h2 id="ed-areas-title" class="ed-title">Cada visão tem <span>uma história.</span></h2>
-          <p>Mudanças na visão podem ter causas diferentes. Conheça algumas condições oftalmológicas e os cuidados que podem ser considerados após uma avaliação.</p>
-          <a href="/tratamentos/" class="ed-underlink">Exames e tratamentos <span aria-hidden="true">↗</span></a>
-        </div>
-        <div class="ed-area-list">
-          {areas.map(area =>
-            <a href={area.href} class="ed-area-row">
-              <span class="ed-area-index">{area.number}</span>
-              <div class="ed-area-text">
-                <span class="ed-area-label">{area.label}</span>
-                <h3>{area.title}</h3>
-                <p>{area.detail}</p>
-              </div>
-              <span class="ed-area-arrow" aria-hidden="true">↗</span>
-            </a>
-          )}
-        </div>
-      </div>
-    </section>
-
-    <section class="ed-bio" aria-labelledby="ed-bio-title">
-      <div class="container ed-bio-layout">
-        <div class="ed-bio-side">
-          <p class="ed-section-label">02 / QUEM VAI ATENDER VOCÊ</p>
-          <span class="ed-bio-initial" aria-hidden="true">L.</span>
-        </div>
-        <div class="ed-bio-copy">
-          <h2 id="ed-bio-title" class="ed-title">Formação sólida. <span>Um médico para conhecer de perto.</span></h2>
-          <p>O Dr. Lucas Carazza graduou-se em Medicina na Universidade Federal de Minas Gerais (UFMG) e realizou residência em Oftalmologia no Hospital das Clínicas da UFMG. Sua formação complementar inclui córnea, catarata, cirurgia refrativa, glaucoma e retina.</p>
-          <div class="ed-bio-foot">
-            <div class="ed-bio-credentials"><strong>UFMG</strong><span>Medicina e residência em Oftalmologia</span></div>
-            <a href="/o-medico/" class="ed-underlink">Conhecer a trajetória <span aria-hidden="true">↗</span></a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="ed-reading" aria-labelledby="ed-reading-title">
+    <section class="dc-topics" id="areas-de-atuacao" aria-labelledby="dc-topics-title">
       <div class="container">
-        <div class="ed-reading-head">
+        <div class="dc-section-heading">
           <div>
-            <p class="ed-section-label">03 / LEITURAS</p>
-            <h2 id="ed-reading-title" class="ed-title">Conhecer ajuda <span>a cuidar.</span></h2>
+            <p class="dc-label">Áreas de atuação</p>
+            <h2 id="dc-topics-title">Informações para cuidar da sua visão</h2>
           </div>
-          <div class="ed-reading-aside">
-            <p>Uma dúvida sobre os olhos pode trazer muitas perguntas. Comece por estas leituras sobre condições e procedimentos oftalmológicos.</p>
-            <a href="/conteudos/" class="ed-underlink">Todos os artigos <span aria-hidden="true">↗</span></a>
-          </div>
+          <p>Conheça algumas condições e procedimentos oftalmológicos. A indicação de exames e tratamentos depende da avaliação de cada paciente.</p>
         </div>
-        <div class="ed-article-list">
-          {reading.map(article =>
-            <a class="ed-article-row" href={article.href}>
-              <span class="ed-article-index">{article.number}</span>
-              <span class="ed-article-content"><small>{article.label}</small><strong>{article.title}</strong></span>
-              <span class="ed-article-arrow" aria-hidden="true">↗</span>
+        <div class="dc-topic-grid">
+          {topics.map((topic) =>
+            <a class="dc-topic" href={topic.href}>
+              <div class="dc-topic-top"><h3>{topic.title}</h3><span aria-hidden="true">↗</span></div>
+              <p>{topic.description}</p>
             </a>
           )}
         </div>
       </div>
     </section>
 
-    <section class="ed-contact" aria-labelledby="ed-contact-title">
-      <div class="container ed-contact-inner">
-        <div>
-          <p class="ed-section-label">ATENDIMENTO EM TANGARÁ DA SERRA</p>
-          <h2 id="ed-contact-title" class="ed-title">Vamos conversar <span>sobre sua visão?</span></h2>
-          <p>Consultas no Instituto da Visão, no Parque das Mansões. Entre em contato com a equipe para consultar horários disponíveis.</p>
+    <section class="dc-profile" aria-labelledby="dc-profile-title">
+      <div class="container dc-profile-grid">
+        <div class="dc-profile-intro">
+          <p class="dc-label">O médico</p>
+          <h2 id="dc-profile-title">Formação e experiência profissional</h2>
+          <p>Graduado em Medicina pela Universidade Federal de Minas Gerais (UFMG), o Dr. Lucas também realizou residência médica em Oftalmologia no Hospital das Clínicas da UFMG. Sua formação complementar inclui córnea, catarata, cirurgia refrativa, glaucoma e retina.</p>
+          <a class="dc-textlink" href="/o-medico/">Conheça sua trajetória <span aria-hidden="true">→</span></a>
         </div>
-        <a href={web.whatsapp} target="_blank" rel="noopener noreferrer" class="ed-button ed-button-light">Falar pelo WhatsApp <span aria-hidden="true">↗</span></a>
+        <div class="dc-profile-facts">
+          <div><strong>UFMG</strong><span>Graduação em Medicina e residência em Oftalmologia</span></div>
+          <div><strong>CRM-MT 7823</strong><span>Registro profissional</span></div>
+          <div><strong>RQE 3253</strong><span>Qualificação em Oftalmologia</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dc-articles" aria-labelledby="dc-articles-title">
+      <div class="container">
+        <div class="dc-section-heading dc-articles-heading">
+          <div>
+            <p class="dc-label">Artigos</p>
+            <h2 id="dc-articles-title">Tire suas dúvidas sobre saúde ocular</h2>
+          </div>
+          <a class="dc-textlink" href="/conteudos/">Todos os artigos <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="dc-article-list">
+          {articles.map((article) =>
+            <a class="dc-article" href={article.href}>
+              <div><h3>{article.title}</h3><span>{article.detail}</span></div>
+              <span class="dc-article-arrow" aria-hidden="true">↗</span>
+            </a>
+          )}
+        </div>
+      </div>
+    </section>
+
+    <section class="dc-contact" aria-labelledby="dc-contact-title">
+      <div class="container dc-contact-grid">
+        <div>
+          <p class="dc-label">Atendimento</p>
+          <h2 id="dc-contact-title">Consultas em Tangará da Serra</h2>
+          <p>Instituto da Visão · Parque das Mansões</p>
+          <p>Para informações sobre horários e agendamentos, entre em contato com a equipe.</p>
+        </div>
+        <a class="dc-contact-action" href={web.whatsapp} target="_blank" rel="noopener noreferrer">Falar pelo WhatsApp <span aria-hidden="true">↗</span></a>
       </div>
     </section>
   </div>
