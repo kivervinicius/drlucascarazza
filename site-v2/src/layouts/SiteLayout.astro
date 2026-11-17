@@ -51,10 +51,10 @@ const shareImage=shareOrigin+"/media/doctor/brand.webp";
       <nav class="main-nav" aria-label="Navegação principal">
         {nav.map(item=><a href={item.url} aria-current={active(item.url)?"page":undefined} class:list={{"nav-current":active(item.url)}}>{item.label}</a>)}
       </nav>
-      <a class="button button-primary header-cta" href={web.whatsapp} target="_blank" rel="noopener noreferrer">Agendar consulta <span aria-hidden="true">↗</span></a>
+      <a class="button button-primary header-cta" href={web.whatsapp} target="_blank" rel="noopener noreferrer">Agendar pelo WhatsApp <span aria-hidden="true">↗</span></a>
       <details class="mobile-menu">
         <summary aria-label="Abrir menu de navegação"><span>Menu</span><span class="hamburger">☰</span></summary>
-        <nav aria-label="Navegação móvel">{nav.map(item=><a href={item.url} aria-current={active(item.url)?"page":undefined}>{item.label}</a>)}<a class="button button-primary" href={web.whatsapp} target="_blank" rel="noopener noreferrer">Agendar consulta ↗</a></nav>
+        <nav aria-label="Navegação móvel">{nav.map(item=><a href={item.url} aria-current={active(item.url)?"page":undefined}>{item.label}</a>)}<a class="button button-primary" href={web.whatsapp} target="_blank" rel="noopener noreferrer">Agendar pelo WhatsApp ↗</a></nav>
       </details>
     </div>
   </header>
@@ -63,7 +63,7 @@ const shareImage=shareOrigin+"/media/doctor/brand.webp";
     <div class="container">
       <div class="footer-grid">
         <div><div class="footer-brand"><span><b>DR. LUCAS CARAZZA</b><small>MÉDICO OFTALMOLOGISTA · CRM-MT 7823 · RQE 3253</small></span></div><p>Dr. Lucas Carazza, médico oftalmologista em Tangará da Serra, Mato Grosso.</p><div class="footer-social"><a href="https://instagram.com/drlucascarazza" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="https://www.facebook.com/drlucascarazza" target="_blank" rel="noopener noreferrer">Facebook ↗</a></div></div>
-        <div><h3>Explore o site</h3><div class="footer-links">{nav.map(item=><a href={item.url}>{item.label}</a>)}</div></div>
+        <div><h3>Navegação</h3><div class="footer-links">{nav.map(item=><a href={item.url}>{item.label}</a>)}</div></div>
         <div><h3>Contato</h3><div class="footer-links"><a href={"tel:"+web.cell}>(65) 9 9627-6197</a><a href={"tel:"+web.phone}>(65) 3326-5201</a><a href={"mailto:"+web.email}>{web.email}</a><a href={web.whatsapp} target="_blank" rel="noopener noreferrer">Conversar no WhatsApp ↗</a></div></div>
         <div><h3>Local de atendimento</h3><address>{web.address}</address><p style="font-size:12px;margin:0 0 8px">Atendimento no Instituto da Visão.</p><a class="footer-map" href={mapLink} target="_blank" rel="noopener noreferrer">Abrir rota no Google Maps ↗</a></div>
       </div>
