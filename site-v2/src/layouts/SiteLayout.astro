@@ -1,14 +1,14 @@
 ---
 import "../styles/global.css";
 import "../styles/doctor-photos.css";
+import "../styles/editorial-theme.css";
 import {web} from "../lib/catalog";
 interface Props {title:string; description?:string; eyebrow?:string;}
 const {title,description="Informações sobre oftalmologia, exames, doenças oculares e tratamentos com o Dr. Lucas Carazza em Tangará da Serra, MT.",eyebrow} = Astro.props;
 const nav = [
   {label:"O médico",url:"/o-medico/"},{label:"Áreas de atuação",url:"/#areas-de-atuacao"},
-  {label:"Exames",url:"/exames/"},{label:"Doenças",url:"/doencas-oculares/"},
-  {label:"Tratamentos",url:"/tratamentos/"},{label:"Conteúdos",url:"/conteudos/"},
-  {label:"Onde atendo",url:"/sobre-a-clinica/"}
+  {label:"Exames",url:"/exames/"},{label:"Tratamentos",url:"/tratamentos/"},
+  {label:"Artigos",url:"/conteudos/"},{label:"Contato",url:"/contato/"}
 ];
 const current = Astro.url.pathname.replace(/\/$/,"")||"/";
 const active=(url:string)=>current===(url.replace(/\/$/,"")||"/");
@@ -22,7 +22,7 @@ const shareImage=shareOrigin+"/media/doctor/brand.webp";
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="theme-color" content="#12354b" />
+  <meta name="theme-color" content="#1D374E" />
   <meta name="description" content={description} />
   <meta name="robots" content="noindex,nofollow" />
   <title>{siteTitle}</title>
@@ -30,7 +30,7 @@ const shareImage=shareOrigin+"/media/doctor/brand.webp";
   <link rel="canonical" href={"https://drlucascarazza.com.br"+Astro.url.pathname} />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
   <meta property="og:title" content={siteTitle} />
   <meta property="og:description" content={description} />
   <meta property="og:type" content="website" />
@@ -38,7 +38,7 @@ const shareImage=shareOrigin+"/media/doctor/brand.webp";
   <meta property="og:image:alt" content="Dr. Lucas Carazza — oftalmologista" />
   <meta name="twitter:card" content="summary_large_image" />
 </head>
-<body>
+<body class="editorial-site">
   <a class="skip-link" href="#principal">Ir para o conteúdo</a>
   <div class="topline"><div class="container topline-inner">
     <span>Médico oftalmologista · Dr. Lucas Carazza · CRM-MT 7823 · RQE 3253</span>
@@ -64,7 +64,7 @@ const shareImage=shareOrigin+"/media/doctor/brand.webp";
     <div class="container">
       <div class="footer-grid">
         <div><div class="footer-brand"><span><b>DR. LUCAS CARAZZA</b><small>MÉDICO OFTALMOLOGISTA · CRM-MT 7823 · RQE 3253</small></span></div><p>Dr. Lucas Carazza, médico oftalmologista em Tangará da Serra, Mato Grosso.</p><div class="footer-social"><a href="https://instagram.com/drlucascarazza" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="https://www.facebook.com/drlucascarazza" target="_blank" rel="noopener noreferrer">Facebook ↗</a></div></div>
-        <div><h3>Navegação</h3><div class="footer-links">{nav.map(item=><a href={item.url}>{item.label}</a>)}</div></div>
+        <div><h3>Navegação</h3><div class="footer-links">{nav.map(item=><a href={item.url}>{item.label}</a>)}<a href="/doencas-oculares/">Doenças oculares</a><a href="/sobre-a-clinica/">Local de atendimento</a></div></div>
         <div><h3>Contato</h3><div class="footer-links"><a href={"tel:"+web.cell}>(65) 9 9627-6197</a><a href={"tel:"+web.phone}>(65) 3326-5201</a><a href={"mailto:"+web.email}>{web.email}</a><a href={web.whatsapp} target="_blank" rel="noopener noreferrer">Conversar no WhatsApp ↗</a></div></div>
         <div><h3>Local de atendimento</h3><address>{web.address}</address><p style="font-size:12px;margin:0 0 8px">Atendimento no Instituto da Visão.</p><a class="footer-map" href={mapLink} target="_blank" rel="noopener noreferrer">Abrir rota no Google Maps ↗</a></div>
       </div>
