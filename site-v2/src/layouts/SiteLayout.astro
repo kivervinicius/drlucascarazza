@@ -13,6 +13,8 @@ const current = Astro.url.pathname.replace(/\/$/,"")||"/";
 const active=(url:string)=>current===(url.replace(/\/$/,"")||"/");
 const siteTitle=title==="Início"?"Dr. Lucas Carazza | Oftalmologista em Tangará da Serra":title+" | Dr. Lucas Carazza — Oftalmologista";
 const mapLink="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(web.address);
+const shareOrigin=(import.meta.env.PUBLIC_SHARE_ORIGIN || "https://drlucascarazza.com.br").replace(/\/$/,"");
+const shareImage=shareOrigin+"/media/doctor/brand.webp";
 ---
 <!doctype html>
 <html lang="pt-BR">
@@ -31,6 +33,9 @@ const mapLink="https://www.google.com/maps/search/?api=1&query="+encodeURICompon
   <meta property="og:title" content={siteTitle} />
   <meta property="og:description" content={description} />
   <meta property="og:type" content="website" />
+  <meta property="og:image" content={shareImage} />
+  <meta property="og:image:alt" content="Dr. Lucas Carazza — oftalmologista" />
+  <meta name="twitter:card" content="summary_large_image" />
 </head>
 <body>
   <a class="skip-link" href="#principal">Ir para o conteúdo</a>
