@@ -1,0 +1,108 @@
+/*
+  Photograph presentation – user-supplied, visually unaltered photos.
+  The square clinical photograph belongs in the Home hero.
+  The black-background portrait stays on a dark frame, without fake alpha.
+  Keep this file separate from global.css to avoid multiplying overrides.
+*/
+.doctor-hero-visual {
+  width:100%;
+  height:auto;
+  min-height:0;
+  max-height:none;
+  aspect-ratio:1 / 1;
+  align-self:center;
+  background:#e5e7e7;
+  border-radius:175px 22px 22px 22px;
+  overflow:hidden;
+  isolation:isolate;
+}
+.doctor-hero-backdrop{display:none}
+.doctor-portrait-primary {
+  display:block;
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  max-height:none;
+  object-fit:cover;
+  object-position:center center;
+  filter:none;
+}
+.doctor-hero-caption {
+  left:15px;
+  right:auto;
+  bottom:16px;
+}
+.doctor-about-photo {
+  width:100%;
+  max-width:490px;
+  min-height:0;
+  max-height:none;
+  height:auto;
+  aspect-ratio:1177 / 1337;
+  background:#010101;
+  border-radius:22px;
+  overflow:hidden;
+}
+.doctor-about-photo img {
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  object-position:center center;
+  filter:none;
+}
+.doctor-about-photo--portrait,
+.doctor-about-photo--clinical {
+  aspect-ratio:1 / 1;
+  background:#e9ebec;
+}
+.doctor-about-photo--portrait img,
+.doctor-about-photo--clinical img {object-fit:cover;object-position:center center}
+
+/* Three square images are displayed in the physician gallery. */
+.doctor-photo-featured {
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  grid-template-rows:unset;
+  gap:14px;
+}
+.doctor-photo-featured .doctor-photo-card {
+  aspect-ratio:1 / 1;
+  min-height:0;
+  grid-row:auto;
+  grid-column:auto;
+}
+.doctor-photo-featured .doctor-photo-card img {
+  object-fit:cover;
+  object-position:center center;
+}
+.doctor-photo-featured .doctor-photo-card:last-child{background:#010101}
+.doctor-photo-featured .doctor-photo-card:last-child img {
+  object-fit:contain;
+  object-position:center center;
+}
+@media(max-width:720px) {
+  .doctor-hero-visual {
+    width:min(100%,480px);
+    height:auto;
+    min-height:0;
+    max-height:none;
+    aspect-ratio:1 / 1;
+    border-radius:115px 17px 17px 17px;
+    margin-inline:auto;
+  }
+  .doctor-portrait-primary{height:100%;width:100%;object-fit:cover}
+  .doctor-about-photo{height:auto;max-height:none;aspect-ratio:1177 / 1337}
+  .doctor-about-photo--portrait,.doctor-about-photo--clinical{aspect-ratio:1 / 1}
+  .doctor-photo-featured {
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    grid-template-rows:auto;
+    gap:10px;
+  }
+  .doctor-photo-featured .doctor-photo-card:first-child {
+    grid-column:span 2;
+    grid-row:auto;
+    aspect-ratio:1 / 1;
+    max-height:none;
+  }
+}
