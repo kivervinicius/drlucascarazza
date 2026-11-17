@@ -43,7 +43,8 @@ body.editorial-site {
 .editorial-site .main-nav a.nav-current:after{
   bottom:5px;height:1px;background:#D1DAD7;
 }
-.editorial-site .header-cta {
+/* Header CTA overrides the generic .button-primary on this branch. */
+.editorial-site a.header-cta.button-primary {
   border-radius:2px;
   color:#1D374E;
   background:#F8F5EE;
@@ -52,7 +53,7 @@ body.editorial-site {
   min-height:43px;
   padding:10px 16px;
 }
-.editorial-site .header-cta:hover{background:#fff;box-shadow:none;color:#1D374E}
+.editorial-site a.header-cta.button-primary:hover{background:#fff;box-shadow:none;color:#1D374E}
 .editorial-site .mobile-menu summary{color:#fff}
 .editorial-site .mobile-menu nav {
   border-radius:3px;
