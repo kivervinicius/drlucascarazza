@@ -13,9 +13,11 @@ const original = resolve(root, "assets/doctor/originals");
 const target = resolve(root, "public/media/doctor");
 await mkdir(target, { recursive: true });
 
-const hero = resolve(original, "hero.webp");
+// A foto escolhida para o hero é a de jaleco azul, já versionada com transparência.
+// Não utilizar o antigo retrato em ambiente clínico como fallback visual.
+const hero = resolve(target, "hero-blue-transparent.webp");
 const meta = await sharp(hero).metadata();
-if (!meta.hasAlpha) throw new Error("O retrato do WordPress não tem transparência: conversão cancelada");
+if (!meta.hasAlpha) throw new Error("O retrato de jaleco azul não tem transparência: conversão cancelada");
 await sharp(hero).webp({ quality: 86, alphaQuality: 100, effort: 5 })
   .toFile(resolve(target, "hero-cutout.webp"));
 await sharp(hero).png({ compressionLevel: 9, adaptiveFiltering: true })
