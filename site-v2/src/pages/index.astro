@@ -5,8 +5,20 @@ import { web } from "../lib/catalog";
 
 const shortcuts = [
   { number: "01", title: "Exames oftalmológicos", description: "Conheça os exames abordados no site.", url: "/exames/" },
-  { number: "02", title: "Doenças oculares", description: "Informações sobre condições da visão.", url: "/doencas-oculares/" },
-  { number: "03", title: "Tratamentos", description: "Leia sobre procedimentos e indicações.", url: "/tratamentos/" }
+  { number: "02", title: "Tratamentos", description: "Conheça os procedimentos abordados no site.", url: "/tratamentos/" },
+  { number: "03", title: "Conteúdos", description: "Leia artigos e orientações sobre saúde ocular.", url: "/conteudos/" }
+];
+
+const featuredAreas = [
+  { title: "Córnea e ceratocone", detail: "Conheça o ceratocone e as alternativas de acompanhamento.", href: "/ceratocone/" },
+  { title: "Cirurgia refrativa", detail: "Entenda as possibilidades de correção cirúrgica do grau.", href: "/cirurgia-refrativa/" },
+  { title: "Catarata", detail: "Informações sobre a avaliação e a cirurgia de catarata.", href: "/catarata-cirurgia/" },
+  { title: "Glaucoma", detail: "Saiba mais sobre diagnóstico e acompanhamento do glaucoma.", href: "/glaucoma/" }
+];
+const featuredArticles = [
+  { title: "Ceratocone: sintomas e acompanhamento", category: "Córnea", href: "/ceratocone/" },
+  { title: "Cirurgia refrativa: o que considerar", category: "Cirurgia refrativa", href: "/cirurgia-refrativa/" },
+  { title: "Catarata: informações sobre a cirurgia", category: "Catarata", href: "/catarata-cirurgia/" }
 ];
 ---
 <Layout
@@ -48,6 +60,30 @@ const shortcuts = [
     )}
   </nav>
 
+
+  <section class="section section-white" id="areas-de-atuacao" aria-labelledby="home-areas-title">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Oftalmologia</p>
+          <h2 id="home-areas-title" class="display">Áreas e procedimentos <em>em destaque.</em></h2>
+          <p>Uma introdução aos temas abordados pelo Dr. Lucas. A indicação e a disponibilidade de procedimentos são avaliadas individualmente.</p>
+        </div>
+        <a class="text-link" href="/tratamentos/">Conhecer outros procedimentos →</a>
+      </div>
+      <div class="home-feature-grid">
+        {featuredAreas.map((area, i) =>
+          <a class="home-feature-card" href={area.href}>
+            <span class="home-feature-number">{String(i + 1).padStart(2, "0")}</span>
+            <h3>{area.title}</h3>
+            <p>{area.detail}</p>
+            <span class="text-link">Saiba mais →</span>
+          </a>
+        )}
+      </div>
+    </div>
+  </section>
+
   <section class="home-about" aria-labelledby="home-about-title">
     <div class="container home-about-grid">
       <div>
@@ -57,6 +93,29 @@ const shortcuts = [
       <div class="home-about-text">
         <p>Graduado em Medicina pela Universidade Federal de Minas Gerais (UFMG), com residência em Oftalmologia no Hospital das Clínicas da UFMG e formação complementar em córnea, catarata, cirurgia refrativa, glaucoma e retina.</p>
         <a class="text-link" href="/o-medico/">Saiba mais sobre sua formação <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section section-soft" aria-labelledby="home-articles-title">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Artigos e orientações</p>
+          <h2 id="home-articles-title" class="display">Informações sobre <em>saúde ocular.</em></h2>
+          <p>Leituras selecionadas do acervo do médico, com informações sobre dúvidas frequentes de pacientes.</p>
+        </div>
+        <a class="text-link" href="/conteudos/">Explorar todos os artigos →</a>
+      </div>
+      <div class="home-article-grid">
+        {featuredArticles.map(article =>
+          <a class="home-article-card" href={article.href}>
+            <span class="card-tag">{article.category}</span>
+            <h3>{article.title}</h3>
+            <span class="text-link">Ler artigo →</span>
+          </a>
+        )}
       </div>
     </div>
   </section>
