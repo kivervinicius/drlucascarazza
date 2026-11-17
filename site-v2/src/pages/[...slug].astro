@@ -14,9 +14,9 @@ const {Content}=await render(entry);
     <article class="article-container">
       <nav class="breadcrumbs" aria-label="Caminho de navegação"><a href="/">Início</a><span>/</span><a href="/conteudos/">Conteúdos</a><span>/</span>{entry.data.title}</nav>
       <header class="article-heading"><p class="eyebrow">Saúde ocular · Conteúdo informativo</p><h1 class="display">{entry.data.title}</h1></header>
-      <div class="article-notice">Conteúdo informativo. O diagnóstico e a escolha do tratamento dependem de avaliação médica individual.</div>
       <div class="prose"><Content /></div>
-      <div class="article-bottom"><h3>Dúvidas sobre sua saúde ocular?</h3><p>Converse com o consultório para orientações sobre o agendamento de uma consulta.</p><a class="button button-primary" href={web.whatsapp} target="_blank" rel="noopener noreferrer">Entrar em contato ↗</a></div>
+      <p class="article-disclaimer">Estas informações são gerais e não substituem uma consulta com um oftalmologista.</p>
+      <div class="article-bottom"><h3>Para conversar sobre seu atendimento</h3><p>A equipe do Dr. Lucas informa sobre consultas e horários disponíveis.</p><a class="button button-primary" href={web.whatsapp} target="_blank" rel="noopener noreferrer">Entrar em contato ↗</a></div>
       <div style="margin-top:30px"><a class="text-link" href="/conteudos/">← Voltar aos conteúdos</a></div>
     </article>
   </div>
