@@ -260,3 +260,45 @@ h1{font-size:clamp(45px,5vw,78px)}h2{font-size:clamp(32px,3.5vw,52px)}h3{font-si
   .brand-doctor img{width:146px;height:62px}
   .doctor-portrait-primary{height:365px}
 }
+
+
+/* Fotos oficiais recebidas em 16/11/2026.
+   Não aplicar cortes, filtros, transformação nem compressão nas imagens PNG originais. */
+.doctor-hero-visual{
+  background:#000;
+  border-radius:190px 22px 22px 22px;
+  overflow:hidden;
+}
+.doctor-hero-backdrop{display:none}
+.doctor-portrait-primary{
+  width:100%;
+  height:100%;
+  max-height:none;
+  min-height:0;
+  object-fit:contain;
+  object-position:center bottom;
+  filter:none;
+}
+.doctor-about-photo{
+  aspect-ratio:1/1;
+  border-radius:24px;
+  height:auto;
+  overflow:hidden;
+  background:#e9eeed;
+}
+.doctor-about-photo img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  object-position:center center;
+  filter:none;
+}
+@media(max-width:720px){
+  .doctor-hero-visual{min-height:380px;border-radius:100px 18px 18px 18px}
+  .doctor-portrait-primary{height:100%}
+  .doctor-about-photo{aspect-ratio:1/1;height:auto}
+}
+@media(max-width:430px){
+  .doctor-hero-visual{min-height:355px}
+}
