@@ -71,18 +71,18 @@ body.editorial-site {
   border-bottom:1px solid #DFE5DF;
 }
 .editorial-site .page-hero h1 {
-  font:400 clamp(58px,6.2vw,96px)/1.03 "Instrument Serif",Georgia,serif;
+  font:650 clamp(43px,5vw,70px)/1.11 "DM Sans",system-ui,sans-serif;
   letter-spacing:-.03em;
   max-width:920px;
 }
 .editorial-site .page-hero p{color:#586E75;max-width:700px}
 .editorial-site .breadcrumbs{color:#607A83}
 .editorial-site .display{
-  font-family:"Instrument Serif",Georgia,serif;
-  font-weight:400;
+  font-family:"DM Sans",system-ui,sans-serif;
+  font-weight:650;
   letter-spacing:-.025em;
 }
-.editorial-site .display em {font-style:italic;font-weight:400;color:#60818A}
+.editorial-site .display em {font-style:normal;font-weight:inherit;color:#3C6B7A}
 .editorial-site .eyebrow{color:#5F7D82;font-size:11px;letter-spacing:.13em}
 .editorial-site .eyebrow:before{height:1px;background:#9B7D65}
 .editorial-site .section-soft{background:#F0F2ED}
@@ -112,7 +112,7 @@ body.editorial-site {
 .editorial-site .footer-grid{gap:35px}
 .editorial-site .footer-brand b{letter-spacing:.04em}
 .editorial-site .footer-brand small{color:#BDD4D5}
-.editorial-site .footer h3{font:400 26px/1.15 "Instrument Serif",Georgia,serif;letter-spacing:0}
+.editorial-site .footer h3{font:650 16px/1.3 "DM Sans",system-ui,sans-serif;letter-spacing:-.015em}
 .editorial-site .footer-bottom{border-color:#375464}
 .editorial-site .floating-contact {
   border-radius:3px;
